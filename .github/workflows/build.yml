@@ -34,19 +34,19 @@ jobs:
       - name: 📦 Get dependencies
         run: flutter pub get
 
-      - name: 🔐 Decode keystore and setup key.properties
+      - name: 🔐 Setup signing files
         env:
-          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
           STORE_PASSWORD: ${{ secrets.ANDROID_STORE_PASSWORD }}
           KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
           KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
         run: |
-          echo "Decoding keystore…"
-          echo "$KEYSTORE_BASE64" | base64 --decode > android/app/upload-keystore.jks
-          echo "storePassword=$STORE_PASSWORD" > android/key.properties
-          echo "keyPassword=$KEY_PASSWORD" >> android/key.properties
-          echo "keyAlias=$KEY_ALIAS" >> android/key.properties
-          echo "storeFile=upload-keystore.jks" >> android/key.properties
+          # Create key.properties file
+          cat > android/key.properties <<EOF
+          storePassword=$STORE_PASSWORD
+          keyPassword=$KEY_PASSWORD
+          keyAlias=$KEY_ALIAS
+          storeFile=android/app/my-release-key.jks
+          EOF
 
       - name: 🏗️ Build release APK
         run: |
@@ -65,7 +65,6 @@ jobs:
           name: app-release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
 
-      # Optional: if you wish you can distribute to Firebase after build
       - name: 🔧 Setup Firebase CLI
         run: curl -sL https://firebase.tools | bash
 
