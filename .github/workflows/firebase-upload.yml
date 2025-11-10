@@ -1,0 +1,35 @@
+name: Firebase App Distribution (Manual Trigger)
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_notes:
+        description: "Enter release notes for this build"
+        required: true
+        default: "New debug build uploaded"
+
+jobs:
+  distribute:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛎️ Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 📥 Download APK artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: app-debug-apk
+          path: build/app/outputs/flutter-apk/
+
+      - name: 🔧 Setup Firebase CLI
+        run: curl -sL https://firebase.tools | bash
+
+      - name: 🚀 Upload to Firebase App Distribution
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_APP_ID: 1:50315071096:android:74ad8c587ca08dd986278d
+        run: |
+          firebase appdistribution:distribute build/app/outputs/flutter-apk/app-debug.apk \
+            --app $FIREBASE_APP_ID \
+            --groups "DeveloperGroup" \
+            --release-notes "${{ github.event.inputs.release_notes }}"
