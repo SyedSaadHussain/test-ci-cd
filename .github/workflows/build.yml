@@ -1,12 +1,6 @@
 name: Flutter Build (Manual Trigger)
 
 on:
-  push:
-    branches:
-      - saad-dev-r5
-  pull_request:
-    branches:
-      - saad-dev-r5
   workflow_dispatch:
     inputs:
       environment:
@@ -19,15 +13,6 @@ on:
           - uat
           - preprod
           - prod
-      platform:
-        description: "Select platform (android or ios)"
-        required: true
-        default: "android"
-        type: choice
-        options:
-          - android
-          - ios
-
 jobs:
   build:
     # ✅ This ensures the workflow only runs when you're on saad-dev-r5
@@ -47,20 +32,11 @@ jobs:
 
       - name: 🏗️ Build for selected platform and environment
         run: |
-          PLATFORM="${{ github.event.inputs.platform || 'android' }}"
           ENVIRONMENT="${{ github.event.inputs.environment || 'uat' }}"
           
            echo "Building for platform: $PLATFORM and environment: $ENVIRONMENT"
           
-          if [ "$PLATFORM" == "android" ]; then
             flutter build apk --release \
               --obfuscate \
               --split-debug-info=debug/$ENVIRONMENT  \
               --dart-define=ENV=$ENVIRONMENT 
-          else
-            flutter build ios --release \
-              --obfuscate \
-              --split-debug-info=debug/${{ github.event.inputs.environment }} \
-              --dart-define=ENV=${{ github.event.inputs.environment }}
-          fi
-
