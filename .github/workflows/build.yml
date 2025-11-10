@@ -36,20 +36,22 @@ jobs:
 
       - name: 🔐 Setup signing files
         env:
-          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}       # base64 of your .jks
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
           STORE_PASSWORD:    ${{ secrets.ANDROID_STORE_PASSWORD }}
           KEY_PASSWORD:      ${{ secrets.ANDROID_KEY_PASSWORD }}
           KEY_ALIAS:         ${{ secrets.ANDROID_KEY_ALIAS }}
         run: |
-          # decode the .jks
+          echo "Decoding keystore and writing key.properties..."
           echo "$KEYSTORE_BASE64" | base64 --decode > android/app/my-release-key.jks
-          # create key.properties
+          ls -l android/app/
           cat > android/key.properties <<EOF
           storeFile=android/app/my-release-key.jks
           storePassword=$STORE_PASSWORD
           keyAlias=$KEY_ALIAS
           keyPassword=$KEY_PASSWORD
           EOF
+          cat android/key.properties
+          ls -l android/
 
       - name: 🏗️ Build release APK
         run: |
@@ -57,6 +59,7 @@ jobs:
           BRANCH_NAME="${{ github.ref_name }}"
           echo "Current branch: $BRANCH_NAME"
           echo "Building for environment: $ENVIRONMENT"
+          flutter clean
           flutter build apk --release \
             --obfuscate \
             --split-debug-info=debug/$ENVIRONMENT \
