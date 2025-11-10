@@ -13,10 +13,10 @@ on:
           - uat
           - preprod
           - prod
+
 jobs:
   build:
-    # ✅ This ensures the workflow only runs when you're on saad-dev-r5
-    if: github.ref == 'refs/heads/saad-dev-r5'
+    # Runs on any branch; we can still detect branch dynamically
     runs-on: ubuntu-latest
     steps:
       - name: 🛎️ Checkout repository
@@ -25,18 +25,19 @@ jobs:
       - name: 🔧 Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0' # use your Flutter version
+          flutter-version: '3.24.0'
 
       - name: 📦 Get dependencies
         run: flutter pub get
 
-      - name: 🏗️ Build for selected platform and environment
+      - name: 🏗️ Build for selected environment
         run: |
           ENVIRONMENT="${{ github.event.inputs.environment || 'uat' }}"
-          
-           echo "Building for platform: $PLATFORM and environment: $ENVIRONMENT"
-          
-            flutter build apk --release \
-              --obfuscate \
-              --split-debug-info=debug/$ENVIRONMENT  \
-              --dart-define=ENV=$ENVIRONMENT 
+          BRANCH_NAME="${{ github.ref_name }}"  # dynamically get branch name
+          echo "Current branch: $BRANCH_NAME"
+          echo "Building for environment: $ENVIRONMENT"
+
+          flutter build apk --release \
+            --obfuscate \
+            --split-debug-info=debug/$ENVIRONMENT \
+            --dart-define=ENV=$ENVIRONMENT
