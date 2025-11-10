@@ -45,7 +45,7 @@ jobs:
           echo "$KEYSTORE_BASE64" | base64 --decode > android/app/my-release-key.jks
           ls -l android/app/
           cat > android/key.properties <<EOF
-          storeFile=android/app/my-release-key.jks
+          storeFile=my-release-key.jks
           storePassword=$STORE_PASSWORD
           keyAlias=$KEY_ALIAS
           keyPassword=$KEY_PASSWORD
