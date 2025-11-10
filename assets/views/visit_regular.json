@@ -1,0 +1,4524 @@
+{
+    "active": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0646\u0634\u0637",
+        "name": "active"
+    },
+    "state": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "draft",
+                "\u0645\u0633\u0648\u062f\u0629"
+            ],
+            [
+                "in_progress",
+                "\u062c\u0627\u0631\u064a"
+            ],
+            [
+                "cancel",
+                "\u0645\u0644\u063a\u0649"
+            ],
+            [
+                "done",
+                "\u062a\u0645"
+            ],
+            [
+                "submitted",
+                "\u0645\u0642\u062f\u0645 \u0627\u0644\u0637\u0644\u0628"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u062d\u0627\u0644\u0629  ",
+        "name": "state"
+    },
+    "display_button_send": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "stage_id",
+            "stage_id"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0639\u0631\u0636 \u0632\u0631 \u0627\u0644\u0625\u0631\u0633\u0627\u0644",
+        "name": "display_button_send"
+    },
+    "display_button_accept": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "stage_id",
+            "stage_id"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0639\u0631\u0636 \u0632\u0631 \u0627\u0644\u0642\u0628\u0648\u0644",
+        "name": "display_button_accept"
+    },
+    "display_button_refuse": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "stage_id",
+            "stage_id"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0639\u0631\u0636 \u0632\u0631 \u0627\u0644\u0631\u0641\u0636",
+        "name": "display_button_refuse"
+    },
+    "stage_id": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2one",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": "[('res_model_id.model', '=', 'visit.regular'),'|', ('request_type_ids', '=', False), ('request_type_ids', '=', request_type_id)]",
+        "manual": false,
+        "readonly": false,
+        "relation": "request.stage",
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0645\u0631\u062d\u0644\u0629",
+        "name": "stage_id"
+    },
+    "request_type_id": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2one",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [
+            [
+                "res_model",
+                "=",
+                "visit.regular"
+            ]
+        ],
+        "manual": false,
+        "readonly": 1,
+        "relation": "request.type",
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "states": {
+            "draft": [
+                [
+                    "readonly",
+                    0
+                ]
+            ]
+        },
+        "store": true,
+        "string": "\u0627\u0644\u0646\u0648\u0639",
+        "name": "request_type_id"
+    },
+    "btn_start": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0632\u0631 \u0627\u0644\u0628\u062f\u0621",
+        "name": "btn_start"
+    },
+    "is_lock": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0627\u0644\u0632\u064a\u0627\u0631\u0629 \u0645\u0642\u0641\u0644\u0629 \u062d\u0627\u0644\u064a\u0627",
+        "name": "is_lock"
+    },
+    "display_button_action": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "action_taken",
+            "stage_id",
+            "underprogress"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0639\u0631\u0636 \u0632\u0631 \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0627\u0644\u0645\u062a\u062e\u0630",
+        "name": "display_button_action"
+    },
+    "display_button_underprogress": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "action_taken",
+            "stage_id",
+            "underprogress"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0639\u0631\u0636 \u0632\u0631 \u062a\u062d\u062a \u0627\u0644\u0625\u062c\u0631\u0627\u0621",
+        "name": "display_button_underprogress"
+    },
+    "underprogress": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u062d\u062a \u0627\u0644\u0625\u062c\u0631\u0627\u0621",
+        "name": "underprogress"
+    },
+    "action_taken": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0627\u0644\u0645\u062a\u062e\u0630",
+        "name": "action_taken"
+    },
+    "display_btn_start": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "stage_id",
+            "stage_id"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0639\u0631\u0636 \u0632\u0631 \u0627\u0644\u0628\u062f\u0621",
+        "name": "display_btn_start"
+    },
+    "mosque_imam_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [
+            "mosque_id",
+            "btn_start"
+        ],
+        "domain": [],
+        "manual": false,
+        "readonly": true,
+        "relation": "hr.employee",
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0627\u0644\u0625\u0645\u0627\u0645",
+        "name": "mosque_imam_ids"
+    },
+    "has_imam": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "mosque_id",
+            "btn_start"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0625\u0645\u0627\u0645 \u0645\u0633\u062c\u0644 \u0641\u064a \u0627\u0644\u0646\u0638\u0627\u0645",
+        "name": "has_imam"
+    },
+    "mosque_muezzin_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [
+            "mosque_id",
+            "btn_start"
+        ],
+        "domain": [],
+        "manual": false,
+        "readonly": true,
+        "relation": "hr.employee",
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0627\u0644\u0645\u0624\u0630\u0646",
+        "name": "mosque_muezzin_ids"
+    },
+    "has_muezzin": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "mosque_id",
+            "btn_start"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0645\u0624\u0630\u0646 \u0645\u0633\u062c\u0644 \u0641\u064a \u0627\u0644\u0646\u0638\u0627\u0645",
+        "name": "has_muezzin"
+    },
+    "mosque_khadem_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [
+            "mosque_id",
+            "btn_start"
+        ],
+        "domain": [],
+        "manual": false,
+        "readonly": true,
+        "relation": "hr.employee",
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0627\u0644\u062e\u0627\u062f\u0645",
+        "name": "mosque_khadem_ids"
+    },
+    "has_khadem": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "mosque_id",
+            "btn_start"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u062e\u0627\u062f\u0645 \u0645\u0633\u062c\u0644 \u0641\u064a \u0627\u0644\u0646\u0638\u0627\u0645",
+        "name": "has_khadem"
+    },
+    "mosque_maintenance_contractor_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [
+            "mosque_id"
+        ],
+        "domain": [],
+        "manual": false,
+        "readonly": true,
+        "relation": "res.partner",
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0645\u0642\u0627\u0648\u0644 \u0635\u064a\u0627\u0646\u0629 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "mosque_maintenance_contractor_ids"
+    },
+    "name": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "char",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": 1,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0631\u0642\u0645 \u0627\u0644\u0632\u064a\u0627\u0631\u0629",
+        "translate": false,
+        "trim": true,
+        "name": "name"
+    },
+    "mosque_id": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2one",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": "[('state', '=', 'done')]",
+        "manual": false,
+        "readonly": false,
+        "relation": "mosque.mosque",
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "mosque_id"
+    },
+    "employee_id": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2one",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [
+            [
+                "classification_id",
+                "in",
+                [
+                    28,
+                    27
+                ]
+            ]
+        ],
+        "manual": false,
+        "readonly": 1,
+        "relation": "hr.employee",
+        "required": true,
+        "searchable": true,
+        "sortable": true,
+        "states": {
+            "draft": [
+                [
+                    "readonly",
+                    0
+                ]
+            ]
+        },
+        "store": true,
+        "string": "\u0627\u0644\u0645\u062e\u0635\u0635\u0629 \u0644\u0644\u0645\u0633\u062a\u062e\u062f\u0645",
+        "name": "employee_id"
+    },
+    "employee_name": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "char",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "employee_id.name"
+        ],
+        "manual": false,
+        "readonly": true,
+        "related": "employee_id.name",
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0646\u0633\u0648\u0628",
+        "translate": false,
+        "trim": true,
+        "name": "employee_name"
+    },
+    "start_datetime": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "datetime",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0648\u0642\u062a \u0648\u062a\u0627\u0631\u064a\u062e \u0628\u062f\u0621 \u0627\u0644\u0632\u064a\u0627\u0631\u0629",
+        "name": "start_datetime"
+    },
+    "submit_datetime": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "datetime",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0648\u0642\u062a \u0648\u062a\u0627\u0631\u064a\u062e \u0625\u0646\u062a\u0647\u0627\u0621 \u0627\u0644\u0632\u064a\u0627\u0631\u0629",
+        "name": "submit_datetime"
+    },
+    "create_date": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "datetime",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0623\u0646\u0634\u0626 \u0641\u064a",
+        "name": "create_date"
+    },
+    "priority_value": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "low",
+                "\u0645\u0646\u062e\u0641\u0636"
+            ],
+            [
+                "medium",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "high",
+                "\u0639\u0627\u0644\u064a"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0623\u0648\u0644\u0648\u064a\u0629",
+        "name": "priority_value"
+    },
+    "prayer_name": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "fajar",
+                "\u0627\u0644\u0641\u062c\u0631"
+            ],
+            [
+                "duhar",
+                "\u0627\u0644\u0638\u0647\u0631"
+            ],
+            [
+                "asar",
+                "\u0627\u0644\u0639\u0635\u0631"
+            ],
+            [
+                "magrib",
+                "\u0627\u0644\u0645\u063a\u0631\u0628"
+            ],
+            [
+                "isha",
+                "\u0627\u0644\u0639\u0634\u0627\u0621"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0648\u0642\u062a \u0627\u0644\u0635\u0644\u0627\u0629",
+        "name": "prayer_name"
+    },
+    "action_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0627\u0644\u0625\u062c\u0631\u0627\u0621",
+        "translate": false,
+        "name": "action_notes"
+    },
+    "action_attachments": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [],
+        "manual": false,
+        "readonly": false,
+        "relation": "ir.attachment",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0645\u0631\u0641\u0642 \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0627\u0644\u0645\u062a\u062e\u0630",
+        "name": "action_attachments"
+    },
+    "action_taken_type_id": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2one",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [],
+        "manual": false,
+        "readonly": false,
+        "relation": "action.taken.type",
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0646\u0648\u0639 \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0627\u0644\u0645\u062a\u062e\u0630",
+        "name": "action_taken_type_id"
+    },
+    "action_granted": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "boolean",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u0645 \u0625\u062a\u062e\u0627\u0630 \u0627\u0644\u0625\u062c\u0631\u0627\u0621",
+        "name": "action_granted"
+    },
+    "trasol_number": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "char",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0631\u0642\u0645 \u0627\u0644\u0645\u0639\u0627\u0645\u0644\u0629 \u0645\u0646 \u0646\u0638\u0627\u0645 \u062a\u0631\u0627\u0633\u0644",
+        "translate": false,
+        "trim": true,
+        "name": "trasol_number"
+    },
+    "imam_present": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "present",
+                "\u062d\u0627\u0636\u0631"
+            ],
+            [
+                "notpresent",
+                "\u063a\u064a\u0631 \u0645\u0648\u062c\u0648\u062f \u0623\u062b\u0646\u0627\u0621 \u0627\u0644\u0632\u064a\u0627\u0631\u0629"
+            ],
+            [
+                "notapplicable",
+                "\u0644\u0627\u064a\u0646\u0637\u0628\u0642"
+            ],
+            [
+                "permission",
+                "\u0645\u0633\u062a\u0623\u0630\u0646"
+            ],
+            [
+                "leave",
+                "\u0645\u062c\u0627\u0632"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u0627\u0644\u0625\u0645\u0627\u0645 \u062d\u0627\u0636\u0631 \u0623\u062b\u0646\u0627\u0621 \u0627\u0644\u0632\u064a\u0627\u0631\u0629",
+        "name": "imam_present"
+    },
+    "imam_off_work": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0625\u0645\u0627\u0645 \u0645\u0646\u0642\u0637\u0639",
+        "name": "imam_off_work"
+    },
+    "imam_off_work_date": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "date",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0625\u0646\u0642\u0637\u0627\u0639",
+        "name": "imam_off_work_date"
+    },
+    "imam_leave_from_date": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "date",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0625\u0645\u0627\u0645 \u0645\u064f\u062c\u0627\u0632 \u0645\u0646 \u062a\u0627\u0631\u064a\u062e:",
+        "name": "imam_leave_from_date"
+    },
+    "imam_leave_to_date": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "date",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0625\u0645\u0627\u0645 \u0645\u064f\u062c\u0627\u0632 \u0625\u0644\u0649 \u062a\u0627\u0631\u064a\u062e:",
+        "name": "imam_leave_to_date"
+    },
+    "imam_permission_prayer": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "dhuhr",
+                "\u0627\u0644\u0638\u0647\u0631"
+            ],
+            [
+                "asr",
+                "\u0627\u0644\u0639\u0635\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0648\u0642\u062a \u0627\u0633\u062a\u0626\u0630\u0627\u0646 \u0627\u0644\u0625\u0645\u0627\u0645",
+        "name": "imam_permission_prayer"
+    },
+    "imam_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": "[('id', 'in',mosque_imam_ids)]",
+        "manual": false,
+        "readonly": false,
+        "relation": "hr.employee",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0627\u0644\u0625\u0645\u0627\u0645",
+        "name": "imam_ids"
+    },
+    "imam_commitment": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "committed",
+                "\u0645\u0644\u062a\u0632\u0645"
+            ],
+            [
+                "early",
+                "\u0645\u062a\u0642\u062f\u0645 \u0639\u0646 \u0627\u0644\u0648\u0642\u062a"
+            ],
+            [
+                "late",
+                "\u0645\u062a\u0623\u062e\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u062a\u0632\u0627\u0645 \u0627\u0644\u0625\u0645\u0627\u0645 \u0628\u0627\u0644\u062a\u0648\u0642\u064a\u062a \u0627\u0644\u0645\u062d\u062f\u062f \u0631\u0633\u0645\u064a\u0627\u064b \u0628\u064a\u0646 \u0627\u0644\u0623\u0630\u0627\u0646 \u0648\u0627\u0644\u0625\u0642\u0627\u0645\u0629",
+        "name": "imam_commitment"
+    },
+    "imam_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0623\u062e\u0631\u0649 \u0639\u0644\u0649 \u0627\u0644\u0625\u0645\u0627\u0645",
+        "translate": false,
+        "name": "imam_notes"
+    },
+    "muezzin_present": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "present",
+                "\u062d\u0627\u0636\u0631"
+            ],
+            [
+                "notpresent",
+                "\u063a\u064a\u0631 \u0645\u0648\u062c\u0648\u062f \u0623\u062b\u0646\u0627\u0621 \u0627\u0644\u0632\u064a\u0627\u0631\u0629"
+            ],
+            [
+                "notapplicable",
+                "\u0644\u0627\u064a\u0646\u0637\u0628\u0642"
+            ],
+            [
+                "permission",
+                "\u0645\u0633\u062a\u0623\u0630\u0646"
+            ],
+            [
+                "leave",
+                "\u0645\u062c\u0627\u0632"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u0627\u0644\u0645\u0624\u0630\u0646 \u062d\u0627\u0636\u0631 \u0623\u062b\u0646\u0627\u0621 \u0627\u0644\u0632\u064a\u0627\u0631\u0629\u061f",
+        "name": "muezzin_present"
+    },
+    "muezzin_off_work": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0645\u0624\u0630\u0646 \u0645\u0646\u0642\u0637\u0639",
+        "name": "muezzin_off_work"
+    },
+    "muezzin_off_work_date": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "date",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0625\u0646\u0642\u0637\u0627\u0639",
+        "name": "muezzin_off_work_date"
+    },
+    "muezzin_leave_from_date": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "date",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0645\u0624\u0630\u0646 \u0645\u064f\u062c\u0627\u0632 \u0645\u0646 \u062a\u0627\u0631\u064a\u062e:",
+        "name": "muezzin_leave_from_date"
+    },
+    "muezzin_leave_to_date": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "date",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0645\u0624\u0630\u0646 \u0645\u064f\u062c\u0627\u0632 \u0625\u0644\u0649 \u062a\u0627\u0631\u064a\u062e:",
+        "name": "muezzin_leave_to_date"
+    },
+    "muezzin_permission_prayer": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "dhuhr",
+                "\u0627\u0644\u0638\u0647\u0631"
+            ],
+            [
+                "asr",
+                "\u0627\u0644\u0639\u0635\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0648\u0642\u062a \u0627\u0633\u062a\u0626\u0630\u0627\u0646 \u0627\u0644\u0645\u0624\u0630\u0646",
+        "name": "muezzin_permission_prayer"
+    },
+    "muezzin_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": "[('id', 'in', mosque_muezzin_ids)]",
+        "manual": false,
+        "readonly": false,
+        "relation": "hr.employee",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0627\u0644\u0645\u0624\u0630\u0646",
+        "name": "muezzin_ids"
+    },
+    "muezzin_commitment": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "committed",
+                "\u0645\u0644\u062a\u0632\u0645"
+            ],
+            [
+                "late",
+                "\u0645\u062a\u0623\u062e\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0625\u0644\u062a\u0632\u0627\u0645 \u0627\u0644\u0645\u0624\u0630\u0646 \u0628\u0648\u0642\u062a \u0627\u0644\u0635\u0644\u0627\u0629 \u062d\u0633\u0628 \u062a\u0648\u0642\u064a\u062a \u062a\u0642\u0648\u064a\u0645 \u0623\u0645 \u0627\u0644\u0642\u0631\u0649",
+        "name": "muezzin_commitment"
+    },
+    "muezzin_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0627\u0644\u0645\u0624\u0630\u0646",
+        "translate": false,
+        "name": "muezzin_notes"
+    },
+    "khadem_present": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "present",
+                "\u062d\u0627\u0636\u0631"
+            ],
+            [
+                "notpresent",
+                "\u063a\u064a\u0631 \u0645\u0648\u062c\u0648\u062f \u0623\u062b\u0646\u0627\u0621 \u0627\u0644\u0632\u064a\u0627\u0631\u0629"
+            ],
+            [
+                "notapplicable",
+                "\u0644\u0627\u064a\u0646\u0637\u0628\u0642"
+            ],
+            [
+                "permission",
+                "\u0645\u0633\u062a\u0623\u0630\u0646"
+            ],
+            [
+                "leave",
+                "\u0645\u062c\u0627\u0632"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u0627\u0644\u062e\u0627\u062f\u0645 \u062d\u0627\u0636\u0631 \u0623\u062b\u0646\u0627\u0621 \u0627\u0644\u0632\u064a\u0627\u0631\u0629\u061f",
+        "name": "khadem_present"
+    },
+    "khadem_leave_from_date": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "date",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u062e\u0627\u062f\u0645 \u0645\u064f\u062c\u0627\u0632 \u0645\u0646 \u062a\u0627\u0631\u064a\u062e:",
+        "name": "khadem_leave_from_date"
+    },
+    "khadem_leave_to_date": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "date",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u062e\u0627\u062f\u0645 \u0645\u064f\u062c\u0627\u0632 \u0625\u0644\u0649 \u062a\u0627\u0631\u064a\u062e:",
+        "name": "khadem_leave_to_date"
+    },
+    "khadem_permission_prayer": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "dhuhr",
+                "\u0627\u0644\u0638\u0647\u0631"
+            ],
+            [
+                "asr",
+                "\u0627\u0644\u0639\u0635\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0648\u0642\u062a \u0627\u0633\u062a\u0626\u0630\u0627\u0646 \u0627\u0644\u062e\u0627\u062f\u0645",
+        "name": "khadem_permission_prayer"
+    },
+    "khadem_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": "[('id', 'in', mosque_khadem_ids)]",
+        "manual": false,
+        "readonly": false,
+        "relation": "hr.employee",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0627\u0644\u062e\u0627\u062f\u0645",
+        "name": "khadem_ids"
+    },
+    "khadem_off_work": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u062e\u0627\u062f\u0645 \u0645\u0646\u0642\u0637\u0639",
+        "name": "khadem_off_work"
+    },
+    "khadem_off_work_date": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "date",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0625\u0646\u0642\u0637\u0627\u0639",
+        "name": "khadem_off_work_date"
+    },
+    "quality_of_work": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "excellent",
+                "\u0645\u0645\u062a\u0627\u0632"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "low",
+                "\u0645\u0646\u062e\u0641\u0636"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u0642\u064a\u064a\u0645 \u062c\u0648\u062f\u0629 \u0639\u0645\u0644 \u062e\u0627\u062f\u0645 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "quality_of_work"
+    },
+    "clean_maintenance_mosque": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "excellent",
+                "\u0645\u0645\u062a\u0627\u0632"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "low",
+                "\u0645\u0646\u062e\u0641\u0636"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0646\u0638\u0627\u0641\u0629 \u0648\u0627\u0644\u0635\u064a\u0627\u0646\u0629",
+        "name": "clean_maintenance_mosque"
+    },
+    "organized_and_arranged": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "excellent",
+                "\u0645\u0645\u062a\u0627\u0632"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "low",
+                "\u0645\u0646\u062e\u0641\u0636"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u0646\u0638\u064a\u0645 \u0648\u062a\u0631\u062a\u064a\u0628 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "organized_and_arranged"
+    },
+    "takecare_property": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "excellent",
+                "\u0645\u0645\u062a\u0627\u0632"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "low",
+                "\u0645\u0646\u062e\u0641\u0636"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0639\u0646\u0627\u064a\u0629 \u0628\u0645\u0645\u062a\u0644\u0643\u0627\u062a \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "takecare_property"
+    },
+    "service_task": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "excellent",
+                "\u0645\u0645\u062a\u0627\u0632"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "low",
+                "\u0645\u0646\u062e\u0641\u0636"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0642\u064a\u0627\u0645 \u0628\u0645\u0647\u0627\u0645 \u062e\u062f\u0645\u0629 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "service_task"
+    },
+    "khadem_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0627\u0644\u062e\u0627\u062f\u0645",
+        "translate": false,
+        "name": "khadem_notes"
+    },
+    "mansoob_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0623\u062e\u0631\u0649 \u0639\u0644\u0649 \u0627\u0644\u0645\u0646\u0633\u0648\u0628\u064a\u0646",
+        "translate": false,
+        "name": "mansoob_notes"
+    },
+    "mosque_electric_meter_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [
+            "mosque_id"
+        ],
+        "domain": [],
+        "manual": false,
+        "readonly": true,
+        "relation": "mosque.meter",
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621 \u0627\u0644\u0645\u062f\u0631\u062c\u0629",
+        "name": "mosque_electric_meter_ids"
+    },
+    "mosque_water_meter_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [
+            "mosque_id"
+        ],
+        "domain": [],
+        "manual": false,
+        "readonly": true,
+        "relation": "mosque.meter",
+        "required": false,
+        "searchable": false,
+        "sortable": false,
+        "store": false,
+        "string": "\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0645\u064a\u0627\u0647 \u0627\u0644\u0645\u062f\u0631\u062c\u0629",
+        "name": "mosque_water_meter_ids"
+    },
+    "has_electric_meter": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "mosque_id"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "applicable",
+                "\u064a\u0646\u0637\u0628\u0642"
+            ],
+            [
+                "notapplicable",
+                "\u0644\u0627 \u064a\u0646\u0637\u0628\u0642"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u064a\u0648\u062c\u062f \u0639\u062f\u0627\u062f \u0643\u0647\u0631\u0628\u0627\u0621 \u0645\u062f\u0631\u062c \u0641\u064a \u0627\u0644\u0646\u0638\u0627\u0645",
+        "name": "has_electric_meter"
+    },
+    "electric_meter_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [],
+        "manual": false,
+        "readonly": false,
+        "relation": "mosque.meter",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621 \u0627\u0644\u0645\u062f\u0631\u062c\u0629",
+        "name": "electric_meter_ids"
+    },
+    "electric_meter_violation": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "no",
+                "\u0644\u0627"
+            ],
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u064a\u0648\u062c\u062f \u062a\u0639\u062f\u064a \u0639\u0644\u0649 \u0643\u0647\u0631\u0628\u0627\u0621 \u0627\u0644\u0645\u0633\u062c\u062f\u061f",
+        "name": "electric_meter_violation"
+    },
+    "violation_electric_meter_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [],
+        "manual": false,
+        "readonly": false,
+        "relation": "mosque.meter",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0627\u062e\u062a\u0631 \u0639\u062f\u0627\u062f \u0643\u0647\u0631\u0628\u0627\u0621 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "violation_electric_meter_ids"
+    },
+    "violation_electric_meter_attachment": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "binary",
+        "attachment": true,
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0645\u0631\u0641\u0642 \u0645\u062e\u0627\u0644\u0641\u0629 \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621",
+        "name": "violation_electric_meter_attachment"
+    },
+    "case_infringement_elec_meter": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "old",
+                "\u062a\u0645 \u0631\u0635\u062f\u0647 \u0633\u0627\u0628\u0642\u0627"
+            ],
+            [
+                "new",
+                "\u062c\u062f\u064a\u062f"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062d\u0627\u0644\u0629 \u0627\u0644\u062a\u0639\u062f\u064a \u0639\u0644\u0649 \u0639\u062f\u0627\u062f \u0643\u0647\u0631\u0628\u0627\u0621 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "case_infringement_elec_meter"
+    },
+    "electric_meter_data_updated": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0628\u064a\u0627\u0646\u0627\u062a \u0639\u062f\u0627\u062f \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621 \u0645\u062d\u062f\u062b\u0629",
+        "name": "electric_meter_data_updated"
+    },
+    "has_water_meter": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "mosque_id"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "applicable",
+                "\u064a\u0646\u0637\u0628\u0642"
+            ],
+            [
+                "notapplicable",
+                "\u0644\u0627 \u064a\u0646\u0637\u0628\u0642"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u064a\u0648\u062c\u062f \u0639\u062f\u0627\u062f \u0645\u064a\u0627\u0647 \u0645\u062f\u0631\u062c \u0641\u064a \u0627\u0644\u0646\u0638\u0627\u0645",
+        "name": "has_water_meter"
+    },
+    "water_meter_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [],
+        "manual": false,
+        "readonly": false,
+        "relation": "water.meter",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0645\u064a\u0627\u0647 \u0627\u0644\u0645\u062f\u0631\u062c\u0629",
+        "name": "water_meter_ids"
+    },
+    "water_meter_violation": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "no",
+                "\u0644\u0627"
+            ],
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u064a\u0648\u062c\u062f \u062a\u0639\u062f\u064a \u0639\u0644\u0649 \u0639\u062f\u0627\u062f \u0645\u064a\u0627\u0647 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "water_meter_violation"
+    },
+    "violation_water_meter_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [],
+        "manual": false,
+        "readonly": false,
+        "relation": "water.meter",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0627\u062e\u062a\u0631 \u0639\u062f\u0627\u062f \u0645\u064a\u0627\u0647 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "violation_water_meter_ids"
+    },
+    "violation_water_meter_attachment": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "binary",
+        "attachment": true,
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0645\u0631\u0641\u0642 \u0645\u062e\u0627\u0644\u0641\u0629 \u0627\u0644\u0645\u064a\u0627\u0647",
+        "name": "violation_water_meter_attachment"
+    },
+    "case_infringement_water_meter": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "old",
+                "\u062a\u0645 \u0631\u0635\u062f\u0647 \u0633\u0627\u0628\u0642\u0627"
+            ],
+            [
+                "new",
+                "\u062c\u062f\u064a\u062f"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062d\u0627\u0644\u0629 \u0627\u0644\u062a\u0639\u062f\u064a \u0639\u0644\u0649 \u0639\u062f\u0627\u062f \u0645\u064a\u0627\u0647 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "case_infringement_water_meter"
+    },
+    "water_meter_data_updated": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0628\u064a\u0627\u0646\u0627\u062a \u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0645\u064a\u0627\u0647 \u0645\u062d\u062f\u062b\u0629",
+        "name": "water_meter_data_updated"
+    },
+    "meter_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0627\u0644\u0639\u062f\u0627\u062f",
+        "translate": false,
+        "name": "meter_notes"
+    },
+    "is_encroachment_building": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u064a\u0648\u062c\u062f \u062a\u0639\u062f\u064a \u0639\u0644\u0649 \u0645\u0628\u0646\u0649 \u0627\u0644\u0645\u0633\u062c\u062f\u061f",
+        "name": "is_encroachment_building"
+    },
+    "encroachment_building_attachment": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "binary",
+        "attachment": true,
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0645\u0631\u0641\u0642 \u0627\u0644\u062a\u0639\u062f\u064a \u0639\u0644\u0649 \u0645\u0628\u0646\u0649 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "encroachment_building_attachment"
+    },
+    "case_encroachment_building": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "old",
+                "\u062a\u0645 \u0631\u0635\u062f\u0647 \u0633\u0627\u0628\u0642\u0627"
+            ],
+            [
+                "new",
+                "\u062c\u062f\u064a\u062f"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062d\u0627\u0644\u0629 \u0627\u0644\u062a\u0639\u062f\u064a \u0639\u0644\u0649 \u0645\u0628\u0646\u0649 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "case_encroachment_building"
+    },
+    "is_encroachment_vacant_land": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u064a\u0648\u062c\u062f \u062a\u0639\u062f\u064a \u0639\u0644\u0649 \u0633\u0627\u062d\u0627\u062a \u0627\u0644\u0645\u0633\u062c\u062f \u0627\u0644\u0634\u0627\u063a\u0631\u0629\u061f",
+        "name": "is_encroachment_vacant_land"
+    },
+    "encroachment_vacant_attachment": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "binary",
+        "attachment": true,
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0645\u0631\u0641\u0642 \u0627\u0644\u062a\u0639\u062f\u064a \u0639\u0644\u0649 \u0633\u0627\u062d\u0627\u062a \u0627\u0644\u0645\u0633\u062c\u062f \u0627\u0644\u0634\u0627\u063a\u0631\u0629",
+        "name": "encroachment_vacant_attachment"
+    },
+    "case_encroachment_vacant_land": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "old",
+                "\u062a\u0645 \u0631\u0635\u062f\u0647 \u0633\u0627\u0628\u0642\u0627"
+            ],
+            [
+                "new",
+                "\u062c\u062f\u064a\u062f"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062d\u0627\u0644\u0629 \u0627\u0644\u062a\u0639\u062f\u064a \u0639\u0644\u0649 \u0633\u0627\u062d\u0627\u062a \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "case_encroachment_vacant_land"
+    },
+    "is_violation_building": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u064a\u0648\u062c\u062f \u062a\u0639\u062f\u064a \u0645\u0646 \u0627\u064a \u0646\u0648\u0639 \u0627\u062e\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "is_violation_building"
+    },
+    "violation_building_attachment": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "binary",
+        "attachment": true,
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0645\u0631\u0641\u0642 \u0645\u062e\u0627\u0644\u0641\u0629 \u0627\u0644\u0645\u0628\u0646\u0649",
+        "name": "violation_building_attachment"
+    },
+    "case_violation_building": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "old",
+                "\u062a\u0645 \u0631\u0635\u062f\u0647 \u0633\u0627\u0628\u0642\u0627"
+            ],
+            [
+                "new",
+                "\u062c\u062f\u064a\u062f"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062d\u0627\u0644\u0629 \u0627\u0644\u062a\u0639\u062f\u064a \u0645\u0646 \u0646\u0648\u0639 \u0622\u062e\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "case_violation_building"
+    },
+    "building_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0623\u062e\u0631\u0649 \u0639\u0644\u0649 \u0627\u0644\u0645\u0628\u0646\u0649 \u0648\u0633\u0627\u062d\u0627\u062a \u0627\u0644\u0645\u0633\u062c\u062f",
+        "translate": false,
+        "name": "building_notes"
+    },
+    "inner_devices": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "efficient",
+                "\u0627\u0644\u0639\u0645\u0644 \u0628\u0643\u0641\u0627\u0621\u0629"
+            ],
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "change",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631"
+            ],
+            [
+                "notapplicable",
+                "\u0644\u0627\u064a\u0646\u0637\u0628\u0642"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0633\u0645\u0627\u0639\u0627\u062a \u0627\u0644\u062f\u0627\u062e\u0644\u064a\u0629",
+        "name": "inner_devices"
+    },
+    "inner_audio_devices": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "high",
+                "\u0639\u0627\u0644\u064a"
+            ],
+            [
+                "suitable",
+                "\u0645\u0646\u0627\u0633\u0628"
+            ],
+            [
+                "low",
+                "\u0645\u0646\u062e\u0641\u0636"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062f\u0631\u062c\u0629 \u0627\u0644\u0635\u0648\u062a \u0644\u0644\u0633\u0645\u0627\u0639\u0627\u062a \u0627\u0644\u062f\u0627\u062e\u0644\u064a\u0629",
+        "name": "inner_audio_devices"
+    },
+    "outer_devices": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "efficient",
+                "\u0627\u0644\u0639\u0645\u0644 \u0628\u0643\u0641\u0627\u0621\u0629"
+            ],
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "change",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631"
+            ],
+            [
+                "notapplicable",
+                "\u0644\u0627\u064a\u0646\u0637\u0628\u0642"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0633\u0645\u0627\u0639\u0627\u062a \u0627\u0644\u062e\u0627\u0631\u062c\u064a\u0629",
+        "name": "outer_devices"
+    },
+    "outer_audio_devices": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "high",
+                "\u0639\u0627\u0644\u064a"
+            ],
+            [
+                "suitable",
+                "\u0645\u0646\u0627\u0633\u0628"
+            ],
+            [
+                "low",
+                "\u0645\u0646\u062e\u0641\u0636"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062f\u0631\u062c\u0629 \u0627\u0644\u0635\u0648\u062a \u0644\u0644\u0633\u0645\u0627\u0639\u0627\u062a \u0627\u0644\u062e\u0627\u0631\u062c\u064a\u0629",
+        "name": "outer_audio_devices"
+    },
+    "speaker_on_prayer": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0625\u063a\u0644\u0627\u0642 \u0627\u0644\u0645\u0643\u0628\u0631\u0627\u062a \u0627\u0644\u0635\u0648\u062a\u064a\u0629 \u0627\u0644\u062e\u0627\u0631\u062c\u064a\u0629 \u0623\u062b\u0646\u0627\u0621 \u0627\u0644\u0635\u0644\u0627\u0629",
+        "name": "speaker_on_prayer"
+    },
+    "air_condition": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "efficient",
+                "\u0627\u0644\u0639\u0645\u0644 \u0628\u0643\u0641\u0627\u0621\u0629"
+            ],
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "change",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631"
+            ],
+            [
+                "notapplicable",
+                "\u0644\u0627\u064a\u0646\u0637\u0628\u0642"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u062a\u0643\u064a\u064a\u0641",
+        "name": "air_condition"
+    },
+    "lightening": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "efficient",
+                "\u0627\u0644\u0639\u0645\u0644 \u0628\u0643\u0641\u0627\u0621\u0629"
+            ],
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "change",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631"
+            ],
+            [
+                "notapplicable",
+                "\u0644\u0627\u064a\u0646\u0637\u0628\u0642"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0625\u0646\u0627\u0631\u0629",
+        "name": "lightening"
+    },
+    "electicity_performance": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "efficient",
+                "\u0627\u0644\u0639\u0645\u0644 \u0628\u0643\u0641\u0627\u0621\u0629"
+            ],
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "change",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631"
+            ],
+            [
+                "notapplicable",
+                "\u0644\u0627\u064a\u0646\u0637\u0628\u0642"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0623\u062f\u0627\u0621 \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621",
+        "name": "electicity_performance"
+    },
+    "device_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0623\u062e\u0631\u0649 \u0639\u0644\u0649 \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621 \u0648\u0627\u0644\u0623\u062c\u0647\u0632\u0629 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629",
+        "translate": false,
+        "name": "device_notes"
+    },
+    "architectural_structure": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "no_remarks",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+            ],
+            [
+                "needs_maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "danger",
+                "\u062e\u0637\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0647\u064a\u0643\u0644 \u0627\u0644\u0645\u0639\u0645\u0627\u0631\u064a",
+        "name": "architectural_structure"
+    },
+    "electrical_installations": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "no_remarks",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+            ],
+            [
+                "needs_maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "danger",
+                "\u062e\u0637\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u062a\u0645\u062f\u064a\u062f\u0627\u062a \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0626\u064a\u0629",
+        "name": "electrical_installations"
+    },
+    "ablution_and_toilets": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "no_remarks",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+            ],
+            [
+                "needs_maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "danger",
+                "\u062e\u0637\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0623\u0645\u0627\u0643\u0646 \u0627\u0644\u0648\u0636\u0648\u0621 \u0648\u062f\u0648\u0631\u0627\u062a \u0627\u0644\u0645\u064a\u0627\u0647",
+        "name": "ablution_and_toilets"
+    },
+    "ventilation_and_air_quality": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "no_remarks",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+            ],
+            [
+                "needs_maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "danger",
+                "\u062e\u0637\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u062a\u0647\u0648\u064a\u0629 \u0648\u062c\u0648\u062f\u0629 \u0627\u0644\u0647\u0648\u0627\u0621",
+        "name": "ventilation_and_air_quality"
+    },
+    "equipment_and_furniture_safety": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "no_remarks",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+            ],
+            [
+                "needs_maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "danger",
+                "\u062e\u0637\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0633\u0644\u0627\u0645\u0629 \u0627\u0644\u0645\u0639\u062f\u0627\u062a \u0648\u0627\u0644\u0623\u062b\u0627\u062b",
+        "name": "equipment_and_furniture_safety"
+    },
+    "doors_and_locks": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "no_remarks",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+            ],
+            [
+                "needs_maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "danger",
+                "\u062e\u0637\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0623\u0628\u0648\u0627\u0628 \u0648\u0627\u0644\u0623\u0642\u0641\u0627\u0644",
+        "name": "doors_and_locks"
+    },
+    "water_tank_covers": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "no_remarks",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+            ],
+            [
+                "needs_maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "danger",
+                "\u062e\u0637\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0623\u063a\u0637\u064a\u0629 \u062e\u0632\u0627\u0646\u0627\u062a \u0627\u0644\u0645\u064a\u0627\u0647",
+        "name": "water_tank_covers"
+    },
+    "mosque_entrances_security": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "no_remarks",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+            ],
+            [
+                "needs_maintenance",
+                "\u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u0635\u064a\u0627\u0646\u0629"
+            ],
+            [
+                "danger",
+                "\u062e\u0637\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u062f\u0627\u062e\u0644 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "mosque_entrances_security"
+    },
+    "fire_extinguishers": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "available",
+                "\u0645\u062a\u0648\u0641\u0631"
+            ],
+            [
+                "not_available",
+                "\u063a\u064a\u0631 \u0645\u062a\u0648\u0641\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0637\u0641\u0627\u064a\u0627\u062a \u0627\u0644\u062d\u0631\u064a\u0642",
+        "name": "fire_extinguishers"
+    },
+    "fire_alarms": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "available",
+                "\u0645\u062a\u0648\u0641\u0631"
+            ],
+            [
+                "not_available",
+                "\u063a\u064a\u0631 \u0645\u062a\u0648\u0641\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0623\u062c\u0647\u0632\u0629 \u0625\u0646\u0630\u0627\u0631 \u0627\u0644\u062d\u0631\u0627\u0626\u0642",
+        "name": "fire_alarms"
+    },
+    "first_aid_kits": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "available",
+                "\u0645\u062a\u0648\u0641\u0631"
+            ],
+            [
+                "not_available",
+                "\u063a\u064a\u0631 \u0645\u062a\u0648\u0641\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0625\u0633\u0639\u0627\u0641\u0627\u062a \u0623\u0648\u0644\u064a\u0629",
+        "name": "first_aid_kits"
+    },
+    "emergency_exits": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "available",
+                "\u0645\u062a\u0648\u0641\u0631"
+            ],
+            [
+                "not_available",
+                "\u063a\u064a\u0631 \u0645\u062a\u0648\u0641\u0631"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u062e\u0627\u0631\u062c \u0627\u0644\u0637\u0648\u0627\u0631\u0626",
+        "name": "emergency_exits"
+    },
+    "saftey_standard_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0645\u0639\u0627\u064a\u064a\u0631 \u0627\u0644\u0633\u0644\u0627\u0645\u0629",
+        "translate": false,
+        "name": "saftey_standard_notes"
+    },
+    "quran_shelves_storage": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0631\u0641\u0648\u0641 \u0627\u0644\u0645\u0635\u0627\u062d\u0641 \u0648\u0623\u0645\u0627\u0643\u0646 \u0627\u0644\u062a\u062e\u0632\u064a\u0646",
+        "name": "quran_shelves_storage"
+    },
+    "carpets_and_flooring": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0633\u062c\u0627\u062f \u0648\u0627\u0644\u0623\u0631\u0636\u064a\u0627\u062a",
+        "name": "carpets_and_flooring"
+    },
+    "prayer_area_cleanliness": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0643\u0627\u0646 \u0627\u0644\u0635\u0644\u0627\u0629",
+        "name": "prayer_area_cleanliness"
+    },
+    "mosque_courtyards": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0633\u0627\u062d\u0627\u062a \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "mosque_courtyards"
+    },
+    "mosque_entrances": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u062f\u0627\u062e\u0644 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "mosque_entrances"
+    },
+    "ablution_areas": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0623\u0645\u0627\u0643\u0646 \u0627\u0644\u0648\u0636\u0648\u0621",
+        "name": "ablution_areas"
+    },
+    "toilets": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062f\u0648\u0631\u0627\u062a \u0627\u0644\u0645\u064a\u0627\u0647",
+        "name": "toilets"
+    },
+    "windows_doors_walls": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0646\u0648\u0627\u0641\u0630 \u0648\u0627\u0644\u0623\u0628\u0648\u0627\u0628 \u0648\u0627\u0644\u062c\u062f\u0631\u0627\u0646",
+        "name": "windows_doors_walls"
+    },
+    "storage_rooms": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u063a\u0631\u0641 \u0627\u0644\u062a\u062e\u0632\u064a\u0646",
+        "name": "storage_rooms"
+    },
+    "mosque_carpet_quality": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062c\u0648\u062f\u0629 \u0641\u0631\u0634 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "mosque_carpet_quality"
+    },
+    "maintenance_execution": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u0646\u0641\u064a\u0630 \u0623\u0639\u0645\u0627\u0644 \u0627\u0644\u0635\u064a\u0627\u0646\u0629",
+        "name": "maintenance_execution"
+    },
+    "maintenance_response_speed": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "good",
+                "\u062c\u064a\u062f"
+            ],
+            [
+                "average",
+                "\u0645\u062a\u0648\u0633\u0637"
+            ],
+            [
+                "bad",
+                "\u0633\u064a\u0626"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0633\u0631\u0639\u0629 \u0627\u0644\u0625\u0633\u062a\u062c\u0627\u0628\u0629 \u0644\u0637\u0644\u0628\u0627\u062a \u0627\u0644\u0635\u064a\u0627\u0646\u0629",
+        "name": "maintenance_response_speed"
+    },
+    "has_maintenance_contractor": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [
+            "mosque_id"
+        ],
+        "manual": false,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "applicable",
+                "\u064a\u0646\u0637\u0628\u0642"
+            ],
+            [
+                "notapplicable",
+                "\u0644\u0627\u064a\u0646\u0637\u0628\u0642"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0639\u0642\u062f \u0627\u0644\u0635\u064a\u0627\u0646\u0629",
+        "name": "has_maintenance_contractor"
+    },
+    "maintenance_contractor_ids": {
+        "id": null,
+        "select": null,
+        "views": {
+            "tree": {
+                "arch": "<tree create=\"0\" edit=\"0\" delete=\"1\">\n                                    <field name=\"name\" modifiers=\"{}\"/>\n                                    <field name=\"mobile\" modifiers=\"{}\"/>\n                                    <field name=\"phone\" modifiers=\"{}\"/>\n                                    <field name=\"commercial_registration_no\" on_change=\"1\" modifiers=\"{}\"/>\n                                </tree>\n                            ",
+                "fields": {
+                    "name": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "char",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "depends": [],
+                        "manual": false,
+                        "readonly": false,
+                        "required": false,
+                        "searchable": true,
+                        "sortable": true,
+                        "store": true,
+                        "string": "\u0627\u0644\u0627\u0633\u0645",
+                        "translate": true,
+                        "trim": true,
+                        "name": "name"
+                    },
+                    "mobile": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "char",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "depends": [],
+                        "manual": false,
+                        "readonly": false,
+                        "required": false,
+                        "searchable": true,
+                        "sortable": true,
+                        "store": true,
+                        "string": "\u0627\u0644\u062c\u0648\u0627\u0644",
+                        "translate": false,
+                        "trim": true,
+                        "name": "mobile"
+                    },
+                    "phone": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "char",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "depends": [],
+                        "manual": false,
+                        "readonly": false,
+                        "required": false,
+                        "searchable": true,
+                        "sortable": true,
+                        "store": true,
+                        "string": "\u0627\u0644\u0647\u0627\u062a\u0641",
+                        "translate": false,
+                        "trim": true,
+                        "name": "phone"
+                    },
+                    "commercial_registration_no": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "char",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "depends": [],
+                        "manual": false,
+                        "readonly": false,
+                        "required": false,
+                        "searchable": true,
+                        "size": 10,
+                        "sortable": true,
+                        "store": true,
+                        "string": "\u0631\u0642\u0645 \u0627\u0644\u0633\u062c\u0644 \u0627\u0644\u062a\u062c\u0627\u0631\u064a",
+                        "translate": false,
+                        "trim": true,
+                        "name": "commercial_registration_no"
+                    }
+                }
+            }
+        },
+        "type": "many2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": "[('id', 'in',mosque_maintenance_contractor_ids)]",
+        "manual": false,
+        "readonly": false,
+        "relation": "res.partner",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0645\u0642\u0627\u0648\u0644 \u0627\u0644\u0635\u064a\u0627\u0646\u0629",
+        "name": "maintenance_contractor_ids"
+    },
+    "clean_maintenance_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0623\u062e\u0631\u0649 \u0639\u0644\u0649 \u0627\u0644\u0646\u0638\u0627\u0641\u0629 \u0648\u0627\u0644\u0635\u064a\u0627\u0646\u0629",
+        "translate": false,
+        "name": "clean_maintenance_notes"
+    },
+    "security_violation_type": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "none",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u062e\u0627\u0644\u0641\u0627\u062a \u0623\u0645\u0646\u064a\u0629"
+            ],
+            [
+                "extremism",
+                "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u062e\u0627\u0644\u0641\u0627\u062a \u0627\u0644\u062a\u0631\u0648\u064a\u062c \u0644\u0623\u0641\u0643\u0627\u0631 \u0645\u062a\u0637\u0631\u0641\u0629"
+            ],
+            [
+                "unauthorized_donations",
+                "\u062c\u0645\u0639 \u062a\u0628\u0631\u0639\u0627\u062a \u0628\u062f\u0648\u0646 \u062a\u0635\u0631\u064a\u062d"
+            ],
+            [
+                "public_speech",
+                "\u0625\u0644\u0642\u0627\u0621 \u0643\u0644\u0645\u0627\u062a \u0645\u062e\u0627\u0644\u0641\u0629 \u0623\u0648 \u062a\u0645\u0633 \u0627\u0644\u0623\u0645\u0646 \u0627\u0644\u0639\u0627\u0645"
+            ],
+            [
+                "theft_vandalism",
+                "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0639\u0645\u0644\u064a\u0627\u062a \u0633\u0631\u0642\u0629 \u0623\u0648 \u062a\u062e\u0631\u064a\u0628"
+            ],
+            [
+                "illegal_gathering",
+                "الإبلاغ عن تجمعات مخالفة"
+            ],
+            [
+                "other",
+                "\u0623\u062e\u0631\u0649"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u062e\u0627\u0644\u0641\u0627\u062a \u0623\u0645\u0646\u064a\u0629",
+        "name": "security_violation_type"
+    },
+    "other_security_violation_text": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u062e\u0627\u0644\u0641\u0629 \u0623\u0645\u0646\u064a\u0629 \u0623\u062e\u0631\u0649 (\u064a\u0631\u062c\u0649 \u0627\u0644\u062a\u062d\u062f\u064a\u062f)",
+        "translate": false,
+        "name": "other_security_violation_text"
+    },
+    "admin_violation_type": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "none",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u062e\u0627\u0644\u0641\u0627\u062a \u0625\u062f\u0627\u0631\u064a\u0629"
+            ],
+            [
+                "begging_in_mosque",
+                "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0638\u0627\u0647\u0631\u0629 \u062a\u0633\u0648\u0644 \u0628\u0627\u0644\u0645\u0633\u062c\u062f"
+            ],
+            [
+                "unauthorized_role",
+                "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u0642\u064a\u0645 \u064a\u0642\u0648\u0645 \u0628\u0645\u0647\u0627\u0645 \u0627\u0644\u0625\u0645\u0627\u0645 \u0627\u0648 \u0627\u0644\u0645\u0624\u0630\u0646"
+            ],
+            [
+                "unauthorized_replacement",
+                "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u062a\u0639\u064a\u064a\u0646\u0627\u062a \u0628\u062f\u064a\u0644\u0629 \u063a\u064a\u0631 \u0645\u0635\u0631\u062d \u0628\u0647\u0627 \u0644\u0644\u0625\u0645\u0627\u0645 \u0627\u0648 \u0627\u0644\u0645\u0624\u0630\u0646"
+            ],
+            [
+                "policy_violation",
+                "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u062e\u0627\u0644\u0641\u0629 \u0627\u0644\u0644\u0648\u0627\u0626\u062d \u0648\u0627\u0644\u062a\u0639\u0644\u064a\u0645\u0627\u062a"
+            ],
+            [
+                "misuse_facility",
+                "\u0625\u0633\u0627\u0621\u0629 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0633\u062c\u062f \u0627\u0648 \u0645\u0631\u0627\u0641\u0642\u0647 \u0644\u0623\u063a\u0631\u0627\u0636 \u0634\u062e\u0635\u064a\u0629 \u0627\u0648 \u0645\u0646\u0627\u0633\u0628\u0627\u062a \u063a\u064a\u0631 \u0645\u0635\u0631\u062d \u0628\u0647\u0627"
+            ],
+            [
+                "other",
+                "\u0623\u062e\u0631\u0649"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u062e\u0627\u0644\u0641\u0627\u062a \u0625\u062f\u0627\u0631\u064a\u0629",
+        "name": "admin_violation_type"
+    },
+    "other_admin_violation_text": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u062e\u0627\u0644\u0641\u0629 \u0625\u062f\u0627\u0631\u064a\u0629 \u0623\u062e\u0631\u0649 (\u064a\u0631\u062c\u0649 \u0627\u0644\u062a\u062d\u062f\u064a\u062f)",
+        "translate": false,
+        "name": "other_admin_violation_text"
+    },
+    "operational_violation_type": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "none",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u062e\u0627\u0644\u0641\u0627\u062a \u062a\u0634\u063a\u064a\u0644\u064a\u0629"
+            ],
+            [
+                "energy_waste",
+                "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u062e\u0627\u0644\u0641\u0629 \u0647\u062f\u0631 \u0641\u064a \u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0637\u0627\u0642\u0629 \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0626\u064a\u0629"
+            ],
+            [
+                "mosque_not_closed",
+                "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u062e\u0627\u0644\u0641\u0629 \u0639\u062f\u0645 \u0625\u063a\u0644\u0627\u0642 \u0627\u0644\u0645\u0633\u062c\u062f \u062e\u0627\u0631\u062c \u0623\u0648\u0642\u0627\u062a \u0627\u0644\u0635\u0644\u0627\u0629"
+            ],
+            [
+                "other",
+                "\u0623\u062e\u0631\u0649"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u062e\u0627\u0644\u0641\u0627\u062a \u062a\u0634\u063a\u064a\u0644\u064a\u0629",
+        "name": "operational_violation_type"
+    },
+    "other_operational_violation_text": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u062e\u0627\u0644\u0641\u0629 \u062a\u0634\u063a\u064a\u0644\u064a\u0629 \u0623\u062e\u0631\u0649 (\u064a\u0631\u062c\u0649 \u0627\u0644\u062a\u062d\u062f\u064a\u062f)",
+        "translate": false,
+        "name": "other_operational_violation_text"
+    },
+    "religious_social_violation_type": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "none",
+                "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u062e\u0627\u0644\u0641\u0627\u062a \u062f\u064a\u0646\u064a\u0629 \u0623\u0648 \u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0629"
+            ],
+            [
+                "religious_violation",
+                "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u062e\u0627\u0644\u0641\u0627\u062a \u062f\u064a\u0646\u064a\u0629"
+            ],
+            [
+                "racial_discrimination",
+                "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u062e\u0627\u0644\u0641\u0627\u062a \u0627\u0644\u062a\u0645\u064a\u064a\u0632 \u0627\u0644\u0639\u0646\u0635\u0631\u064a"
+            ],
+            [
+                "inappropriate_behavior",
+                "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0633\u0644\u0648\u0643\u064a\u0627\u062a \u063a\u064a\u0631 \u0644\u0627\u0626\u0642\u0629"
+            ],
+            [
+                "other",
+                "\u0623\u062e\u0631\u0649"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u062e\u0627\u0644\u0641\u0627\u062a \u062f\u064a\u0646\u064a\u0629 \u0623\u0648 \u0625\u062c\u062a\u0645\u0627\u0639\u064a\u0629",
+        "name": "religious_social_violation_type"
+    },
+    "other_religious_violation_text": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u062e\u0627\u0644\u0641\u0629 \u062f\u064a\u0646\u064a\u0629 \u0623\u062e\u0631\u0649 (\u064a\u0631\u062c\u0649 \u0627\u0644\u062a\u062d\u062f\u064a\u062f)",
+        "translate": false,
+        "name": "other_religious_violation_text"
+    },
+    "unauthorized_quran_presence": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "none",
+                "\u0644\u0627 \u064a\u0648\u062c\u062f \u0645\u0635\u0627\u062d\u0641 \u0645\u062e\u0627\u0644\u0641\u0629"
+            ],
+            [
+                "found",
+                "\u064a\u0648\u062c\u062f \u0645\u0635\u0627\u062d\u0641 \u0645\u062e\u0627\u0644\u0641\u0629"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0648\u062c\u0648\u062f \u0645\u0635\u0627\u062d\u0641 \u0645\u0646 \u063a\u064a\u0631 \u0645\u0637\u0628\u0648\u0639\u0627\u062a \u0645\u062c\u0645\u0639 \u0627\u0644\u0645\u0644\u0643 \u0641\u0647\u062f \u0644\u0637\u0628\u0627\u0639\u0629 \u0627\u0644\u0645\u0635\u062d\u0641 \u0627\u0644\u0634\u0631\u064a\u0641",
+        "name": "unauthorized_quran_presence"
+    },
+    "unauthorized_publications": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u062a\u0648\u062c\u062f \u0645\u0646\u0634\u0648\u0631\u0627\u062a \u0645\u062e\u0627\u0644\u0641\u0629\u061f",
+        "name": "unauthorized_publications"
+    },
+    "publication_source": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u062c\u0647\u0629 \u0627\u0644\u062a\u064a \u0642\u0627\u0645\u062a \u0628\u0648\u0636\u0639 \u0627\u0644\u0645\u0646\u0634\u0648\u0631\u0627\u062a",
+        "translate": false,
+        "name": "publication_source"
+    },
+    "security_violation_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0623\u062e\u0631\u0649 \u0639\u0644\u0649 \u0627\u0644\u0628\u0644\u0627\u063a\u0627\u062a \u0648\u0627\u0644\u0645\u062e\u0627\u0644\u0641\u0627\u062a",
+        "translate": false,
+        "name": "security_violation_notes"
+    },
+    "has_religious_activity": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u064a\u0648\u062c\u062f \u0645\u0646\u0634\u0637 \u062f\u0639\u0648\u064a",
+        "name": "has_religious_activity"
+    },
+    "activity_type": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "imam_reading",
+                "\u0642\u0631\u0627\u0621\u0629 \u0627\u0644\u0625\u0645\u0627\u0645 \u0644\u0643\u062a\u0627\u0628 \u0639\u0644\u0649 \u062c\u0645\u0627\u0639\u0629 \u0627\u0644\u0645\u0633\u062c\u062f"
+            ],
+            [
+                "external_preacher",
+                "\u0645\u0646\u0634\u0637 \u062f\u0639\u0648\u064a \u0644\u0623\u062d\u062f \u0627\u0644\u062f\u0639\u0627\u0629"
+            ],
+            [
+                "other",
+                "\u0623\u062e\u0631\u0649"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0646\u0648\u0639 \u0627\u0644\u0645\u0646\u0634\u0637",
+        "name": "activity_type"
+    },
+    "has_tayseer_permission": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u064a\u0648\u062c\u062f \u0641\u0633\u062d \u0645\u0646 \u0646\u0638\u0627\u0645 \u062a\u064a\u0633\u064a\u0631\u061f",
+        "name": "has_tayseer_permission"
+    },
+    "tayseer_permission_number": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "char",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0631\u0642\u0645 \u0627\u0644\u0641\u0633\u062d \u0645\u0646 \u0646\u0638\u0627\u0645 \u062a\u064a\u0633\u064a\u0631",
+        "translate": false,
+        "trim": true,
+        "name": "tayseer_permission_number"
+    },
+    "activity_title": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "char",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0645\u0646\u0634\u0637",
+        "translate": false,
+        "trim": true,
+        "name": "activity_title"
+    },
+    "activity_details": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0645\u0646\u0634\u0637",
+        "translate": false,
+        "name": "activity_details"
+    },
+    "preacher_identification_id": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "char",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "size": 10,
+        "sortable": true,
+        "store": true,
+        "string": "\u0631\u0642\u0645 \u0647\u0648\u064a\u0629 \u0627\u0644\u0645\u062d\u0627\u0636\u0631",
+        "translate": false,
+        "trim": true,
+        "name": "preacher_identification_id"
+    },
+    "dob_preacher": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "date",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u0627\u0631\u064a\u062e \u0645\u064a\u0644\u0627\u062f \u0627\u0644\u0645\u062d\u0627\u0636\u0631 ",
+        "name": "dob_preacher"
+    },
+    "phone_preacher": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "char",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0631\u0642\u0645 \u0627\u0644\u062c\u0648\u0627\u0644",
+        "translate": false,
+        "trim": true,
+        "name": "phone_preacher"
+    },
+    "yaqeen_status": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "char",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0643\u0627\u0645\u0644 \u0644\u0644\u0645\u062d\u0627\u0636\u0631",
+        "translate": false,
+        "trim": true,
+        "name": "yaqeen_status"
+    },
+    "read_allowed_books": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "yes",
+                "\u0646\u0639\u0645"
+            ],
+            [
+                "no",
+                "\u0644\u0627"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0647\u0644 \u0627\u0644\u0643\u062a\u0627\u0628 \u0645\u0646 \u0627\u0644\u0643\u062a\u0628 \u0627\u0644\u0645\u0633\u0645\u0648\u062d\u0629",
+        "name": "read_allowed_books"
+    },
+    "book_name_id": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "many2one",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [],
+        "manual": false,
+        "readonly": false,
+        "relation": "visit.allow.books",
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0633\u0645 \u0627\u0644\u0643\u062a\u0627\u0628",
+        "name": "book_name_id"
+    },
+    "other_book_name": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "char",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0633\u0645 \u0627\u0644\u0643\u062a\u0627\u0628 \u0645\u0646 \u063a\u064a\u0631 \u0627\u0644\u0643\u062a\u0628 \u0627\u0644\u0645\u0633\u0645\u0648\u062d\u0629",
+        "translate": false,
+        "trim": true,
+        "name": "other_book_name"
+    },
+    "dawah_activities_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0623\u062e\u0631\u0649 \u0639\u0644\u0649 \u0627\u0644\u0645\u0646\u0627\u0634\u0637 \u0627\u0644\u062f\u0639\u0648\u064a\u0629 \u0648\u0627\u0644\u0645\u062d\u0627\u0636\u0631\u0627\u062a",
+        "translate": false,
+        "name": "dawah_activities_notes"
+    },
+    "mosque_address_status": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "updated",
+                "\u0645\u062d\u062f\u062b\u0629"
+            ],
+            [
+                "needs_update",
+                "\u062a\u062d\u062a\u0627\u062c \u062a\u062d\u062f\u064a\u062b"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "mosque_address_status"
+    },
+    "geolocation_status": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "updated",
+                "\u0645\u062d\u062f\u062b\u0629"
+            ],
+            [
+                "needs_update",
+                "\u062a\u062d\u062a\u0627\u062c \u062a\u062d\u062f\u064a\u062b"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062d\u0627\u0644\u0629 \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u062c\u063a\u0631\u0627\u0641\u064a",
+        "name": "geolocation_status"
+    },
+    "mosque_details_status": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "updated",
+                "\u0645\u062d\u062f\u062b\u0629"
+            ],
+            [
+                "needs_update",
+                "\u062a\u062d\u062a\u0627\u062c \u062a\u062d\u062f\u064a\u062b"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "mosque_details_status"
+    },
+    "mosque_images_status": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "updated",
+                "\u0645\u062d\u062f\u062b\u0629"
+            ],
+            [
+                "needs_update",
+                "\u062a\u062d\u062a\u0627\u062c \u062a\u062d\u062f\u064a\u062b"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0635\u0648\u0631 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "mosque_images_status"
+    },
+    "maintenance_contract_status": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "updated",
+                "\u0645\u062d\u062f\u062b\u0629"
+            ],
+            [
+                "needs_update",
+                "\u062a\u062d\u062a\u0627\u062c \u062a\u062d\u062f\u064a\u062b"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062d\u0627\u0644\u0629 \u0639\u0642\u062f \u0627\u0644\u0635\u064a\u0627\u0646\u0629",
+        "name": "maintenance_contract_status"
+    },
+    "building_details_status": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "updated",
+                "\u0645\u062d\u062f\u062b\u0629"
+            ],
+            [
+                "needs_update",
+                "\u062a\u062d\u062a\u0627\u062c \u062a\u062d\u062f\u064a\u062b"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0645\u0628\u0646\u0649 \u0627\u0644\u0645\u0633\u062c\u062f",
+        "name": "building_details_status"
+    },
+    "imam_residence_status": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "updated",
+                "\u0645\u062d\u062f\u062b\u0629"
+            ],
+            [
+                "needs_update",
+                "\u062a\u062d\u062a\u0627\u062c \u062a\u062d\u062f\u064a\u062b"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0633\u0643\u0646 \u0627\u0644\u0625\u0645\u0627\u0645 \u0648\u0627\u0644\u0645\u0624\u0630\u0646",
+        "name": "imam_residence_status"
+    },
+    "prayer_area_status": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "updated",
+                "\u0645\u062d\u062f\u062b\u0629"
+            ],
+            [
+                "needs_update",
+                "\u062a\u062d\u062a\u0627\u062c \u062a\u062d\u062f\u064a\u062b"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0643\u0627\u0646 \u0627\u0644\u0635\u0644\u0627\u0629",
+        "name": "prayer_area_status"
+    },
+    "human_resources_status": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "selection",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "selection": [
+            [
+                "updated",
+                "\u0645\u062d\u062f\u062b\u0629"
+            ],
+            [
+                "needs_update",
+                "\u062a\u062d\u062a\u0627\u062c \u062a\u062d\u062f\u064a\u062b"
+            ]
+        ],
+        "sortable": true,
+        "store": true,
+        "string": "\u0627\u0644\u0643\u0648\u0627\u062f\u0631 \u0627\u0644\u0628\u0634\u0631\u064a\u0629",
+        "name": "human_resources_status"
+    },
+    "mosque_status_notes": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "text",
+        "change_default": false,
+        "company_dependent": false,
+        "depends": [],
+        "manual": false,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sortable": true,
+        "store": true,
+        "string": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0623\u062e\u0631\u0649 \u0639\u0644\u0649 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0645\u0633\u062c\u062f ",
+        "translate": false,
+        "name": "mosque_status_notes"
+    },
+    "declaration_log_ids": {
+        "id": null,
+        "select": null,
+        "views": {
+            "tree": {
+                "arch": "<tree edit=\"0\" create=\"0\" delete=\"0\">\n                                <field name=\"approver_id\" on_change=\"1\" can_create=\"true\" can_write=\"true\" modifiers=\"{&quot;required&quot;: true}\"/>\n                                <field name=\"national_id\" modifiers=\"{&quot;readonly&quot;: true}\"/>\n                                <field name=\"accept_terms\" modifiers=\"{}\"/>\n                                <field name=\"state\" modifiers=\"{&quot;required&quot;: true}\"/>\n                                <field name=\"record_name\" optional=\"hide\" modifiers=\"{&quot;required&quot;: true}\"/>\n                                <field name=\"accept\" optional=\"hide\" modifiers=\"{}\"/>\n                                <field name=\"date_time\" optional=\"hide\" modifiers=\"{&quot;required&quot;: true}\"/>\n                                <field name=\"platform\" optional=\"show\" modifiers=\"{}\"/>\n                            </tree>\n                        ",
+                "fields": {
+                    "approver_id": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "many2one",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "context": {},
+                        "depends": [],
+                        "domain": [],
+                        "manual": false,
+                        "readonly": false,
+                        "relation": "res.users",
+                        "required": true,
+                        "searchable": true,
+                        "sortable": true,
+                        "store": true,
+                        "string": "\u0627\u0644\u0645\u062a\u0639\u0647\u062f\u064a\u0646",
+                        "name": "approver_id"
+                    },
+                    "national_id": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "char",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "depends": [
+                            "approver_id.employee_id.identification_id"
+                        ],
+                        "groups": "hr.group_hr_user",
+                        "manual": false,
+                        "readonly": true,
+                        "related": "approver_id.employee_id.identification_id",
+                        "required": false,
+                        "searchable": true,
+                        "size": 10,
+                        "sortable": false,
+                        "store": false,
+                        "string": "\u0631\u0642\u0645 \u0627\u0644\u0647\u0648\u064a\u0629",
+                        "translate": false,
+                        "trim": true,
+                        "name": "national_id"
+                    },
+                    "accept_terms": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "char",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "depends": [],
+                        "manual": false,
+                        "readonly": false,
+                        "required": false,
+                        "searchable": true,
+                        "sortable": true,
+                        "store": true,
+                        "string": "\u0627\u0644\u062a\u0639\u0647\u062f",
+                        "translate": false,
+                        "trim": true,
+                        "name": "accept_terms"
+                    },
+                    "state": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "char",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "depends": [],
+                        "manual": false,
+                        "readonly": false,
+                        "required": true,
+                        "searchable": true,
+                        "sortable": true,
+                        "store": true,
+                        "string": "\u0627\u0644\u0645\u0631\u062d\u0644\u0629",
+                        "translate": false,
+                        "trim": true,
+                        "name": "state"
+                    },
+                    "record_name": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "char",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "depends": [],
+                        "manual": false,
+                        "readonly": false,
+                        "required": true,
+                        "searchable": true,
+                        "sortable": true,
+                        "store": true,
+                        "string": "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u062a\u0633\u0644\u0633\u0644\u064a \u0644\u0644\u0645\u0633\u062c\u062f",
+                        "translate": false,
+                        "trim": true,
+                        "name": "record_name"
+                    },
+                    "accept": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "boolean",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "depends": [],
+                        "manual": false,
+                        "readonly": false,
+                        "required": false,
+                        "searchable": true,
+                        "sortable": true,
+                        "store": true,
+                        "string": "\u0642\u0628\u0648\u0644",
+                        "name": "accept"
+                    },
+                    "date_time": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "datetime",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "depends": [],
+                        "manual": false,
+                        "readonly": false,
+                        "required": true,
+                        "searchable": true,
+                        "sortable": true,
+                        "store": true,
+                        "string": "\u0627\u0644\u062a\u0627\u0631\u064a\u062e",
+                        "name": "date_time"
+                    },
+                    "platform": {
+                        "id": null,
+                        "select": null,
+                        "views": {},
+                        "type": "selection",
+                        "change_default": false,
+                        "company_dependent": false,
+                        "depends": [],
+                        "manual": false,
+                        "readonly": false,
+                        "required": false,
+                        "searchable": true,
+                        "selection": [
+                            [
+                                "crm",
+                                "\u0625\u062f\u0627\u0631\u0629 \u0639\u0644\u0627\u0642\u0627\u062a \u0627\u0644\u0639\u0645\u0644\u0627\u0621 "
+                            ],
+                            [
+                                "mobile",
+                                "\u0627\u0644\u062c\u0648\u0627\u0644"
+                            ]
+                        ],
+                        "sortable": true,
+                        "store": true,
+                        "string": "\u0627\u0644\u0645\u0646\u0635\u0629",
+                        "name": "platform"
+                    }
+                }
+            }
+        },
+        "type": "one2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [],
+        "manual": false,
+        "readonly": false,
+        "relation": "regular.visit.declaration.log",
+        "relation_field": "regular_id",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0627\u0644\u062a\u0639\u0647\u062f",
+        "name": "declaration_log_ids"
+    },
+    "message_follower_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "one2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [],
+        "groups": "base.group_user",
+        "manual": false,
+        "readonly": false,
+        "relation": "mail.followers",
+        "relation_field": "res_id",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0627\u0644\u0645\u062a\u0627\u0628\u0639\u0648\u0646",
+        "name": "message_follower_ids"
+    },
+    "activity_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "one2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [],
+        "groups": "base.group_user",
+        "manual": false,
+        "readonly": false,
+        "relation": "mail.activity",
+        "relation_field": "res_id",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0627\u0644\u0623\u0646\u0634\u0637\u0629",
+        "name": "activity_ids"
+    },
+    "message_ids": {
+        "id": null,
+        "select": null,
+        "views": {},
+        "type": "one2many",
+        "change_default": false,
+        "company_dependent": false,
+        "context": {},
+        "depends": [],
+        "domain": [
+            [
+                "message_type",
+                "!=",
+                "user_notification"
+            ]
+        ],
+        "manual": false,
+        "readonly": false,
+        "relation": "mail.message",
+        "relation_field": "res_id",
+        "required": false,
+        "searchable": true,
+        "sortable": false,
+        "store": true,
+        "string": "\u0627\u0644\u0631\u0633\u0627\u0626\u0644",
+        "name": "message_ids"
+    }
+}

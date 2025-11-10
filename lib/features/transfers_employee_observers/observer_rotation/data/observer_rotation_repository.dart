@@ -1,0 +1,5 @@
+class ObserverRotationRepository {
+  const ObserverRotationRepository();
+}
+
+

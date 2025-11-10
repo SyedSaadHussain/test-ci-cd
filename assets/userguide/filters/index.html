@@ -1,0 +1,950 @@
+
+<!doctype html>
+<html lang="ar" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../reports/01-intro.html">
+      
+      
+        <link rel="next" href="../data-ops/index.html">
+      
+      
+      <link rel="icon" href="../img/logo_ministry.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>عوامل التصفية والبحث - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../styles.css">
+    
+      <link rel="stylesheet" href="../css/chatbot.css">
+    
+      <link rel="stylesheet" href="../css/device-mobile.css">
+    
+      <link rel="stylesheet" href="../css/footer-legal.css">
+    
+      <link rel="stylesheet" href="../css/last-updated-fab.css">
+    
+      <link rel="stylesheet" href="../css/section-pager.css">
+    
+      <link rel="stylesheet" href="../css/header-datetime.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="rtl" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+<header class="md-header mh-header" data-md-component="header" role="banner" dir="rtl">
+  <div class="mh-inner">
+    <!-- زر القائمة (أقصى اليمين) -->
+    <label class="mh-burger" for="__drawer" aria-label="القائمة" title="القائمة">
+      <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <rect x="3" y="6" width="18" height="2" rx="1"></rect>
+        <rect x="3" y="11" width="18" height="2" rx="1"></rect>
+        <rect x="3" y="16" width="18" height="2" rx="1"></rect>
+      </svg>
+    </label>
+
+    <!-- البراند (كما هو تمامًا) -->
+    <a class="mh-brand" href=".." title="">
+      <img class="mh-lockup" src="../img/logo_ministry.svg"
+           alt="وزارة الشؤون الإسلامية والدعوة والإرشاد – Ministry of Islamic Affairs, Dawah and Guidance">
+    </a>
+
+    <span class="mh-spacer" aria-hidden="true"></span>
+
+    <!-- البحث -->
+    <label class="mh-action mh-search" for="__search" aria-label="بحث" title="بحث">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M15.5 14h-.79l-.28-.27a6.2 6.2 0 1 0-.71.71l.27.28v.79L20 20.5l1.5-1.5L15.5 14zm-5.3 0A4.7 4.7 0 1 1 14.9 9.3 4.71 4.71 0 0 1 10.2 14z"></path>
+      </svg>
+    </label>
+
+    <!-- (اختياري) تبديل الثيم عبر Material -->
+    <div class="mh-action mh-palette" data-md-component="palette">
+      <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+    </div>
+
+    <!-- كتلة يسار الهيدر: التاريخ (الهلال معطّل مؤقتًا) -->
+    <div class="mh-left">
+      <!-- زر الوضع الليلي (الهلال) مُعطَّل مؤقتًا -->
+      <!--
+      <button id="night-toggle-btn" class="mh-action mh-night" type="button"
+              aria-label="الوضع الليلي" title="الوضع الليلي">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </button>
+      -->
+
+      <!-- التاريخ -->
+      <div id="mh-date-pill" class="date-pill" aria-live="polite" aria-label="التاريخ">
+        <span class="date-label">—</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- سكربت: تناوب هجري↔︎ميلادي بحركة انزلاق، كل 13 ثانية -->
+  <script>
+    (function () {
+      try {
+        var pill = document.getElementById('mh-date-pill');
+        if (!pill) return;
+        var label = pill.querySelector('.date-label');
+        if (!label) return;
+
+        function formatGregorian(d) {
+          try {
+            var weekday = new Intl.DateTimeFormat('ar', { weekday: 'long' }).format(d);
+            var day = new Intl.DateTimeFormat('ar', { day: '2-digit' }).format(d);
+            var month = new Intl.DateTimeFormat('en', { month: 'short' }).format(d);
+            return weekday + ' · ' + day + ' ' + month;
+          } catch (e) { return d.toLocaleDateString('ar'); }
+        }
+
+        function formatHijriIntl(d) {
+          var opts = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+          var locs = ['ar-SA-u-ca-islamic-umalqura', 'ar-SA-u-ca-islamic'];
+          for (var i = 0; i < locs.length; i++) {
+            try { return new Intl.DateTimeFormat(locs[i], opts).format(d); } catch (e) {}
+          }
+          return null;
+        }
+
+        function hijriFallback(d) {
+          function toJD(y, m, day) {
+            if (m <= 2) { y -= 1; m += 12; }
+            var A = Math.floor(y / 100), B = 2 - A + Math.floor(A / 4);
+            return Math.floor(365.25 * (y + 4716)) + Math.floor(30.6001 * (m + 1)) + day + B - 1524;
+          }
+          var jd = toJD(d.getFullYear(), d.getMonth() + 1, d.getDate());
+          var days = jd - 1948439;
+          var hYear = Math.floor((30 * days + 10646) / 10631);
+          var first = 1948439 + Math.floor((10631 * hYear - 10646) / 30);
+          var doy = jd - first + 1;
+          var hMonth = Math.min(12, Math.ceil(doy / 29.5));
+          var monthStart = Math.round((hMonth - 1) * 29.5);
+          var hDay = doy - monthStart;
+          var months = ['محرم','صفر','ربيع الأول','ربيع الآخر','جمادى الأولى','جمادى الآخرة','رجب','شعبان','رمضان','شوال','ذو القعدة','ذو الحجة'];
+          var weekday = new Intl.DateTimeFormat('ar', { weekday: 'long' }).format(d);
+          var dStr = new Intl.NumberFormat('ar').format(hDay);
+          var yStr = new Intl.NumberFormat('ar').format(hYear);
+          return weekday + ' · ' + dStr + ' ' + months[hMonth - 1] + ' ' + yStr;
+        }
+
+        function compute() {
+          var now = new Date();
+          var hijriIntl = formatHijriIntl(now);
+          var hijri = hijriIntl || hijriFallback(now);
+          var greg = formatGregorian(now);
+          return { hijri: hijri, greg: greg };
+        }
+
+        var cache = compute();
+        var showHijri = true;
+
+        function slideTo(text) {
+          label.classList.remove('slide-in');
+          label.classList.add('slide-out');
+          setTimeout(function () {
+            label.textContent = text;
+            label.classList.remove('slide-out');
+            label.classList.add('slide-in');
+          }, 200);
+        }
+
+        label.textContent = cache.hijri;
+        label.classList.add('slide-in');
+
+        setInterval(function () {
+          slideTo(showHijri ? cache.hijri : cache.greg);
+          showHijri = !showHijri;
+        }, 13000);
+
+        setInterval(function () { cache = compute(); }, 60000);
+      } catch (err) {
+        console && console.warn && console.warn('header datetime init failed:', err);
+      }
+    })();
+  </script>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="تصفح" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  <img src="../img/logo_ministry.svg" alt="logo">
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    الصفحة الرئيسية
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    طلب دعم تقني
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mosques/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة المساجد
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    وحدة أصول المساجد
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            وحدة أصول المساجد
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assets/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    مقدمة وحدة أصول المساجد
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visits/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة الزيارات
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../employees/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة إدارة المنسوبين
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    وحدة صيانة المساجد
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            وحدة صيانة المساجد
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintenance/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    مقدمة وحدة صيانة المساجد
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintenance/03-entry.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    تسجيل متعهد صيانة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintenance/02-company-member.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    تسجيل عضو شركة صيانة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintenance/04-reviewer.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    اداراج عقد صيانة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintenance/05-approver.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    اعتماد عقد صيانة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../donations/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة التبرعات
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dashboard/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة لوحة المؤشرات
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../friday/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة تعاميم يوم الجمعة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../service-bills/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة فواتير خدمات المساجد
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة التقارير
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="index.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    عوامل التصفية والبحث
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-ops/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    تجميع وفرز البيانات
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    الأسئلة الشائعة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mobile-guide/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    دليل تطبيق الجوال
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="جدول المحتويات">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>عوامل التصفية والبحث</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      حقوق النشر محفوظه © 2025
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.indexes"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u062a\u0645 \u0627\u0644\u0646\u0633\u062e \u0627\u0644\u0649 \u0627\u0644\u062d\u0627\u0641\u0638\u0629", "clipboard.copy": "\u0646\u0633\u062e \u0625\u0644\u0649 \u0627\u0644\u062d\u0627\u0641\u0638\u0629", "search.result.more.one": "\u0623\u0643\u062b\u0631 \u0645\u0646 1 \u0641\u064a \u0647\u0630\u0647 \u0627\u0644\u0635\u0641\u062d\u0629", "search.result.more.other": "\u0623\u0643\u062b\u0631 \u0645\u0646 # \u0641\u064a \u0647\u0630\u0647 \u0627\u0644\u0635\u0641\u062d\u0629", "search.result.none": "\u0644\u0627 \u062a\u0648\u062c\u062f \u0646\u062a\u0627\u0626\u062c", "search.result.one": "\u0646\u062a\u0627\u0626\u062c \u0627\u0644\u0628\u062d\u062b \u0645\u0633\u062a\u0646\u062f \u0648\u0627\u062d\u062f", "search.result.other": "\u0646\u062a\u0627\u0626\u062c \u0627\u0644\u0628\u062d\u062b # \u0645\u0633\u062a\u0646\u062f\u0627\u062a", "search.result.placeholder": "\u0627\u0643\u062a\u0628 \u0644\u0628\u062f\u0621 \u0627\u0644\u0628\u062d\u062b", "search.result.term.missing": "\u0645\u0641\u0642\u0648\u062f", "select.version": "\u0625\u062e\u062a\u0631 \u0627\u0644\u0625\u0635\u062f\u0627\u0631"}, "version": "1.0.0"}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../js/anti_screenshot.js"></script>
+      
+        <script src="../js/nav-guard.js"></script>
+      
+        <script src="../js/chatbot-shim.js"></script>
+      
+        <script src="../chatbot/bundle.js"></script>
+      
+        <script src="../js/chatbot.js"></script>
+      
+        <script src="../js/chatbot-fab.js"></script>
+      
+        <script src="../js/bootstrap-chatbot.js"></script>
+      
+        <script src="../js/hero-glue.js"></script>
+      
+        <script src="../js/footer-legal.js"></script>
+      
+        <script src="../js/last-updated-fab.js"></script>
+      
+        <script src="../js/section-pager.js"></script>
+      
+        <script src="../js/header-datetime.js"></script>
+      
+        <script src="../js/video-fixes.js"></script>
+      
+    
+  </body>
+</html>

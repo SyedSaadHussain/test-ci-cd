@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "50315071096",
+    "project_id": "masajid2-test",
+    "storage_bucket": "masajid2-test.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50315071096:android:74ad8c587ca08dd986278d",
+        "android_client_info": {
+          "package_name": "com.example.mosque_management_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj7TVJc9zfn4tMf7f0RkUgZ3hYgu1zRkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

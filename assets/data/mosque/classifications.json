@@ -1,0 +1,14 @@
+[
+    {
+      "classification_id" : 1,
+      "classification_name" : "مسجد جامع"
+    },
+    {
+      "classification_id" : 2,
+      "classification_name" : "مسجد فروض"
+    },
+    {
+      "classification_id" : 3,
+      "classification_name" : "مصلى عيد"
+    }
+  ]

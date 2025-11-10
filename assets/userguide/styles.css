@@ -1,0 +1,312 @@
+:root{
+  /* ثبّت ألوان الثيم */
+  --md-primary-fg-color:#64995F;   /* الهيدر/عنوان الدروار */
+  --md-accent-fg-color:#64995F;    /* يزيل البنفسجي الافتراضي */
+
+  --theme-green:#64995F;
+  --theme-grey:#969696;
+  --theme-footer-text:#000000;
+  --hero-height:60vh;
+}
+
+/* ================= Header (brand + burger + line) ================= */
+.mh-header::after{
+  /* خط أبيض تحت الهيدر: Overlay لا يزيد الارتفاع (لا يؤثر على لصق الهيرو) */
+  content:"";
+  position:absolute; left:0; right:0; bottom:0;
+  height:1px; background:#fff; opacity:.95; pointer-events:none;
+}
+.mh-inner{
+  display:flex; align-items:center; gap:12px;
+  min-height:56px;
+  padding-inline:12px; padding-block:8px;
+  padding-top:max(8px, env(safe-area-inset-top)); /* دعم النوتش */
+}
+.mh-burger, .mh-action{
+  display:grid; place-items:center;
+  inline-size:40px; block-size:40px;
+  color:#fff; cursor:pointer;
+}
+.mh-burger svg, .mh-action svg{ display:block; }
+.mh-burger rect{ fill:#fff; }
+.mh-action path{ fill:#fff; }
+
+/* براند: ملف واحد (شعار + نص) */
+.mh-brand{
+  display:inline-flex; align-items:center; gap:12px;
+  color:#fff; text-decoration:none; pointer-events:auto;
+}
+.mh-lockup{
+  height:32px; /* CHANGED: كان 28px */
+  width:auto; display:block; image-rendering:auto;
+}
+@media (min-width:900px){
+  .mh-lockup{ height:40px; } /* CHANGED: كان 36px */
+}
+@media (max-width:360px){
+  .mh-lockup{ height:26px; } /* CHANGED: كان 24px */
+}
+.mh-spacer{ flex:1; }
+
+/* الفوتر */
+.md-footer{
+  background-color:var(--theme-green) !important;
+  color:var(--theme-footer-text) !important;
+  border-top:0 !important;
+}
+.md-footer a{ color:var(--theme-footer-text) !important; }
+
+/* ===== شريط فرعي اختياري (لن يعمل إلا لو موجود في الـHTML) ===== */
+.md-subtabs--below{
+  background:var(--theme-green);
+  color:#fff;
+  border-top:.05rem solid rgba(0,0,0,.04);
+}
+.md-subtabs--below .md-tabs__inner{ overflow:auto; }
+.md-subtabs--below .md-tabs__list{ display:flex; flex-wrap:wrap; }
+.md-subtabs--below .md-subtabs__link,
+.md-subtabs--below .md-tabs__link{
+  color:#fff; text-decoration:none; opacity:.9;
+  padding:.6rem .8rem; white-space:nowrap;
+}
+.md-subtabs--below .md-tabs__link:hover{ opacity:1; }
+.md-subtabs--below .md-tabs__link--active{
+  border-bottom:.15rem solid rgba(255,255,255,.95);
+  opacity:1;
+}
+@media (max-width:899.98px){ .md-subtabs{ display:none; } }
+
+/* ===== HERO ===== */
+.hero-full{
+  position:relative; color:#fff; height:var(--hero-height); block-size:var(--hero-height);
+  /* CHANGED: أزلنا url('img/hero.jpg') حتى لا يطلع 404، والهيرو يأخذ الخلفيات من --bg/JS */
+  background-image:var(--hero-bg, none);
+  background-size:cover; background-position:center; overflow:hidden; isolation:isolate;
+}
+.hero-layer{ pointer-events:none; }
+.hero-layer.hero-water{
+  position:absolute; inset:-12% -12% 0 -12%;
+  background:
+    radial-gradient(60% 40% at 20% 10%, rgba(255,255,255,.06), transparent 55%),
+    radial-gradient(46% 60% at 80% 90%, rgba(255,255,255,.05), transparent 55%);
+  mix-blend-mode:soft-light; animation:water-move 14s ease-in-out infinite alternate; z-index:1;
+}
+@keyframes water-move{ from{transform:translate3d(-2%,-1%,0) scale(1.02);} to{transform:translate3d(2%,1%,0) scale(1.05);} }
+.hero-layer.hero-overlay{
+  position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,0,0,.25), rgba(0,0,0,.55)); z-index:2;
+}
+.hero-bg{
+  position:absolute; inset:0; background-image:var(--bg); background-size:cover; background-position:center;
+  will-change:opacity, transform, background-position; animation:bgFade 24s infinite ease-in-out, bgPan 24s infinite ease-in-out;
+  z-index:0; transform:scale(1.06); filter:brightness(.92); pointer-events:none; opacity:0;
+}
+.bg1{animation-delay:0s,0s;} .bg2{animation-delay:6s,6s;} .bg3{animation-delay:12s,12s;} .bg4{animation-delay:18s,18s;}
+@keyframes bgFade{ 0%{opacity:0;} 8%{opacity:1;} 25%{opacity:1;} 33%{opacity:0;} 100%{opacity:0;} }
+@keyframes bgPan{ 0%{transform:scale(1.06) translate3d(0,0,0);} 50%{transform:scale(1.10) translate3d(.6%,-.6%,0);} 100%{transform:scale(1.06) translate3d(0,0,0);} }
+.hero-content{
+  position:relative; z-index:4; width:100%; height:100%;
+  padding-inline:clamp(12px,5vw,40px); padding-block:clamp(8px,4vh,26px);
+  display:grid; grid-template-rows:1fr auto;
+}
+.hero-slider{ position:relative; width:100%; height:100%; }
+.hero-slide{
+  position:absolute; inset:0; display:flex; justify-content:flex-end; align-items:center;
+  direction:rtl; text-align:right; padding-inline:clamp(12px,5vw,48px); gap:16px;
+  opacity:0; visibility:hidden; transform:translateX(6%); animation:heroCycle 24s infinite ease-in-out;
+  will-change:opacity,transform,visibility; z-index:2;
+}
+.slide-1{animation-delay:0s;} .slide-2{animation-delay:6s;} .slide-3{animation-delay:12s;} .slide-4{animation-delay:18s;}
+@keyframes heroCycle{
+  0%,7%{opacity:0;visibility:hidden;transform:translateX(6%);}
+  8%,25%{opacity:1;visibility:visible;transform:translateX(0);}
+  26%,100%{opacity:0;visibility:hidden;transform:translateX(-6%);}
+}
+.slide-text{ flex:0 1 var(--slide-w,640px); min-inline-size:min(86vw,520px); max-inline-size:min(96vw,900px); margin:0; line-height:1.7; }
+.slide-title{ font-size:clamp(24px,5.2vw,36px); font-weight:700; margin:0 0 8px; max-inline-size:22ch; }
+.slide-desc{ font-size:clamp(14px,3.2vw,18px); margin:0; max-inline-size:42ch; }
+.slide-illustration{
+  width:min(80vw,420px); height:min(36vh,320px);
+  object-fit:cover; border-radius:16px; border:1px solid rgba(255,255,255,.25);
+  box-shadow:0 10px 26px rgba(0,0,0,.25);
+}
+@media (min-width:900px){
+  .slide-text{max-inline-size:900px;}
+  .slide-illustration{width:100%; height:100%; max-height:360px;}
+}
+.hero-dots{
+  position:absolute; left:0; right:0; bottom:clamp(8px,4vh,18px);
+  display:flex; justify-content:center; gap:8px; z-index:4;
+}
+.hero-dots span{ width:8px; height:8px; border-radius:50%; background:rgba(255,255,255,.35); animation:dotCycle 24s infinite; }
+.hero-dots span:nth-child(1){animation-delay:0s;} .hero-dots span:nth-child(2){animation-delay:6s;}
+.hero-dots span:nth-child(3){animation-delay:12s;} .hero-dots span:nth-child(4){animation-delay:18s;}
+@keyframes dotCycle{ 0%,24%{background:rgba(255,255,255,.9); transform:scale(1.1);} 25%,100%{background:rgba(255,255,255,.35); transform:scale(1);} }
+
+/* توسيع الهيرو */
+.md-typeset > .hero-full,
+.md-content__inner > .hero-full{
+  width:100vw; max-width:100vw; margin-inline:calc(50% - 50vw); border-radius:0; box-shadow:none; overflow:clip;
+}
+@supports (width:100svw){
+  .md-typeset > .hero-full, .md-content__inner > .hero-full{
+    width:100svw; max-width:100svw; margin-inline:calc(50% - 50svw);
+  }
+}
+
+/* نسخة JS للهيرو */
+.hero-full[data-js="1"] .hero-bg,
+.hero-full[data-js="1"] .hero-slide,
+.hero-full[data-js="1"] .hero-dots span{ animation:none !important; }
+.hero-full[data-js="1"] .hero-bg,
+.hero-full[data-js="1"] .hero-slide{
+  opacity:0; visibility:hidden;
+  transition: opacity var(--fade,1.2s) var(--ease,ease),
+             transform var(--fade,1.2s) var(--ease,ease),
+             visibility 0s linear var(--fade,1.2s);
+  will-change:opacity,transform;
+}
+.hero-full[data-js="1"] .hero-slide{ transform:translateX(6%); }
+.hero-full[data-js="1"] .hero-bg.is-active,
+.hero-full[data-js="1"] .hero-slide.is-active{
+  opacity:1; visibility:visible; transform:none;
+  transition: opacity var(--fade,1.2s) var(--ease,ease),
+             transform var(--fade,1.2s) var(--ease,ease),
+             visibility 0s linear 0s;
+}
+.hero-full[data-js="1"] .hero-dots span{
+  background:rgba(255,255,255,.45); opacity:.55; transform:scale(1);
+  transition:transform .28s ease, opacity .28s ease, background-color .28s ease, box-shadow .28s ease;
+}
+.hero-full[data-js="1"] .hero-dots span.is-active{
+  opacity:1; transform:scale(1.55); background:#ffd54d;
+  box-shadow:0 0 0 3px rgba(255,213,77,.24), 0 2px 6px rgba(0,0,0,.25);
+}
+
+/* بطاقات الصور */
+.unit-card, .image-tile, .image-card, .figure-card, figure{ position:relative; overflow:hidden; border-radius:inherit; }
+.unit-card img, .image-tile img, .image-card img, .figure-card img, figure > img{ display:block; width:100%; height:auto; border-radius:inherit; }
+.unit-card .caption, .unit-card .desc, .image-tile .caption, .image-tile .desc,
+.image-card .caption, .image-card .desc, .figure-card .caption, .figure-card .desc,
+figure > .caption, figure > figcaption{
+  position:absolute !important; left:0; right:0; bottom:0; padding:12px 14px; color:#fff !important; font-weight:700; line-height:1.8; text-align:right;
+  display:block !important; white-space:normal !important; overflow:auto !important; max-height:100% !important; -webkit-overflow-scrolling:touch; overscroll-behavior:contain;
+  background:linear-gradient(to top, rgba(0,0,0,.70), rgba(0,0,0,.36) 46%, rgba(0,0,0,.16) 70%, transparent 100%); text-shadow:0 1px 6px rgba(0,0,0,.22); z-index:2;
+}
+:where(.unit-card,.image-tile,.image-card,.figure-card,figure)
+  :is(.caption,.desc,figcaption,[class*="caption"],[class*="desc"]){
+  display:block !important; max-height:100% !important; height:auto !important; overflow:auto !important; white-space:normal !important; text-overflow:clip !important;
+}
+
+/* لون الهيدر كمتغير يُعاد استخدامه */
+:root{ --mh-header-bg: var(--md-default-bg-color, #fff); }
+
+/* اجعل الهيدر بلا حدود/ظل على الموبايل عشان ما تظهر فجوة */
+@media (max-width:960px){
+  .mh-header{ border-bottom:0 !important; box-shadow:none !important; }
+}
+
+/* ========= لصق الهيرو بالهيدر — يعمل فقط عند وجود #home-hero ========= */
+html.has-hero .md-content::before{ content:none !important; display:none !important; height:0 !important; }
+html.has-hero .md-content__inner{ padding-top:0 !important; }
+html.has-hero #home-hero{ margin-top:0 !important; padding-top:0 !important; }
+@media (max-width:1200px){
+  html.has-hero .md-main{ margin-top: var(--md-header-height, 84px) !important; }
+  html.has-hero .md-sidebar--primary{ top: var(--md-header-height, 84px) !important; }
+  html.has-hero .md-overlay{
+    top: var(--md-header-height, 84px) !important;
+    height: calc(100vh - var(--md-header-height, 84px)) !important;
+  }
+}
+
+/* =================================================================== */
+/* == [NEW] Video (WebView-safe): يمنع القصّ ويخفف التفليشة السوداء == */
+/* =================================================================== */
+
+/* نسبة العرض الافتراضية للفيديوهات */
+:root{ --video-aspect: 16/9; }
+
+/* استهداف فيديوهات الصفحات فقط (بدون التأثير على البوت/خرائط/الخ) */
+.md-content .md-typeset video,
+.md-content .md-typeset iframe[allowfullscreen],
+.md-content .md-typeset iframe[src*="youtube.com"],
+.md-content .md-typeset iframe[src*="youtu.be"],
+.md-content .md-typeset iframe[src*="vimeo.com"],
+.md-content .video-box video,
+.md-content .video-box iframe{
+  position:relative;
+  display:block;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  aspect-ratio: var(--video-aspect);
+  object-fit: contain;          /* أهم سطر: يمنع قصّ الإطار */
+  object-position:center center;
+  background:#000;              /* حواف نظيفة حول الفيديو */
+  border:0;
+  overflow:visible;
+  /* تقليل وميض/سواد بعد الخروج من فل سكرين على WebView */
+  backface-visibility:hidden;
+  transform:translateZ(0);
+  will-change:transform;
+}
+
+/* لا تقيّد ارتفاع الفيديو بنصف الشاشة على الموبايل */
+@media (max-width: 768px){
+  .md-content .md-typeset video,
+  .md-content .md-typeset iframe[allowfullscreen],
+  .md-content .md-typeset iframe[src*="youtube.com"],
+  .md-content .md-typeset iframe[src*="youtu.be"],
+  .md-content .md-typeset iframe[src*="vimeo.com"],
+  .md-content .video-box video,
+  .md-content .video-box iframe{
+    max-height:none !important;   /* إزالة أي 50vh سابقة */
+  }
+}
+
+/* اظهار أدوات التحكم على WebKit (بدون المساس بالثيم) */
+.md-content .md-typeset video::-webkit-media-controls-panel{
+  display:flex !important;
+  opacity:1 !important;
+}
+.md-content .md-typeset video::-webkit-media-controls{
+  opacity:1 !important;
+}
+
+/* فل سكرين: ملأ الشاشة كلها بدون قصّ (مع بادئات) */
+video:fullscreen,
+video:-webkit-full-screen,
+iframe:fullscreen,
+iframe:-webkit-full-screen{
+  width:100vw !important;
+  height:100vh !important;
+  max-width:none !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+  background:#000 !important;
+}
+
+/* تقليل اهتزاز التراكيب عند الخروج من الفل سكرين */
+.md-content, .md-main{
+  overscroll-behavior:contain;  /* يمنع “نفضة” سريعة قد تسبّب فلاش */
+}
+
+/* دعم قديم إذا المتصفح ما يدعم aspect-ratio */
+@supports not (aspect-ratio: 16/9){
+  .md-content .video-box{
+    position:relative;
+    width:100% !important;
+    height:0 !important;
+    padding-top:calc(100% / (16 / 9)); /* 56.25% */
+    background:#000;
+    overflow:hidden;
+  }
+  .md-content .video-box > video,
+  .md-content .video-box > iframe{
+    position:absolute !important;
+    inset:0;
+    width:100% !important;
+    height:100% !important;
+    object-fit:contain;
+  }
+}

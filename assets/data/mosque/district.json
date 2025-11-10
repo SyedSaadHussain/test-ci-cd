@@ -1,0 +1,10686 @@
+[
+  {
+    "district_id": 56977,
+    "district_Name": "درة الشرائع"
+  },
+  {
+    "district_id": 56978,
+    "district_Name": "رابية مكة1"
+  },
+  {
+    "district_id": 56979,
+    "district_Name": "رابية مكة2"
+  },
+  {
+    "district_id": 56980,
+    "district_Name": "ربوة المطلات"
+  },
+  {
+    "district_id": 56981,
+    "district_Name": "رهجان"
+  },
+  {
+    "district_id": 56982,
+    "district_Name": "روشن"
+  },
+  {
+    "district_id": 56983,
+    "district_Name": "ريع ذاخر"
+  },
+  {
+    "district_id": 56984,
+    "district_Name": "زهرة كدي"
+  },
+  {
+    "district_id": 56985,
+    "district_Name": "ساحة إسلام"
+  },
+  {
+    "district_id": 56986,
+    "district_Name": "سبوحة"
+  },
+  {
+    "district_id": 56987,
+    "district_Name": "شارع منصور خلف الهلال"
+  },
+  {
+    "district_id": 56988,
+    "district_Name": "شامية المطارفة"
+  },
+  {
+    "district_id": 56989,
+    "district_Name": "شرائع المجاهدين"
+  },
+  {
+    "district_id": 56655,
+    "district_Name": "القاعد"
+  },
+  {
+    "district_id": 56990,
+    "district_Name": "شرائع النخيل"
+  },
+  {
+    "district_id": 56991,
+    "district_Name": "شرائع مخطط 1"
+  },
+  {
+    "district_id": 56992,
+    "district_Name": "شرائع مخطط10"
+  },
+  {
+    "district_id": 56993,
+    "district_Name": "شرائع مخطط11"
+  },
+  {
+    "district_id": 56994,
+    "district_Name": "شرائع مخطط12"
+  },
+  {
+    "district_id": 56995,
+    "district_Name": "شرائع مخطط13"
+  },
+  {
+    "district_id": 56996,
+    "district_Name": "شرائع مخطط14"
+  },
+  {
+    "district_id": 56997,
+    "district_Name": "شرائع مخطط15"
+  },
+  {
+    "district_id": 56998,
+    "district_Name": "شرائع مخطط2"
+  },
+  {
+    "district_id": 56999,
+    "district_Name": "شرائع مخطط3"
+  },
+  {
+    "district_id": 57000,
+    "district_Name": "شرائع مخطط4"
+  },
+  {
+    "district_id": 56652,
+    "district_Name": "شرق الأقليمي"
+  },
+  {
+    "district_id": 56975,
+    "district_Name": "طريق مكة جدة السريع"
+  },
+  {
+    "district_id": 56650,
+    "district_Name": "غير ذلك"
+  },
+  {
+    "district_id": 56662,
+    "district_Name": "مخطط المراصعة المعدل رقم ب/ب/518"
+  },
+  {
+    "district_id": 57025,
+    "district_Name": "هجرة آل ردة"
+  },
+  {
+    "district_id": 57026,
+    "district_Name": "واحة مكة"
+  },
+  {
+    "district_id": 54239,
+    "district_Name": "شرق أوثال"
+  },
+  {
+    "district_id": 54240,
+    "district_Name": "غرب أوثال"
+  },
+  {
+    "district_id": 54212,
+    "district_Name": "قرطبة"
+  },
+  {
+    "district_id": 56661,
+    "district_Name": "مخطط جدرة رقم ح/19"
+  },
+  {
+    "district_id": 57027,
+    "district_Name": "واحة مكة التطويري المعدل"
+  },
+  {
+    "district_id": 57028,
+    "district_Name": "وادي بني عمير"
+  },
+  {
+    "district_id": 57029,
+    "district_Name": "وادي نعمان"
+  },
+  {
+    "district_id": 57030,
+    "district_Name": "وادي نعمان (يسار الطالع للطائف)"
+  },
+  {
+    "district_id": 56666,
+    "district_Name": "ولي العهد"
+  },
+  {
+    "district_id": 57031,
+    "district_Name": "ولي العهد رقم 1"
+  },
+  {
+    "district_id": 57032,
+    "district_Name": "ولي العهد رقم 3"
+  },
+  {
+    "district_id": 57033,
+    "district_Name": "ولي العهد رقم 2"
+  },
+  {
+    "district_id": 57034,
+    "district_Name": "ولي العهد رقم 4"
+  },
+  {
+    "district_id": 57035,
+    "district_Name": "ولي العهد رقم 5"
+  },
+  {
+    "district_id": 57036,
+    "district_Name": "ولي العهد رقم 6"
+  },
+  {
+    "district_id": 57037,
+    "district_Name": "ولي العهد رقم 7"
+  },
+  {
+    "district_id": 57038,
+    "district_Name": "ولي العهد رقم 8"
+  },
+  {
+    "district_id": 54220,
+    "district_Name": "السلام"
+  },
+  {
+    "district_id": 57149,
+    "district_Name": "خلص"
+  },
+  {
+    "district_id": 57150,
+    "district_Name": "صوري"
+  },
+  {
+    "district_id": 54280,
+    "district_Name": "غاف الجواء"
+  },
+  {
+    "district_id": 54293,
+    "district_Name": "غرب دومة الجندل"
+  },
+  {
+    "district_id": 54245,
+    "district_Name": "غرناطة"
+  },
+  {
+    "district_id": 54250,
+    "district_Name": "غطي"
+  },
+  {
+    "district_id": 54248,
+    "district_Name": "قرية الرمثية"
+  },
+  {
+    "district_id": 57151,
+    "district_Name": "مخطط ملح"
+  },
+  {
+    "district_id": 54247,
+    "district_Name": "مركز المطيوي"
+  },
+  {
+    "district_id": 57131,
+    "district_Name": "الاكحل"
+  },
+  {
+    "district_id": 57132,
+    "district_Name": "الجرنافة"
+  },
+  {
+    "district_id": 57133,
+    "district_Name": "الحمنة"
+  },
+  {
+    "district_id": 57134,
+    "district_Name": "الرمضة"
+  },
+  {
+    "district_id": 57135,
+    "district_Name": "السديرة"
+  },
+  {
+    "district_id": 57136,
+    "district_Name": "الشفية"
+  },
+  {
+    "district_id": 57137,
+    "district_Name": "الشوامين"
+  },
+  {
+    "district_id": 57138,
+    "district_Name": "العطشان"
+  },
+  {
+    "district_id": 57139,
+    "district_Name": "الفقير"
+  },
+  {
+    "district_id": 57140,
+    "district_Name": "المجرمة"
+  },
+  {
+    "district_id": 57141,
+    "district_Name": "المنشار"
+  },
+  {
+    "district_id": 57142,
+    "district_Name": "المواريد"
+  },
+  {
+    "district_id": 57143,
+    "district_Name": "النقيعة"
+  },
+  {
+    "district_id": 57144,
+    "district_Name": "الهندية"
+  },
+  {
+    "district_id": 57145,
+    "district_Name": "اليتمه"
+  },
+  {
+    "district_id": 57146,
+    "district_Name": "ام البرك"
+  },
+  {
+    "district_id": 57147,
+    "district_Name": "ام العيال"
+  },
+  {
+    "district_id": 57148,
+    "district_Name": "أبو ضباع"
+  },
+  {
+    "district_id": 57045,
+    "district_Name": "العليا 1"
+  },
+  {
+    "district_id": 54200,
+    "district_Name": "الأندلس"
+  },
+  {
+    "district_id": 54197,
+    "district_Name": "رامات"
+  },
+  {
+    "district_id": 57042,
+    "district_Name": "البجيري"
+  },
+  {
+    "district_id": 57043,
+    "district_Name": "الجبيلة"
+  },
+  {
+    "district_id": 54206,
+    "district_Name": "الخليج"
+  },
+  {
+    "district_id": 54211,
+    "district_Name": "الدحلة"
+  },
+  {
+    "district_id": 54208,
+    "district_Name": "الديرة"
+  },
+  {
+    "district_id": 54198,
+    "district_Name": "الروضة"
+  },
+  {
+    "district_id": 54201,
+    "district_Name": "الريان"
+  },
+  {
+    "district_id": 54209,
+    "district_Name": "الزهرة"
+  },
+  {
+    "district_id": 57044,
+    "district_Name": "الطعس"
+  },
+  {
+    "district_id": 54199,
+    "district_Name": "العبيلة"
+  },
+  {
+    "district_id": 54202,
+    "district_Name": "القبعية"
+  },
+  {
+    "district_id": 54207,
+    "district_Name": "الملك فهد"
+  },
+  {
+    "district_id": 54203,
+    "district_Name": "المنار"
+  },
+  {
+    "district_id": 54205,
+    "district_Name": "النهضة"
+  },
+  {
+    "district_id": 54210,
+    "district_Name": "الياسمين"
+  },
+  {
+    "district_id": 54204,
+    "district_Name": "أم تلعة"
+  },
+  {
+    "district_id": 54390,
+    "district_Name": "صوفان"
+  },
+  {
+    "district_id": 54421,
+    "district_Name": "عثواء"
+  },
+  {
+    "district_id": 54403,
+    "district_Name": "غرناطة الغربي"
+  },
+  {
+    "district_id": 54412,
+    "district_Name": "قرية المهدي"
+  },
+  {
+    "district_id": 54422,
+    "district_Name": "قلعة شنقل"
+  },
+  {
+    "district_id": 54413,
+    "district_Name": "قنيع و النغيلة"
+  },
+  {
+    "district_id": 54447,
+    "district_Name": "مبروكة"
+  },
+  {
+    "district_id": 54395,
+    "district_Name": "مخطط البخرة"
+  },
+  {
+    "district_id": 54396,
+    "district_Name": "مخطط المعقص"
+  },
+  {
+    "district_id": 54386,
+    "district_Name": "مشرفة"
+  },
+  {
+    "district_id": 54415,
+    "district_Name": "نمران"
+  },
+  {
+    "district_id": 57165,
+    "district_Name": "السيل الصغير"
+  },
+  {
+    "district_id": 54480,
+    "district_Name": "ال سويدان"
+  },
+  {
+    "district_id": 57285,
+    "district_Name": "البتيله"
+  },
+  {
+    "district_id": 57286,
+    "district_Name": "البناء"
+  },
+  {
+    "district_id": 57287,
+    "district_Name": "البير"
+  },
+  {
+    "district_id": 57307,
+    "district_Name": "خرار"
+  },
+  {
+    "district_id": 57308,
+    "district_Name": "دالج"
+  },
+  {
+    "district_id": 57309,
+    "district_Name": "دبلاء"
+  },
+  {
+    "district_id": 57310,
+    "district_Name": "راده"
+  },
+  {
+    "district_id": 57311,
+    "district_Name": "رجال"
+  },
+  {
+    "district_id": 57312,
+    "district_Name": "رقعاء"
+  },
+  {
+    "district_id": 57313,
+    "district_Name": "ريم"
+  },
+  {
+    "district_id": 57314,
+    "district_Name": "سمعي"
+  },
+  {
+    "district_id": 57315,
+    "district_Name": "شصعه"
+  },
+  {
+    "district_id": 57316,
+    "district_Name": "شوكان"
+  },
+  {
+    "district_id": 57317,
+    "district_Name": "صلب"
+  },
+  {
+    "district_id": 57288,
+    "district_Name": "الجرف"
+  },
+  {
+    "district_id": 57318,
+    "district_Name": "عرمرم"
+  },
+  {
+    "district_id": 57319,
+    "district_Name": "عمقه"
+  },
+  {
+    "district_id": 57320,
+    "district_Name": "غمره"
+  },
+  {
+    "district_id": 57321,
+    "district_Name": "قارية بني جونه"
+  },
+  {
+    "district_id": 57322,
+    "district_Name": "كسان"
+  },
+  {
+    "district_id": 57323,
+    "district_Name": "مخطط بني زيد"
+  },
+  {
+    "district_id": 54489,
+    "district_Name": "مخطط رقم 258"
+  },
+  {
+    "district_id": 54468,
+    "district_Name": "مرحبين"
+  },
+  {
+    "district_id": 57289,
+    "district_Name": "الحبيل"
+  },
+  {
+    "district_id": 57290,
+    "district_Name": "الحقو بالحبيل"
+  },
+  {
+    "district_id": 54451,
+    "district_Name": "نجد"
+  },
+  {
+    "district_id": 57292,
+    "district_Name": "الصليل"
+  },
+  {
+    "district_id": 57293,
+    "district_Name": "العره"
+  },
+  {
+    "district_id": 57294,
+    "district_Name": "العقل"
+  },
+  {
+    "district_id": 57295,
+    "district_Name": "العوص"
+  },
+  {
+    "district_id": 57296,
+    "district_Name": "القرآن"
+  },
+  {
+    "district_id": 57297,
+    "district_Name": "المجمعه"
+  },
+  {
+    "district_id": 57298,
+    "district_Name": "الميل"
+  },
+  {
+    "district_id": 57299,
+    "district_Name": "النجدين"
+  },
+  {
+    "district_id": 57300,
+    "district_Name": "النميش"
+  },
+  {
+    "district_id": 57301,
+    "district_Name": "الوفيد"
+  },
+  {
+    "district_id": 57302,
+    "district_Name": "آل قفيل"
+  },
+  {
+    "district_id": 57303,
+    "district_Name": "آل مضواح"
+  },
+  {
+    "district_id": 57304,
+    "district_Name": "ثفقي"
+  },
+  {
+    "district_id": 57305,
+    "district_Name": "ثلوث حسوه"
+  },
+  {
+    "district_id": 57306,
+    "district_Name": "ثلوث ريم"
+  },
+  {
+    "district_id": 57324,
+    "district_Name": "وادي ريم"
+  },
+  {
+    "district_id": 57325,
+    "district_Name": "وادي فو"
+  },
+  {
+    "district_id": 54501,
+    "district_Name": "وهطان"
+  },
+  {
+    "district_id": 57326,
+    "district_Name": "يادمان"
+  },
+  {
+    "district_id": 57328,
+    "district_Name": "شعبة الحروب"
+  },
+  {
+    "district_id": 54573,
+    "district_Name": "شمسان"
+  },
+  {
+    "district_id": 54585,
+    "district_Name": "صفوان"
+  },
+  {
+    "district_id": 54546,
+    "district_Name": "صناعية الثقبة"
+  },
+  {
+    "district_id": 54584,
+    "district_Name": "صناعية الفوازية"
+  },
+  {
+    "district_id": 54576,
+    "district_Name": "طيبة"
+  },
+  {
+    "district_id": 54519,
+    "district_Name": "قصر العبدالله الشرقي"
+  },
+  {
+    "district_id": 57167,
+    "district_Name": "مخطط الريان"
+  },
+  {
+    "district_id": 54579,
+    "district_Name": "مزهرة"
+  },
+  {
+    "district_id": 54551,
+    "district_Name": "منطقة الخدمات أ"
+  },
+  {
+    "district_id": 54553,
+    "district_Name": "واحة الشمال"
+  },
+  {
+    "district_id": 54558,
+    "district_Name": "الأخضر"
+  },
+  {
+    "district_id": 57331,
+    "district_Name": "شارع الحج"
+  },
+  {
+    "district_id": 57332,
+    "district_Name": "شارع المنصور"
+  },
+  {
+    "district_id": 54593,
+    "district_Name": "شعار"
+  },
+  {
+    "district_id": 54608,
+    "district_Name": "عنيكر"
+  },
+  {
+    "district_id": 54644,
+    "district_Name": "لذة"
+  },
+  {
+    "district_id": 54587,
+    "district_Name": "محاسن ارامكو الأول"
+  },
+  {
+    "district_id": 54617,
+    "district_Name": "مخطط الخدمات المركزية"
+  },
+  {
+    "district_id": 54586,
+    "district_Name": "مسيحل"
+  },
+  {
+    "district_id": 54620,
+    "district_Name": "منطقة الخدمات ب"
+  },
+  {
+    "district_id": 54618,
+    "district_Name": "منطقة خاصة"
+  },
+  {
+    "district_id": 54614,
+    "district_Name": "هشيمة"
+  },
+  {
+    "district_id": 57193,
+    "district_Name": "خوعاء"
+  },
+  {
+    "district_id": 57188,
+    "district_Name": "ريع السمن"
+  },
+  {
+    "district_id": 57187,
+    "district_Name": "زلوم"
+  },
+  {
+    "district_id": 57190,
+    "district_Name": "شويحطيه"
+  },
+  {
+    "district_id": 57186,
+    "district_Name": "صوير"
+  },
+  {
+    "district_id": 54709,
+    "district_Name": "ضمد"
+  },
+  {
+    "district_id": 57191,
+    "district_Name": "طلعة عمار"
+  },
+  {
+    "district_id": 57192,
+    "district_Name": "عذفاء"
+  },
+  {
+    "district_id": 54689,
+    "district_Name": "عكاظ"
+  },
+  {
+    "district_id": 57183,
+    "district_Name": "غرب أبو عجرم"
+  },
+  {
+    "district_id": 54692,
+    "district_Name": "قرية الحوطة"
+  },
+  {
+    "district_id": 54677,
+    "district_Name": "مدينة التمور"
+  },
+  {
+    "district_id": 54702,
+    "district_Name": "منسوبي التعليم الأول"
+  },
+  {
+    "district_id": 54690,
+    "district_Name": "هجر الأول"
+  },
+  {
+    "district_id": 54671,
+    "district_Name": "هجر الثامن"
+  },
+  {
+    "district_id": 54676,
+    "district_Name": "هجر الثاني عشر"
+  },
+  {
+    "district_id": 57189,
+    "district_Name": "هدبان"
+  },
+  {
+    "district_id": 57185,
+    "district_Name": "هديب"
+  },
+  {
+    "district_id": 54683,
+    "district_Name": "وسط البلد"
+  },
+  {
+    "district_id": 57184,
+    "district_Name": "الشقيق"
+  },
+  {
+    "district_id": 57194,
+    "district_Name": "النظايم"
+  },
+  {
+    "district_id": 57182,
+    "district_Name": "أبو عجرم"
+  },
+  {
+    "district_id": 54787,
+    "district_Name": "سوق الماشية"
+  },
+  {
+    "district_id": 54775,
+    "district_Name": "شبرا"
+  },
+  {
+    "district_id": 54748,
+    "district_Name": "شمال الجامعة"
+  },
+  {
+    "district_id": 54780,
+    "district_Name": "صلاح الدين"
+  },
+  {
+    "district_id": 54731,
+    "district_Name": "مدينة العمال"
+  },
+  {
+    "district_id": 54779,
+    "district_Name": "مسرة"
+  },
+  {
+    "district_id": 54776,
+    "district_Name": "ميدان الهجن"
+  },
+  {
+    "district_id": 54765,
+    "district_Name": "نجران"
+  },
+  {
+    "district_id": 54756,
+    "district_Name": "هجر السابع"
+  },
+  {
+    "district_id": 54774,
+    "district_Name": "واحة الإسكان"
+  },
+  {
+    "district_id": 54857,
+    "district_Name": "سوق عكاظ"
+  },
+  {
+    "district_id": 54809,
+    "district_Name": "ضاحية الإسكان"
+  },
+  {
+    "district_id": 54822,
+    "district_Name": "غياضة"
+  },
+  {
+    "district_id": 54815,
+    "district_Name": "فرزان"
+  },
+  {
+    "district_id": 54800,
+    "district_Name": "قمبر"
+  },
+  {
+    "district_id": 54823,
+    "district_Name": "كلاخ"
+  },
+  {
+    "district_id": 54825,
+    "district_Name": "مخطط الاراضي الحكومية 3"
+  },
+  {
+    "district_id": 54827,
+    "district_Name": "مخطط الإسكان/1"
+  },
+  {
+    "district_id": 54816,
+    "district_Name": "مطار الملك سعود"
+  },
+  {
+    "district_id": 54797,
+    "district_Name": "وادي محرم الأسفل"
+  },
+  {
+    "district_id": 54861,
+    "district_Name": "شعبة الشيخ"
+  },
+  {
+    "district_id": 54904,
+    "district_Name": "شكر"
+  },
+  {
+    "district_id": 54878,
+    "district_Name": "صاغر"
+  },
+  {
+    "district_id": 54900,
+    "district_Name": "طويق"
+  },
+  {
+    "district_id": 54899,
+    "district_Name": "عدوان"
+  },
+  {
+    "district_id": 54879,
+    "district_Name": "عويره"
+  },
+  {
+    "district_id": 54881,
+    "district_Name": "عين حمزة"
+  },
+  {
+    "district_id": 54871,
+    "district_Name": "غرب العزيزية"
+  },
+  {
+    "district_id": 54903,
+    "district_Name": "قرن المنازل"
+  },
+  {
+    "district_id": 54918,
+    "district_Name": "لية العليا"
+  },
+  {
+    "district_id": 54876,
+    "district_Name": "محطة الارصاد"
+  },
+  {
+    "district_id": 54863,
+    "district_Name": "معشي"
+  },
+  {
+    "district_id": 54893,
+    "district_Name": "مناطق خاصة"
+  },
+  {
+    "district_id": 54864,
+    "district_Name": "نخب"
+  },
+  {
+    "district_id": 54926,
+    "district_Name": "الأجيال"
+  },
+  {
+    "district_id": 54967,
+    "district_Name": "شعب بران"
+  },
+  {
+    "district_id": 54964,
+    "district_Name": "شمال ارامكو"
+  },
+  {
+    "district_id": 54989,
+    "district_Name": "ضحكان 2"
+  },
+  {
+    "district_id": 54961,
+    "district_Name": "غرب الظهرة"
+  },
+  {
+    "district_id": 54938,
+    "district_Name": "مخطط الإسكان/2"
+  },
+  {
+    "district_id": 54988,
+    "district_Name": "مصلوم"
+  },
+  {
+    "district_id": 54930,
+    "district_Name": "نهيقة"
+  },
+  {
+    "district_id": 54944,
+    "district_Name": "ال منجم"
+  },
+  {
+    "district_id": 54954,
+    "district_Name": "الإسكان 2"
+  },
+  {
+    "district_id": 54937,
+    "district_Name": "الأثايبة"
+  },
+  {
+    "district_id": 54973,
+    "district_Name": "الأزهر"
+  },
+  {
+    "district_id": 54982,
+    "district_Name": "الأمير مشعل ب"
+  },
+  {
+    "district_id": 54950,
+    "district_Name": "البطحاء"
+  },
+  {
+    "district_id": 54997,
+    "district_Name": "الجبل"
+  },
+  {
+    "district_id": 54955,
+    "district_Name": "الحجاز"
+  },
+  {
+    "district_id": 54966,
+    "district_Name": "الحسام"
+  },
+  {
+    "district_id": 54960,
+    "district_Name": "الحضن"
+  },
+  {
+    "district_id": 54992,
+    "district_Name": "الحميضة"
+  },
+  {
+    "district_id": 55033,
+    "district_Name": "شراف"
+  },
+  {
+    "district_id": 55047,
+    "district_Name": "شرق السويفلة"
+  },
+  {
+    "district_id": 55001,
+    "district_Name": "شعب ذهبان"
+  },
+  {
+    "district_id": 55062,
+    "district_Name": "شمال الحصينية"
+  },
+  {
+    "district_id": 55030,
+    "district_Name": "صناعي"
+  },
+  {
+    "district_id": 55052,
+    "district_Name": "صهبان"
+  },
+  {
+    "district_id": 55036,
+    "district_Name": "عكام"
+  },
+  {
+    "district_id": 55010,
+    "district_Name": "فوار"
+  },
+  {
+    "district_id": 55059,
+    "district_Name": "قريان"
+  },
+  {
+    "district_id": 55038,
+    "district_Name": "كورنيش حائل"
+  },
+  {
+    "district_id": 55046,
+    "district_Name": "لبدة"
+  },
+  {
+    "district_id": 55008,
+    "district_Name": "محطة الكهرباء"
+  },
+  {
+    "district_id": 55007,
+    "district_Name": "مصنع الاسمنت"
+  },
+  {
+    "district_id": 55025,
+    "district_Name": "مليحة"
+  },
+  {
+    "district_id": 55042,
+    "district_Name": "منتزة الملك فهد بن عبدالعزيز"
+  },
+  {
+    "district_id": 55034,
+    "district_Name": "منطقة الارسال الاذاعي"
+  },
+  {
+    "district_id": 55041,
+    "district_Name": "منطقة الأخدود الأثرية"
+  },
+  {
+    "district_id": 55009,
+    "district_Name": "منطقة تحلية المياة"
+  },
+  {
+    "district_id": 55056,
+    "district_Name": "وعيرة"
+  },
+  {
+    "district_id": 55045,
+    "district_Name": "ال منيف"
+  },
+  {
+    "district_id": 55026,
+    "district_Name": "اللؤلؤة 2"
+  },
+  {
+    "district_id": 55108,
+    "district_Name": "شعب رير"
+  },
+  {
+    "district_id": 55131,
+    "district_Name": "صحيفات"
+  },
+  {
+    "district_id": 55121,
+    "district_Name": "ضحكان 1"
+  },
+  {
+    "district_id": 55100,
+    "district_Name": "عقود"
+  },
+  {
+    "district_id": 55114,
+    "district_Name": "فواز"
+  },
+  {
+    "district_id": 55124,
+    "district_Name": "قراقر"
+  },
+  {
+    "district_id": 55102,
+    "district_Name": "ماقان"
+  },
+  {
+    "district_id": 55126,
+    "district_Name": "منطقة أحواش أغنام"
+  },
+  {
+    "district_id": 55127,
+    "district_Name": "منطقة خدمات 2"
+  },
+  {
+    "district_id": 55134,
+    "district_Name": "نشوان"
+  },
+  {
+    "district_id": 55135,
+    "district_Name": "نهوقة"
+  },
+  {
+    "district_id": 55111,
+    "district_Name": "البركة"
+  },
+  {
+    "district_id": 55115,
+    "district_Name": "الجفة"
+  },
+  {
+    "district_id": 55075,
+    "district_Name": "الجنجت 1"
+  },
+  {
+    "district_id": 55118,
+    "district_Name": "الجنجت 2"
+  },
+  {
+    "district_id": 55072,
+    "district_Name": "الحرشت"
+  },
+  {
+    "district_id": 55109,
+    "district_Name": "الحصين"
+  },
+  {
+    "district_id": 55086,
+    "district_Name": "الخالدية و اليرموك"
+  },
+  {
+    "district_id": 55146,
+    "district_Name": "صناعي 2"
+  },
+  {
+    "district_id": 55149,
+    "district_Name": "مخطط الملك عبدالله للإسكان"
+  },
+  {
+    "district_id": 55189,
+    "district_Name": "مخطط بقعاء الشرقية"
+  },
+  {
+    "district_id": 55147,
+    "district_Name": "منطقة خدمات 1"
+  },
+  {
+    "district_id": 55148,
+    "district_Name": "منطقة خدمات 3"
+  },
+  {
+    "district_id": 55169,
+    "district_Name": "وادي الهاشة"
+  },
+  {
+    "district_id": 55163,
+    "district_Name": "الإيمان"
+  },
+  {
+    "district_id": 55197,
+    "district_Name": "الأحمر"
+  },
+  {
+    "district_id": 55179,
+    "district_Name": "التاسع"
+  },
+  {
+    "district_id": 55155,
+    "district_Name": "الثغر"
+  },
+  {
+    "district_id": 55250,
+    "district_Name": "شباعة"
+  },
+  {
+    "district_id": 55246,
+    "district_Name": "صناعية اليمانية"
+  },
+  {
+    "district_id": 55243,
+    "district_Name": "غران"
+  },
+  {
+    "district_id": 55221,
+    "district_Name": "غرب الخالدية"
+  },
+  {
+    "district_id": 55238,
+    "district_Name": "قاعدة الملك فيصل البحرية"
+  },
+  {
+    "district_id": 55233,
+    "district_Name": "لزمه"
+  },
+  {
+    "district_id": 55211,
+    "district_Name": "مخطط الاراضي الحكومية 4"
+  },
+  {
+    "district_id": 55244,
+    "district_Name": "مخطط السكراب"
+  },
+  {
+    "district_id": 55227,
+    "district_Name": "مخطط الغزلاني"
+  },
+  {
+    "district_id": 55269,
+    "district_Name": "وسط المدينة"
+  },
+  {
+    "district_id": 55301,
+    "district_Name": "شاطىء القطيف"
+  },
+  {
+    "district_id": 55326,
+    "district_Name": "صناعي 1"
+  },
+  {
+    "district_id": 55322,
+    "district_Name": "طابة"
+  },
+  {
+    "district_id": 55286,
+    "district_Name": "عنقرة"
+  },
+  {
+    "district_id": 55274,
+    "district_Name": "عيانة 1"
+  },
+  {
+    "district_id": 55309,
+    "district_Name": "عيانة 2"
+  },
+  {
+    "district_id": 55304,
+    "district_Name": "غليل"
+  },
+  {
+    "district_id": 55312,
+    "district_Name": "قباء"
+  },
+  {
+    "district_id": 55318,
+    "district_Name": "مخطط الظهيره"
+  },
+  {
+    "district_id": 55324,
+    "district_Name": "مخطط صلاح الدين"
+  },
+  {
+    "district_id": 55335,
+    "district_Name": "مدائن الفهد"
+  },
+  {
+    "district_id": 55311,
+    "district_Name": "مريخ"
+  },
+  {
+    "district_id": 55337,
+    "district_Name": "مطار الأمير عبد المحسن بن عبدالعزيز"
+  },
+  {
+    "district_id": 55295,
+    "district_Name": "مطار الملك عبدالعزيز"
+  },
+  {
+    "district_id": 55342,
+    "district_Name": "منطقة خدمات ترفيهية"
+  },
+  {
+    "district_id": 55277,
+    "district_Name": "هداج"
+  },
+  {
+    "district_id": 55363,
+    "district_Name": "شمال تندحة"
+  },
+  {
+    "district_id": 55395,
+    "district_Name": "عتود الجنوبي"
+  },
+  {
+    "district_id": 55396,
+    "district_Name": "عتود الشمالي"
+  },
+  {
+    "district_id": 55385,
+    "district_Name": "قرية السيايرة"
+  },
+  {
+    "district_id": 55345,
+    "district_Name": "كتانة"
+  },
+  {
+    "district_id": 55405,
+    "district_Name": "مجمع الدوائر الحكومية"
+  },
+  {
+    "district_id": 55382,
+    "district_Name": "محاسن ارامكو الثاني"
+  },
+  {
+    "district_id": 55383,
+    "district_Name": "مدينة الحجاج"
+  },
+  {
+    "district_id": 55410,
+    "district_Name": "هجر الخامس"
+  },
+  {
+    "district_id": 55357,
+    "district_Name": "هجر العاشر"
+  },
+  {
+    "district_id": 55358,
+    "district_Name": "هجر"
+  },
+  {
+    "district_id": 55362,
+    "district_Name": "وسط تندحة"
+  },
+  {
+    "district_id": 55390,
+    "district_Name": "الإسكان 1"
+  },
+  {
+    "district_id": 55347,
+    "district_Name": "الأصالة"
+  },
+  {
+    "district_id": 55400,
+    "district_Name": "الأمجاد"
+  },
+  {
+    "district_id": 55394,
+    "district_Name": "الأمراء"
+  },
+  {
+    "district_id": 55369,
+    "district_Name": "البحاري"
+  },
+  {
+    "district_id": 55435,
+    "district_Name": "سودة"
+  },
+  {
+    "district_id": 55426,
+    "district_Name": "شبوك الاغنام"
+  },
+  {
+    "district_id": 55439,
+    "district_Name": "شمال التضامن"
+  },
+  {
+    "district_id": 55451,
+    "district_Name": "صبابة"
+  },
+  {
+    "district_id": 55445,
+    "district_Name": "صدر الغربية"
+  },
+  {
+    "district_id": 55440,
+    "district_Name": "ضمك"
+  },
+  {
+    "district_id": 55436,
+    "district_Name": "قرية الرميلة"
+  },
+  {
+    "district_id": 55424,
+    "district_Name": "قرية العرامية"
+  },
+  {
+    "district_id": 55462,
+    "district_Name": "مثلث الشرقية"
+  },
+  {
+    "district_id": 55417,
+    "district_Name": "مريبطة"
+  },
+  {
+    "district_id": 55420,
+    "district_Name": "مطار الأحساء"
+  },
+  {
+    "district_id": 55450,
+    "district_Name": "مغيضة"
+  },
+  {
+    "district_id": 55441,
+    "district_Name": "ميناء جدة الاسلامي"
+  },
+  {
+    "district_id": 55433,
+    "district_Name": "نادي الفروسية"
+  },
+  {
+    "district_id": 55444,
+    "district_Name": "هجر الرابع"
+  },
+  {
+    "district_id": 55461,
+    "district_Name": "هجر السادس"
+  },
+  {
+    "district_id": 55468,
+    "district_Name": "النرجس 1"
+  },
+  {
+    "district_id": 55525,
+    "district_Name": "شعثاء"
+  },
+  {
+    "district_id": 55503,
+    "district_Name": "صويدرة"
+  },
+  {
+    "district_id": 55499,
+    "district_Name": "قرية العمران الجنوبي"
+  },
+  {
+    "district_id": 55488,
+    "district_Name": "محاسن ارامكو الثالث"
+  },
+  {
+    "district_id": 55504,
+    "district_Name": "محاسن ارامكو الرابع"
+  },
+  {
+    "district_id": 55500,
+    "district_Name": "محاسن الأول"
+  },
+  {
+    "district_id": 55484,
+    "district_Name": "محاسن الثاني"
+  },
+  {
+    "district_id": 55517,
+    "district_Name": "محيرس"
+  },
+  {
+    "district_id": 55490,
+    "district_Name": "مخطط الإتصالات"
+  },
+  {
+    "district_id": 55497,
+    "district_Name": "مخطط الحفل"
+  },
+  {
+    "district_id": 55526,
+    "district_Name": "مخطط الربيع"
+  },
+  {
+    "district_id": 55528,
+    "district_Name": "منطقة الايداع واعادة التصدير"
+  },
+  {
+    "district_id": 55529,
+    "district_Name": "منطقة خدمات حكومية"
+  },
+  {
+    "district_id": 55501,
+    "district_Name": "منيفة"
+  },
+  {
+    "district_id": 55487,
+    "district_Name": "هجر الثاني"
+  },
+  {
+    "district_id": 55520,
+    "district_Name": "وسط العيون"
+  },
+  {
+    "district_id": 55543,
+    "district_Name": "يدمة الاول و الثاني"
+  },
+  {
+    "district_id": 55590,
+    "district_Name": "ضاحية الامير سلطان الجنوبية"
+  },
+  {
+    "district_id": 55592,
+    "district_Name": "ضاحية الامير سلطان الشمالية"
+  },
+  {
+    "district_id": 55610,
+    "district_Name": "ضاحية الحائرية"
+  },
+  {
+    "district_id": 55609,
+    "district_Name": "ضاحية القويعية"
+  },
+  {
+    "district_id": 55555,
+    "district_Name": "عروة"
+  },
+  {
+    "district_id": 55597,
+    "district_Name": "عطف الوزران"
+  },
+  {
+    "district_id": 55587,
+    "district_Name": "عين مرجان"
+  },
+  {
+    "district_id": 55571,
+    "district_Name": "عين موسى"
+  },
+  {
+    "district_id": 55579,
+    "district_Name": "عين نجم"
+  },
+  {
+    "district_id": 55605,
+    "district_Name": "قروى"
+  },
+  {
+    "district_id": 55553,
+    "district_Name": "مجمع الدوائر الحكومية الأول"
+  },
+  {
+    "district_id": 55564,
+    "district_Name": "محمية المانجروف"
+  },
+  {
+    "district_id": 55576,
+    "district_Name": "مدينة الملك عبدالله العسكرية"
+  },
+  {
+    "district_id": 55595,
+    "district_Name": "مقايل"
+  },
+  {
+    "district_id": 55589,
+    "district_Name": "نعمان"
+  },
+  {
+    "district_id": 55565,
+    "district_Name": "هجر التاسع"
+  },
+  {
+    "district_id": 55568,
+    "district_Name": "هجر الحادي عشر"
+  },
+  {
+    "district_id": 55593,
+    "district_Name": "وادي رانية 1"
+  },
+  {
+    "district_id": 55663,
+    "district_Name": "شمال أوثال"
+  },
+  {
+    "district_id": 55657,
+    "district_Name": "ضارج"
+  },
+  {
+    "district_id": 55632,
+    "district_Name": "طوى"
+  },
+  {
+    "district_id": 55668,
+    "district_Name": "فليج"
+  },
+  {
+    "district_id": 55670,
+    "district_Name": "قرية الجثامية"
+  },
+  {
+    "district_id": 55673,
+    "district_Name": "قرية المنتشري"
+  },
+  {
+    "district_id": 55680,
+    "district_Name": "قنة وقدان"
+  },
+  {
+    "district_id": 55627,
+    "district_Name": "كدي"
+  },
+  {
+    "district_id": 55619,
+    "district_Name": "لية السفلي"
+  },
+  {
+    "district_id": 55644,
+    "district_Name": "مخطط الحمراني"
+  },
+  {
+    "district_id": 55629,
+    "district_Name": "مخطط المعقص 2"
+  },
+  {
+    "district_id": 55674,
+    "district_Name": "مخطط أل سيلان"
+  },
+  {
+    "district_id": 55640,
+    "district_Name": "مخطط ربوة المعقص"
+  },
+  {
+    "district_id": 55621,
+    "district_Name": "مطار الطائف الدولي"
+  },
+  {
+    "district_id": 55614,
+    "district_Name": "منتزة الطائف الوطني بسيسد"
+  },
+  {
+    "district_id": 55672,
+    "district_Name": "ناخسة"
+  },
+  {
+    "district_id": 55649,
+    "district_Name": "نقرة قفار"
+  },
+  {
+    "district_id": 55643,
+    "district_Name": "نمرة"
+  },
+  {
+    "district_id": 55748,
+    "district_Name": "شعب علي"
+  },
+  {
+    "district_id": 55712,
+    "district_Name": "عين الخيف"
+  },
+  {
+    "district_id": 55698,
+    "district_Name": "عين بن فهيد"
+  },
+  {
+    "district_id": 55731,
+    "district_Name": "قرية عقدة الشمالية"
+  },
+  {
+    "district_id": 55710,
+    "district_Name": "قرية نقبين"
+  },
+  {
+    "district_id": 55696,
+    "district_Name": "قصر العبدالله الغربي"
+  },
+  {
+    "district_id": 55684,
+    "district_Name": "مثملة"
+  },
+  {
+    "district_id": 55702,
+    "district_Name": "مخطط المدارات"
+  },
+  {
+    "district_id": 55733,
+    "district_Name": "معاد"
+  },
+  {
+    "district_id": 55736,
+    "district_Name": "ملهي"
+  },
+  {
+    "district_id": 55741,
+    "district_Name": "مهبط"
+  },
+  {
+    "district_id": 55721,
+    "district_Name": "وادي جليل"
+  },
+  {
+    "district_id": 55735,
+    "district_Name": "وادي رانية 2"
+  },
+  {
+    "district_id": 55730,
+    "district_Name": "الباطن"
+  },
+  {
+    "district_id": 55691,
+    "district_Name": "البيبان"
+  },
+  {
+    "district_id": 55724,
+    "district_Name": "الجفيجف"
+  },
+  {
+    "district_id": 55783,
+    "district_Name": "شهار"
+  },
+  {
+    "district_id": 55770,
+    "district_Name": "قرية النيصية"
+  },
+  {
+    "district_id": 55768,
+    "district_Name": "قرية عريجاء"
+  },
+  {
+    "district_id": 55779,
+    "district_Name": "كويكب"
+  },
+  {
+    "district_id": 55754,
+    "district_Name": "مخطط الأعلاف و حظائر المواشى"
+  },
+  {
+    "district_id": 55772,
+    "district_Name": "مخطط فيصل"
+  },
+  {
+    "district_id": 55808,
+    "district_Name": "منطقة التنمية1"
+  },
+  {
+    "district_id": 55809,
+    "district_Name": "منطقة التنمية2"
+  },
+  {
+    "district_id": 55802,
+    "district_Name": "نايف"
+  },
+  {
+    "district_id": 55761,
+    "district_Name": "هجرة طلعة التمياط"
+  },
+  {
+    "district_id": 55803,
+    "district_Name": "وادي مذينب"
+  },
+  {
+    "district_id": 55755,
+    "district_Name": "يبرين"
+  },
+  {
+    "district_id": 55763,
+    "district_Name": "الأصيفرين"
+  },
+  {
+    "district_id": 55811,
+    "district_Name": "التعاون 2"
+  },
+  {
+    "district_id": 55799,
+    "district_Name": "الثنية"
+  },
+  {
+    "district_id": 55762,
+    "district_Name": "الجصة"
+  },
+  {
+    "district_id": 55801,
+    "district_Name": "الحديبية"
+  },
+  {
+    "district_id": 55758,
+    "district_Name": "الحديقة"
+  },
+  {
+    "district_id": 55766,
+    "district_Name": "الحفيا"
+  },
+  {
+    "district_id": 55863,
+    "district_Name": "شعب الخرابة"
+  },
+  {
+    "district_id": 55833,
+    "district_Name": "صحارى"
+  },
+  {
+    "district_id": 55845,
+    "district_Name": "علقة"
+  },
+  {
+    "district_id": 55874,
+    "district_Name": "غرب الظهران"
+  },
+  {
+    "district_id": 55827,
+    "district_Name": "قبيبان"
+  },
+  {
+    "district_id": 55844,
+    "district_Name": "قرية اجا"
+  },
+  {
+    "district_id": 55864,
+    "district_Name": "قرية الشعوب"
+  },
+  {
+    "district_id": 55865,
+    "district_Name": "قرية مساوي كريرى"
+  },
+  {
+    "district_id": 55828,
+    "district_Name": "مخطط 802"
+  },
+  {
+    "district_id": 55871,
+    "district_Name": "مخطط البلدية"
+  },
+  {
+    "district_id": 55824,
+    "district_Name": "مخطط رقم 1452"
+  },
+  {
+    "district_id": 55829,
+    "district_Name": "مخطط رقم 1141"
+  },
+  {
+    "district_id": 55873,
+    "district_Name": "مخطط رقم 1209"
+  },
+  {
+    "district_id": 55885,
+    "district_Name": "مخطط رقم 0832"
+  },
+  {
+    "district_id": 55841,
+    "district_Name": "مدينة الخدمات"
+  },
+  {
+    "district_id": 55858,
+    "district_Name": "مدينة الملك فيصل الجامعية"
+  },
+  {
+    "district_id": 55819,
+    "district_Name": "مريفق"
+  },
+  {
+    "district_id": 55830,
+    "district_Name": "معصم"
+  },
+  {
+    "district_id": 55837,
+    "district_Name": "منطقة المستودعات"
+  },
+  {
+    "district_id": 55882,
+    "district_Name": "منطقة مردم النفايات القديم"
+  },
+  {
+    "district_id": 55881,
+    "district_Name": "ميناء ينبع التجارى"
+  },
+  {
+    "district_id": 55854,
+    "district_Name": "هجرة سليم"
+  },
+  {
+    "district_id": 55938,
+    "district_Name": "شوران"
+  },
+  {
+    "district_id": 55914,
+    "district_Name": "صناعية الشرافا"
+  },
+  {
+    "district_id": 55929,
+    "district_Name": "غرب أجا"
+  },
+  {
+    "district_id": 55943,
+    "district_Name": "قائم الخمسين"
+  },
+  {
+    "district_id": 55944,
+    "district_Name": "قائم العتنة"
+  },
+  {
+    "district_id": 55951,
+    "district_Name": "قصر الخليج"
+  },
+  {
+    "district_id": 55918,
+    "district_Name": "مخطط 326"
+  },
+  {
+    "district_id": 55939,
+    "district_Name": "مخطط 331"
+  },
+  {
+    "district_id": 55935,
+    "district_Name": "مخطط رقم 980"
+  },
+  {
+    "district_id": 55936,
+    "district_Name": "مخطط رقم 250-أ"
+  },
+  {
+    "district_id": 55937,
+    "district_Name": "مخطط رقم 484"
+  },
+  {
+    "district_id": 55910,
+    "district_Name": "مدينة الملك عبدالله للطاقة"
+  },
+  {
+    "district_id": 55953,
+    "district_Name": "مزعل"
+  },
+  {
+    "district_id": 55897,
+    "district_Name": "معكال"
+  },
+  {
+    "district_id": 55923,
+    "district_Name": "منطقة الخدمات المساندة"
+  },
+  {
+    "district_id": 55949,
+    "district_Name": "منفوحة"
+  },
+  {
+    "district_id": 55925,
+    "district_Name": "مياس"
+  },
+  {
+    "district_id": 55933,
+    "district_Name": "نعام"
+  },
+  {
+    "district_id": 55930,
+    "district_Name": "ورقان"
+  },
+  {
+    "district_id": 55999,
+    "district_Name": "شـظاة"
+  },
+  {
+    "district_id": 55960,
+    "district_Name": "صقرة"
+  },
+  {
+    "district_id": 56017,
+    "district_Name": "عتيقة"
+  },
+  {
+    "district_id": 55990,
+    "district_Name": "عنك"
+  },
+  {
+    "district_id": 56006,
+    "district_Name": "غبيرا"
+  },
+  {
+    "district_id": 55961,
+    "district_Name": "فيضة الفوازين"
+  },
+  {
+    "district_id": 56016,
+    "district_Name": "لبن"
+  },
+  {
+    "district_id": 55986,
+    "district_Name": "مجعر"
+  },
+  {
+    "district_id": 56013,
+    "district_Name": "محطة الارسال الاذاعي"
+  },
+  {
+    "district_id": 55985,
+    "district_Name": "مختارة 2"
+  },
+  {
+    "district_id": 55984,
+    "district_Name": "مختارة"
+  },
+  {
+    "district_id": 55979,
+    "district_Name": "مخطط 699"
+  },
+  {
+    "district_id": 55955,
+    "district_Name": "مخطط رقم 913"
+  },
+  {
+    "district_id": 55980,
+    "district_Name": "مخطط رقم 247"
+  },
+  {
+    "district_id": 55982,
+    "district_Name": "مخطط رقم 232"
+  },
+  {
+    "district_id": 56014,
+    "district_Name": "مخطط رقم 506"
+  },
+  {
+    "district_id": 56015,
+    "district_Name": "مخطط رقم 133"
+  },
+  {
+    "district_id": 56012,
+    "district_Name": "مخطط رقم725"
+  },
+  {
+    "district_id": 56009,
+    "district_Name": "منفوحة الجديدة"
+  },
+  {
+    "district_id": 56000,
+    "district_Name": "ميناء الملك عبدالعزيز"
+  },
+  {
+    "district_id": 56028,
+    "district_Name": "ظهرة العودة شرق"
+  },
+  {
+    "district_id": 56044,
+    "district_Name": "عرقة"
+  },
+  {
+    "district_id": 56027,
+    "district_Name": "مخطط 313"
+  },
+  {
+    "district_id": 56065,
+    "district_Name": "مخطط 433"
+  },
+  {
+    "district_id": 56063,
+    "district_Name": "مخطط 525"
+  },
+  {
+    "district_id": 56073,
+    "district_Name": "مخطط 607"
+  },
+  {
+    "district_id": 56039,
+    "district_Name": "مخطط 689"
+  },
+  {
+    "district_id": 56064,
+    "district_Name": "مخطط 794"
+  },
+  {
+    "district_id": 56050,
+    "district_Name": "مخطط 811"
+  },
+  {
+    "district_id": 56040,
+    "district_Name": "مخطط 983"
+  },
+  {
+    "district_id": 56038,
+    "district_Name": "مخطط رقم 120"
+  },
+  {
+    "district_id": 56075,
+    "district_Name": "مخطط رقم 653"
+  },
+  {
+    "district_id": 56081,
+    "district_Name": "مخطط رقم 1083"
+  },
+  {
+    "district_id": 56085,
+    "district_Name": "مخطط رقم 621"
+  },
+  {
+    "district_id": 56047,
+    "district_Name": "مرخ"
+  },
+  {
+    "district_id": 56079,
+    "district_Name": "مشار"
+  },
+  {
+    "district_id": 56090,
+    "district_Name": "منطقة استراحات حمد الجبرين"
+  },
+  {
+    "district_id": 56035,
+    "district_Name": "نزوى"
+  },
+  {
+    "district_id": 56033,
+    "district_Name": "نوارة"
+  },
+  {
+    "district_id": 56143,
+    "district_Name": "عليشة"
+  },
+  {
+    "district_id": 56112,
+    "district_Name": "قعضبا"
+  },
+  {
+    "district_id": 56120,
+    "district_Name": "مخطط 575"
+  },
+  {
+    "district_id": 56095,
+    "district_Name": "مخطط 749"
+  },
+  {
+    "district_id": 56094,
+    "district_Name": "مخطط رقم 1039"
+  },
+  {
+    "district_id": 56101,
+    "district_Name": "مخطط رقم 148"
+  },
+  {
+    "district_id": 56104,
+    "district_Name": "مخطط رقم 1033"
+  },
+  {
+    "district_id": 56105,
+    "district_Name": "مخطط رقم 985"
+  },
+  {
+    "district_id": 56119,
+    "district_Name": "مخطط رقم 62"
+  },
+  {
+    "district_id": 56131,
+    "district_Name": "مخطط رقم 496"
+  },
+  {
+    "district_id": 56147,
+    "district_Name": "مخطط رقم 814"
+  },
+  {
+    "district_id": 56113,
+    "district_Name": "مركز الشرارة"
+  },
+  {
+    "district_id": 56108,
+    "district_Name": "مشيرفة"
+  },
+  {
+    "district_id": 56142,
+    "district_Name": "نمار"
+  },
+  {
+    "district_id": 56140,
+    "district_Name": "وادي لبن"
+  },
+  {
+    "district_id": 56179,
+    "district_Name": "الحمر الجنوبي"
+  },
+  {
+    "district_id": 56183,
+    "district_Name": "الحوطة"
+  },
+  {
+    "district_id": 56173,
+    "district_Name": "المدينة الصناعية2"
+  },
+  {
+    "district_id": 56215,
+    "district_Name": "صاحب البار"
+  },
+  {
+    "district_id": 56160,
+    "district_Name": "غسلة"
+  },
+  {
+    "district_id": 56226,
+    "district_Name": "قرية العمران الشرقية"
+  },
+  {
+    "district_id": 56164,
+    "district_Name": "قريوة"
+  },
+  {
+    "district_id": 56174,
+    "district_Name": "مخطط 94"
+  },
+  {
+    "district_id": 56161,
+    "district_Name": "مخطط 144"
+  },
+  {
+    "district_id": 56176,
+    "district_Name": "مخطط 315"
+  },
+  {
+    "district_id": 56202,
+    "district_Name": "مخطط 543"
+  },
+  {
+    "district_id": 56220,
+    "district_Name": "مخطط 740"
+  },
+  {
+    "district_id": 56218,
+    "district_Name": "مخطط 820"
+  },
+  {
+    "district_id": 56221,
+    "district_Name": "مخطط 884"
+  },
+  {
+    "district_id": 56219,
+    "district_Name": "مخطط 908"
+  },
+  {
+    "district_id": 56217,
+    "district_Name": "مخطط 1/242"
+  },
+  {
+    "district_id": 56197,
+    "district_Name": "مخطط الاراض البيضاء 1"
+  },
+  {
+    "district_id": 56198,
+    "district_Name": "مخطط الاراض البيضاء 2"
+  },
+  {
+    "district_id": 56199,
+    "district_Name": "مخطط الاراضي البيضاء 3"
+  },
+  {
+    "district_id": 56168,
+    "district_Name": "مخطط المعلق"
+  },
+  {
+    "district_id": 56172,
+    "district_Name": "مخطط رقم 1051"
+  },
+  {
+    "district_id": 56169,
+    "district_Name": "مخطط رقم 822"
+  },
+  {
+    "district_id": 56163,
+    "district_Name": "مخطط فرعة الرميثي"
+  },
+  {
+    "district_id": 56188,
+    "district_Name": "مطار الملك خالد الدولي"
+  },
+  {
+    "district_id": 56178,
+    "district_Name": "منطقة استثمارات البلدية"
+  },
+  {
+    "district_id": 56200,
+    "district_Name": "منطقة الغويبة الزراعية"
+  },
+  {
+    "district_id": 56204,
+    "district_Name": "وادي الرمة"
+  },
+  {
+    "district_id": 56181,
+    "district_Name": "الاحتفالات"
+  },
+  {
+    "district_id": 56175,
+    "district_Name": "الاقرن"
+  },
+  {
+    "district_id": 56207,
+    "district_Name": "الجريف"
+  },
+  {
+    "district_id": 56189,
+    "district_Name": "الجندل"
+  },
+  {
+    "district_id": 56247,
+    "district_Name": "قفار"
+  },
+  {
+    "district_id": 56277,
+    "district_Name": "مجمع الدوائر الحكومية الثاني"
+  },
+  {
+    "district_id": 56231,
+    "district_Name": "مخطط 87"
+  },
+  {
+    "district_id": 56286,
+    "district_Name": "مخطط 415"
+  },
+  {
+    "district_id": 56285,
+    "district_Name": "مخطط 557"
+  },
+  {
+    "district_id": 56233,
+    "district_Name": "مخطط 880"
+  },
+  {
+    "district_id": 56232,
+    "district_Name": "مخطط 886"
+  },
+  {
+    "district_id": 56234,
+    "district_Name": "مخطط 906"
+  },
+  {
+    "district_id": 56248,
+    "district_Name": "مخطط 2/242"
+  },
+  {
+    "district_id": 56238,
+    "district_Name": "مخطط الاراضي الحكومية 1"
+  },
+  {
+    "district_id": 56264,
+    "district_Name": "مخطط الاراضي الحكومية 2"
+  },
+  {
+    "district_id": 56270,
+    "district_Name": "مخطط تنظيمي لأرض المواطن متعب بن هباس"
+  },
+  {
+    "district_id": 56268,
+    "district_Name": "مخطط حكومي"
+  },
+  {
+    "district_id": 56230,
+    "district_Name": "مخطط رقم 4"
+  },
+  {
+    "district_id": 56235,
+    "district_Name": "مخطط رقم 144"
+  },
+  {
+    "district_id": 56236,
+    "district_Name": "مخطط رقم 210"
+  },
+  {
+    "district_id": 56271,
+    "district_Name": "مخطط روضة هباس"
+  },
+  {
+    "district_id": 56269,
+    "district_Name": "مخطط سكني"
+  },
+  {
+    "district_id": 56278,
+    "district_Name": "منسوبي التعليم الثاني"
+  },
+  {
+    "district_id": 56255,
+    "district_Name": "هجر الثالث"
+  },
+  {
+    "district_id": 56284,
+    "district_Name": "وادي الحمض"
+  },
+  {
+    "district_id": 56276,
+    "district_Name": "وسط المبرز التاريخي"
+  },
+  {
+    "district_id": 56245,
+    "district_Name": "البساتين الشرقي"
+  },
+  {
+    "district_id": 56296,
+    "district_Name": "سوق الغنم"
+  },
+  {
+    "district_id": 56330,
+    "district_Name": "طويق 2"
+  },
+  {
+    "district_id": 56319,
+    "district_Name": "عبلية"
+  },
+  {
+    "district_id": 56313,
+    "district_Name": "عشران"
+  },
+  {
+    "district_id": 56340,
+    "district_Name": "عيرف"
+  },
+  {
+    "district_id": 56349,
+    "district_Name": "قرية العمران الغربية"
+  },
+  {
+    "district_id": 56356,
+    "district_Name": "قرية بديدة علو غثاة"
+  },
+  {
+    "district_id": 56357,
+    "district_Name": "كميت"
+  },
+  {
+    "district_id": 56305,
+    "district_Name": "لبب"
+  },
+  {
+    "district_id": 56339,
+    "district_Name": "لينة الجديدة"
+  },
+  {
+    "district_id": 56338,
+    "district_Name": "لينة القديمة"
+  },
+  {
+    "district_id": 56333,
+    "district_Name": "محاسن ارامكو الخامس"
+  },
+  {
+    "district_id": 56298,
+    "district_Name": "مخطط 476"
+  },
+  {
+    "district_id": 56337,
+    "district_Name": "مخطط 555"
+  },
+  {
+    "district_id": 56361,
+    "district_Name": "مخطط 590"
+  },
+  {
+    "district_id": 56354,
+    "district_Name": "مخطط 805"
+  },
+  {
+    "district_id": 56297,
+    "district_Name": "مخطط 923"
+  },
+  {
+    "district_id": 56345,
+    "district_Name": "مخطط 931"
+  },
+  {
+    "district_id": 56316,
+    "district_Name": "مخطط استثماري الاستراحات"
+  },
+  {
+    "district_id": 56317,
+    "district_Name": "مخطط تنظيمي لموقع الإيواء"
+  },
+  {
+    "district_id": 56304,
+    "district_Name": "مخطط رقم 1045"
+  },
+  {
+    "district_id": 56328,
+    "district_Name": "مخطط رقم 928"
+  },
+  {
+    "district_id": 56343,
+    "district_Name": "مخطط رقم 359"
+  },
+  {
+    "district_id": 56382,
+    "district_Name": "سوق الماشية1"
+  },
+  {
+    "district_id": 56364,
+    "district_Name": "شخيب"
+  },
+  {
+    "district_id": 56409,
+    "district_Name": "صقرة الشمالي"
+  },
+  {
+    "district_id": 56380,
+    "district_Name": "صناعية الحديدية"
+  },
+  {
+    "district_id": 56421,
+    "district_Name": "ظهرة لبن"
+  },
+  {
+    "district_id": 56395,
+    "district_Name": "ظهره العودة غرب"
+  },
+  {
+    "district_id": 56400,
+    "district_Name": "عشيرة"
+  },
+  {
+    "district_id": 56389,
+    "district_Name": "مخطط 303"
+  },
+  {
+    "district_id": 56388,
+    "district_Name": "مخطط 423"
+  },
+  {
+    "district_id": 56402,
+    "district_Name": "مخطط 541"
+  },
+  {
+    "district_id": 56401,
+    "district_Name": "مخطط 739"
+  },
+  {
+    "district_id": 56365,
+    "district_Name": "مخطط 907 مشرفة"
+  },
+  {
+    "district_id": 56428,
+    "district_Name": "مخطط الاشعرية"
+  },
+  {
+    "district_id": 56429,
+    "district_Name": "مخطط الرميثي"
+  },
+  {
+    "district_id": 56387,
+    "district_Name": "مخطط الفيضة القديم"
+  },
+  {
+    "district_id": 56397,
+    "district_Name": "مخطط رقم 1067"
+  },
+  {
+    "district_id": 56404,
+    "district_Name": "مخطط رقم 1111"
+  },
+  {
+    "district_id": 56418,
+    "district_Name": "مخطط رقم 430"
+  },
+  {
+    "district_id": 56419,
+    "district_Name": "مخطط رقم 603"
+  },
+  {
+    "district_id": 56423,
+    "district_Name": "مخطط رقم 946"
+  },
+  {
+    "district_id": 56371,
+    "district_Name": "مصدة"
+  },
+  {
+    "district_id": 56385,
+    "district_Name": "نتيقة"
+  },
+  {
+    "district_id": 56390,
+    "district_Name": "واسط"
+  },
+  {
+    "district_id": 56386,
+    "district_Name": "وسيلة"
+  },
+  {
+    "district_id": 56416,
+    "district_Name": "ينبع البلد"
+  },
+  {
+    "district_id": 56476,
+    "district_Name": "صناعية مزعل"
+  },
+  {
+    "district_id": 56454,
+    "district_Name": "صياح"
+  },
+  {
+    "district_id": 56496,
+    "district_Name": "ضاحية نمار"
+  },
+  {
+    "district_id": 56443,
+    "district_Name": "طريف الأسياح"
+  },
+  {
+    "district_id": 56497,
+    "district_Name": "عريض"
+  },
+  {
+    "district_id": 56439,
+    "district_Name": "عريعرة"
+  },
+  {
+    "district_id": 56451,
+    "district_Name": "غصيبة"
+  },
+  {
+    "district_id": 56449,
+    "district_Name": "قرية قصر العشراوات"
+  },
+  {
+    "district_id": 56492,
+    "district_Name": "مانح"
+  },
+  {
+    "district_id": 56435,
+    "district_Name": "محطة تحلية المياة"
+  },
+  {
+    "district_id": 56482,
+    "district_Name": "مخطط 293"
+  },
+  {
+    "district_id": 56483,
+    "district_Name": "مخطط 352"
+  },
+  {
+    "district_id": 56481,
+    "district_Name": "مخطط 1149"
+  },
+  {
+    "district_id": 56491,
+    "district_Name": "مخطط آل سلطان"
+  },
+  {
+    "district_id": 56447,
+    "district_Name": "مخطط رقم 32"
+  },
+  {
+    "district_id": 56448,
+    "district_Name": "مخطط رقم 1037"
+  },
+  {
+    "district_id": 56458,
+    "district_Name": "مخطط رقم 456"
+  },
+  {
+    "district_id": 56459,
+    "district_Name": "مخطط رقم 0941"
+  },
+  {
+    "district_id": 56460,
+    "district_Name": "مخطط رقم 0824"
+  },
+  {
+    "district_id": 56461,
+    "district_Name": "مخطط رقم 126"
+  },
+  {
+    "district_id": 56473,
+    "district_Name": "مخطط رقم 18"
+  },
+  {
+    "district_id": 56487,
+    "district_Name": "مخطط رقم 522"
+  },
+  {
+    "district_id": 56490,
+    "district_Name": "مخطط رقم 24"
+  },
+  {
+    "district_id": 56493,
+    "district_Name": "مخطط رقم 956"
+  },
+  {
+    "district_id": 56484,
+    "district_Name": "مخطط منيفة"
+  },
+  {
+    "district_id": 56486,
+    "district_Name": "مركز خدمات الطرق"
+  },
+  {
+    "district_id": 56471,
+    "district_Name": "مغرزات"
+  },
+  {
+    "district_id": 56464,
+    "district_Name": "هيت"
+  },
+  {
+    "district_id": 56433,
+    "district_Name": "وادي مهزور"
+  },
+  {
+    "district_id": 56559,
+    "district_Name": "شمران"
+  },
+  {
+    "district_id": 56564,
+    "district_Name": "عقرباء"
+  },
+  {
+    "district_id": 56565,
+    "district_Name": "عكرمة"
+  },
+  {
+    "district_id": 56523,
+    "district_Name": "عمرات"
+  },
+  {
+    "district_id": 56558,
+    "district_Name": "غدنة"
+  },
+  {
+    "district_id": 56566,
+    "district_Name": "غدير البنات"
+  },
+  {
+    "district_id": 56529,
+    "district_Name": "غرب النابية"
+  },
+  {
+    "district_id": 56503,
+    "district_Name": "قربان"
+  },
+  {
+    "district_id": 56552,
+    "district_Name": "مخشوشة"
+  },
+  {
+    "district_id": 56507,
+    "district_Name": "مخطط 679"
+  },
+  {
+    "district_id": 56551,
+    "district_Name": "مخطط الخدمات"
+  },
+  {
+    "district_id": 56505,
+    "district_Name": "مخطط رقم 571"
+  },
+  {
+    "district_id": 56510,
+    "district_Name": "مخطط رقم 30"
+  },
+  {
+    "district_id": 56511,
+    "district_Name": "مخطط رقم 242"
+  },
+  {
+    "district_id": 56512,
+    "district_Name": "مخطط رقم 214"
+  },
+  {
+    "district_id": 56513,
+    "district_Name": "مخطط رقم 333"
+  },
+  {
+    "district_id": 56556,
+    "district_Name": "مخطط زهرة نخال الشمالي"
+  },
+  {
+    "district_id": 56557,
+    "district_Name": "مخطط غدنة"
+  },
+  {
+    "district_id": 56522,
+    "district_Name": "مطار الأمير سلطان بن عبدالعزيز الدولى"
+  },
+  {
+    "district_id": 56508,
+    "district_Name": "منطقة التعبئة المياة"
+  },
+  {
+    "district_id": 56535,
+    "district_Name": "منطقة الخدمات المركزية"
+  },
+  {
+    "district_id": 56499,
+    "district_Name": "منطقة المخزون التشغيلي البترولية"
+  },
+  {
+    "district_id": 56548,
+    "district_Name": "واحة التقنية"
+  },
+  {
+    "district_id": 56543,
+    "district_Name": "وادي هارون"
+  },
+  {
+    "district_id": 56597,
+    "district_Name": "صناعية بعشيرة"
+  },
+  {
+    "district_id": 56595,
+    "district_Name": "ضاحية العرفاء"
+  },
+  {
+    "district_id": 56598,
+    "district_Name": "ظهرة البديعة"
+  },
+  {
+    "district_id": 56593,
+    "district_Name": "عين شمس"
+  },
+  {
+    "district_id": 56610,
+    "district_Name": "مخطط 1045"
+  },
+  {
+    "district_id": 56612,
+    "district_Name": "مخطط رقم 995"
+  },
+  {
+    "district_id": 56581,
+    "district_Name": "مخطط زهرة نخال"
+  },
+  {
+    "district_id": 56627,
+    "district_Name": "مزارع بن خشمان"
+  },
+  {
+    "district_id": 56622,
+    "district_Name": "مزارع حمدان"
+  },
+  {
+    "district_id": 56578,
+    "district_Name": "نخال"
+  },
+  {
+    "district_id": 56572,
+    "district_Name": "نقمة"
+  },
+  {
+    "district_id": 56591,
+    "district_Name": "هجرة بوضة"
+  },
+  {
+    "district_id": 56583,
+    "district_Name": "وادي الشرب"
+  },
+  {
+    "district_id": 56634,
+    "district_Name": "وادي محرم الأعلي"
+  },
+  {
+    "district_id": 56648,
+    "district_Name": "حوايا الجنوبية"
+  },
+  {
+    "district_id": 56639,
+    "district_Name": "ريحان"
+  },
+  {
+    "district_id": 56645,
+    "district_Name": "سنام"
+  },
+  {
+    "district_id": 56647,
+    "district_Name": "عودة"
+  },
+  {
+    "district_id": 56640,
+    "district_Name": "ال مطاع"
+  },
+  {
+    "district_id": 56636,
+    "district_Name": "الانصار"
+  },
+  {
+    "district_id": 56642,
+    "district_Name": "الإبتسام"
+  },
+  {
+    "district_id": 56637,
+    "district_Name": "الريم"
+  },
+  {
+    "district_id": 56649,
+    "district_Name": "السعيد"
+  },
+  {
+    "district_id": 56669,
+    "district_Name": "الشيبيه"
+  },
+  {
+    "district_id": 56646,
+    "district_Name": "الصيانة"
+  },
+  {
+    "district_id": 56643,
+    "district_Name": "القفيل"
+  },
+  {
+    "district_id": 56671,
+    "district_Name": "القناديل"
+  },
+  {
+    "district_id": 56668,
+    "district_Name": "المحلة"
+  },
+  {
+    "district_id": 56641,
+    "district_Name": "النجاح"
+  },
+  {
+    "district_id": 56644,
+    "district_Name": "الوادي الأخضر"
+  },
+  {
+    "district_id": 56638,
+    "district_Name": "أبو عروه"
+  },
+  {
+    "district_id": 56859,
+    "district_Name": "الباب الجديد"
+  },
+  {
+    "district_id": 56857,
+    "district_Name": "البجيدي"
+  },
+  {
+    "district_id": 56860,
+    "district_Name": "البوابة 1"
+  },
+  {
+    "district_id": 56863,
+    "district_Name": "البوابة 2"
+  },
+  {
+    "district_id": 56864,
+    "district_Name": "البوابة 3"
+  },
+  {
+    "district_id": 56865,
+    "district_Name": "البوابة 4"
+  },
+  {
+    "district_id": 56866,
+    "district_Name": "البوابة 5"
+  },
+  {
+    "district_id": 56867,
+    "district_Name": "البوابة 6"
+  },
+  {
+    "district_id": 56868,
+    "district_Name": "البوابة 7"
+  },
+  {
+    "district_id": 56861,
+    "district_Name": "البوابة 10"
+  },
+  {
+    "district_id": 56862,
+    "district_Name": "البوابة 11"
+  },
+  {
+    "district_id": 56858,
+    "district_Name": "الملاوي"
+  },
+  {
+    "district_id": 56153,
+    "district_Name": "ابن خلدون"
+  },
+  {
+    "district_id": 54805,
+    "district_Name": "ابن سيناء"
+  },
+  {
+    "district_id": 56060,
+    "district_Name": "اسفل الباطن الشمالي"
+  },
+  {
+    "district_id": 56102,
+    "district_Name": "اسفل الباطن"
+  },
+  {
+    "district_id": 56149,
+    "district_Name": "اسفل الباطن الجنوبي"
+  },
+  {
+    "district_id": 55676,
+    "district_Name": "اكتان"
+  },
+  {
+    "district_id": 54693,
+    "district_Name": "ال بريد"
+  },
+  {
+    "district_id": 56155,
+    "district_Name": "ال راشد وال شايع"
+  },
+  {
+    "district_id": 54471,
+    "district_Name": "ال صمان"
+  },
+  {
+    "district_id": 56030,
+    "district_Name": "ال طهيف وال هديب"
+  },
+  {
+    "district_id": 56129,
+    "district_Name": "ال ظافر"
+  },
+  {
+    "district_id": 55895,
+    "district_Name": "ال غضاب"
+  },
+  {
+    "district_id": 54717,
+    "district_Name": "ال فقيع"
+  },
+  {
+    "district_id": 56128,
+    "district_Name": "ال قاران"
+  },
+  {
+    "district_id": 56111,
+    "district_Name": "ال هشام"
+  },
+  {
+    "district_id": 55978,
+    "district_Name": "ال هويمل"
+  },
+  {
+    "district_id": 56158,
+    "district_Name": "ال وحيد"
+  },
+  {
+    "district_id": 55208,
+    "district_Name": "الاحياء الجنوبية"
+  },
+  {
+    "district_id": 55917,
+    "district_Name": "الاخاء"
+  },
+  {
+    "district_id": 55254,
+    "district_Name": "الاخاشيم"
+  },
+  {
+    "district_id": 55427,
+    "district_Name": "الاداري"
+  },
+  {
+    "district_id": 55889,
+    "district_Name": "الادارية شرق"
+  },
+  {
+    "district_id": 56157,
+    "district_Name": "الادارية غرب"
+  },
+  {
+    "district_id": 54404,
+    "district_Name": "الارجوان الشرقي"
+  },
+  {
+    "district_id": 54331,
+    "district_Name": "الارجوان الغربي"
+  },
+  {
+    "district_id": 54738,
+    "district_Name": "الاستاد الرياضى"
+  },
+  {
+    "district_id": 54335,
+    "district_Name": "الاصداف"
+  },
+  {
+    "district_id": 54625,
+    "district_Name": "الاصيل"
+  },
+  {
+    "district_id": 54626,
+    "district_Name": "الاطلال"
+  },
+  {
+    "district_id": 55653,
+    "district_Name": "الاغر"
+  },
+  {
+    "district_id": 54847,
+    "district_Name": "الامارة"
+  },
+  {
+    "district_id": 55993,
+    "district_Name": "الاوجام"
+  },
+  {
+    "district_id": 54439,
+    "district_Name": "الإزدهار"
+  },
+  {
+    "district_id": 54655,
+    "district_Name": "الإستراحات الأوسط"
+  },
+  {
+    "district_id": 54656,
+    "district_Name": "الإستراحات الشرقي"
+  },
+  {
+    "district_id": 54657,
+    "district_Name": "الإستراحات الغربي"
+  },
+  {
+    "district_id": 55512,
+    "district_Name": "الإسكان الأول"
+  },
+  {
+    "district_id": 55581,
+    "district_Name": "الإسكان الثاني"
+  },
+  {
+    "district_id": 55946,
+    "district_Name": "الإسكان الخيري"
+  },
+  {
+    "district_id": 54217,
+    "district_Name": "الإسكان"
+  },
+  {
+    "district_id": 55449,
+    "district_Name": "الإمام محمد بن سعود"
+  },
+  {
+    "district_id": 55573,
+    "district_Name": "الأثير"
+  },
+  {
+    "district_id": 55224,
+    "district_Name": "الأجاويد"
+  },
+  {
+    "district_id": 55303,
+    "district_Name": "الأجواد"
+  },
+  {
+    "district_id": 54397,
+    "district_Name": "الأخباب"
+  },
+  {
+    "district_id": 54744,
+    "district_Name": "الأراك 2"
+  },
+  {
+    "district_id": 54581,
+    "district_Name": "الأساملة"
+  },
+  {
+    "district_id": 55559,
+    "district_Name": "الأسواق"
+  },
+  {
+    "district_id": 54213,
+    "district_Name": "الأصفر"
+  },
+  {
+    "district_id": 54237,
+    "district_Name": "الأفق"
+  },
+  {
+    "district_id": 54361,
+    "district_Name": "الأمانة الاداري"
+  },
+  {
+    "district_id": 55519,
+    "district_Name": "الأمانة"
+  },
+  {
+    "district_id": 54232,
+    "district_Name": "الأمل"
+  },
+  {
+    "district_id": 54382,
+    "district_Name": "الأملاح"
+  },
+  {
+    "district_id": 55231,
+    "district_Name": "الأمن"
+  },
+  {
+    "district_id": 54728,
+    "district_Name": "الأمواج"
+  },
+  {
+    "district_id": 54391,
+    "district_Name": "الأمير سلطان"
+  },
+  {
+    "district_id": 56116,
+    "district_Name": "الأمير سلطان بن عبدالعزيز"
+  },
+  {
+    "district_id": 54268,
+    "district_Name": "الأمير عبدالاله بن عبدالعزيز"
+  },
+  {
+    "district_id": 54416,
+    "district_Name": "الأمير عبدالله"
+  },
+  {
+    "district_id": 55297,
+    "district_Name": "الأمير عبدالمجيد"
+  },
+  {
+    "district_id": 55234,
+    "district_Name": "الأمير فواز الشمالى"
+  },
+  {
+    "district_id": 55344,
+    "district_Name": "الأمير فواز الجنوبى"
+  },
+  {
+    "district_id": 55926,
+    "district_Name": "الأمير محمد بن سعود"
+  },
+  {
+    "district_id": 54867,
+    "district_Name": "الأمير مشعل أ"
+  },
+  {
+    "district_id": 54999,
+    "district_Name": "الأمير مشعل"
+  },
+  {
+    "district_id": 56135,
+    "district_Name": "الأمير نايف"
+  },
+  {
+    "district_id": 54555,
+    "district_Name": "الأندلس 1"
+  },
+  {
+    "district_id": 54557,
+    "district_Name": "الأندلس 2"
+  },
+  {
+    "district_id": 54653,
+    "district_Name": "الأندلس 3"
+  },
+  {
+    "district_id": 54556,
+    "district_Name": "الأندلس 4"
+  },
+  {
+    "district_id": 54602,
+    "district_Name": "الأندلس 5"
+  },
+  {
+    "district_id": 54652,
+    "district_Name": "الأندلس 6"
+  },
+  {
+    "district_id": 54441,
+    "district_Name": "الأنوار"
+  },
+  {
+    "district_id": 55289,
+    "district_Name": "الأول"
+  },
+  {
+    "district_id": 54528,
+    "district_Name": "الباحر"
+  },
+  {
+    "district_id": 54267,
+    "district_Name": "البادية"
+  },
+  {
+    "district_id": 54400,
+    "district_Name": "الباردة"
+  },
+  {
+    "district_id": 55641,
+    "district_Name": "البارك"
+  },
+  {
+    "district_id": 54766,
+    "district_Name": "الباطنة"
+  },
+  {
+    "district_id": 55856,
+    "district_Name": "البثنة"
+  },
+  {
+    "district_id": 56026,
+    "district_Name": "البجادية"
+  },
+  {
+    "district_id": 54732,
+    "district_Name": "البحر"
+  },
+  {
+    "district_id": 55306,
+    "district_Name": "البحيرات"
+  },
+  {
+    "district_id": 54544,
+    "district_Name": "البحيرة"
+  },
+  {
+    "district_id": 54472,
+    "district_Name": "البدع"
+  },
+  {
+    "district_id": 54563,
+    "district_Name": "البدور"
+  },
+  {
+    "district_id": 55867,
+    "district_Name": "البدوي"
+  },
+  {
+    "district_id": 56121,
+    "district_Name": "البديع الغربي"
+  },
+  {
+    "district_id": 54481,
+    "district_Name": "البديع"
+  },
+  {
+    "district_id": 54223,
+    "district_Name": "البديعة"
+  },
+  {
+    "district_id": 54343,
+    "district_Name": "البراعم"
+  },
+  {
+    "district_id": 54637,
+    "district_Name": "البرقاء"
+  },
+  {
+    "district_id": 54685,
+    "district_Name": "البركات"
+  },
+  {
+    "district_id": 55533,
+    "district_Name": "البرود"
+  },
+  {
+    "district_id": 54757,
+    "district_Name": "البساتين 1"
+  },
+  {
+    "district_id": 55530,
+    "district_Name": "البساتين 2"
+  },
+  {
+    "district_id": 54341,
+    "district_Name": "البساتين الاداري الشرقي"
+  },
+  {
+    "district_id": 54356,
+    "district_Name": "البساتين الاداري الغربي"
+  },
+  {
+    "district_id": 54741,
+    "district_Name": "البساتين الغربي"
+  },
+  {
+    "district_id": 54227,
+    "district_Name": "البساتين"
+  },
+  {
+    "district_id": 55967,
+    "district_Name": "البستان 2"
+  },
+  {
+    "district_id": 54273,
+    "district_Name": "البستان"
+  },
+  {
+    "district_id": 54630,
+    "district_Name": "البشائر"
+  },
+  {
+    "district_id": 54463,
+    "district_Name": "البصرة"
+  },
+  {
+    "district_id": 55515,
+    "district_Name": "البصيرة"
+  },
+  {
+    "district_id": 55455,
+    "district_Name": "البغدادية الغربية"
+  },
+  {
+    "district_id": 55302,
+    "district_Name": "البغددية الشرقية"
+  },
+  {
+    "district_id": 56146,
+    "district_Name": "البكر"
+  },
+  {
+    "district_id": 54492,
+    "district_Name": "البلد"
+  },
+  {
+    "district_id": 54589,
+    "district_Name": "البلدة القديمة"
+  },
+  {
+    "district_id": 55667,
+    "district_Name": "البلدية"
+  },
+  {
+    "district_id": 55869,
+    "district_Name": "البندر"
+  },
+  {
+    "district_id": 54705,
+    "district_Name": "البندرية"
+  },
+  {
+    "district_id": 55557,
+    "district_Name": "البهجة"
+  },
+  {
+    "district_id": 55381,
+    "district_Name": "البوادر"
+  },
+  {
+    "district_id": 54283,
+    "district_Name": "البوادي"
+  },
+  {
+    "district_id": 55379,
+    "district_Name": "البيان"
+  },
+  {
+    "district_id": 54901,
+    "district_Name": "البيرق"
+  },
+  {
+    "district_id": 54229,
+    "district_Name": "البيضاء"
+  },
+  {
+    "district_id": 54902,
+    "district_Name": "البيعة"
+  },
+  {
+    "district_id": 54405,
+    "district_Name": "البيهيتة"
+  },
+  {
+    "district_id": 54597,
+    "district_Name": "التجارة"
+  },
+  {
+    "district_id": 54292,
+    "district_Name": "التحكيم"
+  },
+  {
+    "district_id": 54684,
+    "district_Name": "التحلية"
+  },
+  {
+    "district_id": 55232,
+    "district_Name": "التخصصي"
+  },
+  {
+    "district_id": 55600,
+    "district_Name": "التروية"
+  },
+  {
+    "district_id": 54477,
+    "district_Name": "التسامح"
+  },
+  {
+    "district_id": 55919,
+    "district_Name": "التسعين"
+  },
+  {
+    "district_id": 54504,
+    "district_Name": "التضامن"
+  },
+  {
+    "district_id": 54448,
+    "district_Name": "التعاون"
+  },
+  {
+    "district_id": 55032,
+    "district_Name": "التعليم"
+  },
+  {
+    "district_id": 54363,
+    "district_Name": "التقنية"
+  },
+  {
+    "district_id": 55634,
+    "district_Name": "التقوى"
+  },
+  {
+    "district_id": 55063,
+    "district_Name": "التل"
+  },
+  {
+    "district_id": 54266,
+    "district_Name": "التلال"
+  },
+  {
+    "district_id": 55552,
+    "district_Name": "التلفزيون"
+  },
+  {
+    "district_id": 55472,
+    "district_Name": "التمور"
+  },
+  {
+    "district_id": 55636,
+    "district_Name": "التنعيم"
+  },
+  {
+    "district_id": 54640,
+    "district_Name": "التنمية"
+  },
+  {
+    "district_id": 56130,
+    "district_Name": "التوباد"
+  },
+  {
+    "district_id": 55859,
+    "district_Name": "التوبي"
+  },
+  {
+    "district_id": 54525,
+    "district_Name": "التوفيق"
+  },
+  {
+    "district_id": 54792,
+    "district_Name": "التيسير"
+  },
+  {
+    "district_id": 55280,
+    "district_Name": "الثالث"
+  },
+  {
+    "district_id": 55539,
+    "district_Name": "الثامن"
+  },
+  {
+    "district_id": 55279,
+    "district_Name": "الثاني"
+  },
+  {
+    "district_id": 54577,
+    "district_Name": "الثريا 2"
+  },
+  {
+    "district_id": 55278,
+    "district_Name": "الثريا"
+  },
+  {
+    "district_id": 55237,
+    "district_Name": "الثعالبة"
+  },
+  {
+    "district_id": 54545,
+    "district_Name": "الثقبة"
+  },
+  {
+    "district_id": 55388,
+    "district_Name": "الثليثية"
+  },
+  {
+    "district_id": 54914,
+    "district_Name": "الثليماء"
+  },
+  {
+    "district_id": 55607,
+    "district_Name": "الجابرة"
+  },
+  {
+    "district_id": 55855,
+    "district_Name": "الجابرية"
+  },
+  {
+    "district_id": 55343,
+    "district_Name": "الجار"
+  },
+  {
+    "district_id": 55825,
+    "district_Name": "الجارودية"
+  },
+  {
+    "district_id": 55902,
+    "district_Name": "الجاضع"
+  },
+  {
+    "district_id": 54921,
+    "district_Name": "الجال"
+  },
+  {
+    "district_id": 54537,
+    "district_Name": "الجامع"
+  },
+  {
+    "district_id": 54751,
+    "district_Name": "الجامعة الأوسط"
+  },
+  {
+    "district_id": 54750,
+    "district_Name": "الجامعة الشرقي"
+  },
+  {
+    "district_id": 54763,
+    "district_Name": "الجامعة الغربي"
+  },
+  {
+    "district_id": 54222,
+    "district_Name": "الجامعة"
+  },
+  {
+    "district_id": 55037,
+    "district_Name": "الجامعيين"
+  },
+  {
+    "district_id": 54734,
+    "district_Name": "الجبل 1"
+  },
+  {
+    "district_id": 54733,
+    "district_Name": "الجبل 2"
+  },
+  {
+    "district_id": 55572,
+    "district_Name": "الجبنون"
+  },
+  {
+    "district_id": 54789,
+    "district_Name": "الجبهان"
+  },
+  {
+    "district_id": 54609,
+    "district_Name": "الجبيل-قنبور"
+  },
+  {
+    "district_id": 55616,
+    "district_Name": "الجدر الشرقي"
+  },
+  {
+    "district_id": 55646,
+    "district_Name": "الجدر الغربي"
+  },
+  {
+    "district_id": 55327,
+    "district_Name": "الجديدة"
+  },
+  {
+    "district_id": 54500,
+    "district_Name": "الجراد"
+  },
+  {
+    "district_id": 55903,
+    "district_Name": "الجرادية"
+  },
+  {
+    "district_id": 55000,
+    "district_Name": "الجربة"
+  },
+  {
+    "district_id": 54610,
+    "district_Name": "الجرد"
+  },
+  {
+    "district_id": 55186,
+    "district_Name": "الجزيرة"
+  },
+  {
+    "district_id": 54727,
+    "district_Name": "الجسر"
+  },
+  {
+    "district_id": 55534,
+    "district_Name": "الجش"
+  },
+  {
+    "district_id": 55398,
+    "district_Name": "الجشرة"
+  },
+  {
+    "district_id": 55521,
+    "district_Name": "الجفر الشمالي"
+  },
+  {
+    "district_id": 54925,
+    "district_Name": "الجفر"
+  },
+  {
+    "district_id": 55697,
+    "district_Name": "الجفيدرية"
+  },
+  {
+    "district_id": 55838,
+    "district_Name": "الجلوية"
+  },
+  {
+    "district_id": 54601,
+    "district_Name": "الجمالة"
+  },
+  {
+    "district_id": 56021,
+    "district_Name": "الجماوات"
+  },
+  {
+    "district_id": 55054,
+    "district_Name": "الجمعة"
+  },
+  {
+    "district_id": 57001,
+    "district_Name": "شرائع مخطط5"
+  },
+  {
+    "district_id": 57002,
+    "district_Name": "شرائع مخطط6"
+  },
+  {
+    "district_id": 57003,
+    "district_Name": "شرائع مخطط7"
+  },
+  {
+    "district_id": 57004,
+    "district_Name": "شرائع مخطط8"
+  },
+  {
+    "district_id": 57005,
+    "district_Name": "شرائع مخطط9"
+  },
+  {
+    "district_id": 57006,
+    "district_Name": "شرق مخطط رابية مكة"
+  },
+  {
+    "district_id": 57007,
+    "district_Name": "شعب عامر2"
+  },
+  {
+    "district_id": 57008,
+    "district_Name": "صايف"
+  },
+  {
+    "district_id": 57009,
+    "district_Name": "عبده خضري"
+  },
+  {
+    "district_id": 57010,
+    "district_Name": "قمة جبل الكعبة"
+  },
+  {
+    "district_id": 57011,
+    "district_Name": "مخطط الطيب"
+  },
+  {
+    "district_id": 57012,
+    "district_Name": "مخطط الفيصل"
+  },
+  {
+    "district_id": 57013,
+    "district_Name": "مخطط الورش والمستودعات"
+  },
+  {
+    "district_id": 57014,
+    "district_Name": "مخطط باشراحيل"
+  },
+  {
+    "district_id": 57015,
+    "district_Name": "مخطط بدر"
+  },
+  {
+    "district_id": 57016,
+    "district_Name": "مخطط جبل السيدة"
+  },
+  {
+    "district_id": 57017,
+    "district_Name": "مخطط دغش بن طلال"
+  },
+  {
+    "district_id": 57018,
+    "district_Name": "مخطط طلال بن منصور"
+  },
+  {
+    "district_id": 57019,
+    "district_Name": "مخطط فيصل بدر"
+  },
+  {
+    "district_id": 57020,
+    "district_Name": "مدركه"
+  },
+  {
+    "district_id": 57021,
+    "district_Name": "مصنع الطوب"
+  },
+  {
+    "district_id": 57022,
+    "district_Name": "ملحة خلف المرور"
+  },
+  {
+    "district_id": 57023,
+    "district_Name": "ملقية"
+  },
+  {
+    "district_id": 57024,
+    "district_Name": "نبع الخير"
+  },
+  {
+    "district_id": 55694,
+    "district_Name": "الجميزة"
+  },
+  {
+    "district_id": 54611,
+    "district_Name": "الجميعات"
+  },
+  {
+    "district_id": 54813,
+    "district_Name": "الجميماء"
+  },
+  {
+    "district_id": 55995,
+    "district_Name": "الجميمة"
+  },
+  {
+    "district_id": 54475,
+    "district_Name": "الجنادرية"
+  },
+  {
+    "district_id": 54401,
+    "district_Name": "الجنوب"
+  },
+  {
+    "district_id": 54538,
+    "district_Name": "الجنوبي"
+  },
+  {
+    "district_id": 55022,
+    "district_Name": "الجنوبية"
+  },
+  {
+    "district_id": 55690,
+    "district_Name": "الجودرية الجديد"
+  },
+  {
+    "district_id": 54868,
+    "district_Name": "الجودية"
+  },
+  {
+    "district_id": 54884,
+    "district_Name": "الجوزاء"
+  },
+  {
+    "district_id": 54272,
+    "district_Name": "الجوهرة"
+  },
+  {
+    "district_id": 56228,
+    "district_Name": "الجيانية السفلى"
+  },
+  {
+    "district_id": 55996,
+    "district_Name": "الجيانية العليا"
+  },
+  {
+    "district_id": 55508,
+    "district_Name": "الجيل"
+  },
+  {
+    "district_id": 55683,
+    "district_Name": "الحامدية"
+  },
+  {
+    "district_id": 55029,
+    "district_Name": "الحايرة"
+  },
+  {
+    "district_id": 56097,
+    "district_Name": "الحائر"
+  },
+  {
+    "district_id": 54613,
+    "district_Name": "الحبيلة"
+  },
+  {
+    "district_id": 55446,
+    "district_Name": "الحجر"
+  },
+  {
+    "district_id": 55628,
+    "district_Name": "الحجون"
+  },
+  {
+    "district_id": 55679,
+    "district_Name": "الحجيرة"
+  },
+  {
+    "district_id": 54377,
+    "district_Name": "الحدائق"
+  },
+  {
+    "district_id": 55151,
+    "district_Name": "الحرابي"
+  },
+  {
+    "district_id": 55264,
+    "district_Name": "الحرازات"
+  },
+  {
+    "district_id": 55263,
+    "district_Name": "الحرة"
+  },
+  {
+    "district_id": 54325,
+    "district_Name": "الحرس الوطني"
+  },
+  {
+    "district_id": 54411,
+    "district_Name": "الحرف"
+  },
+  {
+    "district_id": 54726,
+    "district_Name": "الحزام الأخضر"
+  },
+  {
+    "district_id": 54870,
+    "district_Name": "الحزام الذهبي"
+  },
+  {
+    "district_id": 54414,
+    "district_Name": "الحزامي و النغيلة"
+  },
+  {
+    "district_id": 54603,
+    "district_Name": "الحزم 1"
+  },
+  {
+    "district_id": 54534,
+    "district_Name": "الحزم 2"
+  },
+  {
+    "district_id": 54662,
+    "district_Name": "الحزم 3"
+  },
+  {
+    "district_id": 54660,
+    "district_Name": "الحزم 4"
+  },
+  {
+    "district_id": 55459,
+    "district_Name": "الحزم الجنوبي"
+  },
+  {
+    "district_id": 54276,
+    "district_Name": "الحزم"
+  },
+  {
+    "district_id": 56076,
+    "district_Name": "الحزيمية"
+  },
+  {
+    "district_id": 55971,
+    "district_Name": "الحساء"
+  },
+  {
+    "district_id": 55924,
+    "district_Name": "الحسين"
+  },
+  {
+    "district_id": 54599,
+    "district_Name": "الحسينى"
+  },
+  {
+    "district_id": 55699,
+    "district_Name": "الحسينية"
+  },
+  {
+    "district_id": 55023,
+    "district_Name": "الحصينية"
+  },
+  {
+    "district_id": 55305,
+    "district_Name": "الحضارى"
+  },
+  {
+    "district_id": 55688,
+    "district_Name": "الحطيم"
+  },
+  {
+    "district_id": 55236,
+    "district_Name": "الحفنة"
+  },
+  {
+    "district_id": 54762,
+    "district_Name": "الحفيرة الأوسط"
+  },
+  {
+    "district_id": 54583,
+    "district_Name": "الحفيرة الشرقي"
+  },
+  {
+    "district_id": 54769,
+    "district_Name": "الحفيرة الغربي"
+  },
+  {
+    "district_id": 55408,
+    "district_Name": "الحفيرة"
+  },
+  {
+    "district_id": 54891,
+    "district_Name": "الحلاه"
+  },
+  {
+    "district_id": 56093,
+    "district_Name": "الحلة الطالعية"
+  },
+  {
+    "district_id": 56059,
+    "district_Name": "الحلة"
+  },
+  {
+    "district_id": 54911,
+    "district_Name": "الحلقة الشرقية"
+  },
+  {
+    "district_id": 54888,
+    "district_Name": "الحلقة الغربية"
+  },
+  {
+    "district_id": 54843,
+    "district_Name": "الحلوة"
+  },
+  {
+    "district_id": 54420,
+    "district_Name": "الحمة"
+  },
+  {
+    "district_id": 55414,
+    "district_Name": "الحمدانية"
+  },
+  {
+    "district_id": 55018,
+    "district_Name": "الحمر الشمالي"
+  },
+  {
+    "district_id": 54880,
+    "district_Name": "الحمر"
+  },
+  {
+    "district_id": 55582,
+    "district_Name": "الحمراء الأول"
+  },
+  {
+    "district_id": 56138,
+    "district_Name": "الحمراء الثالث"
+  },
+  {
+    "district_id": 55437,
+    "district_Name": "الحمراء الثاني"
+  },
+  {
+    "district_id": 54423,
+    "district_Name": "الحمراء"
+  },
+  {
+    "district_id": 55319,
+    "district_Name": "الحميرة"
+  },
+  {
+    "district_id": 54407,
+    "district_Name": "الحميمة و أبو خيال"
+  },
+  {
+    "district_id": 56043,
+    "district_Name": "الحنابجة"
+  },
+  {
+    "district_id": 55361,
+    "district_Name": "الحناكية"
+  },
+  {
+    "district_id": 56126,
+    "district_Name": "الحنو"
+  },
+  {
+    "district_id": 54856,
+    "district_Name": "الحوراء"
+  },
+  {
+    "district_id": 54895,
+    "district_Name": "الحياه الفطرية"
+  },
+  {
+    "district_id": 54398,
+    "district_Name": "الحيفة"
+  },
+  {
+    "district_id": 54462,
+    "district_Name": "الحيلة الشرقي"
+  },
+  {
+    "district_id": 54461,
+    "district_Name": "الحيلة الغربي"
+  },
+  {
+    "district_id": 55507,
+    "district_Name": "الخاتم"
+  },
+  {
+    "district_id": 55256,
+    "district_Name": "الخالدية 2"
+  },
+  {
+    "district_id": 55240,
+    "district_Name": "الخالدية 3"
+  },
+  {
+    "district_id": 55257,
+    "district_Name": "الخالدية 4"
+  },
+  {
+    "district_id": 55258,
+    "district_Name": "الخالدية 5"
+  },
+  {
+    "district_id": 54540,
+    "district_Name": "الخالدية الجنوبية"
+  },
+  {
+    "district_id": 55928,
+    "district_Name": "الخالدية الشمالية"
+  },
+  {
+    "district_id": 54941,
+    "district_Name": "الخالدية أ"
+  },
+  {
+    "district_id": 54399,
+    "district_Name": "الخالدية والعزيزية"
+  },
+  {
+    "district_id": 54288,
+    "district_Name": "الخالدية"
+  },
+  {
+    "district_id": 54970,
+    "district_Name": "الخامس"
+  },
+  {
+    "district_id": 55478,
+    "district_Name": "الخامسة"
+  },
+  {
+    "district_id": 54785,
+    "district_Name": "الخبر الجنوبية"
+  },
+  {
+    "district_id": 54771,
+    "district_Name": "الخبر"
+  },
+  {
+    "district_id": 54963,
+    "district_Name": "الخبراء"
+  },
+  {
+    "district_id": 54784,
+    "district_Name": "الخبرالشمالية"
+  },
+  {
+    "district_id": 54559,
+    "district_Name": "الخبيب"
+  },
+  {
+    "district_id": 55480,
+    "district_Name": "الخترشية"
+  },
+  {
+    "district_id": 55577,
+    "district_Name": "الخدود"
+  },
+  {
+    "district_id": 55156,
+    "district_Name": "الخذامة"
+  },
+  {
+    "district_id": 56134,
+    "district_Name": "الخرائق"
+  },
+  {
+    "district_id": 55848,
+    "district_Name": "الخرشة"
+  },
+  {
+    "district_id": 55002,
+    "district_Name": "الخرعاء"
+  },
+  {
+    "district_id": 54505,
+    "district_Name": "الخزام"
+  },
+  {
+    "district_id": 54289,
+    "district_Name": "الخزامى"
+  },
+  {
+    "district_id": 54408,
+    "district_Name": "الخزان"
+  },
+  {
+    "district_id": 55161,
+    "district_Name": "الخشبى"
+  },
+  {
+    "district_id": 55260,
+    "district_Name": "الخشع"
+  },
+  {
+    "district_id": 55261,
+    "district_Name": "الخصاب"
+  },
+  {
+    "district_id": 54802,
+    "district_Name": "الخضر"
+  },
+  {
+    "district_id": 54723,
+    "district_Name": "الخضراء 1"
+  },
+  {
+    "district_id": 54746,
+    "district_Name": "الخضراء 2"
+  },
+  {
+    "district_id": 54535,
+    "district_Name": "الخضراء 3"
+  },
+  {
+    "district_id": 54417,
+    "district_Name": "الخضراء"
+  },
+  {
+    "district_id": 55992,
+    "district_Name": "الخضرية"
+  },
+  {
+    "district_id": 54376,
+    "district_Name": "الخفج"
+  },
+  {
+    "district_id": 55133,
+    "district_Name": "الخلصة"
+  },
+  {
+    "district_id": 55016,
+    "district_Name": "الخلود"
+  },
+  {
+    "district_id": 54366,
+    "district_Name": "الخليج العربي الشرقي"
+  },
+  {
+    "district_id": 54402,
+    "district_Name": "الخليج العربي الغربي"
+  },
+  {
+    "district_id": 54994,
+    "district_Name": "الخليف"
+  },
+  {
+    "district_id": 55962,
+    "district_Name": "الخماسين الشمالى"
+  },
+  {
+    "district_id": 55831,
+    "district_Name": "الخماشية"
+  },
+  {
+    "district_id": 55143,
+    "district_Name": "الخمرة"
+  },
+  {
+    "district_id": 55751,
+    "district_Name": "الخنساء"
+  },
+  {
+    "district_id": 54571,
+    "district_Name": "الخور"
+  },
+  {
+    "district_id": 56001,
+    "district_Name": "الخويلدية"
+  },
+  {
+    "district_id": 56201,
+    "district_Name": "الخيام"
+  },
+  {
+    "district_id": 55916,
+    "district_Name": "الخير"
+  },
+  {
+    "district_id": 55596,
+    "district_Name": "الدار البيضاء 1"
+  },
+  {
+    "district_id": 55599,
+    "district_Name": "الدار البيضاء 2"
+  },
+  {
+    "district_id": 55836,
+    "district_Name": "الدار البيضاء"
+  },
+  {
+    "district_id": 54969,
+    "district_Name": "الدارة"
+  },
+  {
+    "district_id": 55963,
+    "district_Name": "الدانة الجنوبية"
+  },
+  {
+    "district_id": 55875,
+    "district_Name": "الدانة الشمالية"
+  },
+  {
+    "district_id": 54282,
+    "district_Name": "الدانة"
+  },
+  {
+    "district_id": 54482,
+    "district_Name": "الدائري الجنوبي"
+  },
+  {
+    "district_id": 54483,
+    "district_Name": "الدائري الشمالي"
+  },
+  {
+    "district_id": 54484,
+    "district_Name": "الدائري الغربي"
+  },
+  {
+    "district_id": 55348,
+    "district_Name": "الدبابية"
+  },
+  {
+    "district_id": 56058,
+    "district_Name": "الدحو"
+  },
+  {
+    "district_id": 54687,
+    "district_Name": "الدرب"
+  },
+  {
+    "district_id": 54572,
+    "district_Name": "الدرة"
+  },
+  {
+    "district_id": 56004,
+    "district_Name": "الدرع"
+  },
+  {
+    "district_id": 55983,
+    "district_Name": "الدرعية"
+  },
+  {
+    "district_id": 55847,
+    "district_Name": "الدريعية"
+  },
+  {
+    "district_id": 56229,
+    "district_Name": "الدريهمية"
+  },
+  {
+    "district_id": 54257,
+    "district_Name": "الدعبوسية"
+  },
+  {
+    "district_id": 55988,
+    "district_Name": "الدغارير"
+  },
+  {
+    "district_id": 55681,
+    "district_Name": "الدغمية 1"
+  },
+  {
+    "district_id": 54394,
+    "district_Name": "الدغمية 2"
+  },
+  {
+    "district_id": 55214,
+    "district_Name": "الدف"
+  },
+  {
+    "district_id": 54890,
+    "district_Name": "الدفاع الجوي"
+  },
+  {
+    "district_id": 54619,
+    "district_Name": "الدفاع"
+  },
+  {
+    "district_id": 55177,
+    "district_Name": "الدقم"
+  },
+  {
+    "district_id": 54886,
+    "district_Name": "الدهماء"
+  },
+  {
+    "district_id": 55291,
+    "district_Name": "الدهناء"
+  },
+  {
+    "district_id": 55994,
+    "district_Name": "الدواسر"
+  },
+  {
+    "district_id": 54548,
+    "district_Name": "الدوائر الحكومية"
+  },
+  {
+    "district_id": 55927,
+    "district_Name": "الدوبية"
+  },
+  {
+    "district_id": 55989,
+    "district_Name": "الدوحة الجنوبية"
+  },
+  {
+    "district_id": 55901,
+    "district_Name": "الدوحة الشمالية"
+  },
+  {
+    "district_id": 55386,
+    "district_Name": "الدوحة"
+  },
+  {
+    "district_id": 54370,
+    "district_Name": "الدورية"
+  },
+  {
+    "district_id": 56010,
+    "district_Name": "الدويج"
+  },
+  {
+    "district_id": 55972,
+    "district_Name": "الدويخلة"
+  },
+  {
+    "district_id": 55176,
+    "district_Name": "الديرة القديمة"
+  },
+  {
+    "district_id": 56223,
+    "district_Name": "الديرة القديمة1"
+  },
+  {
+    "district_id": 56874,
+    "district_Name": "الحرج"
+  },
+  {
+    "district_id": 56875,
+    "district_Name": "الحساني"
+  },
+  {
+    "district_id": 56876,
+    "district_Name": "الحفاير"
+  },
+  {
+    "district_id": 56878,
+    "district_Name": "الخالدية 1"
+  },
+  {
+    "district_id": 56879,
+    "district_Name": "الخالدية 2"
+  },
+  {
+    "district_id": 56877,
+    "district_Name": "الخالدية حارة البرما"
+  },
+  {
+    "district_id": 55473,
+    "district_Name": "الديوان"
+  },
+  {
+    "district_id": 55814,
+    "district_Name": "الذنبة"
+  },
+  {
+    "district_id": 55310,
+    "district_Name": "الذهب"
+  },
+  {
+    "district_id": 56042,
+    "district_Name": "الذيابية"
+  },
+  {
+    "district_id": 55178,
+    "district_Name": "الرابع"
+  },
+  {
+    "district_id": 55998,
+    "district_Name": "الرابعة"
+  },
+  {
+    "district_id": 54320,
+    "district_Name": "الرابية"
+  },
+  {
+    "district_id": 54665,
+    "district_Name": "الراجحي"
+  },
+  {
+    "district_id": 54794,
+    "district_Name": "الراشديات"
+  },
+  {
+    "district_id": 56881,
+    "district_Name": "الراشدية 1"
+  },
+  {
+    "district_id": 56882,
+    "district_Name": "الراشدية 2"
+  },
+  {
+    "district_id": 54754,
+    "district_Name": "الراشدية الأول"
+  },
+  {
+    "district_id": 55566,
+    "district_Name": "الراشدية الثالث"
+  },
+  {
+    "district_id": 55498,
+    "district_Name": "الراشدية الثاني"
+  },
+  {
+    "district_id": 56880,
+    "district_Name": "الراشدية المعدل"
+  },
+  {
+    "district_id": 55781,
+    "district_Name": "الراشدية"
+  },
+  {
+    "district_id": 54985,
+    "district_Name": "الراقي"
+  },
+  {
+    "district_id": 54730,
+    "district_Name": "الراكة الجنوبية"
+  },
+  {
+    "district_id": 55991,
+    "district_Name": "الراكة الشمالية"
+  },
+  {
+    "district_id": 54565,
+    "district_Name": "الراية"
+  },
+  {
+    "district_id": 55506,
+    "district_Name": "الرائد"
+  },
+  {
+    "district_id": 56883,
+    "district_Name": "الرأفة"
+  },
+  {
+    "district_id": 56869,
+    "district_Name": "البوابة 8"
+  },
+  {
+    "district_id": 56870,
+    "district_Name": "البوابة 9"
+  },
+  {
+    "district_id": 56871,
+    "district_Name": "الجلاب"
+  },
+  {
+    "district_id": 56872,
+    "district_Name": "الجموم"
+  },
+  {
+    "district_id": 56873,
+    "district_Name": "الحرات"
+  },
+  {
+    "district_id": 54658,
+    "district_Name": "الربة"
+  },
+  {
+    "district_id": 54230,
+    "district_Name": "الربوة"
+  },
+  {
+    "district_id": 54226,
+    "district_Name": "الربيع"
+  },
+  {
+    "district_id": 56110,
+    "district_Name": "الربيعة"
+  },
+  {
+    "district_id": 55315,
+    "district_Name": "الربيعية"
+  },
+  {
+    "district_id": 54541,
+    "district_Name": "الرجاء"
+  },
+  {
+    "district_id": 56122,
+    "district_Name": "الرجع"
+  },
+  {
+    "district_id": 54628,
+    "district_Name": "الرحاب 1"
+  },
+  {
+    "district_id": 54431,
+    "district_Name": "الرحاب 2"
+  },
+  {
+    "district_id": 54384,
+    "district_Name": "الرحاب"
+  },
+  {
+    "district_id": 54862,
+    "district_Name": "الرحبة"
+  },
+  {
+    "district_id": 54311,
+    "district_Name": "الرحمانية"
+  },
+  {
+    "district_id": 54830,
+    "district_Name": "الرحمة"
+  },
+  {
+    "district_id": 54491,
+    "district_Name": "الرحيب"
+  },
+  {
+    "district_id": 54806,
+    "district_Name": "الردف"
+  },
+  {
+    "district_id": 54300,
+    "district_Name": "الرديفة والرافعية"
+  },
+  {
+    "district_id": 55027,
+    "district_Name": "الرزيقية"
+  },
+  {
+    "district_id": 54270,
+    "district_Name": "الرسالة"
+  },
+  {
+    "district_id": 54998,
+    "district_Name": "الرصراص 1"
+  },
+  {
+    "district_id": 55349,
+    "district_Name": "الرصراص 2"
+  },
+  {
+    "district_id": 55711,
+    "district_Name": "الرصف"
+  },
+  {
+    "district_id": 55744,
+    "district_Name": "الرصيفة"
+  },
+  {
+    "district_id": 55532,
+    "district_Name": "الرضا"
+  },
+  {
+    "district_id": 54624,
+    "district_Name": "الرضوان"
+  },
+  {
+    "district_id": 55175,
+    "district_Name": "الرغامة"
+  },
+  {
+    "district_id": 54255,
+    "district_Name": "الرفاع"
+  },
+  {
+    "district_id": 54923,
+    "district_Name": "الرفايع"
+  },
+  {
+    "district_id": 55561,
+    "district_Name": "الرفعة الجنوبية"
+  },
+  {
+    "district_id": 55434,
+    "district_Name": "الرفعة الشمالية"
+  },
+  {
+    "district_id": 54279,
+    "district_Name": "الرفيعة"
+  },
+  {
+    "district_id": 55412,
+    "district_Name": "الركاز"
+  },
+  {
+    "district_id": 54777,
+    "district_Name": "الرمال"
+  },
+  {
+    "district_id": 54515,
+    "district_Name": "الرمان"
+  },
+  {
+    "district_id": 54829,
+    "district_Name": "الرمانة"
+  },
+  {
+    "district_id": 56096,
+    "district_Name": "الرماية"
+  },
+  {
+    "district_id": 56117,
+    "district_Name": "الرمل"
+  },
+  {
+    "district_id": 55822,
+    "district_Name": "الرميدة"
+  },
+  {
+    "district_id": 54244,
+    "district_Name": "الروابي"
+  },
+  {
+    "district_id": 54216,
+    "district_Name": "الرواد"
+  },
+  {
+    "district_id": 55296,
+    "district_Name": "الرواسي"
+  },
+  {
+    "district_id": 56054,
+    "district_Name": "الرواما"
+  },
+  {
+    "district_id": 55920,
+    "district_Name": "الروض"
+  },
+  {
+    "district_id": 55514,
+    "district_Name": "الروضة 1"
+  },
+  {
+    "district_id": 54700,
+    "district_Name": "الروضة 2"
+  },
+  {
+    "district_id": 55090,
+    "district_Name": "الروضة الجنوبي"
+  },
+  {
+    "district_id": 54942,
+    "district_Name": "الروضة الشمالي"
+  },
+  {
+    "district_id": 54529,
+    "district_Name": "الرونة"
+  },
+  {
+    "district_id": 54707,
+    "district_Name": "الرونق"
+  },
+  {
+    "district_id": 55494,
+    "district_Name": "الرويحة"
+  },
+  {
+    "district_id": 54817,
+    "district_Name": "الرويدف"
+  },
+  {
+    "district_id": 55267,
+    "district_Name": "الرويس"
+  },
+  {
+    "district_id": 55737,
+    "district_Name": "الرويضة"
+  },
+  {
+    "district_id": 55070,
+    "district_Name": "الرويكبة"
+  },
+  {
+    "district_id": 54520,
+    "district_Name": "الرياحين"
+  },
+  {
+    "district_id": 55430,
+    "district_Name": "الرياض الاول"
+  },
+  {
+    "district_id": 54674,
+    "district_Name": "الرياض الثالث"
+  },
+  {
+    "district_id": 55483,
+    "district_Name": "الرياض الثاني"
+  },
+  {
+    "district_id": 55585,
+    "district_Name": "الرياض الرابع"
+  },
+  {
+    "district_id": 54242,
+    "district_Name": "الرياض"
+  },
+  {
+    "district_id": 54790,
+    "district_Name": "الريبع"
+  },
+  {
+    "district_id": 54253,
+    "district_Name": "الريحان"
+  },
+  {
+    "district_id": 54831,
+    "district_Name": "الريف"
+  },
+  {
+    "district_id": 55909,
+    "district_Name": "الرين الاعلى"
+  },
+  {
+    "district_id": 56083,
+    "district_Name": "الرين القديم"
+  },
+  {
+    "district_id": 55639,
+    "district_Name": "الزارة"
+  },
+  {
+    "district_id": 56884,
+    "district_Name": "الزاهر مخطط الصبان المعدل"
+  },
+  {
+    "district_id": 56885,
+    "district_Name": "الزاهر وادي بشم"
+  },
+  {
+    "district_id": 54667,
+    "district_Name": "الزاهر"
+  },
+  {
+    "district_id": 55066,
+    "district_Name": "الزاوية"
+  },
+  {
+    "district_id": 55709,
+    "district_Name": "الزبارة"
+  },
+  {
+    "district_id": 54479,
+    "district_Name": "الزرقاء"
+  },
+  {
+    "district_id": 55834,
+    "district_Name": "الزعيبة"
+  },
+  {
+    "district_id": 55282,
+    "district_Name": "الزمرد 1"
+  },
+  {
+    "district_id": 55966,
+    "district_Name": "الزمرد 2"
+  },
+  {
+    "district_id": 54259,
+    "district_Name": "الزمرد"
+  },
+  {
+    "district_id": 54436,
+    "district_Name": "الزهر"
+  },
+  {
+    "district_id": 54329,
+    "district_Name": "الزهراء"
+  },
+  {
+    "district_id": 54562,
+    "district_Name": "الزهود"
+  },
+  {
+    "district_id": 54275,
+    "district_Name": "الزهور"
+  },
+  {
+    "district_id": 55542,
+    "district_Name": "الزور"
+  },
+  {
+    "district_id": 56976,
+    "district_Name": "دحلة الضبع غرب جبل النور"
+  },
+  {
+    "district_id": 55891,
+    "district_Name": "الزويراء"
+  },
+  {
+    "district_id": 54258,
+    "district_Name": "الزيتون"
+  },
+  {
+    "district_id": 56886,
+    "district_Name": "الزيمة"
+  },
+  {
+    "district_id": 54844,
+    "district_Name": "الزين"
+  },
+  {
+    "district_id": 54543,
+    "district_Name": "الساحل"
+  },
+  {
+    "district_id": 54596,
+    "district_Name": "السادة"
+  },
+  {
+    "district_id": 54440,
+    "district_Name": "السالمية"
+  },
+  {
+    "district_id": 54437,
+    "district_Name": "السامر"
+  },
+  {
+    "district_id": 54991,
+    "district_Name": "السبخة"
+  },
+  {
+    "district_id": 56887,
+    "district_Name": "السبهاني"
+  },
+  {
+    "district_id": 56034,
+    "district_Name": "السبيعى"
+  },
+  {
+    "district_id": 55167,
+    "district_Name": "السبيل"
+  },
+  {
+    "district_id": 56888,
+    "district_Name": "الستين"
+  },
+  {
+    "district_id": 55196,
+    "district_Name": "السجدة"
+  },
+  {
+    "district_id": 54633,
+    "district_Name": "السحاب"
+  },
+  {
+    "district_id": 55562,
+    "district_Name": "السحيمية"
+  },
+  {
+    "district_id": 56974,
+    "district_Name": "دحلة محبس الجن المعدل"
+  },
+  {
+    "district_id": 54445,
+    "district_Name": "السد"
+  },
+  {
+    "district_id": 54509,
+    "district_Name": "السدر"
+  },
+  {
+    "district_id": 54916,
+    "district_Name": "السر"
+  },
+  {
+    "district_id": 55073,
+    "district_Name": "السرح"
+  },
+  {
+    "district_id": 54435,
+    "district_Name": "السروات"
+  },
+  {
+    "district_id": 55330,
+    "district_Name": "السرورية"
+  },
+  {
+    "district_id": 54332,
+    "district_Name": "السعادة"
+  },
+  {
+    "district_id": 55915,
+    "district_Name": "السعودية"
+  },
+  {
+    "district_id": 55957,
+    "district_Name": "السفارات"
+  },
+  {
+    "district_id": 55084,
+    "district_Name": "السفح"
+  },
+  {
+    "district_id": 54729,
+    "district_Name": "السفن"
+  },
+  {
+    "district_id": 55648,
+    "district_Name": "السكب"
+  },
+  {
+    "district_id": 54533,
+    "district_Name": "السلام 1"
+  },
+  {
+    "district_id": 54536,
+    "district_Name": "السلام 2"
+  },
+  {
+    "district_id": 54532,
+    "district_Name": "السلام 3"
+  },
+  {
+    "district_id": 54699,
+    "district_Name": "السلام الأول"
+  },
+  {
+    "district_id": 55567,
+    "district_Name": "السلام الثاني"
+  },
+  {
+    "district_id": 54907,
+    "district_Name": "السلام الشرقي"
+  },
+  {
+    "district_id": 54564,
+    "district_Name": "السلام الغربي"
+  },
+  {
+    "district_id": 54438,
+    "district_Name": "السلامة"
+  },
+  {
+    "district_id": 54425,
+    "district_Name": "السلطان"
+  },
+  {
+    "district_id": 55442,
+    "district_Name": "السلطانة"
+  },
+  {
+    "district_id": 54939,
+    "district_Name": "السلطانيه"
+  },
+  {
+    "district_id": 55645,
+    "district_Name": "السلم"
+  },
+  {
+    "district_id": 55502,
+    "district_Name": "السلمانية الأول"
+  },
+  {
+    "district_id": 55583,
+    "district_Name": "السلمانية الثالث"
+  },
+  {
+    "district_id": 55409,
+    "district_Name": "السلمانية الثاني"
+  },
+  {
+    "district_id": 55544,
+    "district_Name": "السلمانية الرابع"
+  },
+  {
+    "district_id": 55076,
+    "district_Name": "السلمية"
+  },
+  {
+    "district_id": 56889,
+    "district_Name": "السلولي"
+  },
+  {
+    "district_id": 54722,
+    "district_Name": "السلوى"
+  },
+  {
+    "district_id": 56086,
+    "district_Name": "السلي"
+  },
+  {
+    "district_id": 54711,
+    "district_Name": "السليل"
+  },
+  {
+    "district_id": 56890,
+    "district_Name": "السليمانية الشرقي"
+  },
+  {
+    "district_id": 56891,
+    "district_Name": "السليمانية الغربي"
+  },
+  {
+    "district_id": 54214,
+    "district_Name": "السليمانية"
+  },
+  {
+    "district_id": 54494,
+    "district_Name": "السمر"
+  },
+  {
+    "district_id": 54770,
+    "district_Name": "السمراء"
+  },
+  {
+    "district_id": 54615,
+    "district_Name": "السمرة"
+  },
+  {
+    "district_id": 55556,
+    "district_Name": "السميرى"
+  },
+  {
+    "district_id": 54442,
+    "district_Name": "السنابل"
+  },
+  {
+    "district_id": 54850,
+    "district_Name": "السناح"
+  },
+  {
+    "district_id": 54315,
+    "district_Name": "السنبلة"
+  },
+  {
+    "district_id": 54927,
+    "district_Name": "السندس"
+  },
+  {
+    "district_id": 54755,
+    "district_Name": "السنيدية"
+  },
+  {
+    "district_id": 54832,
+    "district_Name": "السهباء"
+  },
+  {
+    "district_id": 55575,
+    "district_Name": "السهل"
+  },
+  {
+    "district_id": 56187,
+    "district_Name": "السهلة"
+  },
+  {
+    "district_id": 54706,
+    "district_Name": "السودة"
+  },
+  {
+    "district_id": 54845,
+    "district_Name": "السوسن"
+  },
+  {
+    "district_id": 55623,
+    "district_Name": "السوق الجديد"
+  },
+  {
+    "district_id": 55665,
+    "district_Name": "السوق القديم"
+  },
+  {
+    "district_id": 54309,
+    "district_Name": "السوق"
+  },
+  {
+    "district_id": 56144,
+    "district_Name": "السويدي الغربي"
+  },
+  {
+    "district_id": 54627,
+    "district_Name": "السويس 1"
+  },
+  {
+    "district_id": 54629,
+    "district_Name": "السويس 2"
+  },
+  {
+    "district_id": 55769,
+    "district_Name": "السويفلة الجديد"
+  },
+  {
+    "district_id": 56002,
+    "district_Name": "السويفلة"
+  },
+  {
+    "district_id": 56180,
+    "district_Name": "السويق"
+  },
+  {
+    "district_id": 54811,
+    "district_Name": "السيح"
+  },
+  {
+    "district_id": 55900,
+    "district_Name": "السيف"
+  },
+  {
+    "district_id": 55569,
+    "district_Name": "السيفة"
+  },
+  {
+    "district_id": 54910,
+    "district_Name": "السيل الكبير"
+  },
+  {
+    "district_id": 55908,
+    "district_Name": "الشاطئ الشرقي"
+  },
+  {
+    "district_id": 55942,
+    "district_Name": "الشاطئ الغربي"
+  },
+  {
+    "district_id": 54426,
+    "district_Name": "الشاطئ"
+  },
+  {
+    "district_id": 56892,
+    "district_Name": "الشافعي"
+  },
+  {
+    "district_id": 55695,
+    "district_Name": "الشافية"
+  },
+  {
+    "district_id": 54336,
+    "district_Name": "الشامل"
+  },
+  {
+    "district_id": 55776,
+    "district_Name": "الشامية الجديد"
+  },
+  {
+    "district_id": 56036,
+    "district_Name": "الشبانان"
+  },
+  {
+    "district_id": 55069,
+    "district_Name": "الشبهان"
+  },
+  {
+    "district_id": 55602,
+    "district_Name": "الشبيكة الجديد"
+  },
+  {
+    "district_id": 56224,
+    "district_Name": "الشبيلية 1"
+  },
+  {
+    "district_id": 54410,
+    "district_Name": "الشداخة"
+  },
+  {
+    "district_id": 54358,
+    "district_Name": "الشذا"
+  },
+  {
+    "district_id": 55493,
+    "district_Name": "الشراع الجنوبي"
+  },
+  {
+    "district_id": 55471,
+    "district_Name": "الشراع الشمالي"
+  },
+  {
+    "district_id": 54542,
+    "district_Name": "الشراع"
+  },
+  {
+    "district_id": 55378,
+    "district_Name": "الشراعبة"
+  },
+  {
+    "district_id": 55890,
+    "district_Name": "الشرافا"
+  },
+  {
+    "district_id": 55219,
+    "district_Name": "الشرائع"
+  },
+  {
+    "district_id": 55082,
+    "district_Name": "الشرف"
+  },
+  {
+    "district_id": 55141,
+    "district_Name": "الشرفة"
+  },
+  {
+    "district_id": 54919,
+    "district_Name": "الشرفية"
+  },
+  {
+    "district_id": 54434,
+    "district_Name": "الشرق"
+  },
+  {
+    "district_id": 55171,
+    "district_Name": "الشرقي"
+  },
+  {
+    "district_id": 54820,
+    "district_Name": "الشرقية"
+  },
+  {
+    "district_id": 55448,
+    "district_Name": "الشروفية"
+  },
+  {
+    "district_id": 54326,
+    "district_Name": "الشروق الاداري"
+  },
+  {
+    "district_id": 54249,
+    "district_Name": "الشروق"
+  },
+  {
+    "district_id": 55615,
+    "district_Name": "الشريانية"
+  },
+  {
+    "district_id": 55765,
+    "district_Name": "الشريبات"
+  },
+  {
+    "district_id": 55893,
+    "district_Name": "الشريعة"
+  },
+  {
+    "district_id": 56893,
+    "district_Name": "الششة"
+  },
+  {
+    "district_id": 54605,
+    "district_Name": "الشعبة"
+  },
+  {
+    "district_id": 55222,
+    "district_Name": "الشعبين"
+  },
+  {
+    "district_id": 54274,
+    "district_Name": "الشعلة"
+  },
+  {
+    "district_id": 54306,
+    "district_Name": "الشعيب"
+  },
+  {
+    "district_id": 55518,
+    "district_Name": "الشغيبية"
+  },
+  {
+    "district_id": 54261,
+    "district_Name": "الشفاء"
+  },
+  {
+    "district_id": 54855,
+    "district_Name": "الشفق"
+  },
+  {
+    "district_id": 55229,
+    "district_Name": "الشقة العليا"
+  },
+  {
+    "district_id": 54846,
+    "district_Name": "الشقة"
+  },
+  {
+    "district_id": 54429,
+    "district_Name": "الشلال"
+  },
+  {
+    "district_id": 54310,
+    "district_Name": "الشلهوب"
+  },
+  {
+    "district_id": 55170,
+    "district_Name": "الشماس"
+  },
+  {
+    "district_id": 55340,
+    "district_Name": "الشماسية"
+  },
+  {
+    "district_id": 55402,
+    "district_Name": "الشمال"
+  },
+  {
+    "district_id": 55144,
+    "district_Name": "الشمائل"
+  },
+  {
+    "district_id": 55958,
+    "district_Name": "الشموع"
+  },
+  {
+    "district_id": 55774,
+    "district_Name": "الشميسي"
+  },
+  {
+    "district_id": 56894,
+    "district_Name": "الشنابرة بالحسينية"
+  },
+  {
+    "district_id": 56208,
+    "district_Name": "الشنانة الجنوبية"
+  },
+  {
+    "district_id": 56205,
+    "district_Name": "الشنانة الشمالية"
+  },
+  {
+    "district_id": 55432,
+    "district_Name": "الشهابية"
+  },
+  {
+    "district_id": 55892,
+    "district_Name": "الشهباء"
+  },
+  {
+    "district_id": 55782,
+    "district_Name": "الشهداء الجنوبية"
+  },
+  {
+    "district_id": 54909,
+    "district_Name": "الشهداء الشمالية"
+  },
+  {
+    "district_id": 54454,
+    "district_Name": "الشهداء"
+  },
+  {
+    "district_id": 56895,
+    "district_Name": "الشوام"
+  },
+  {
+    "district_id": 55137,
+    "district_Name": "الشورى"
+  },
+  {
+    "district_id": 55750,
+    "district_Name": "الشوقية"
+  },
+  {
+    "district_id": 55333,
+    "district_Name": "الشويضي"
+  },
+  {
+    "district_id": 55377,
+    "district_Name": "الشويكة"
+  },
+  {
+    "district_id": 55215,
+    "district_Name": "الشيوخ"
+  },
+  {
+    "district_id": 55973,
+    "district_Name": "الصادقية"
+  },
+  {
+    "district_id": 55011,
+    "district_Name": "الصافي"
+  },
+  {
+    "district_id": 54290,
+    "district_Name": "الصالحية"
+  },
+  {
+    "district_id": 54739,
+    "district_Name": "الصباخ"
+  },
+  {
+    "district_id": 56896,
+    "district_Name": "الصبان"
+  },
+  {
+    "district_id": 55716,
+    "district_Name": "الصبغان"
+  },
+  {
+    "district_id": 54419,
+    "district_Name": "الصبيحي"
+  },
+  {
+    "district_id": 54883,
+    "district_Name": "الصبيحية"
+  },
+  {
+    "district_id": 56061,
+    "district_Name": "الصحافة"
+  },
+  {
+    "district_id": 54234,
+    "district_Name": "الصحة"
+  },
+  {
+    "district_id": 56037,
+    "district_Name": "الصحن"
+  },
+  {
+    "district_id": 55428,
+    "district_Name": "الصحنة"
+  },
+  {
+    "district_id": 55174,
+    "district_Name": "الصحيفة"
+  },
+  {
+    "district_id": 55403,
+    "district_Name": "الصخيرات"
+  },
+  {
+    "district_id": 55213,
+    "district_Name": "الصدر"
+  },
+  {
+    "district_id": 56154,
+    "district_Name": "الصدفة"
+  },
+  {
+    "district_id": 54322,
+    "district_Name": "الصديق"
+  },
+  {
+    "district_id": 55316,
+    "district_Name": "الصريف"
+  },
+  {
+    "district_id": 55431,
+    "district_Name": "الصفاء الاول"
+  },
+  {
+    "district_id": 56109,
+    "district_Name": "الصفاء الثالث"
+  },
+  {
+    "district_id": 55460,
+    "district_Name": "الصفاء الثاني"
+  },
+  {
+    "district_id": 54753,
+    "district_Name": "الصفاء الرابع"
+  },
+  {
+    "district_id": 54233,
+    "district_Name": "الصفاء"
+  },
+  {
+    "district_id": 54296,
+    "district_Name": "الصفاة"
+  },
+  {
+    "district_id": 54433,
+    "district_Name": "الصفح"
+  },
+  {
+    "district_id": 55331,
+    "district_Name": "الصفحة"
+  },
+  {
+    "district_id": 54990,
+    "district_Name": "الصفر"
+  },
+  {
+    "district_id": 54592,
+    "district_Name": "الصفراء"
+  },
+  {
+    "district_id": 55510,
+    "district_Name": "الصفق"
+  },
+  {
+    "district_id": 54566,
+    "district_Name": "الصفوة"
+  },
+  {
+    "district_id": 54354,
+    "district_Name": "الصقار"
+  },
+  {
+    "district_id": 54606,
+    "district_Name": "الصقور"
+  },
+  {
+    "district_id": 54987,
+    "district_Name": "الصمدة"
+  },
+  {
+    "district_id": 55664,
+    "district_Name": "الصمله"
+  },
+  {
+    "district_id": 54284,
+    "district_Name": "الصناعي"
+  },
+  {
+    "district_id": 55293,
+    "district_Name": "الصناعية 1"
+  },
+  {
+    "district_id": 55959,
+    "district_Name": "الصناعية 2"
+  },
+  {
+    "district_id": 54337,
+    "district_Name": "الصناعية الأولى"
+  },
+  {
+    "district_id": 54346,
+    "district_Name": "الصناعية الثانية"
+  },
+  {
+    "district_id": 55079,
+    "district_Name": "الصناعية الجديدة"
+  },
+  {
+    "district_id": 55181,
+    "district_Name": "الصناعية القديمة"
+  },
+  {
+    "district_id": 54945,
+    "district_Name": "الصناعية أ"
+  },
+  {
+    "district_id": 54231,
+    "district_Name": "الصناعية"
+  },
+  {
+    "district_id": 55160,
+    "district_Name": "الصهباء"
+  },
+  {
+    "district_id": 54852,
+    "district_Name": "الصواري"
+  },
+  {
+    "district_id": 54740,
+    "district_Name": "الصوامع"
+  },
+  {
+    "district_id": 55112,
+    "district_Name": "الصيادلة"
+  },
+  {
+    "district_id": 54455,
+    "district_Name": "الضاحي الشرقي"
+  },
+  {
+    "district_id": 54305,
+    "district_Name": "الضاحية"
+  },
+  {
+    "district_id": 54432,
+    "district_Name": "الضباب"
+  },
+  {
+    "district_id": 54383,
+    "district_Name": "الضباط"
+  },
+  {
+    "district_id": 54866,
+    "district_Name": "الضبيعة"
+  },
+  {
+    "district_id": 54865,
+    "district_Name": "الضحى"
+  },
+  {
+    "district_id": 54457,
+    "district_Name": "الضرس"
+  },
+  {
+    "district_id": 55740,
+    "district_Name": "الضرم"
+  },
+  {
+    "district_id": 55940,
+    "district_Name": "الضريب"
+  },
+  {
+    "district_id": 54321,
+    "district_Name": "الضلع"
+  },
+  {
+    "district_id": 55199,
+    "district_Name": "الضويحي"
+  },
+  {
+    "district_id": 54679,
+    "district_Name": "الضياء"
+  },
+  {
+    "district_id": 54946,
+    "district_Name": "الضيافة"
+  },
+  {
+    "district_id": 55418,
+    "district_Name": "الطالعية"
+  },
+  {
+    "district_id": 54721,
+    "district_Name": "الطاهرية"
+  },
+  {
+    "district_id": 55857,
+    "district_Name": "الطبيشي"
+  },
+  {
+    "district_id": 55866,
+    "district_Name": "الطرايشة"
+  },
+  {
+    "district_id": 55049,
+    "district_Name": "الطرفية"
+  },
+  {
+    "district_id": 56025,
+    "district_Name": "الطريفي"
+  },
+  {
+    "district_id": 55976,
+    "district_Name": "الطف"
+  },
+  {
+    "district_id": 55150,
+    "district_Name": "الطلايع"
+  },
+  {
+    "district_id": 54639,
+    "district_Name": "الطلعة 1"
+  },
+  {
+    "district_id": 55262,
+    "district_Name": "الطلعة 2"
+  },
+  {
+    "district_id": 56195,
+    "district_Name": "الطوية"
+  },
+  {
+    "district_id": 54303,
+    "district_Name": "الطوير"
+  },
+  {
+    "district_id": 55970,
+    "district_Name": "الطيبات"
+  },
+  {
+    "district_id": 55650,
+    "district_Name": "الظاهرة"
+  },
+  {
+    "district_id": 55756,
+    "district_Name": "الظبي"
+  },
+  {
+    "district_id": 54767,
+    "district_Name": "الظبية"
+  },
+  {
+    "district_id": 54670,
+    "district_Name": "الظرفة"
+  },
+  {
+    "district_id": 54317,
+    "district_Name": "الظلال"
+  },
+  {
+    "district_id": 54453,
+    "district_Name": "الظهرة"
+  },
+  {
+    "district_id": 55820,
+    "district_Name": "العابدية"
+  },
+  {
+    "district_id": 54783,
+    "district_Name": "العارض"
+  },
+  {
+    "district_id": 55419,
+    "district_Name": "العاصمة"
+  },
+  {
+    "district_id": 56022,
+    "district_Name": "العاقول"
+  },
+  {
+    "district_id": 54810,
+    "district_Name": "العالية"
+  },
+  {
+    "district_id": 55851,
+    "district_Name": "العامرية"
+  },
+  {
+    "district_id": 55051,
+    "district_Name": "العان"
+  },
+  {
+    "district_id": 54278,
+    "district_Name": "العبدلية"
+  },
+  {
+    "district_id": 54773,
+    "district_Name": "العبلاء"
+  },
+  {
+    "district_id": 55574,
+    "district_Name": "العبير"
+  },
+  {
+    "district_id": 56206,
+    "district_Name": "العبيل"
+  },
+  {
+    "district_id": 56203,
+    "district_Name": "العتيبية"
+  },
+  {
+    "district_id": 55654,
+    "district_Name": "العجيبة"
+  },
+  {
+    "district_id": 54580,
+    "district_Name": "العجيبية"
+  },
+  {
+    "district_id": 54487,
+    "district_Name": "العدالة"
+  },
+  {
+    "district_id": 54778,
+    "district_Name": "العدامة"
+  },
+  {
+    "district_id": 54749,
+    "district_Name": "العدل"
+  },
+  {
+    "district_id": 55120,
+    "district_Name": "العدوة"
+  },
+  {
+    "district_id": 56092,
+    "district_Name": "العذار"
+  },
+  {
+    "district_id": 55125,
+    "district_Name": "العذيب"
+  },
+  {
+    "district_id": 55652,
+    "district_Name": "العرج الأسفل"
+  },
+  {
+    "district_id": 55651,
+    "district_Name": "العرج الأعلى"
+  },
+  {
+    "district_id": 54869,
+    "district_Name": "العرفاء الشرقية"
+  },
+  {
+    "district_id": 55613,
+    "district_Name": "العرفاء الغربية"
+  },
+  {
+    "district_id": 54688,
+    "district_Name": "العرق الجنوبى"
+  },
+  {
+    "district_id": 55122,
+    "district_Name": "العرق الشمالي"
+  },
+  {
+    "district_id": 55872,
+    "district_Name": "العرنية"
+  },
+  {
+    "district_id": 54302,
+    "district_Name": "العروبة"
+  },
+  {
+    "district_id": 55941,
+    "district_Name": "العريجاء"
+  },
+  {
+    "district_id": 54381,
+    "district_Name": "العريسة"
+  },
+  {
+    "district_id": 54668,
+    "district_Name": "العريش"
+  },
+  {
+    "district_id": 55647,
+    "district_Name": "العريض"
+  },
+  {
+    "district_id": 54281,
+    "district_Name": "روض الجواء"
+  },
+  {
+    "district_id": 54297,
+    "district_Name": "خذماء"
+  },
+  {
+    "district_id": 54328,
+    "district_Name": "ضاحية الملك فهد"
+  },
+  {
+    "district_id": 54324,
+    "district_Name": "غرناطة الشرقي"
+  },
+  {
+    "district_id": 54352,
+    "district_Name": "مشرف"
+  },
+  {
+    "district_id": 54344,
+    "district_Name": "معيلة"
+  },
+  {
+    "district_id": 54345,
+    "district_Name": "هجرة ابن سعيد"
+  },
+  {
+    "district_id": 54372,
+    "district_Name": "محافير"
+  },
+  {
+    "district_id": 54362,
+    "district_Name": "محجوزات ارمكو"
+  },
+  {
+    "district_id": 54365,
+    "district_Name": "مدينة الانعام"
+  },
+  {
+    "district_id": 54502,
+    "district_Name": "خب البريدي"
+  },
+  {
+    "district_id": 54449,
+    "district_Name": "خب الجطيلي"
+  },
+  {
+    "district_id": 54488,
+    "district_Name": "خضيراء الجنوبية"
+  },
+  {
+    "district_id": 54514,
+    "district_Name": "دلغان"
+  },
+  {
+    "district_id": 54473,
+    "district_Name": "الأكاديمي"
+  },
+  {
+    "district_id": 54552,
+    "district_Name": "الأنعام"
+  },
+  {
+    "district_id": 54735,
+    "district_Name": "خضيراء الشمالية"
+  },
+  {
+    "district_id": 54747,
+    "district_Name": "دمج"
+  },
+  {
+    "district_id": 54736,
+    "district_Name": "رواق الغربي"
+  },
+  {
+    "district_id": 54798,
+    "district_Name": "خب الثنيان"
+  },
+  {
+    "district_id": 54764,
+    "district_Name": "خضيرة"
+  },
+  {
+    "district_id": 54834,
+    "district_Name": "ذرة"
+  },
+  {
+    "district_id": 54917,
+    "district_Name": "خب القبر"
+  },
+  {
+    "district_id": 54872,
+    "district_Name": "ذهبان الشرقي"
+  },
+  {
+    "district_id": 54898,
+    "district_Name": "ريحه"
+  },
+  {
+    "district_id": 54877,
+    "district_Name": "زور ال الحارث"
+  },
+  {
+    "district_id": 54959,
+    "district_Name": "حمود السمال"
+  },
+  {
+    "district_id": 55031,
+    "district_Name": "حويلان"
+  },
+  {
+    "district_id": 55044,
+    "district_Name": "رجلا"
+  },
+  {
+    "district_id": 55089,
+    "district_Name": "دحضة"
+  },
+  {
+    "district_id": 55132,
+    "district_Name": "ذلالة"
+  },
+  {
+    "district_id": 55106,
+    "district_Name": "رملان"
+  },
+  {
+    "district_id": 55107,
+    "district_Name": "ريمان"
+  },
+  {
+    "district_id": 55130,
+    "district_Name": "زرود"
+  },
+  {
+    "district_id": 55218,
+    "district_Name": "حلة محيش"
+  },
+  {
+    "district_id": 55216,
+    "district_Name": "أجا"
+  },
+  {
+    "district_id": 55270,
+    "district_Name": "درب العقيدة"
+  },
+  {
+    "district_id": 55350,
+    "district_Name": "حكومي 3"
+  },
+  {
+    "district_id": 55375,
+    "district_Name": "خصيبة الشرقية"
+  },
+  {
+    "district_id": 55413,
+    "district_Name": "خضرا و عشيران"
+  },
+  {
+    "district_id": 55387,
+    "district_Name": "ذهبان الغربي"
+  },
+  {
+    "district_id": 55380,
+    "district_Name": "رهناء"
+  },
+  {
+    "district_id": 55481,
+    "district_Name": "دارين"
+  },
+  {
+    "district_id": 55453,
+    "district_Name": "رضوى"
+  },
+  {
+    "district_id": 55429,
+    "district_Name": "زميقة"
+  },
+  {
+    "district_id": 55606,
+    "district_Name": "حوايا الشمالية"
+  },
+  {
+    "district_id": 55689,
+    "district_Name": "حنين"
+  },
+  {
+    "district_id": 55700,
+    "district_Name": "دار السلام"
+  },
+  {
+    "district_id": 55635,
+    "district_Name": "رهط"
+  },
+  {
+    "district_id": 55608,
+    "district_Name": "رؤى الحرم"
+  },
+  {
+    "district_id": 55637,
+    "district_Name": "زمزم"
+  },
+  {
+    "district_id": 55633,
+    "district_Name": "شعب عامر"
+  },
+  {
+    "district_id": 55708,
+    "district_Name": "خاخ"
+  },
+  {
+    "district_id": 55703,
+    "district_Name": "خميس ناخس"
+  },
+  {
+    "district_id": 55715,
+    "district_Name": "دميغ الجنوبية"
+  },
+  {
+    "district_id": 55717,
+    "district_Name": "دميغ الشمالية"
+  },
+  {
+    "district_id": 55704,
+    "district_Name": "ذو الحليفة"
+  },
+  {
+    "district_id": 55718,
+    "district_Name": "ريع اذاخر"
+  },
+  {
+    "district_id": 55760,
+    "district_Name": "التوسعي"
+  },
+  {
+    "district_id": 55861,
+    "district_Name": "خبت محمد علي"
+  },
+  {
+    "district_id": 55894,
+    "district_Name": "دواليب"
+  },
+  {
+    "district_id": 55862,
+    "district_Name": "ريف وعلان"
+  },
+  {
+    "district_id": 55877,
+    "district_Name": "مخطط رقم 638"
+  },
+  {
+    "district_id": 55878,
+    "district_Name": "مخطط رقم 1075"
+  },
+  {
+    "district_id": 55905,
+    "district_Name": "ال سالم"
+  },
+  {
+    "district_id": 55954,
+    "district_Name": "رماح"
+  },
+  {
+    "district_id": 56067,
+    "district_Name": "خضار"
+  },
+  {
+    "district_id": 56024,
+    "district_Name": "درة مشار"
+  },
+  {
+    "district_id": 56055,
+    "district_Name": "ديراب"
+  },
+  {
+    "district_id": 56103,
+    "district_Name": "مخطط رقم 665"
+  },
+  {
+    "district_id": 56078,
+    "district_Name": "مخطط رقم 1023"
+  },
+  {
+    "district_id": 56070,
+    "district_Name": "مخطط رقم 1029"
+  },
+  {
+    "district_id": 56106,
+    "district_Name": "مخطط رقم 1077"
+  },
+  {
+    "district_id": 56082,
+    "district_Name": "مخطط رقم 1101"
+  },
+  {
+    "district_id": 56031,
+    "district_Name": "مخطط رقم 1041/1043"
+  },
+  {
+    "district_id": 56048,
+    "district_Name": "البدائع"
+  },
+  {
+    "district_id": 56244,
+    "district_Name": "المريديسية الجنوبية"
+  },
+  {
+    "district_id": 56246,
+    "district_Name": "الهليه العليا والسفلى"
+  },
+  {
+    "district_id": 56240,
+    "district_Name": "حرة الوبرة"
+  },
+  {
+    "district_id": 56242,
+    "district_Name": "الخالدية الشرقي"
+  },
+  {
+    "district_id": 56239,
+    "district_Name": "الدريدي"
+  },
+  {
+    "district_id": 56237,
+    "district_Name": "الشبيلية 2"
+  },
+  {
+    "district_id": 56243,
+    "district_Name": "الشمالي"
+  },
+  {
+    "district_id": 55656,
+    "district_Name": "العريمضي الشمالي"
+  },
+  {
+    "district_id": 54490,
+    "district_Name": "العرين"
+  },
+  {
+    "district_id": 56145,
+    "district_Name": "العزيزية 1"
+  },
+  {
+    "district_id": 55458,
+    "district_Name": "العزيزية الأول"
+  },
+  {
+    "district_id": 55570,
+    "district_Name": "العزيزية الثاني"
+  },
+  {
+    "district_id": 55457,
+    "district_Name": "العزيزية الغربي"
+  },
+  {
+    "district_id": 54263,
+    "district_Name": "العزيزية"
+  },
+  {
+    "district_id": 55523,
+    "district_Name": "العسلاء"
+  },
+  {
+    "district_id": 55194,
+    "district_Name": "العسيلة"
+  },
+  {
+    "district_id": 54651,
+    "district_Name": "العشوة"
+  },
+  {
+    "district_id": 55839,
+    "district_Name": "العشيرة"
+  },
+  {
+    "district_id": 55158,
+    "district_Name": "العشيرية"
+  },
+  {
+    "district_id": 56003,
+    "district_Name": "العصبة"
+  },
+  {
+    "district_id": 56185,
+    "district_Name": "العصيلى"
+  },
+  {
+    "district_id": 54841,
+    "district_Name": "العطيان"
+  },
+  {
+    "district_id": 56166,
+    "district_Name": "العطيفة"
+  },
+  {
+    "district_id": 54924,
+    "district_Name": "العفجة"
+  },
+  {
+    "district_id": 56049,
+    "district_Name": "العقبانى"
+  },
+  {
+    "district_id": 55805,
+    "district_Name": "العقبة"
+  },
+  {
+    "district_id": 54578,
+    "district_Name": "العقدة"
+  },
+  {
+    "district_id": 54724,
+    "district_Name": "العقربية"
+  },
+  {
+    "district_id": 54725,
+    "district_Name": "العقيق"
+  },
+  {
+    "district_id": 56165,
+    "district_Name": "العقيلة الجنوبية"
+  },
+  {
+    "district_id": 54256,
+    "district_Name": "العقيلة الشمالية"
+  },
+  {
+    "district_id": 55603,
+    "district_Name": "العكيشية"
+  },
+  {
+    "district_id": 56087,
+    "district_Name": "العلا"
+  },
+  {
+    "district_id": 55195,
+    "district_Name": "العلاء"
+  },
+  {
+    "district_id": 56107,
+    "district_Name": "العلب"
+  },
+  {
+    "district_id": 54934,
+    "district_Name": "العلم"
+  },
+  {
+    "district_id": 54195,
+    "district_Name": "العليا"
+  },
+  {
+    "district_id": 54623,
+    "district_Name": "العلية"
+  },
+  {
+    "district_id": 56098,
+    "district_Name": "العمار"
+  },
+  {
+    "district_id": 54801,
+    "district_Name": "العمارة"
+  },
+  {
+    "district_id": 55415,
+    "district_Name": "العمارية"
+  },
+  {
+    "district_id": 54892,
+    "district_Name": "العمال"
+  },
+  {
+    "district_id": 55922,
+    "district_Name": "العمامرة"
+  },
+  {
+    "district_id": 55598,
+    "district_Name": "العمائر"
+  },
+  {
+    "district_id": 56053,
+    "district_Name": "العمرة"
+  },
+  {
+    "district_id": 55281,
+    "district_Name": "العمل"
+  },
+  {
+    "district_id": 56020,
+    "district_Name": "العنابس"
+  },
+  {
+    "district_id": 55035,
+    "district_Name": "العند"
+  },
+  {
+    "district_id": 54549,
+    "district_Name": "العنود"
+  },
+  {
+    "district_id": 55165,
+    "district_Name": "العهن"
+  },
+  {
+    "district_id": 54905,
+    "district_Name": "العواجية"
+  },
+  {
+    "district_id": 56241,
+    "district_Name": "العواش"
+  },
+  {
+    "district_id": 54931,
+    "district_Name": "العواكل"
+  },
+  {
+    "district_id": 55746,
+    "district_Name": "العوالي"
+  },
+  {
+    "district_id": 55975,
+    "district_Name": "العوامية"
+  },
+  {
+    "district_id": 55981,
+    "district_Name": "العود"
+  },
+  {
+    "district_id": 55366,
+    "district_Name": "العويجاء"
+  },
+  {
+    "district_id": 55475,
+    "district_Name": "العويمرية"
+  },
+  {
+    "district_id": 57108,
+    "district_Name": "ظاهرة لبن"
+  },
+  {
+    "district_id": 56656,
+    "district_Name": "مخطط الملك فهد رقم ب/ب/821"
+  },
+  {
+    "district_id": 57109,
+    "district_Name": "مخطط فيصل1"
+  },
+  {
+    "district_id": 57039,
+    "district_Name": "ولي العهد رقم 9"
+  },
+  {
+    "district_id": 57040,
+    "district_Name": "يسار الكر"
+  },
+  {
+    "district_id": 57041,
+    "district_Name": "يمين الكر"
+  },
+  {
+    "district_id": 55835,
+    "district_Name": "العيبه"
+  },
+  {
+    "district_id": 55807,
+    "district_Name": "العين"
+  },
+  {
+    "district_id": 55492,
+    "district_Name": "العيون الجنوبية"
+  },
+  {
+    "district_id": 55407,
+    "district_Name": "العيون الشمالية"
+  },
+  {
+    "district_id": 54882,
+    "district_Name": "العيون"
+  },
+  {
+    "district_id": 55164,
+    "district_Name": "الغابة"
+  },
+  {
+    "district_id": 55275,
+    "district_Name": "الغال"
+  },
+  {
+    "district_id": 54285,
+    "district_Name": "الغدير"
+  },
+  {
+    "district_id": 55341,
+    "district_Name": "الغرابة"
+  },
+  {
+    "district_id": 54294,
+    "district_Name": "الغربي"
+  },
+  {
+    "district_id": 55313,
+    "district_Name": "الغربية"
+  },
+  {
+    "district_id": 54301,
+    "district_Name": "الغروب"
+  },
+  {
+    "district_id": 55101,
+    "district_Name": "الغريف"
+  },
+  {
+    "district_id": 54478,
+    "district_Name": "الغزالة"
+  },
+  {
+    "district_id": 56084,
+    "district_Name": "الغزة الجديد"
+  },
+  {
+    "district_id": 55006,
+    "district_Name": "الغزلانى"
+  },
+  {
+    "district_id": 54649,
+    "district_Name": "الغزوة"
+  },
+  {
+    "district_id": 54788,
+    "district_Name": "الغزود"
+  },
+  {
+    "district_id": 54840,
+    "district_Name": "الغضا"
+  },
+  {
+    "district_id": 54772,
+    "district_Name": "الغمير"
+  },
+  {
+    "district_id": 56019,
+    "district_Name": "الغنامية"
+  },
+  {
+    "district_id": 55538,
+    "district_Name": "الغولاء"
+  },
+  {
+    "district_id": 54675,
+    "district_Name": "الغويبة"
+  },
+  {
+    "district_id": 55068,
+    "district_Name": "الغويلا"
+  },
+  {
+    "district_id": 54935,
+    "district_Name": "الغيضة"
+  },
+  {
+    "district_id": 55043,
+    "district_Name": "الفاجي"
+  },
+  {
+    "district_id": 54499,
+    "district_Name": "الفاخرية"
+  },
+  {
+    "district_id": 54349,
+    "district_Name": "الفاروق"
+  },
+  {
+    "district_id": 55355,
+    "district_Name": "الفاو"
+  },
+  {
+    "district_id": 56052,
+    "district_Name": "الفايزية"
+  },
+  {
+    "district_id": 54470,
+    "district_Name": "الفتح"
+  },
+  {
+    "district_id": 54567,
+    "district_Name": "الفردوس"
+  },
+  {
+    "district_id": 54265,
+    "district_Name": "الفرسان"
+  },
+  {
+    "district_id": 54531,
+    "district_Name": "الفرشة"
+  },
+  {
+    "district_id": 55906,
+    "district_Name": "الفرعة الشرقية"
+  },
+  {
+    "district_id": 55896,
+    "district_Name": "الفرعة الشمالي"
+  },
+  {
+    "district_id": 54466,
+    "district_Name": "الفرعين 1"
+  },
+  {
+    "district_id": 54465,
+    "district_Name": "الفرعين 2"
+  },
+  {
+    "district_id": 54476,
+    "district_Name": "الفرعين 3"
+  },
+  {
+    "district_id": 54467,
+    "district_Name": "الفرعين 4"
+  },
+  {
+    "district_id": 55321,
+    "district_Name": "الفرقان"
+  },
+  {
+    "district_id": 54347,
+    "district_Name": "الفروسية"
+  },
+  {
+    "district_id": 55713,
+    "district_Name": "الفريدة"
+  },
+  {
+    "district_id": 55019,
+    "district_Name": "الفريعة"
+  },
+  {
+    "district_id": 55495,
+    "district_Name": "الفضل"
+  },
+  {
+    "district_id": 55317,
+    "district_Name": "الفضيلة"
+  },
+  {
+    "district_id": 54650,
+    "district_Name": "الفقهاء"
+  },
+  {
+    "district_id": 54507,
+    "district_Name": "الفل"
+  },
+  {
+    "district_id": 54452,
+    "district_Name": "الفلاح"
+  },
+  {
+    "district_id": 55661,
+    "district_Name": "الفلق الجديد"
+  },
+  {
+    "district_id": 54330,
+    "district_Name": "الفنار"
+  },
+  {
+    "district_id": 55299,
+    "district_Name": "الفهد أ"
+  },
+  {
+    "district_id": 54427,
+    "district_Name": "الفهد"
+  },
+  {
+    "district_id": 54388,
+    "district_Name": "الفيحاء"
+  },
+  {
+    "district_id": 56167,
+    "district_Name": "الفيحانية"
+  },
+  {
+    "district_id": 55389,
+    "district_Name": "الفيصل"
+  },
+  {
+    "district_id": 56216,
+    "district_Name": "الفيصلية 1"
+  },
+  {
+    "district_id": 54673,
+    "district_Name": "الفيصلية الأول"
+  },
+  {
+    "district_id": 55554,
+    "district_Name": "الفيصلية الثاني"
+  },
+  {
+    "district_id": 54590,
+    "district_Name": "الفيصلية الجنوبية"
+  },
+  {
+    "district_id": 54591,
+    "district_Name": "الفيصلية الشمالية"
+  },
+  {
+    "district_id": 54940,
+    "district_Name": "الفيصلية أ"
+  },
+  {
+    "district_id": 55560,
+    "district_Name": "الفيصلية شرق"
+  },
+  {
+    "district_id": 55292,
+    "district_Name": "الفيصلية غرب"
+  },
+  {
+    "district_id": 54271,
+    "district_Name": "الفيصلية"
+  },
+  {
+    "district_id": 56074,
+    "district_Name": "الفيضة 1"
+  },
+  {
+    "district_id": 56162,
+    "district_Name": "الفيضة 2"
+  },
+  {
+    "district_id": 54758,
+    "district_Name": "القابل"
+  },
+  {
+    "district_id": 54737,
+    "district_Name": "القادسية الاول"
+  },
+  {
+    "district_id": 54632,
+    "district_Name": "القادسية الثانى"
+  },
+  {
+    "district_id": 54228,
+    "district_Name": "القادسية"
+  },
+  {
+    "district_id": 55374,
+    "district_Name": "القاع"
+  },
+  {
+    "district_id": 55723,
+    "district_Name": "القاعدة الجوية"
+  },
+  {
+    "district_id": 54974,
+    "district_Name": "القافلة"
+  },
+  {
+    "district_id": 55058,
+    "district_Name": "القائم"
+  },
+  {
+    "district_id": 56170,
+    "district_Name": "القبالي"
+  },
+  {
+    "district_id": 55757,
+    "district_Name": "القبلتين"
+  },
+  {
+    "district_id": 55969,
+    "district_Name": "القبيبة"
+  },
+  {
+    "district_id": 54636,
+    "district_Name": "القحمان"
+  },
+  {
+    "district_id": 54604,
+    "district_Name": "القدس 1"
+  },
+  {
+    "district_id": 54554,
+    "district_Name": "القدس 2"
+  },
+  {
+    "district_id": 54663,
+    "district_Name": "القدس 3"
+  },
+  {
+    "district_id": 54664,
+    "district_Name": "القدس 4"
+  },
+  {
+    "district_id": 54659,
+    "district_Name": "القدس 5"
+  },
+  {
+    "district_id": 54661,
+    "district_Name": "القدس 6"
+  },
+  {
+    "district_id": 54339,
+    "district_Name": "القدس الشرقي"
+  },
+  {
+    "district_id": 54360,
+    "district_Name": "القدس الغربي"
+  },
+  {
+    "district_id": 54459,
+    "district_Name": "القدس"
+  },
+  {
+    "district_id": 55152,
+    "district_Name": "القديح"
+  },
+  {
+    "district_id": 54859,
+    "district_Name": "القديرة"
+  },
+  {
+    "district_id": 55527,
+    "district_Name": "القديم"
+  },
+  {
+    "district_id": 55620,
+    "district_Name": "القراحين"
+  },
+  {
+    "district_id": 55693,
+    "district_Name": "القرارة الجديد"
+  },
+  {
+    "district_id": 54715,
+    "district_Name": "القرحاء 1"
+  },
+  {
+    "district_id": 55271,
+    "district_Name": "القرحاء 2"
+  },
+  {
+    "district_id": 55743,
+    "district_Name": "القرشيات"
+  },
+  {
+    "district_id": 55003,
+    "district_Name": "القرص"
+  },
+  {
+    "district_id": 54574,
+    "district_Name": "القري"
+  },
+  {
+    "district_id": 55226,
+    "district_Name": "القريات"
+  },
+  {
+    "district_id": 56077,
+    "district_Name": "القرينة الجديدة"
+  },
+  {
+    "district_id": 55252,
+    "district_Name": "القرينية"
+  },
+  {
+    "district_id": 55826,
+    "district_Name": "القزاز"
+  },
+  {
+    "district_id": 55777,
+    "district_Name": "القشاشية الجديد"
+  },
+  {
+    "district_id": 55860,
+    "district_Name": "القشلة"
+  },
+  {
+    "district_id": 55815,
+    "district_Name": "القصواء"
+  },
+  {
+    "district_id": 56151,
+    "district_Name": "القصور"
+  },
+  {
+    "district_id": 54720,
+    "district_Name": "القصيعة"
+  },
+  {
+    "district_id": 54922,
+    "district_Name": "القطار"
+  },
+  {
+    "district_id": 54510,
+    "district_Name": "القطائف"
+  },
+  {
+    "district_id": 55685,
+    "district_Name": "القطبية الشرقية"
+  },
+  {
+    "district_id": 54838,
+    "district_Name": "القطبية الغربية"
+  },
+  {
+    "district_id": 54380,
+    "district_Name": "القعصوم"
+  },
+  {
+    "district_id": 54642,
+    "district_Name": "القلعة"
+  },
+  {
+    "district_id": 54828,
+    "district_Name": "القمة"
+  },
+  {
+    "district_id": 54760,
+    "district_Name": "القمر"
+  },
+  {
+    "district_id": 54761,
+    "district_Name": "القمراء"
+  },
+  {
+    "district_id": 54908,
+    "district_Name": "القمرية"
+  },
+  {
+    "district_id": 56023,
+    "district_Name": "القميش"
+  },
+  {
+    "district_id": 54897,
+    "district_Name": "القميع"
+  },
+  {
+    "district_id": 54819,
+    "district_Name": "القهيب"
+  },
+  {
+    "district_id": 54697,
+    "district_Name": "القوز"
+  },
+  {
+    "district_id": 55283,
+    "district_Name": "القوزين"
+  },
+  {
+    "district_id": 55325,
+    "district_Name": "القوس"
+  },
+  {
+    "district_id": 56159,
+    "district_Name": "القويز"
+  },
+  {
+    "district_id": 54887,
+    "district_Name": "القويسم"
+  },
+  {
+    "district_id": 54523,
+    "district_Name": "القويطير"
+  },
+  {
+    "district_id": 54495,
+    "district_Name": "القويع"
+  },
+  {
+    "district_id": 54894,
+    "district_Name": "القيروان"
+  },
+  {
+    "district_id": 54920,
+    "district_Name": "القيم الأسفل"
+  },
+  {
+    "district_id": 54889,
+    "district_Name": "القيم الأعلى"
+  },
+  {
+    "district_id": 54928,
+    "district_Name": "الكادي"
+  },
+  {
+    "district_id": 54996,
+    "district_Name": "الكدرة"
+  },
+  {
+    "district_id": 54796,
+    "district_Name": "الكدى"
+  },
+  {
+    "district_id": 55298,
+    "district_Name": "الكرامة"
+  },
+  {
+    "district_id": 54782,
+    "district_Name": "الكريس"
+  },
+  {
+    "district_id": 55660,
+    "district_Name": "الكعكية"
+  },
+  {
+    "district_id": 56225,
+    "district_Name": "الكلابية"
+  },
+  {
+    "district_id": 55338,
+    "district_Name": "الكندرة"
+  },
+  {
+    "district_id": 54641,
+    "district_Name": "الكواكب"
+  },
+  {
+    "district_id": 55516,
+    "district_Name": "الكوت"
+  },
+  {
+    "district_id": 54312,
+    "district_Name": "الكوثر"
+  },
+  {
+    "district_id": 54858,
+    "district_Name": "الكورنيش"
+  },
+  {
+    "district_id": 55479,
+    "district_Name": "الكوكب"
+  },
+  {
+    "district_id": 55235,
+    "district_Name": "الكويكب"
+  },
+  {
+    "district_id": 55659,
+    "district_Name": "اللبط"
+  },
+  {
+    "district_id": 55173,
+    "district_Name": "اللجين"
+  },
+  {
+    "district_id": 55932,
+    "district_Name": "اللدام الجنوبي"
+  },
+  {
+    "district_id": 55913,
+    "district_Name": "اللدام الشمالي"
+  },
+  {
+    "district_id": 55655,
+    "district_Name": "اللسيب"
+  },
+  {
+    "district_id": 55039,
+    "district_Name": "اللقيطه"
+  },
+  {
+    "district_id": 55423,
+    "district_Name": "اللويمي"
+  },
+  {
+    "district_id": 54836,
+    "district_Name": "اللؤلؤ"
+  },
+  {
+    "district_id": 54622,
+    "district_Name": "اللؤلؤة"
+  },
+  {
+    "district_id": 54595,
+    "district_Name": "الليوان"
+  },
+  {
+    "district_id": 54357,
+    "district_Name": "المباركية"
+  },
+  {
+    "district_id": 55687,
+    "district_Name": "المبعوث"
+  },
+  {
+    "district_id": 55630,
+    "district_Name": "المبني الجنوبي"
+  },
+  {
+    "district_id": 55642,
+    "district_Name": "المبني الشمالي"
+  },
+  {
+    "district_id": 54497,
+    "district_Name": "المتينيات"
+  },
+  {
+    "district_id": 55853,
+    "district_Name": "المثالية"
+  },
+  {
+    "district_id": 55384,
+    "district_Name": "المثلث"
+  },
+  {
+    "district_id": 55397,
+    "district_Name": "المثناه"
+  },
+  {
+    "district_id": 56051,
+    "district_Name": "المثوية"
+  },
+  {
+    "district_id": 55454,
+    "district_Name": "المجامع"
+  },
+  {
+    "district_id": 54225,
+    "district_Name": "المجد"
+  },
+  {
+    "district_id": 55545,
+    "district_Name": "المجصة"
+  },
+  {
+    "district_id": 55537,
+    "district_Name": "المجمر"
+  },
+  {
+    "district_id": 55116,
+    "district_Name": "المجمع"
+  },
+  {
+    "district_id": 55850,
+    "district_Name": "المجنه"
+  },
+  {
+    "district_id": 55376,
+    "district_Name": "المجيدية"
+  },
+  {
+    "district_id": 55359,
+    "district_Name": "المحار"
+  },
+  {
+    "district_id": 55265,
+    "district_Name": "المحاميد"
+  },
+  {
+    "district_id": 55329,
+    "district_Name": "المحجر"
+  },
+  {
+    "district_id": 55732,
+    "district_Name": "المحطة"
+  },
+  {
+    "district_id": 55198,
+    "district_Name": "المحفر"
+  },
+  {
+    "district_id": 54654,
+    "district_Name": "المحمدية 1"
+  },
+  {
+    "district_id": 55239,
+    "district_Name": "المحمدية 2"
+  },
+  {
+    "district_id": 55912,
+    "district_Name": "المحمدية 2"
+  },
+  {
+    "district_id": 54742,
+    "district_Name": "المحمدية 3"
+  },
+  {
+    "district_id": 54246,
+    "district_Name": "المحمدية"
+  },
+  {
+    "district_id": 54956,
+    "district_Name": "المخباة"
+  },
+  {
+    "district_id": 55759,
+    "district_Name": "المخطط الاداري"
+  },
+  {
+    "district_id": 55778,
+    "district_Name": "المخطط الشمالي"
+  },
+  {
+    "district_id": 54943,
+    "district_Name": "المخيم"
+  },
+  {
+    "district_id": 55876,
+    "district_Name": "المدارس"
+  },
+  {
+    "district_id": 55806,
+    "district_Name": "المدائن"
+  },
+  {
+    "district_id": 54392,
+    "district_Name": "المدراء"
+  },
+  {
+    "district_id": 56118,
+    "district_Name": "المدرجية"
+  },
+  {
+    "district_id": 56072,
+    "district_Name": "المدرسة العسكرية"
+  },
+  {
+    "district_id": 55821,
+    "district_Name": "المدعى الجديد"
+  },
+  {
+    "district_id": 56071,
+    "district_Name": "المدني"
+  },
+  {
+    "district_id": 55931,
+    "district_Name": "المدينة الاقتصادية"
+  },
+  {
+    "district_id": 54719,
+    "district_Name": "المدينة الجامعية"
+  },
+  {
+    "district_id": 54824,
+    "district_Name": "المدينة الرياضية"
+  },
+  {
+    "district_id": 54621,
+    "district_Name": "المدينة الصناعية"
+  },
+  {
+    "district_id": 55078,
+    "district_Name": "المدينة"
+  },
+  {
+    "district_id": 54875,
+    "district_Name": "المراث"
+  },
+  {
+    "district_id": 56069,
+    "district_Name": "المراجيم"
+  },
+  {
+    "district_id": 55014,
+    "district_Name": "المراطة"
+  },
+  {
+    "district_id": 54681,
+    "district_Name": "المراغة"
+  },
+  {
+    "district_id": 55677,
+    "district_Name": "المرافق الحكومية"
+  },
+  {
+    "district_id": 55447,
+    "district_Name": "المربدية"
+  },
+  {
+    "district_id": 55272,
+    "district_Name": "المربع"
+  },
+  {
+    "district_id": 55578,
+    "district_Name": "المرج"
+  },
+  {
+    "district_id": 54316,
+    "district_Name": "المرجان"
+  },
+  {
+    "district_id": 54896,
+    "district_Name": "المرجانية"
+  },
+  {
+    "district_id": 56148,
+    "district_Name": "المرجع"
+  },
+  {
+    "district_id": 56045,
+    "district_Name": "المرزوقية"
+  },
+  {
+    "district_id": 54804,
+    "district_Name": "المرسلات"
+  },
+  {
+    "district_id": 55193,
+    "district_Name": "المرسى"
+  },
+  {
+    "district_id": 55466,
+    "district_Name": "المرقاب"
+  },
+  {
+    "district_id": 55105,
+    "district_Name": "المركب"
+  },
+  {
+    "district_id": 55734,
+    "district_Name": "المركز الحضري القديم"
+  },
+  {
+    "district_id": 54287,
+    "district_Name": "المروة"
+  },
+  {
+    "district_id": 54631,
+    "district_Name": "المروج 1"
+  },
+  {
+    "district_id": 54695,
+    "district_Name": "المروج 2"
+  },
+  {
+    "district_id": 54714,
+    "district_Name": "المروج 3"
+  },
+  {
+    "district_id": 54694,
+    "district_Name": "المروج 4"
+  },
+  {
+    "district_id": 54646,
+    "district_Name": "المروج الجنوبي"
+  },
+  {
+    "district_id": 54359,
+    "district_Name": "المروج الشرقي"
+  },
+  {
+    "district_id": 55392,
+    "district_Name": "المروج الشمالي"
+  },
+  {
+    "district_id": 54348,
+    "district_Name": "المروج الغربي"
+  },
+  {
+    "district_id": 54260,
+    "district_Name": "المروج"
+  },
+  {
+    "district_id": 54951,
+    "district_Name": "المريحل"
+  },
+  {
+    "district_id": 54686,
+    "district_Name": "المريديسية الشمالية"
+  },
+  {
+    "district_id": 56227,
+    "district_Name": "المريكبات"
+  },
+  {
+    "district_id": 55549,
+    "district_Name": "المزروع الاول"
+  },
+  {
+    "district_id": 55464,
+    "district_Name": "المزروع الثاني"
+  },
+  {
+    "district_id": 55950,
+    "district_Name": "المزروعية"
+  },
+  {
+    "district_id": 55705,
+    "district_Name": "المزعبر"
+  },
+  {
+    "district_id": 55339,
+    "district_Name": "المزيرعة"
+  },
+  {
+    "district_id": 56005,
+    "district_Name": "المزيين"
+  },
+  {
+    "district_id": 54353,
+    "district_Name": "المساعدية"
+  },
+  {
+    "district_id": 55091,
+    "district_Name": "المستشفى العسكري"
+  },
+  {
+    "district_id": 55669,
+    "district_Name": "المستشفى"
+  },
+  {
+    "district_id": 54430,
+    "district_Name": "المستقبل"
+  },
+  {
+    "district_id": 55456,
+    "district_Name": "المسرة"
+  },
+  {
+    "district_id": 55443,
+    "district_Name": "المسعودي"
+  },
+  {
+    "district_id": 55294,
+    "district_Name": "المسعودية"
+  },
+  {
+    "district_id": 55745,
+    "district_Name": "المسفلة"
+  },
+  {
+    "district_id": 54506,
+    "district_Name": "المسك"
+  },
+  {
+    "district_id": 54968,
+    "district_Name": "المسماه"
+  },
+  {
+    "district_id": 54842,
+    "district_Name": "المسميات 1"
+  },
+  {
+    "district_id": 54833,
+    "district_Name": "المسميات 2"
+  },
+  {
+    "district_id": 55719,
+    "district_Name": "المسيال الجديد"
+  },
+  {
+    "district_id": 55852,
+    "district_Name": "المسيل"
+  },
+  {
+    "district_id": 55780,
+    "district_Name": "المشاعر المقدسة"
+  },
+  {
+    "district_id": 56141,
+    "district_Name": "المشاعل"
+  },
+  {
+    "district_id": 55907,
+    "district_Name": "المشتل"
+  },
+  {
+    "district_id": 55956,
+    "district_Name": "المشرق"
+  },
+  {
+    "district_id": 56062,
+    "district_Name": "المصارير"
+  },
+  {
+    "district_id": 55138,
+    "district_Name": "المصانع"
+  },
+  {
+    "district_id": 54428,
+    "district_Name": "المصايف"
+  },
+  {
+    "district_id": 56032,
+    "district_Name": "المصبح"
+  },
+  {
+    "district_id": 54286,
+    "district_Name": "المصيف"
+  },
+  {
+    "district_id": 54849,
+    "district_Name": "المضباع"
+  },
+  {
+    "district_id": 54716,
+    "district_Name": "المضيق"
+  },
+  {
+    "district_id": 54781,
+    "district_Name": "المطار الدولي الجديد"
+  },
+  {
+    "district_id": 55658,
+    "district_Name": "المطار القديم"
+  },
+  {
+    "district_id": 54351,
+    "district_Name": "المطار"
+  },
+  {
+    "district_id": 54307,
+    "district_Name": "المطر"
+  },
+  {
+    "district_id": 54444,
+    "district_Name": "المطل"
+  },
+  {
+    "district_id": 56190,
+    "district_Name": "المطية"
+  },
+  {
+    "district_id": 55591,
+    "district_Name": "المطيرفي الغربي"
+  },
+  {
+    "district_id": 55722,
+    "district_Name": "المعابده"
+  },
+  {
+    "district_id": 54456,
+    "district_Name": "المعارض"
+  },
+  {
+    "district_id": 54469,
+    "district_Name": "المعارف"
+  },
+  {
+    "district_id": 54768,
+    "district_Name": "المعالي"
+  },
+  {
+    "district_id": 54981,
+    "district_Name": "المعامر"
+  },
+  {
+    "district_id": 54672,
+    "district_Name": "المعامرة"
+  },
+  {
+    "district_id": 56171,
+    "district_Name": "المعتلا الجنوبى"
+  },
+  {
+    "district_id": 55934,
+    "district_Name": "المعتلا"
+  },
+  {
+    "district_id": 56008,
+    "district_Name": "المعذر"
+  },
+  {
+    "district_id": 55308,
+    "district_Name": "المعرفة"
+  },
+  {
+    "district_id": 54986,
+    "district_Name": "المعزاب"
+  },
+  {
+    "district_id": 54680,
+    "district_Name": "المعلاة"
+  },
+  {
+    "district_id": 55080,
+    "district_Name": "المعمورة"
+  },
+  {
+    "district_id": 54393,
+    "district_Name": "المعيزيلة"
+  },
+  {
+    "district_id": 54638,
+    "district_Name": "المغاربة"
+  },
+  {
+    "district_id": 55773,
+    "district_Name": "المغمس"
+  },
+  {
+    "district_id": 55671,
+    "district_Name": "المغيسلة"
+  },
+  {
+    "district_id": 55259,
+    "district_Name": "المفتاحة"
+  },
+  {
+    "district_id": 55968,
+    "district_Name": "المفرحات"
+  },
+  {
+    "district_id": 55288,
+    "district_Name": "المفرق الخاص"
+  },
+  {
+    "district_id": 55005,
+    "district_Name": "المفرق"
+  },
+  {
+    "district_id": 55879,
+    "district_Name": "المفيجر"
+  },
+  {
+    "district_id": 55522,
+    "district_Name": "المقابل"
+  },
+  {
+    "district_id": 54458,
+    "district_Name": "المقاعد"
+  },
+  {
+    "district_id": 55800,
+    "district_Name": "المقام"
+  },
+  {
+    "district_id": 55220,
+    "district_Name": "المقر"
+  },
+  {
+    "district_id": 55276,
+    "district_Name": "المقرش"
+  },
+  {
+    "district_id": 54511,
+    "district_Name": "المقضي"
+  },
+  {
+    "district_id": 55273,
+    "district_Name": "المقيطع"
+  },
+  {
+    "district_id": 55945,
+    "district_Name": "المكرمية"
+  },
+  {
+    "district_id": 54979,
+    "district_Name": "المكيلي"
+  },
+  {
+    "district_id": 55899,
+    "district_Name": "الملاحة"
+  },
+  {
+    "district_id": 55739,
+    "district_Name": "الملحة 2"
+  },
+  {
+    "district_id": 55594,
+    "district_Name": "الملحة القديمة"
+  },
+  {
+    "district_id": 54503,
+    "district_Name": "الملحة"
+  },
+  {
+    "district_id": 55074,
+    "district_Name": "الملحين"
+  },
+  {
+    "district_id": 54814,
+    "district_Name": "الملز"
+  },
+  {
+    "district_id": 55675,
+    "district_Name": "الملعب"
+  },
+  {
+    "district_id": 54835,
+    "district_Name": "الملقا"
+  },
+  {
+    "district_id": 56182,
+    "district_Name": "الملك خالد"
+  },
+  {
+    "district_id": 56115,
+    "district_Name": "الملك سعود"
+  },
+  {
+    "district_id": 54508,
+    "district_Name": "الملك سلمان"
+  },
+  {
+    "district_id": 56222,
+    "district_Name": "الملك سلمان1"
+  },
+  {
+    "district_id": 54298,
+    "district_Name": "الملك عبدالعزيز"
+  },
+  {
+    "district_id": 54485,
+    "district_Name": "الملك عبدالله"
+  },
+  {
+    "district_id": 55228,
+    "district_Name": "الملك عبدالله بن عبدالعزيز"
+  },
+  {
+    "district_id": 55840,
+    "district_Name": "الملك عبدالله1"
+  },
+  {
+    "district_id": 55223,
+    "district_Name": "الملك فهد بن عبدالعزيز"
+  },
+  {
+    "district_id": 55823,
+    "district_Name": "الملك فيصل"
+  },
+  {
+    "district_id": 55842,
+    "district_Name": "الملك"
+  },
+  {
+    "district_id": 54803,
+    "district_Name": "المليداء"
+  },
+  {
+    "district_id": 54860,
+    "district_Name": "المليساء"
+  },
+  {
+    "district_id": 54634,
+    "district_Name": "المملكة"
+  },
+  {
+    "district_id": 54527,
+    "district_Name": "المناخ"
+  },
+  {
+    "district_id": 54616,
+    "district_Name": "المناديل"
+  },
+  {
+    "district_id": 55184,
+    "district_Name": "المنارات"
+  },
+  {
+    "district_id": 55509,
+    "district_Name": "المنارة"
+  },
+  {
+    "district_id": 55104,
+    "district_Name": "المنتزة 1"
+  },
+  {
+    "district_id": 55103,
+    "district_Name": "المنتزة 2"
+  },
+  {
+    "district_id": 54450,
+    "district_Name": "المنتزة الجنوبي"
+  },
+  {
+    "district_id": 54708,
+    "district_Name": "المنتزة الشرقي"
+  },
+  {
+    "district_id": 54446,
+    "district_Name": "المنتزة الشمالي"
+  },
+  {
+    "district_id": 54821,
+    "district_Name": "المنتزة الغربي"
+  },
+  {
+    "district_id": 54215,
+    "district_Name": "المنتزة"
+  },
+  {
+    "district_id": 54953,
+    "district_Name": "المنتزهات"
+  },
+  {
+    "district_id": 54958,
+    "district_Name": "المنتشر"
+  },
+  {
+    "district_id": 54965,
+    "district_Name": "المنح أ الشرقي"
+  },
+  {
+    "district_id": 55060,
+    "district_Name": "المنح أ الغربي"
+  },
+  {
+    "district_id": 55328,
+    "district_Name": "المنح ب"
+  },
+  {
+    "district_id": 55012,
+    "district_Name": "المنح ج"
+  },
+  {
+    "district_id": 55192,
+    "district_Name": "المنخلي"
+  },
+  {
+    "district_id": 55404,
+    "district_Name": "المنشية"
+  },
+  {
+    "district_id": 55065,
+    "district_Name": "المنصورة"
+  },
+  {
+    "district_id": 54367,
+    "district_Name": "المنصورية"
+  },
+  {
+    "district_id": 54929,
+    "district_Name": "المنطقة التاريخية"
+  },
+  {
+    "district_id": 54235,
+    "district_Name": "المنطقة الصناعية"
+  },
+  {
+    "district_id": 55242,
+    "district_Name": "المنطقة الصناعية1"
+  },
+  {
+    "district_id": 54975,
+    "district_Name": "المنطقة الصناعية2"
+  },
+  {
+    "district_id": 54666,
+    "district_Name": "المنطقة المركزية"
+  },
+  {
+    "district_id": 55771,
+    "district_Name": "المنطقه السكنية نموذجية"
+  },
+  {
+    "district_id": 54493,
+    "district_Name": "المنهل"
+  },
+  {
+    "district_id": 54547,
+    "district_Name": "المها"
+  },
+  {
+    "district_id": 54522,
+    "district_Name": "المهاريس"
+  },
+  {
+    "district_id": 54334,
+    "district_Name": "المهندسين"
+  },
+  {
+    "district_id": 55153,
+    "district_Name": "الموج"
+  },
+  {
+    "district_id": 54600,
+    "district_Name": "المودة"
+  },
+  {
+    "district_id": 54513,
+    "district_Name": "الموسم"
+  },
+  {
+    "district_id": 54385,
+    "district_Name": "الموطا"
+  },
+  {
+    "district_id": 54932,
+    "district_Name": "الموفجة"
+  },
+  {
+    "district_id": 55172,
+    "district_Name": "الميداء"
+  },
+  {
+    "district_id": 54837,
+    "district_Name": "الميدان"
+  },
+  {
+    "district_id": 56152,
+    "district_Name": "النابية"
+  },
+  {
+    "district_id": 54759,
+    "district_Name": "النازية"
+  },
+  {
+    "district_id": 56212,
+    "district_Name": "الناصرة"
+  },
+  {
+    "district_id": 55207,
+    "district_Name": "الناصرية 1"
+  },
+  {
+    "district_id": 55206,
+    "district_Name": "الناصرية 2"
+  },
+  {
+    "district_id": 55205,
+    "district_Name": "الناصرية 3"
+  },
+  {
+    "district_id": 55204,
+    "district_Name": "الناصرية 4"
+  },
+  {
+    "district_id": 55203,
+    "district_Name": "الناصرية 5"
+  },
+  {
+    "district_id": 55202,
+    "district_Name": "الناصرية 6"
+  },
+  {
+    "district_id": 54323,
+    "district_Name": "الناصرية"
+  },
+  {
+    "district_id": 55128,
+    "district_Name": "الناصفة"
+  },
+  {
+    "district_id": 55485,
+    "district_Name": "النايفية"
+  },
+  {
+    "district_id": 55142,
+    "district_Name": "النجمة"
+  },
+  {
+    "district_id": 54530,
+    "district_Name": "النجوم"
+  },
+  {
+    "district_id": 55300,
+    "district_Name": "النجيل"
+  },
+  {
+    "district_id": 56088,
+    "district_Name": "النخبة"
+  },
+  {
+    "district_id": 55373,
+    "district_Name": "النخيل 1"
+  },
+  {
+    "district_id": 54340,
+    "district_Name": "النخيل الجنوبي"
+  },
+  {
+    "district_id": 54712,
+    "district_Name": "النخيل الشرقي"
+  },
+  {
+    "district_id": 54327,
+    "district_Name": "النخيل الشمالي"
+  },
+  {
+    "district_id": 54713,
+    "district_Name": "النخيل الغربي"
+  },
+  {
+    "district_id": 54224,
+    "district_Name": "النخيل"
+  },
+  {
+    "district_id": 54848,
+    "district_Name": "الندوة"
+  },
+  {
+    "district_id": 54219,
+    "district_Name": "الندى"
+  },
+  {
+    "district_id": 54251,
+    "district_Name": "النرجس"
+  },
+  {
+    "district_id": 55541,
+    "district_Name": "النزلة الشرقية"
+  },
+  {
+    "district_id": 55154,
+    "district_Name": "النزلة اليمانية"
+  },
+  {
+    "district_id": 54561,
+    "district_Name": "النزهة 1"
+  },
+  {
+    "district_id": 54752,
+    "district_Name": "النزهة 1"
+  },
+  {
+    "district_id": 54560,
+    "district_Name": "النزهة 2"
+  },
+  {
+    "district_id": 54236,
+    "district_Name": "النزهة"
+  },
+  {
+    "district_id": 56099,
+    "district_Name": "النسيم الشرقي"
+  },
+  {
+    "district_id": 55898,
+    "district_Name": "النسيم الغربي"
+  },
+  {
+    "district_id": 54218,
+    "district_Name": "النسيم"
+  },
+  {
+    "district_id": 54647,
+    "district_Name": "النصب"
+  },
+  {
+    "district_id": 55067,
+    "district_Name": "النصلة"
+  },
+  {
+    "district_id": 55742,
+    "district_Name": "النطوف"
+  },
+  {
+    "district_id": 55064,
+    "district_Name": "النظير"
+  },
+  {
+    "district_id": 54277,
+    "district_Name": "النظيم"
+  },
+  {
+    "district_id": 56011,
+    "district_Name": "النعاثل"
+  },
+  {
+    "district_id": 55804,
+    "district_Name": "النعام"
+  },
+  {
+    "district_id": 54526,
+    "district_Name": "النعمان"
+  },
+  {
+    "district_id": 54387,
+    "district_Name": "النعيم"
+  },
+  {
+    "district_id": 54252,
+    "district_Name": "النفل"
+  },
+  {
+    "district_id": 55290,
+    "district_Name": "النفود"
+  },
+  {
+    "district_id": 55631,
+    "district_Name": "النقا الجديد"
+  },
+  {
+    "district_id": 56080,
+    "district_Name": "النقا"
+  },
+  {
+    "district_id": 55706,
+    "district_Name": "النقرة"
+  },
+  {
+    "district_id": 54799,
+    "district_Name": "النقع الشرقي"
+  },
+  {
+    "district_id": 55230,
+    "district_Name": "النقع الغربي"
+  },
+  {
+    "district_id": 55843,
+    "district_Name": "النقمى"
+  },
+  {
+    "district_id": 55190,
+    "district_Name": "النقى"
+  },
+  {
+    "district_id": 54851,
+    "district_Name": "النقيب الجنوبي"
+  },
+  {
+    "district_id": 55017,
+    "district_Name": "النقيب الشمالي"
+  },
+  {
+    "district_id": 56137,
+    "district_Name": "النموذجية"
+  },
+  {
+    "district_id": 54486,
+    "district_Name": "النهود"
+  },
+  {
+    "district_id": 55624,
+    "district_Name": "النوارية"
+  },
+  {
+    "district_id": 55911,
+    "district_Name": "النور والصفاء"
+  },
+  {
+    "district_id": 54241,
+    "district_Name": "النور"
+  },
+  {
+    "district_id": 54745,
+    "district_Name": "النورس 1"
+  },
+  {
+    "district_id": 54743,
+    "district_Name": "النورس 2"
+  },
+  {
+    "district_id": 55974,
+    "district_Name": "النورس"
+  },
+  {
+    "district_id": 55248,
+    "district_Name": "الهجرة 1"
+  },
+  {
+    "district_id": 55247,
+    "district_Name": "الهجرة 2"
+  },
+  {
+    "district_id": 54243,
+    "district_Name": "الهجرة"
+  },
+  {
+    "district_id": 55749,
+    "district_Name": "الهجلة الجديد"
+  },
+  {
+    "district_id": 54568,
+    "district_Name": "الهجن"
+  },
+  {
+    "district_id": 54254,
+    "district_Name": "الهدا"
+  },
+  {
+    "district_id": 55129,
+    "district_Name": "الهداء"
+  },
+  {
+    "district_id": 55166,
+    "district_Name": "الهدراء"
+  },
+  {
+    "district_id": 54498,
+    "district_Name": "الهدية الجنوبية"
+  },
+  {
+    "district_id": 54524,
+    "district_Name": "الهدية الشمالية"
+  },
+  {
+    "district_id": 54983,
+    "district_Name": "الهرير الشرقى"
+  },
+  {
+    "district_id": 55159,
+    "district_Name": "الهزاعية"
+  },
+  {
+    "district_id": 55888,
+    "district_Name": "الهضبة"
+  },
+  {
+    "district_id": 54594,
+    "district_Name": "الهلال"
+  },
+  {
+    "district_id": 55470,
+    "district_Name": "الهلالي"
+  },
+  {
+    "district_id": 54786,
+    "district_Name": "الهميلة"
+  },
+  {
+    "district_id": 55168,
+    "district_Name": "الهنداوية"
+  },
+  {
+    "district_id": 54418,
+    "district_Name": "الهيشة"
+  },
+  {
+    "district_id": 55513,
+    "district_Name": "الواحة 1"
+  },
+  {
+    "district_id": 55421,
+    "district_Name": "الواحة الطبية"
+  },
+  {
+    "district_id": 54264,
+    "district_Name": "الواحة"
+  },
+  {
+    "district_id": 54295,
+    "district_Name": "الوادي والبحيرات"
+  },
+  {
+    "district_id": 54424,
+    "district_Name": "الوادي"
+  },
+  {
+    "district_id": 54885,
+    "district_Name": "الواسط"
+  },
+  {
+    "district_id": 54854,
+    "district_Name": "الواصلية"
+  },
+  {
+    "district_id": 54669,
+    "district_Name": "الوداد"
+  },
+  {
+    "district_id": 56132,
+    "district_Name": "الوداعين"
+  },
+  {
+    "district_id": 55832,
+    "district_Name": "الودي"
+  },
+  {
+    "district_id": 55558,
+    "district_Name": "الودية"
+  },
+  {
+    "district_id": 55469,
+    "district_Name": "الوديعه"
+  },
+  {
+    "district_id": 54826,
+    "district_Name": "الورد"
+  },
+  {
+    "district_id": 54550,
+    "district_Name": "الوردتين"
+  },
+  {
+    "district_id": 55162,
+    "district_Name": "الورش"
+  },
+  {
+    "district_id": 55784,
+    "district_Name": "الورود 1"
+  },
+  {
+    "district_id": 55785,
+    "district_Name": "الورود 2"
+  },
+  {
+    "district_id": 54607,
+    "district_Name": "الورود الأول"
+  },
+  {
+    "district_id": 54704,
+    "district_Name": "الورود الثالث"
+  },
+  {
+    "district_id": 55438,
+    "district_Name": "الورود الثاني"
+  },
+  {
+    "district_id": 54269,
+    "district_Name": "الورود"
+  },
+  {
+    "district_id": 56068,
+    "district_Name": "الوزارات"
+  },
+  {
+    "district_id": 55251,
+    "district_Name": "الوزيرية"
+  },
+  {
+    "district_id": 55964,
+    "district_Name": "الوسادة"
+  },
+  {
+    "district_id": 54598,
+    "district_Name": "الوسام"
+  },
+  {
+    "district_id": 55524,
+    "district_Name": "الوسامي"
+  },
+  {
+    "district_id": 56136,
+    "district_Name": "الوسطة"
+  },
+  {
+    "district_id": 55489,
+    "district_Name": "الوسطى"
+  },
+  {
+    "district_id": 55686,
+    "district_Name": "الوسيطاء"
+  },
+  {
+    "district_id": 55588,
+    "district_Name": "الوسيطة"
+  },
+  {
+    "district_id": 54496,
+    "district_Name": "الوسيع"
+  },
+  {
+    "district_id": 54379,
+    "district_Name": "الوشحاء"
+  },
+  {
+    "district_id": 54812,
+    "district_Name": "الوشم"
+  },
+  {
+    "district_id": 54575,
+    "district_Name": "الوصايف"
+  },
+  {
+    "district_id": 55021,
+    "district_Name": "الوصل"
+  },
+  {
+    "district_id": 56125,
+    "district_Name": "الوصيل"
+  },
+  {
+    "district_id": 54906,
+    "district_Name": "الوطاة"
+  },
+  {
+    "district_id": 54460,
+    "district_Name": "الوعد"
+  },
+  {
+    "district_id": 55249,
+    "district_Name": "الوفاء"
+  },
+  {
+    "district_id": 56114,
+    "district_Name": "الوقف"
+  },
+  {
+    "district_id": 55212,
+    "district_Name": "الوقواق"
+  },
+  {
+    "district_id": 54839,
+    "district_Name": "الوكرة"
+  },
+  {
+    "district_id": 54333,
+    "district_Name": "الوئام"
+  },
+  {
+    "district_id": 55753,
+    "district_Name": "الياسمين 1"
+  },
+  {
+    "district_id": 55752,
+    "district_Name": "الياسمين 2"
+  },
+  {
+    "district_id": 54314,
+    "district_Name": "الياقوت"
+  },
+  {
+    "district_id": 56091,
+    "district_Name": "اليتيمة"
+  },
+  {
+    "district_id": 55422,
+    "district_Name": "اليرموك 1"
+  },
+  {
+    "district_id": 54464,
+    "district_Name": "اليرموك"
+  },
+  {
+    "district_id": 55241,
+    "district_Name": "اليسر"
+  },
+  {
+    "district_id": 54873,
+    "district_Name": "اليسرا"
+  },
+  {
+    "district_id": 54318,
+    "district_Name": "اليمام"
+  },
+  {
+    "district_id": 54517,
+    "district_Name": "اليمامة"
+  },
+  {
+    "district_id": 55245,
+    "district_Name": "اليمانية"
+  },
+  {
+    "district_id": 54364,
+    "district_Name": "ام الضيان"
+  },
+  {
+    "district_id": 55738,
+    "district_Name": "امتداد الشمال"
+  },
+  {
+    "district_id": 55119,
+    "district_Name": "إدمان الشرقي"
+  },
+  {
+    "district_id": 55287,
+    "district_Name": "إدمان الغربي"
+  },
+  {
+    "district_id": 54818,
+    "district_Name": "إسكان الحرس"
+  },
+  {
+    "district_id": 55463,
+    "district_Name": "إسكان الكلابية"
+  },
+  {
+    "district_id": 54539,
+    "district_Name": "إسكان الملك عبدالله لولديه"
+  },
+  {
+    "district_id": 55099,
+    "district_Name": "إسكان قوى الأمن"
+  },
+  {
+    "district_id": 54791,
+    "district_Name": "إسكان ورزاة الزراعة والمياة"
+  },
+  {
+    "district_id": 54389,
+    "district_Name": "إشبيلية الجنوبي"
+  },
+  {
+    "district_id": 54342,
+    "district_Name": "إشبيلية الشمالي"
+  },
+  {
+    "district_id": 54221,
+    "district_Name": "إشبيلية"
+  },
+  {
+    "district_id": 55055,
+    "district_Name": "إضم"
+  },
+  {
+    "district_id": 54368,
+    "district_Name": "أبا الخريت"
+  },
+  {
+    "district_id": 55136,
+    "district_Name": "أبا الرشاش"
+  },
+  {
+    "district_id": 55098,
+    "district_Name": "أبا السعود"
+  },
+  {
+    "district_id": 55268,
+    "district_Name": "أبحر الجنوبية"
+  },
+  {
+    "district_id": 55496,
+    "district_Name": "أبحر الشمالية"
+  },
+  {
+    "district_id": 55057,
+    "district_Name": "أبو السداد"
+  },
+  {
+    "district_id": 54369,
+    "district_Name": "أبو العباس"
+  },
+  {
+    "district_id": 56214,
+    "district_Name": "أبو المض"
+  },
+  {
+    "district_id": 55336,
+    "district_Name": "أبو جعالة"
+  },
+  {
+    "district_id": 55846,
+    "district_Name": "أبو حجر الاعلى"
+  },
+  {
+    "district_id": 55997,
+    "district_Name": "أبو حجر الاسفل"
+  },
+  {
+    "district_id": 55505,
+    "district_Name": "أبو حريف"
+  },
+  {
+    "district_id": 54648,
+    "district_Name": "أبو سهيلات"
+  },
+  {
+    "district_id": 55183,
+    "district_Name": "أبو شجره"
+  },
+  {
+    "district_id": 55139,
+    "district_Name": "أبو غبار"
+  },
+  {
+    "district_id": 55666,
+    "district_Name": "أبو مرخة"
+  },
+  {
+    "district_id": 55849,
+    "district_Name": "أبو مسود"
+  },
+  {
+    "district_id": 55477,
+    "district_Name": "أبو معن"
+  },
+  {
+    "district_id": 54373,
+    "district_Name": "أبو مليح"
+  },
+  {
+    "district_id": 55729,
+    "district_Name": "أبو موسى الأشعري"
+  },
+  {
+    "district_id": 55786,
+    "district_Name": "أبوبريقاء"
+  },
+  {
+    "district_id": 55707,
+    "district_Name": "أبوكبير"
+  },
+  {
+    "district_id": 54319,
+    "district_Name": "أجياد"
+  },
+  {
+    "district_id": 55548,
+    "district_Name": "أحد 1"
+  },
+  {
+    "district_id": 55531,
+    "district_Name": "أحد 2"
+  },
+  {
+    "district_id": 54308,
+    "district_Name": "أحد"
+  },
+  {
+    "district_id": 54874,
+    "district_Name": "أحواش الأغنام"
+  },
+  {
+    "district_id": 55354,
+    "district_Name": "أرامكو"
+  },
+  {
+    "district_id": 55180,
+    "district_Name": "أرض وزارة الاسكان"
+  },
+  {
+    "district_id": 55209,
+    "district_Name": "أرض وزارة الدفاع"
+  },
+  {
+    "district_id": 54299,
+    "district_Name": "أصفان"
+  },
+  {
+    "district_id": 55965,
+    "district_Name": "أم الجزم"
+  },
+  {
+    "district_id": 55601,
+    "district_Name": "أم الجود"
+  },
+  {
+    "district_id": 55314,
+    "district_Name": "أم الحمام"
+  },
+  {
+    "district_id": 56007,
+    "district_Name": "أم الحمام الغربي"
+  },
+  {
+    "district_id": 55813,
+    "district_Name": "أم الخيام"
+  },
+  {
+    "district_id": 54807,
+    "district_Name": "أم الدروب"
+  },
+  {
+    "district_id": 54406,
+    "district_Name": "أم الرصف"
+  },
+  {
+    "district_id": 55255,
+    "district_Name": "أم الساهك"
+  },
+  {
+    "district_id": 54378,
+    "district_Name": "أم السباع"
+  },
+  {
+    "district_id": 55266,
+    "district_Name": "أم السلم"
+  },
+  {
+    "district_id": 55622,
+    "district_Name": "أم السيوف"
+  },
+  {
+    "district_id": 54808,
+    "district_Name": "أم العطف"
+  },
+  {
+    "district_id": 55788,
+    "district_Name": "أم ثمام"
+  },
+  {
+    "district_id": 55346,
+    "district_Name": "أم حبلين الشرقية"
+  },
+  {
+    "district_id": 55682,
+    "district_Name": "أم حشانة"
+  },
+  {
+    "district_id": 55617,
+    "district_Name": "أم راكة"
+  },
+  {
+    "district_id": 55482,
+    "district_Name": "أم سبعة"
+  },
+  {
+    "district_id": 55334,
+    "district_Name": "أم سدرة"
+  },
+  {
+    "district_id": 56057,
+    "district_Name": "أم سريحة"
+  },
+  {
+    "district_id": 56127,
+    "district_Name": "أم سليم"
+  },
+  {
+    "district_id": 55886,
+    "district_Name": "أم سمرة"
+  },
+  {
+    "district_id": 54962,
+    "district_Name": "أم عنم"
+  },
+  {
+    "district_id": 56056,
+    "district_Name": "أم عنيق"
+  },
+  {
+    "district_id": 54915,
+    "district_Name": "أوالة"
+  },
+  {
+    "district_id": 54238,
+    "district_Name": "أوثال"
+  },
+  {
+    "district_id": 56046,
+    "district_Name": "آل حمد"
+  },
+  {
+    "district_id": 56029,
+    "district_Name": "آل حميضان"
+  },
+  {
+    "district_id": 55399,
+    "district_Name": "آل عزيز"
+  },
+  {
+    "district_id": 55904,
+    "district_Name": "آل عويمر"
+  },
+  {
+    "district_id": 55868,
+    "district_Name": "آل مجلى"
+  },
+  {
+    "district_id": 55123,
+    "district_Name": "باب الساب"
+  },
+  {
+    "district_id": 55253,
+    "district_Name": "بترومين"
+  },
+  {
+    "district_id": 54696,
+    "district_Name": "بجيلة"
+  },
+  {
+    "district_id": 55028,
+    "district_Name": "بحرة"
+  },
+  {
+    "district_id": 55188,
+    "district_Name": "بحيرة تجميعية"
+  },
+  {
+    "district_id": 54313,
+    "district_Name": "بدر"
+  },
+  {
+    "district_id": 54350,
+    "district_Name": "بدنة"
+  },
+  {
+    "district_id": 55887,
+    "district_Name": "بديعة البصري"
+  },
+  {
+    "district_id": 55465,
+    "district_Name": "برزان"
+  },
+  {
+    "district_id": 55870,
+    "district_Name": "برق الخيل"
+  },
+  {
+    "district_id": 55093,
+    "district_Name": "برك"
+  },
+  {
+    "district_id": 56368,
+    "district_Name": "مخطط رقم 517"
+  },
+  {
+    "district_id": 56554,
+    "district_Name": "ال حيالله"
+  },
+  {
+    "district_id": 56495,
+    "district_Name": "ال دحيم"
+  },
+  {
+    "district_id": 56571,
+    "district_Name": "ال طارق"
+  },
+  {
+    "district_id": 56472,
+    "district_Name": "ال فهد"
+  },
+  {
+    "district_id": 56351,
+    "district_Name": "ال قيشه"
+  },
+  {
+    "district_id": 56331,
+    "district_Name": "ال هذال"
+  },
+  {
+    "district_id": 56440,
+    "district_Name": "ال وقيان"
+  },
+  {
+    "district_id": 56582,
+    "district_Name": "الاخاضر"
+  },
+  {
+    "district_id": 56426,
+    "district_Name": "الاذاعة"
+  },
+  {
+    "district_id": 56501,
+    "district_Name": "الازهار"
+  },
+  {
+    "district_id": 56344,
+    "district_Name": "الاصفير"
+  },
+  {
+    "district_id": 56530,
+    "district_Name": "الإسكان الجنوبي"
+  },
+  {
+    "district_id": 56424,
+    "district_Name": "النخيل 1"
+  },
+  {
+    "district_id": 55285,
+    "district_Name": "بريمان"
+  },
+  {
+    "district_id": 55817,
+    "district_Name": "بضاعة"
+  },
+  {
+    "district_id": 55071,
+    "district_Name": "بطا"
+  },
+  {
+    "district_id": 55604,
+    "district_Name": "بطحاء قريش"
+  },
+  {
+    "district_id": 55323,
+    "district_Name": "بطيحان الغربي"
+  },
+  {
+    "district_id": 55182,
+    "district_Name": "بقعاء الشرقية القديمة"
+  },
+  {
+    "district_id": 55187,
+    "district_Name": "بقعاء القديمة"
+  },
+  {
+    "district_id": 54443,
+    "district_Name": "بلال"
+  },
+  {
+    "district_id": 55551,
+    "district_Name": "بلدة البطالية"
+  },
+  {
+    "district_id": 54645,
+    "district_Name": "بلدة التهيمية"
+  },
+  {
+    "district_id": 54588,
+    "district_Name": "بلدة التويثير"
+  },
+  {
+    "district_id": 56213,
+    "district_Name": "بلدة الجبيل"
+  },
+  {
+    "district_id": 55547,
+    "district_Name": "بلدة الجرن"
+  },
+  {
+    "district_id": 54703,
+    "district_Name": "بلدة الجشة"
+  },
+  {
+    "district_id": 54701,
+    "district_Name": "بلدة الجفر"
+  },
+  {
+    "district_id": 55393,
+    "district_Name": "بلدة الحليلة"
+  },
+  {
+    "district_id": 55474,
+    "district_Name": "بلدة الدالوة"
+  },
+  {
+    "district_id": 55550,
+    "district_Name": "بلدة السباط"
+  },
+  {
+    "district_id": 55546,
+    "district_Name": "بلدة الشقيق الشرقية"
+  },
+  {
+    "district_id": 55586,
+    "district_Name": "بلدة الشقيق الغربية"
+  },
+  {
+    "district_id": 54678,
+    "district_Name": "بلدة الشهارين"
+  },
+  {
+    "district_id": 55535,
+    "district_Name": "بلدة الصبايخ"
+  },
+  {
+    "district_id": 55371,
+    "district_Name": "بلدة الطريبيل"
+  },
+  {
+    "district_id": 55368,
+    "district_Name": "بلدة العوضية"
+  },
+  {
+    "district_id": 55416,
+    "district_Name": "بلدة الفضول"
+  },
+  {
+    "district_id": 55476,
+    "district_Name": "بلدة القرين"
+  },
+  {
+    "district_id": 56531,
+    "district_Name": "الإسكان الشمالي"
+  },
+  {
+    "district_id": 56528,
+    "district_Name": "الأراك 1"
+  },
+  {
+    "district_id": 56619,
+    "district_Name": "الأرجوان"
+  },
+  {
+    "district_id": 56584,
+    "district_Name": "الأريج"
+  },
+  {
+    "district_id": 56555,
+    "district_Name": "الأشرفية"
+  },
+  {
+    "district_id": 56970,
+    "district_Name": "الأمير أحمد"
+  },
+  {
+    "district_id": 56376,
+    "district_Name": "الأمير عبدالله بن عبدالعزيز للإسكان التنموي"
+  },
+  {
+    "district_id": 56302,
+    "district_Name": "الباحة"
+  },
+  {
+    "district_id": 56315,
+    "district_Name": "البدر"
+  },
+  {
+    "district_id": 56332,
+    "district_Name": "البدرية"
+  },
+  {
+    "district_id": 56355,
+    "district_Name": "البديع الشرقى"
+  },
+  {
+    "district_id": 56537,
+    "district_Name": "البرج"
+  },
+  {
+    "district_id": 54698,
+    "district_Name": "بلدة المراح"
+  },
+  {
+    "district_id": 54474,
+    "district_Name": "بلدة المركز"
+  },
+  {
+    "district_id": 55491,
+    "district_Name": "بلدة المزاوي"
+  },
+  {
+    "district_id": 56139,
+    "district_Name": "بلدة المطيرفي"
+  },
+  {
+    "district_id": 54691,
+    "district_Name": "بلدة المقدام"
+  },
+  {
+    "district_id": 55372,
+    "district_Name": "بلدة المنصورة"
+  },
+  {
+    "district_id": 55370,
+    "district_Name": "بلدة المنيزلة"
+  },
+  {
+    "district_id": 55406,
+    "district_Name": "بلدة أبو الحصى"
+  },
+  {
+    "district_id": 55584,
+    "district_Name": "بلدة أبو ثور"
+  },
+  {
+    "district_id": 55411,
+    "district_Name": "بلدة بني معن"
+  },
+  {
+    "district_id": 55225,
+    "district_Name": "بلدة ثول"
+  },
+  {
+    "district_id": 55356,
+    "district_Name": "بلدة جليجلة"
+  },
+  {
+    "district_id": 55332,
+    "district_Name": "بلدة ذهبان"
+  },
+  {
+    "district_id": 56041,
+    "district_Name": "بنبان"
+  },
+  {
+    "district_id": 55816,
+    "district_Name": "بنى حارثة"
+  },
+  {
+    "district_id": 55053,
+    "district_Name": "بنى ظفر"
+  },
+  {
+    "district_id": 55883,
+    "district_Name": "بنى عبد الأشهل"
+  },
+  {
+    "district_id": 55921,
+    "district_Name": "بنى معاوية"
+  },
+  {
+    "district_id": 55217,
+    "district_Name": "بني النجار"
+  },
+  {
+    "district_id": 54718,
+    "district_Name": "بني تميم"
+  },
+  {
+    "district_id": 55884,
+    "district_Name": "بني خدرة"
+  },
+  {
+    "district_id": 55050,
+    "district_Name": "بني سلمان"
+  },
+  {
+    "district_id": 55701,
+    "district_Name": "بني سهيم"
+  },
+  {
+    "district_id": 54936,
+    "district_Name": "بني كلب"
+  },
+  {
+    "district_id": 55284,
+    "district_Name": "بني مالك"
+  },
+  {
+    "district_id": 55117,
+    "district_Name": "بني هميم"
+  },
+  {
+    "district_id": 56124,
+    "district_Name": "بهجة"
+  },
+  {
+    "district_id": 55977,
+    "district_Name": "بهدي"
+  },
+  {
+    "district_id": 55467,
+    "district_Name": "بو سحبل الثاني"
+  },
+  {
+    "district_id": 55486,
+    "district_Name": "بو سحبل الأول"
+  },
+  {
+    "district_id": 54710,
+    "district_Name": "بيروت"
+  },
+  {
+    "district_id": 56973,
+    "district_Name": "بين مخطط الشرائع رقم 7ومخطط الخضراء"
+  },
+  {
+    "district_id": 56306,
+    "district_Name": "البرقة"
+  },
+  {
+    "district_id": 56466,
+    "district_Name": "البرية"
+  },
+  {
+    "district_id": 56250,
+    "district_Name": "البستان 1"
+  },
+  {
+    "district_id": 56430,
+    "district_Name": "البطين"
+  },
+  {
+    "district_id": 56363,
+    "district_Name": "البقاع"
+  },
+  {
+    "district_id": 56309,
+    "district_Name": "البلاد"
+  },
+  {
+    "district_id": 56413,
+    "district_Name": "البلقاء"
+  },
+  {
+    "district_id": 56372,
+    "district_Name": "البليدا"
+  },
+  {
+    "district_id": 56394,
+    "district_Name": "البوطة"
+  },
+  {
+    "district_id": 56613,
+    "district_Name": "البويطن"
+  },
+  {
+    "district_id": 56633,
+    "district_Name": "البيداء"
+  },
+  {
+    "district_id": 56293,
+    "district_Name": "البيطارية"
+  },
+  {
+    "district_id": 56585,
+    "district_Name": "التراثي"
+  },
+  {
+    "district_id": 56570,
+    "district_Name": "الثابتية"
+  },
+  {
+    "district_id": 55040,
+    "district_Name": "بئر أبين"
+  },
+  {
+    "district_id": 55612,
+    "district_Name": "بئر عثمان"
+  },
+  {
+    "district_id": 55013,
+    "district_Name": "بئر عسكر"
+  },
+  {
+    "district_id": 54521,
+    "district_Name": "تاتة"
+  },
+  {
+    "district_id": 54984,
+    "district_Name": "تارة"
+  },
+  {
+    "district_id": 55061,
+    "district_Name": "ترفيهي"
+  },
+  {
+    "district_id": 54355,
+    "district_Name": "تشليح السيارات"
+  },
+  {
+    "district_id": 55140,
+    "district_Name": "تصلال"
+  },
+  {
+    "district_id": 54338,
+    "district_Name": "تلال عرعر"
+  },
+  {
+    "district_id": 54512,
+    "district_Name": "تمنية"
+  },
+  {
+    "district_id": 55952,
+    "district_Name": "تهامة"
+  },
+  {
+    "district_id": 55812,
+    "district_Name": "ثفراء"
+  },
+  {
+    "district_id": 54612,
+    "district_Name": "ثلاثاء يبة"
+  },
+  {
+    "district_id": 56133,
+    "district_Name": "ثليم"
+  },
+  {
+    "district_id": 55580,
+    "district_Name": "ثماني"
+  },
+  {
+    "district_id": 55948,
+    "district_Name": "جاضع الحسين"
+  },
+  {
+    "district_id": 56100,
+    "district_Name": "جامعة الإمام محمد بن سعود الإسلامية"
+  },
+  {
+    "district_id": 55678,
+    "district_Name": "جامعة الطائف الجديدة"
+  },
+  {
+    "district_id": 54643,
+    "district_Name": "جامعة الملك فيصل الثاني"
+  },
+  {
+    "district_id": 55210,
+    "district_Name": "جامعة الملك عبدالعزيز"
+  },
+  {
+    "district_id": 55360,
+    "district_Name": "جامعة الملك فيصل الثالث"
+  },
+  {
+    "district_id": 55536,
+    "district_Name": "جامعة الملك فيصل الأول"
+  },
+  {
+    "district_id": 55880,
+    "district_Name": "جامعة الملك فهد للبترول"
+  },
+  {
+    "district_id": 55320,
+    "district_Name": "جامعة"
+  },
+  {
+    "district_id": 55725,
+    "district_Name": "جباجب"
+  },
+  {
+    "district_id": 55618,
+    "district_Name": "جبار"
+  },
+  {
+    "district_id": 54793,
+    "district_Name": "جبارة"
+  },
+  {
+    "district_id": 54795,
+    "district_Name": "جبال القنة"
+  },
+  {
+    "district_id": 56323,
+    "district_Name": "الثريا 1"
+  },
+  {
+    "district_id": 56406,
+    "district_Name": "الثليما"
+  },
+  {
+    "district_id": 56576,
+    "district_Name": "الجامعي"
+  },
+  {
+    "district_id": 56604,
+    "district_Name": "الجذيما"
+  },
+  {
+    "district_id": 56532,
+    "district_Name": "الجراري"
+  },
+  {
+    "district_id": 56287,
+    "district_Name": "الجردة"
+  },
+  {
+    "district_id": 56384,
+    "district_Name": "الجزر"
+  },
+  {
+    "district_id": 56485,
+    "district_Name": "الجفونية"
+  },
+  {
+    "district_id": 56575,
+    "district_Name": "الجلدة"
+  },
+  {
+    "district_id": 56342,
+    "district_Name": "الجمالين"
+  },
+  {
+    "district_id": 56527,
+    "district_Name": "الجواهر"
+  },
+  {
+    "district_id": 56606,
+    "district_Name": "الجود"
+  },
+  {
+    "district_id": 56631,
+    "district_Name": "الحاجب"
+  },
+  {
+    "district_id": 55638,
+    "district_Name": "جبرة"
+  },
+  {
+    "district_id": 55692,
+    "district_Name": "جبل النور"
+  },
+  {
+    "district_id": 55764,
+    "district_Name": "جبل عير"
+  },
+  {
+    "district_id": 54682,
+    "district_Name": "جرش الاثري"
+  },
+  {
+    "district_id": 55720,
+    "district_Name": "جرهم"
+  },
+  {
+    "district_id": 55747,
+    "district_Name": "جرول"
+  },
+  {
+    "district_id": 55947,
+    "district_Name": "جرير"
+  },
+  {
+    "district_id": 55611,
+    "district_Name": "جشم"
+  },
+  {
+    "district_id": 55662,
+    "district_Name": "جعرانة"
+  },
+  {
+    "district_id": 56089,
+    "district_Name": "جفارة السعدان"
+  },
+  {
+    "district_id": 55818,
+    "district_Name": "جماء أم خالد"
+  },
+  {
+    "district_id": 54409,
+    "district_Name": "جميع"
+  },
+  {
+    "district_id": 55024,
+    "district_Name": "جنوب الحصينية"
+  },
+  {
+    "district_id": 55020,
+    "district_Name": "جنوب الحميضه"
+  },
+  {
+    "district_id": 55092,
+    "district_Name": "جنوب المستشفى العسكري"
+  },
+  {
+    "district_id": 55081,
+    "district_Name": "جنوب تندحة"
+  },
+  {
+    "district_id": 55425,
+    "district_Name": "جواثا"
+  },
+  {
+    "district_id": 55563,
+    "district_Name": "جوبا"
+  },
+  {
+    "district_id": 55307,
+    "district_Name": "جوهرة ثول"
+  },
+  {
+    "district_id": 55775,
+    "district_Name": "حارة الباب الجديد"
+  },
+  {
+    "district_id": 55987,
+    "district_Name": "حاكمة الدغارير"
+  },
+  {
+    "district_id": 55083,
+    "district_Name": "حبونا"
+  },
+  {
+    "district_id": 54291,
+    "district_Name": "حدرج"
+  },
+  {
+    "district_id": 55787,
+    "district_Name": "حدري البلاد"
+  },
+  {
+    "district_id": 55367,
+    "district_Name": "حزم"
+  },
+  {
+    "district_id": 54262,
+    "district_Name": "حصيدة"
+  },
+  {
+    "district_id": 55511,
+    "district_Name": "حضن قلوص"
+  },
+  {
+    "district_id": 54635,
+    "district_Name": "حطين"
+  },
+  {
+    "district_id": 54570,
+    "district_Name": "حفائر العهين"
+  },
+  {
+    "district_id": 54569,
+    "district_Name": "حفيرة السبعة الأوسط"
+  },
+  {
+    "district_id": 54582,
+    "district_Name": "حفيرة السبعة الغربي"
+  },
+  {
+    "district_id": 56177,
+    "district_Name": "حفيرة السبعة الشرقي"
+  },
+  {
+    "district_id": 56249,
+    "district_Name": "الحدود"
+  },
+  {
+    "district_id": 56378,
+    "district_Name": "الحديدية"
+  },
+  {
+    "district_id": 56431,
+    "district_Name": "الحرم الشريف"
+  },
+  {
+    "district_id": 56411,
+    "district_Name": "الحرمين"
+  },
+  {
+    "district_id": 56334,
+    "district_Name": "الحزم الشمالي"
+  },
+  {
+    "district_id": 56303,
+    "district_Name": "الحصامة"
+  },
+  {
+    "district_id": 56525,
+    "district_Name": "الحوية"
+  },
+  {
+    "district_id": 55364,
+    "district_Name": "حكومي 1"
+  },
+  {
+    "district_id": 55365,
+    "district_Name": "حكومي 2"
+  },
+  {
+    "district_id": 56353,
+    "district_Name": "الخالدية 1"
+  },
+  {
+    "district_id": 56533,
+    "district_Name": "الخالدية ب"
+  },
+  {
+    "district_id": 56506,
+    "district_Name": "الخثلان"
+  },
+  {
+    "district_id": 56450,
+    "district_Name": "الخزيمي"
+  },
+  {
+    "district_id": 56549,
+    "district_Name": "الخضيرة"
+  },
+  {
+    "district_id": 56367,
+    "district_Name": "الخليفة"
+  },
+  {
+    "district_id": 56468,
+    "district_Name": "الخماسين الجنوبي"
+  },
+  {
+    "district_id": 56569,
+    "district_Name": "الخمايل"
+  },
+  {
+    "district_id": 56542,
+    "district_Name": "الدعدي"
+  },
+  {
+    "district_id": 56412,
+    "district_Name": "الدويمة"
+  },
+  {
+    "district_id": 56252,
+    "district_Name": "الديرة 1"
+  },
+  {
+    "district_id": 56253,
+    "district_Name": "الديرة 2"
+  },
+  {
+    "district_id": 56427,
+    "district_Name": "الرانوناء"
+  },
+  {
+    "district_id": 56632,
+    "district_Name": "الرايسية"
+  },
+  {
+    "district_id": 56358,
+    "district_Name": "الربعة"
+  },
+  {
+    "district_id": 56607,
+    "district_Name": "الرحابة"
+  },
+  {
+    "district_id": 56373,
+    "district_Name": "الرديفة"
+  },
+  {
+    "district_id": 56347,
+    "district_Name": "الرقيقة"
+  },
+  {
+    "district_id": 56381,
+    "district_Name": "الركية"
+  },
+  {
+    "district_id": 56608,
+    "district_Name": "الرهوة"
+  },
+  {
+    "district_id": 56550,
+    "district_Name": "الروحاء"
+  },
+  {
+    "district_id": 56295,
+    "district_Name": "الرويساء"
+  },
+  {
+    "district_id": 56586,
+    "district_Name": "الرياضي"
+  },
+  {
+    "district_id": 56369,
+    "district_Name": "الريعانية"
+  },
+  {
+    "district_id": 56452,
+    "district_Name": "الزيتونة"
+  },
+  {
+    "district_id": 56588,
+    "district_Name": "السداد"
+  },
+  {
+    "district_id": 56453,
+    "district_Name": "السدرة"
+  },
+  {
+    "district_id": 56590,
+    "district_Name": "السراة"
+  },
+  {
+    "district_id": 56467,
+    "district_Name": "السرحية"
+  },
+  {
+    "district_id": 56282,
+    "district_Name": "السقيا"
+  },
+  {
+    "district_id": 56516,
+    "district_Name": "السمرية"
+  },
+  {
+    "district_id": 56620,
+    "district_Name": "السهول"
+  },
+  {
+    "district_id": 56580,
+    "district_Name": "السواد"
+  },
+  {
+    "district_id": 56415,
+    "district_Name": "السويدي"
+  },
+  {
+    "district_id": 56546,
+    "district_Name": "الشاطئ 1"
+  },
+  {
+    "district_id": 56544,
+    "district_Name": "الشاطئ 2"
+  },
+  {
+    "district_id": 56518,
+    "district_Name": "الشاطئ 3"
+  },
+  {
+    "district_id": 56374,
+    "district_Name": "الشتينية"
+  },
+  {
+    "district_id": 56410,
+    "district_Name": "الشرمان"
+  },
+  {
+    "district_id": 56502,
+    "district_Name": "الشعيبة"
+  },
+  {
+    "district_id": 56462,
+    "district_Name": "الشعيفان"
+  },
+  {
+    "district_id": 56635,
+    "district_Name": "الشقرة"
+  },
+  {
+    "district_id": 56602,
+    "district_Name": "الشقوق"
+  },
+  {
+    "district_id": 56541,
+    "district_Name": "الشمالي الشرقي"
+  },
+  {
+    "district_id": 56609,
+    "district_Name": "الشمالية"
+  },
+  {
+    "district_id": 56520,
+    "district_Name": "الصالحي"
+  },
+  {
+    "district_id": 56396,
+    "district_Name": "الصايغية"
+  },
+  {
+    "district_id": 56589,
+    "district_Name": "الصخيرة"
+  },
+  {
+    "district_id": 56897,
+    "district_Name": "الصفا"
+  },
+  {
+    "district_id": 56898,
+    "district_Name": "الصفيراء"
+  },
+  {
+    "district_id": 56441,
+    "district_Name": "الصقورية"
+  },
+  {
+    "district_id": 56325,
+    "district_Name": "الضاحي الغربي"
+  },
+  {
+    "district_id": 56465,
+    "district_Name": "الضبية"
+  },
+  {
+    "district_id": 56971,
+    "district_Name": "الضيفة الغربية بالعزيزية"
+  },
+  {
+    "district_id": 56509,
+    "district_Name": "الطرف"
+  },
+  {
+    "district_id": 56405,
+    "district_Name": "الطريف"
+  },
+  {
+    "district_id": 56327,
+    "district_Name": "الطلعة"
+  },
+  {
+    "district_id": 56899,
+    "district_Name": "الطندباوي"
+  },
+  {
+    "district_id": 56587,
+    "district_Name": "العارمية"
+  },
+  {
+    "district_id": 56900,
+    "district_Name": "العبادلة"
+  },
+  {
+    "district_id": 56444,
+    "district_Name": "العثمانية"
+  },
+  {
+    "district_id": 56623,
+    "district_Name": "العذوبة"
+  },
+  {
+    "district_id": 56456,
+    "district_Name": "العريجاء الأوسط"
+  },
+  {
+    "district_id": 56391,
+    "district_Name": "العريجاء الغربي"
+  },
+  {
+    "district_id": 56312,
+    "district_Name": "العريمضي الجنوبي"
+  },
+  {
+    "district_id": 56292,
+    "district_Name": "العز"
+  },
+  {
+    "district_id": 56611,
+    "district_Name": "العقيشية"
+  },
+  {
+    "district_id": 56630,
+    "district_Name": "العلاوة الشرقية"
+  },
+  {
+    "district_id": 56621,
+    "district_Name": "العلاوة الغربية"
+  },
+  {
+    "district_id": 56436,
+    "district_Name": "العلاوة"
+  },
+  {
+    "district_id": 56375,
+    "district_Name": "العلوات"
+  },
+  {
+    "district_id": 56383,
+    "district_Name": "العماجية"
+  },
+  {
+    "district_id": 56475,
+    "district_Name": "العمدة"
+  },
+  {
+    "district_id": 56901,
+    "district_Name": "العمرة الجديدة"
+  },
+  {
+    "district_id": 56902,
+    "district_Name": "العمرة الشرقية"
+  },
+  {
+    "district_id": 56903,
+    "district_Name": "العمرة رقم 1"
+  },
+  {
+    "district_id": 56904,
+    "district_Name": "العمرة رقم 10"
+  },
+  {
+    "district_id": 56514,
+    "district_Name": "الغريبية"
+  },
+  {
+    "district_id": 56561,
+    "district_Name": "الغزيات"
+  },
+  {
+    "district_id": 56915,
+    "district_Name": "الغسالة"
+  },
+  {
+    "district_id": 56290,
+    "district_Name": "الغصينية"
+  },
+  {
+    "district_id": 56407,
+    "district_Name": "الغطغط"
+  },
+  {
+    "district_id": 56568,
+    "district_Name": "الغيم"
+  },
+  {
+    "district_id": 56624,
+    "district_Name": "الغيوم"
+  },
+  {
+    "district_id": 56615,
+    "district_Name": "الفجر"
+  },
+  {
+    "district_id": 56479,
+    "district_Name": "الفحيل"
+  },
+  {
+    "district_id": 56905,
+    "district_Name": "العمرة رقم 11"
+  },
+  {
+    "district_id": 56906,
+    "district_Name": "العمرة رقم 12"
+  },
+  {
+    "district_id": 56907,
+    "district_Name": "العمرة رقم 2"
+  },
+  {
+    "district_id": 56908,
+    "district_Name": "العمرة رقم 3"
+  },
+  {
+    "district_id": 56909,
+    "district_Name": "العمرة رقم 4"
+  },
+  {
+    "district_id": 56910,
+    "district_Name": "العمرة رقم 5"
+  },
+  {
+    "district_id": 56911,
+    "district_Name": "العمرة رقم 6"
+  },
+  {
+    "district_id": 56912,
+    "district_Name": "العمرة رقم 7"
+  },
+  {
+    "district_id": 56913,
+    "district_Name": "العمرة رقم 8"
+  },
+  {
+    "district_id": 56914,
+    "district_Name": "العمرة رقم 9"
+  },
+  {
+    "district_id": 56972,
+    "district_Name": "العمرة شعبة الحروب"
+  },
+  {
+    "district_id": 56350,
+    "district_Name": "العوالى"
+  },
+  {
+    "district_id": 56618,
+    "district_Name": "العونية"
+  },
+  {
+    "district_id": 56299,
+    "district_Name": "الغراء"
+  },
+  {
+    "district_id": 56311,
+    "district_Name": "الغرسات"
+  },
+  {
+    "district_id": 56341,
+    "district_Name": "الفرعة"
+  },
+  {
+    "district_id": 56616,
+    "district_Name": "الفوطة"
+  },
+  {
+    "district_id": 56399,
+    "district_Name": "الفيضة"
+  },
+  {
+    "district_id": 56266,
+    "district_Name": "القادسية 1"
+  },
+  {
+    "district_id": 56393,
+    "district_Name": "القارة"
+  },
+  {
+    "district_id": 56538,
+    "district_Name": "القاع 1"
+  },
+  {
+    "district_id": 56519,
+    "district_Name": "القاع 2"
+  },
+  {
+    "district_id": 56521,
+    "district_Name": "القاع البارد"
+  },
+  {
+    "district_id": 56294,
+    "district_Name": "القايم"
+  },
+  {
+    "district_id": 56536,
+    "district_Name": "القرعاء"
+  },
+  {
+    "district_id": 56425,
+    "district_Name": "القرينة القديمة"
+  },
+  {
+    "district_id": 56273,
+    "district_Name": "القسوم"
+  },
+  {
+    "district_id": 56398,
+    "district_Name": "القسيمة"
+  },
+  {
+    "district_id": 56916,
+    "district_Name": "القشبة"
+  },
+  {
+    "district_id": 56301,
+    "district_Name": "القصر"
+  },
+  {
+    "district_id": 56579,
+    "district_Name": "القفيلة"
+  },
+  {
+    "district_id": 56625,
+    "district_Name": "القلت"
+  },
+  {
+    "district_id": 56917,
+    "district_Name": "القوبعية"
+  },
+  {
+    "district_id": 56377,
+    "district_Name": "القيسية"
+  },
+  {
+    "district_id": 56574,
+    "district_Name": "الكلية الحربية"
+  },
+  {
+    "district_id": 56918,
+    "district_Name": "اللحيانية"
+  },
+  {
+    "district_id": 56267,
+    "district_Name": "المبرز"
+  },
+  {
+    "district_id": 56308,
+    "district_Name": "المتحف"
+  },
+  {
+    "district_id": 56320,
+    "district_Name": "المتوكل"
+  },
+  {
+    "district_id": 56603,
+    "district_Name": "المجامر"
+  },
+  {
+    "district_id": 56654,
+    "district_Name": "المحالة"
+  },
+  {
+    "district_id": 56919,
+    "district_Name": "المحاني"
+  },
+  {
+    "district_id": 56504,
+    "district_Name": "المحبوبة"
+  },
+  {
+    "district_id": 56628,
+    "district_Name": "المدار"
+  },
+  {
+    "district_id": 56592,
+    "district_Name": "المدينة الجديدة"
+  },
+  {
+    "district_id": 56360,
+    "district_Name": "المدينة الصناعية الجديدة"
+  },
+  {
+    "district_id": 56262,
+    "district_Name": "المدينة المنورة"
+  },
+  {
+    "district_id": 54196,
+    "district_Name": "المرقب"
+  },
+  {
+    "district_id": 56920,
+    "district_Name": "المركزية"
+  },
+  {
+    "district_id": 56422,
+    "district_Name": "المزرعة"
+  },
+  {
+    "district_id": 56370,
+    "district_Name": "المستشفى الجامعي"
+  },
+  {
+    "district_id": 56921,
+    "district_Name": "المسفلة أبو شدادين"
+  },
+  {
+    "district_id": 56922,
+    "district_Name": "المسفلة حارة خمين"
+  },
+  {
+    "district_id": 56923,
+    "district_Name": "المسفلة كدي"
+  },
+  {
+    "district_id": 56420,
+    "district_Name": "المسلخ"
+  },
+  {
+    "district_id": 56573,
+    "district_Name": "المصائف"
+  },
+  {
+    "district_id": 56500,
+    "district_Name": "المصفاة"
+  },
+  {
+    "district_id": 56291,
+    "district_Name": "المطلع"
+  },
+  {
+    "district_id": 56924,
+    "district_Name": "المعابدة"
+  },
+  {
+    "district_id": 56925,
+    "district_Name": "المعابدة حارة لقيطة"
+  },
+  {
+    "district_id": 56926,
+    "district_Name": "المعابدة رقم6"
+  },
+  {
+    "district_id": 56258,
+    "district_Name": "المعاقلة"
+  },
+  {
+    "district_id": 56594,
+    "district_Name": "المعترض"
+  },
+  {
+    "district_id": 56307,
+    "district_Name": "المعترضة"
+  },
+  {
+    "district_id": 56359,
+    "district_Name": "المعذر الشمالي"
+  },
+  {
+    "district_id": 56280,
+    "district_Name": "المعلمين"
+  },
+  {
+    "district_id": 56928,
+    "district_Name": "المعيصم (يسار الطالع للطائف)"
+  },
+  {
+    "district_id": 56929,
+    "district_Name": "المعيصم (يمين الطالع للطائف)"
+  },
+  {
+    "district_id": 56927,
+    "district_Name": "المعيصم"
+  },
+  {
+    "district_id": 56930,
+    "district_Name": "المقترح"
+  },
+  {
+    "district_id": 56547,
+    "district_Name": "المكارم"
+  },
+  {
+    "district_id": 56614,
+    "district_Name": "الملك سلمان بن عبد العزيز"
+  },
+  {
+    "district_id": 56283,
+    "district_Name": "المناخة"
+  },
+  {
+    "district_id": 56931,
+    "district_Name": "المنار المعدل"
+  },
+  {
+    "district_id": 56289,
+    "district_Name": "المنجارة"
+  },
+  {
+    "district_id": 56272,
+    "district_Name": "المنزم"
+  },
+  {
+    "district_id": 56932,
+    "district_Name": "المنصور"
+  },
+  {
+    "district_id": 56457,
+    "district_Name": "المهدية"
+  },
+  {
+    "district_id": 56260,
+    "district_Name": "المونسية"
+  },
+  {
+    "district_id": 56455,
+    "district_Name": "المؤتمرات"
+  },
+  {
+    "district_id": 56288,
+    "district_Name": "الميزاب"
+  },
+  {
+    "district_id": 56321,
+    "district_Name": "المئوية"
+  },
+  {
+    "district_id": 56933,
+    "district_Name": "النبعة"
+  },
+  {
+    "district_id": 56300,
+    "district_Name": "النبلاء"
+  },
+  {
+    "district_id": 56934,
+    "district_Name": "النخيل 2"
+  },
+  {
+    "district_id": 56314,
+    "district_Name": "النزهة 2"
+  },
+  {
+    "district_id": 56935,
+    "district_Name": "النسيم المعدل"
+  },
+  {
+    "district_id": 56336,
+    "district_Name": "النصبة"
+  },
+  {
+    "district_id": 56601,
+    "district_Name": "النفيد"
+  },
+  {
+    "district_id": 56629,
+    "district_Name": "النقابة"
+  },
+  {
+    "district_id": 56515,
+    "district_Name": "النقيعه"
+  },
+  {
+    "district_id": 56936,
+    "district_Name": "النكاسة"
+  },
+  {
+    "district_id": 56274,
+    "district_Name": "النهضة و بالشوك"
+  },
+  {
+    "district_id": 56937,
+    "district_Name": "النوارية الشرقية"
+  },
+  {
+    "district_id": 56938,
+    "district_Name": "النوارية الغربية"
+  },
+  {
+    "district_id": 56414,
+    "district_Name": "النويعمة"
+  },
+  {
+    "district_id": 56939,
+    "district_Name": "الهاشم"
+  },
+  {
+    "district_id": 56940,
+    "district_Name": "الهجلة الجديدة"
+  },
+  {
+    "district_id": 56941,
+    "district_Name": "الهجيله من أراضي بدر"
+  },
+  {
+    "district_id": 56438,
+    "district_Name": "الهده"
+  },
+  {
+    "district_id": 56943,
+    "district_Name": "الهدى التجميعي"
+  },
+  {
+    "district_id": 56942,
+    "district_Name": "الهدى"
+  },
+  {
+    "district_id": 56599,
+    "district_Name": "الهدية"
+  },
+  {
+    "district_id": 56265,
+    "district_Name": "الهرير الغربى"
+  },
+  {
+    "district_id": 56478,
+    "district_Name": "الهفوف"
+  },
+  {
+    "district_id": 56562,
+    "district_Name": "الواحات"
+  },
+  {
+    "district_id": 56322,
+    "district_Name": "الوزير"
+  },
+  {
+    "district_id": 56944,
+    "district_Name": "الوسيعة"
+  },
+  {
+    "district_id": 56945,
+    "district_Name": "الوسيق"
+  },
+  {
+    "district_id": 56392,
+    "district_Name": "الوشام"
+  },
+  {
+    "district_id": 56563,
+    "district_Name": "الوفاق"
+  },
+  {
+    "district_id": 56263,
+    "district_Name": "الوقبة"
+  },
+  {
+    "district_id": 56498,
+    "district_Name": "الولامين"
+  },
+  {
+    "district_id": 56617,
+    "district_Name": "الوهلان"
+  },
+  {
+    "district_id": 56446,
+    "district_Name": "ام طلحة"
+  },
+  {
+    "district_id": 56946,
+    "district_Name": "امتداد الصناعية أبو كلاب"
+  },
+  {
+    "district_id": 56947,
+    "district_Name": "إسكان الملك فهد"
+  },
+  {
+    "district_id": 56379,
+    "district_Name": "أبو سليم"
+  },
+  {
+    "district_id": 56948,
+    "district_Name": "أبو لهب"
+  },
+  {
+    "district_id": 56949,
+    "district_Name": "أبو مراغ"
+  },
+  {
+    "district_id": 56545,
+    "district_Name": "أحد بني زيد"
+  },
+  {
+    "district_id": 56480,
+    "district_Name": "آل معني"
+  },
+  {
+    "district_id": 56469,
+    "district_Name": "آل ناهش"
+  },
+  {
+    "district_id": 56445,
+    "district_Name": "باب الشمال"
+  },
+  {
+    "district_id": 56553,
+    "district_Name": "بادي"
+  },
+  {
+    "district_id": 56956,
+    "district_Name": "بالبيد"
+  },
+  {
+    "district_id": 56957,
+    "district_Name": "بحرة المجاهدين"
+  },
+  {
+    "district_id": 56958,
+    "district_Name": "بداله"
+  },
+  {
+    "district_id": 56310,
+    "district_Name": "برزة"
+  },
+  {
+    "district_id": 56470,
+    "district_Name": "أم الحمام الشرقي"
+  },
+  {
+    "district_id": 56596,
+    "district_Name": "أم الخلصة"
+  },
+  {
+    "district_id": 56950,
+    "district_Name": "أم الدرج"
+  },
+  {
+    "district_id": 56951,
+    "district_Name": "أم الزلة"
+  },
+  {
+    "district_id": 56494,
+    "district_Name": "أم الشعال"
+  },
+  {
+    "district_id": 56560,
+    "district_Name": "أم العراد"
+  },
+  {
+    "district_id": 56952,
+    "district_Name": "أم القرى"
+  },
+  {
+    "district_id": 56953,
+    "district_Name": "أم الكتاد"
+  },
+  {
+    "district_id": 56954,
+    "district_Name": "أم جرفان"
+  },
+  {
+    "district_id": 56526,
+    "district_Name": "أم حبلين الغربية"
+  },
+  {
+    "district_id": 56275,
+    "district_Name": "أم خريسان"
+  },
+  {
+    "district_id": 56324,
+    "district_Name": "أم سرار"
+  },
+  {
+    "district_id": 56955,
+    "district_Name": "أم قضب"
+  },
+  {
+    "district_id": 56539,
+    "district_Name": "آل زياد 1"
+  },
+  {
+    "district_id": 56540,
+    "district_Name": "آل زياد 2"
+  },
+  {
+    "district_id": 56329,
+    "district_Name": "آل عريمة"
+  },
+  {
+    "district_id": 56256,
+    "district_Name": "بلدة الطرف"
+  },
+  {
+    "district_id": 56257,
+    "district_Name": "بلدة العقار"
+  },
+  {
+    "district_id": 56346,
+    "district_Name": "بلدة القارة"
+  },
+  {
+    "district_id": 56279,
+    "district_Name": "بلدة الوزية"
+  },
+  {
+    "district_id": 56577,
+    "district_Name": "بلدة ثريبان"
+  },
+  {
+    "district_id": 56335,
+    "district_Name": "بلدة غمسي"
+  },
+  {
+    "district_id": 56567,
+    "district_Name": "بن سويلم"
+  },
+  {
+    "district_id": 56959,
+    "district_Name": "بيشة"
+  },
+  {
+    "district_id": 56960,
+    "district_Name": "بئر الغنم"
+  },
+  {
+    "district_id": 56961,
+    "district_Name": "تلال مكة"
+  },
+  {
+    "district_id": 56489,
+    "district_Name": "جامعة الملك سعود"
+  },
+  {
+    "district_id": 56352,
+    "district_Name": "جامعة جازان"
+  },
+  {
+    "district_id": 56962,
+    "district_Name": "جبل خندمة"
+  },
+  {
+    "district_id": 56963,
+    "district_Name": "جبل غراب"
+  },
+  {
+    "district_id": 56362,
+    "district_Name": "جفارة الجبيري"
+  },
+  {
+    "district_id": 56964,
+    "district_Name": "جنوب العزيزية"
+  },
+  {
+    "district_id": 56965,
+    "district_Name": "جنوب مكة"
+  },
+  {
+    "district_id": 56653,
+    "district_Name": "جوحان"
+  },
+  {
+    "district_id": 56966,
+    "district_Name": "حارة السرد"
+  },
+  {
+    "district_id": 56605,
+    "district_Name": "حداء"
+  },
+  {
+    "district_id": 56967,
+    "district_Name": "حراض"
+  },
+  {
+    "district_id": 56408,
+    "district_Name": "حضار"
+  },
+  {
+    "district_id": 56968,
+    "district_Name": "حنين الشمالي"
+  },
+  {
+    "district_id": 56969,
+    "district_Name": "حوش بكر"
+  },
+  {
+    "district_id": 56626,
+    "district_Name": "خد الحاج"
+  },
+  {
+    "district_id": 56463,
+    "district_Name": "خشم العان"
+  },
+  {
+    "district_id": 56442,
+    "district_Name": "خصيبة الغربية"
+  },
+  {
+    "district_id": 56524,
+    "district_Name": "داربن جدة"
+  },
+  {
+    "district_id": 56517,
+    "district_Name": "رايس"
+  },
+  {
+    "district_id": 56534,
+    "district_Name": "رحمان"
+  },
+  {
+    "district_id": 56477,
+    "district_Name": "رميثان"
+  },
+  {
+    "district_id": 56366,
+    "district_Name": "روافة"
+  },
+  {
+    "district_id": 56403,
+    "district_Name": "رواق الشرقي"
+  },
+  {
+    "district_id": 56488,
+    "district_Name": "زبدة"
+  },
+  {
+    "district_id": 56600,
+    "district_Name": "زبيدة"
+  },
+  {
+    "district_id": 56667,
+    "district_Name": "زهرة العمرة"
+  },
+  {
+    "district_id": 55015,
+    "district_Name": "زور العماري"
+  },
+  {
+    "district_id": 55110,
+    "district_Name": "زور وادعة"
+  },
+  {
+    "district_id": 56066,
+    "district_Name": "زياد"
+  },
+  {
+    "district_id": 55185,
+    "district_Name": "ساق"
+  },
+  {
+    "district_id": 54995,
+    "district_Name": "سايلة غزال"
+  },
+  {
+    "district_id": 56156,
+    "district_Name": "سحاب"
+  },
+  {
+    "district_id": 56432,
+    "district_Name": "سد الغابة"
+  },
+  {
+    "district_id": 56259,
+    "district_Name": "سدرة"
+  },
+  {
+    "district_id": 56434,
+    "district_Name": "سدير"
+  },
+  {
+    "district_id": 55789,
+    "district_Name": "سديرة"
+  },
+  {
+    "district_id": 55085,
+    "district_Name": "سقام"
+  },
+  {
+    "district_id": 55626,
+    "district_Name": "سكة الحديد"
+  },
+  {
+    "district_id": 56018,
+    "district_Name": "سكيرينة"
+  },
+  {
+    "district_id": 56186,
+    "district_Name": "سلاح الحدود"
+  },
+  {
+    "district_id": 56123,
+    "district_Name": "سلام"
+  },
+  {
+    "district_id": 54304,
+    "district_Name": "سلطانة"
+  },
+  {
+    "district_id": 54957,
+    "district_Name": "سلوة"
+  },
+  {
+    "district_id": 55145,
+    "district_Name": "سليتة"
+  },
+  {
+    "district_id": 55714,
+    "district_Name": "سماح"
+  },
+  {
+    "district_id": 56281,
+    "district_Name": "سمحان"
+  },
+  {
+    "district_id": 56437,
+    "district_Name": "سمنان"
+  },
+  {
+    "district_id": 56150,
+    "district_Name": "سنابس"
+  },
+  {
+    "district_id": 56660,
+    "district_Name": "مخطط ال سرور المعدل رقم 88"
+  },
+  {
+    "district_id": 56659,
+    "district_Name": "مخطط القوارير رقم س/2"
+  },
+  {
+    "district_id": 56663,
+    "district_Name": "مخطط انوار الحجرة ب/ح/1439/س"
+  },
+  {
+    "district_id": 56657,
+    "district_Name": "مخطط بهر المعدل رقم ح/1/1400"
+  },
+  {
+    "district_id": 56658,
+    "district_Name": "مخطط شبرقة الالحاقي رقم 822"
+  }
+]

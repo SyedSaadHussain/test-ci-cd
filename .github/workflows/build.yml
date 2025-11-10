@@ -1,0 +1,66 @@
+name: Flutter Build (Manual Trigger)
+
+on:
+  push:
+    branches:
+      - saad-dev-r5
+  pull_request:
+    branches:
+      - saad-dev-r5
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Select environment to build (staging, uat, preprod, prod)"
+        required: true
+        default: "uat"
+        type: choice
+        options:
+          - staging
+          - uat
+          - preprod
+          - prod
+      platform:
+        description: "Select platform (android or ios)"
+        required: true
+        default: "android"
+        type: choice
+        options:
+          - android
+          - ios
+
+jobs:
+  build:
+    # ✅ This ensures the workflow only runs when you're on saad-dev-r5
+    if: github.ref == 'refs/heads/saad-dev-r5'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛎️ Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🔧 Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.0' # use your Flutter version
+
+      - name: 📦 Get dependencies
+        run: flutter pub get
+
+      - name: 🏗️ Build for selected platform and environment
+        run: |
+          PLATFORM="${{ github.event.inputs.platform || 'android' }}"
+          ENVIRONMENT="${{ github.event.inputs.environment || 'uat' }}"
+          
+           echo "Building for platform: $PLATFORM and environment: $ENVIRONMENT"
+          
+          if [ "$PLATFORM" == "android" ]; then
+            flutter build apk --release \
+              --obfuscate \
+              --split-debug-info=debug/$ENVIRONMENT  \
+              --dart-define=ENV=$ENVIRONMENT 
+          else
+            flutter build ios --release \
+              --obfuscate \
+              --split-debug-info=debug/${{ github.event.inputs.environment }} \
+              --dart-define=ENV=${{ github.event.inputs.environment }}
+          fi
+

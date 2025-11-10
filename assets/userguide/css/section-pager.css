@@ -1,0 +1,111 @@
+/* ===== Section Pager — inline arrows on screen edges (UPDATED + labels) ===== */
+:root{
+  --pager-size: 46px;
+  --pager-radius: 999px;
+  --pager-bg: rgba(0,0,0,.55);
+  --pager-bg-hover: rgba(0,0,0,.70);
+  --pager-fg: #fff;
+  --pager-shadow: 0 6px 16px rgba(0,0,0,.25);
+  --pager-z: 1200;
+
+  /* ↓↓↓ الإزاحة الرأسية لتفادي زر “آخر تحديث” ↓↓↓ */
+  --pager-y-shift: 12vh;
+  --pager-left-extra-shift: 0vh;
+}
+
+@media (max-width: 480px){
+  :root{
+    --pager-size: 42px;
+    --pager-y-shift: 14vh;
+  }
+}
+
+@media (max-height: 540px){
+  :root{ --pager-y-shift: 10vh; }
+}
+
+.section-pager{ pointer-events: none; }
+
+.section-pager__btn{
+  position: fixed;
+  top: calc(50% + var(--pager-y-shift));
+  transform: translateY(-50%);
+  inline-size: var(--pager-size);
+  block-size: var(--pager-size);
+  border-radius: var(--pager-radius);
+  background: var(--pager-bg);
+  color: var(--pager-fg);
+  display: grid;
+  place-items: center;
+  z-index: var(--pager-z);
+  box-shadow: var(--pager-shadow);
+  text-decoration: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  pointer-events: auto;
+  transition: background .18s ease, transform .18s ease, opacity .18s ease;
+}
+
+.section-pager__btn:hover,
+.section-pager__btn:focus{
+  background: var(--pager-bg-hover);
+  outline: none;
+}
+
+.section-pager__btn[disabled],
+.section-pager__btn.is-disabled{
+  opacity: .35;
+  pointer-events: none;
+}
+
+.section-pager__btn--left{ inset-inline-start: 8px; }
+.section-pager__btn--right{ inset-inline-end: 8px; }
+
+.section-pager__btn--left{
+  top: calc(50% + var(--pager-y-shift) + var(--pager-left-extra-shift));
+}
+
+.section-pager__icon{
+  inline-size: calc(var(--pager-size) * .52);
+  block-size: calc(var(--pager-size) * .52);
+  display: block;
+}
+
+.section-pager__btn::after{
+  position: absolute;
+  inset-block-start: calc(100% + 8px);
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(0,0,0,.45);
+  color: var(--pager-fg);
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0,0,0,.18);
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity .15s ease, transform .15s ease;
+  pointer-events: none;
+  content: "";
+}
+
+.section-pager__btn--right::after{ content: "التالي"; inset-inline-end: 0; }
+.section-pager__btn--left::after{ content: "السابق"; inset-inline-start: 0; }
+
+.section-pager__btn:hover::after,
+.section-pager__btn:focus::after,
+.section-pager__btn:active::after{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@supports (top: max(0px)){
+  .section-pager__btn--left{ inset-inline-start: max(8px, env(safe-area-inset-left)); }
+  .section-pager__btn--right{ inset-inline-end: max(8px, env(safe-area-inset-right)); }
+}
+
+@media (prefers-reduced-motion: no-preference){
+  .section-pager__btn:active{
+    transform: translateY(-50%) scale(.98);
+  }
+}

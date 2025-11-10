@@ -1,0 +1,9 @@
+{
+  "selection": [
+    ["regular",           "Regular"],
+    ["contract_base",     "Contract Base"],
+    ["rewarding_base",    "Rewarding Base"],
+    ["volunteer_khateeb", "Volunteer Khateeb"],
+    ["unassigned",        "Unassigned in Ministry"]
+  ]
+}

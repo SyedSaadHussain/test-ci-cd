@@ -1,0 +1,2676 @@
+
+<!doctype html>
+<html lang="ar" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../index.html">
+      
+      
+        <link rel="next" href="../mosques/01-intro.html">
+      
+      
+      <link rel="icon" href="../img/logo_ministry.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>إنشاء تذكرة - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../styles.css">
+    
+      <link rel="stylesheet" href="../css/chatbot.css">
+    
+      <link rel="stylesheet" href="../css/device-mobile.css">
+    
+      <link rel="stylesheet" href="../css/footer-legal.css">
+    
+      <link rel="stylesheet" href="../css/last-updated-fab.css">
+    
+      <link rel="stylesheet" href="../css/section-pager.css">
+    
+      <link rel="stylesheet" href="../css/header-datetime.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="rtl" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+<header class="md-header mh-header" data-md-component="header" role="banner" dir="rtl">
+  <div class="mh-inner">
+    <!-- زر القائمة (أقصى اليمين) -->
+    <label class="mh-burger" for="__drawer" aria-label="القائمة" title="القائمة">
+      <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <rect x="3" y="6" width="18" height="2" rx="1"></rect>
+        <rect x="3" y="11" width="18" height="2" rx="1"></rect>
+        <rect x="3" y="16" width="18" height="2" rx="1"></rect>
+      </svg>
+    </label>
+
+    <!-- البراند (كما هو تمامًا) -->
+    <a class="mh-brand" href=".." title="">
+      <img class="mh-lockup" src="../img/logo_ministry.svg"
+           alt="وزارة الشؤون الإسلامية والدعوة والإرشاد – Ministry of Islamic Affairs, Dawah and Guidance">
+    </a>
+
+    <span class="mh-spacer" aria-hidden="true"></span>
+
+    <!-- البحث -->
+    <label class="mh-action mh-search" for="__search" aria-label="بحث" title="بحث">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M15.5 14h-.79l-.28-.27a6.2 6.2 0 1 0-.71.71l.27.28v.79L20 20.5l1.5-1.5L15.5 14zm-5.3 0A4.7 4.7 0 1 1 14.9 9.3 4.71 4.71 0 0 1 10.2 14z"></path>
+      </svg>
+    </label>
+
+    <!-- (اختياري) تبديل الثيم عبر Material -->
+    <div class="mh-action mh-palette" data-md-component="palette">
+      <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+    </div>
+
+    <!-- كتلة يسار الهيدر: التاريخ (الهلال معطّل مؤقتًا) -->
+    <div class="mh-left">
+      <!-- زر الوضع الليلي (الهلال) مُعطَّل مؤقتًا -->
+      <!--
+      <button id="night-toggle-btn" class="mh-action mh-night" type="button"
+              aria-label="الوضع الليلي" title="الوضع الليلي">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </button>
+      -->
+
+      <!-- التاريخ -->
+      <div id="mh-date-pill" class="date-pill" aria-live="polite" aria-label="التاريخ">
+        <span class="date-label">—</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- سكربت: تناوب هجري↔︎ميلادي بحركة انزلاق، كل 13 ثانية -->
+  <script>
+    (function () {
+      try {
+        var pill = document.getElementById('mh-date-pill');
+        if (!pill) return;
+        var label = pill.querySelector('.date-label');
+        if (!label) return;
+
+        function formatGregorian(d) {
+          try {
+            var weekday = new Intl.DateTimeFormat('ar', { weekday: 'long' }).format(d);
+            var day = new Intl.DateTimeFormat('ar', { day: '2-digit' }).format(d);
+            var month = new Intl.DateTimeFormat('en', { month: 'short' }).format(d);
+            return weekday + ' · ' + day + ' ' + month;
+          } catch (e) { return d.toLocaleDateString('ar'); }
+        }
+
+        function formatHijriIntl(d) {
+          var opts = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+          var locs = ['ar-SA-u-ca-islamic-umalqura', 'ar-SA-u-ca-islamic'];
+          for (var i = 0; i < locs.length; i++) {
+            try { return new Intl.DateTimeFormat(locs[i], opts).format(d); } catch (e) {}
+          }
+          return null;
+        }
+
+        function hijriFallback(d) {
+          function toJD(y, m, day) {
+            if (m <= 2) { y -= 1; m += 12; }
+            var A = Math.floor(y / 100), B = 2 - A + Math.floor(A / 4);
+            return Math.floor(365.25 * (y + 4716)) + Math.floor(30.6001 * (m + 1)) + day + B - 1524;
+          }
+          var jd = toJD(d.getFullYear(), d.getMonth() + 1, d.getDate());
+          var days = jd - 1948439;
+          var hYear = Math.floor((30 * days + 10646) / 10631);
+          var first = 1948439 + Math.floor((10631 * hYear - 10646) / 30);
+          var doy = jd - first + 1;
+          var hMonth = Math.min(12, Math.ceil(doy / 29.5));
+          var monthStart = Math.round((hMonth - 1) * 29.5);
+          var hDay = doy - monthStart;
+          var months = ['محرم','صفر','ربيع الأول','ربيع الآخر','جمادى الأولى','جمادى الآخرة','رجب','شعبان','رمضان','شوال','ذو القعدة','ذو الحجة'];
+          var weekday = new Intl.DateTimeFormat('ar', { weekday: 'long' }).format(d);
+          var dStr = new Intl.NumberFormat('ar').format(hDay);
+          var yStr = new Intl.NumberFormat('ar').format(hYear);
+          return weekday + ' · ' + dStr + ' ' + months[hMonth - 1] + ' ' + yStr;
+        }
+
+        function compute() {
+          var now = new Date();
+          var hijriIntl = formatHijriIntl(now);
+          var hijri = hijriIntl || hijriFallback(now);
+          var greg = formatGregorian(now);
+          return { hijri: hijri, greg: greg };
+        }
+
+        var cache = compute();
+        var showHijri = true;
+
+        function slideTo(text) {
+          label.classList.remove('slide-in');
+          label.classList.add('slide-out');
+          setTimeout(function () {
+            label.textContent = text;
+            label.classList.remove('slide-out');
+            label.classList.add('slide-in');
+          }, 200);
+        }
+
+        label.textContent = cache.hijri;
+        label.classList.add('slide-in');
+
+        setInterval(function () {
+          slideTo(showHijri ? cache.hijri : cache.greg);
+          showHijri = !showHijri;
+        }, 13000);
+
+        setInterval(function () { cache = compute(); }, 60000);
+      } catch (err) {
+        console && console.warn && console.warn('header datetime init failed:', err);
+      }
+    })();
+  </script>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="تصفح" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  <img src="../img/logo_ministry.svg" alt="logo">
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    الصفحة الرئيسية
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="index.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    طلب دعم تقني
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mosques/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة المساجد
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    وحدة أصول المساجد
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            وحدة أصول المساجد
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assets/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    مقدمة وحدة أصول المساجد
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visits/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة الزيارات
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../employees/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة إدارة المنسوبين
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    وحدة صيانة المساجد
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            وحدة صيانة المساجد
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintenance/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    مقدمة وحدة صيانة المساجد
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintenance/03-entry.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    تسجيل متعهد صيانة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintenance/02-company-member.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    تسجيل عضو شركة صيانة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintenance/04-reviewer.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    اداراج عقد صيانة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintenance/05-approver.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    اعتماد عقد صيانة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../donations/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة التبرعات
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dashboard/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة لوحة المؤشرات
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../friday/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة تعاميم يوم الجمعة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../service-bills/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة فواتير خدمات المساجد
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/01-intro.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    وحدة التقارير
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filters/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    عوامل التصفية والبحث
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-ops/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    تجميع وفرز البيانات
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    الأسئلة الشائعة
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mobile-guide/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    دليل تطبيق الجوال
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="جدول المحتويات">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<!-- خلفية رمادية ممتدة بين الهيدر والفوتر فقط -->
+<div class="support-bleed-bg" aria-hidden="true"></div>
+
+<!-- ===== بوكس واحد: قالب التذكرة (هيكل + ترحيب + ساعة) ===== -->
+<section class="support-bleed" aria-label="منطقة محتوى التذاكر">
+  <section id="ticket-box" dir="rtl" class="card" aria-label="نموذج إنشاء تذكرة"
+           data-hours="10:00-18:00">
+    <header class="box-head">
+      <h1 class="title">بوابة الدعم التقني</h1>
+      <p class="welcome">
+        فريق الدعم التقني للنظام الإلكتروني لإدارة شؤون المساجد يرحّب بكم.
+      </p>
+    </header>
+
+    <!-- ساعة دائرية بعقارب مع حلقة تشير أوقات الدوام -->
+    <div class="support-clock" role="group" aria-label="الساعة وحالة التوفّر">
+      <div class="clock" aria-label="الوقت الحالي">
+        <div class="ring" aria-hidden="true"></div>
+        <div class="dial">
+          <!-- أرقام عربية ١..١٢ (١٢ أعلى الساعة) -->
+          <div class="nums" aria-hidden="true">
+            <div class="num" style="--i:1">١</div>
+            <div class="num" style="--i:2">٢</div>
+            <div class="num" style="--i:3">٣</div>
+            <div class="num" style="--i:4">٤</div>
+            <div class="num" style="--i:5">٥</div>
+            <div class="num" style="--i:6">٦</div>
+            <div class="num" style="--i:7">٧</div>
+            <div class="num" style="--i:8">٨</div>
+            <div class="num" style="--i:9">٩</div>
+            <div class="num" style="--i:10">١٠</div>
+            <div class="num" style="--i:11">١١</div>
+            <div class="num" style="--i:12">١٢</div>
+          </div>
+
+          <!-- عقارب -->
+          <div class="hand hour"  aria-hidden="true"></div>
+          <div class="hand minute" aria-hidden="true"></div>
+          <div class="hand second" aria-hidden="true"></div>
+          <div class="center-cap" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="clock-info">
+        <div class="now" aria-live="polite">الآن — <span class="now-time">--:--</span> <span class="city">(الرياض)</span></div>
+        <div class="status-line">
+          <span class="badge status online">الخدمة متاحة الآن</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- نص مخصص تحت الساعة -->
+    <div class="helper-notes" aria-label="تنويه">
+      <p>
+        يسعد فريق الدعم التقني  بتواصلكم وخدمتكم والرد على استفسارتكم خلال ساعات العمل . الرجاء انشاء تذكرة دعم تقني وتعبة الحقول بدقة  لنتمكن من معالجة التذكرة بسرعة وسهولة
+      </p>
+    </div>
+
+    <!-- زر فتح النموذج (خارج القالب) -->
+    <div class="preform">
+      <button id="open-form" class="btn-primary open-form" type="button"
+              aria-controls="ticket-form" aria-expanded="false">
+        إنشاء تذكرة دعم تقني
+      </button>
+    </div>
+
+    <!-- ===== النموذج: مخفي افتراضيًا ===== -->
+    <div id="ticket-form" class="form-panel" hidden>
+
+      <!-- ***** بداية: نموذج/منطق القالب (HTML) ***** -->
+      <form id="frm" class="form" autocomplete="off" novalidate>
+
+        <!-- نوع الطلب -->
+        <div class="field">
+          <label for="f_type">نوع الطلب *</label>
+          <select id="f_type" required>
+            <option value="" selected disabled>اختر النوع</option>
+            <option value="INC" data-label="عطل تقني">عطل تقني</option>
+            <option value="Q"   data-label="استفسار">استفسار</option>
+            <option value="PWD" data-label="استعادة كلمة المرور">استعادة كلمة المرور</option>
+            <option value="DEV" data-label="توثيق جهاز جوال جديد">توثيق جهاز جوال جديد</option>
+          </select>
+        </div>
+
+        <!-- الهوية العامة الإلزامية: الاسم الرباعي + رقم الهوية + تاريخ الميلاد -->
+        <div class="row cols-3" id="blk-ident">
+          <div class="field">
+            <label for="f_fullname">الاسم الرباعي *</label>
+            <input id="f_fullname" type="text" placeholder="مثال: محمد أحمد علي القحطاني">
+            <small>اكتب الاسم الرباعي بالعربية (٤ كلمات على الأقل).</small>
+          </div>
+
+          <div class="field">
+            <label for="f_nid">رقم الهوية *</label>
+            <input id="f_nid" type="tel" inputmode="numeric" maxlength="10" placeholder="مثال: 1234567890">
+            <small>مكوّن من 10 أرقام.</small>
+          </div>
+
+          <div class="field">
+            <label for="f_birth_display">تاريخ الميلاد *</label>
+            <div class="emp-birth-single">
+              <input id="f_birth_display" class="emp-birth-display" type="text"
+                     placeholder="اختر من التقويم (ميلادي) أو اكتب هجريًا بصيغة 08/11/1379"
+                     readonly>
+              <input id="f_birth_picker" class="emp-birth-picker" type="date">
+            </div>
+          </div>
+        </div>
+
+        <!-- تصنيف المستخدم -->
+        <div class="row cols-2" id="blk-id">
+          <div class="field">
+            <label for="f_staffclass">تصنيف المستخدم *</label>
+            <select id="f_staffclass">
+              <option value="" selected disabled>اختر التصنيف</option>
+              <option value="AGENCY">وكالة الوزارة لشؤون المساجد</option>
+              <option value="BRANCH_MANAGER">مدير فرع</option>
+              <option value="ADMIN">إداري</option>
+              <option value="AUDITOR">مدقق</option>
+              <option value="SUPERVISOR">مشرف</option>
+              <option value="MONITOR">مراقب</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- نوع العطل / الأولوية / التأثير + الوحدة -->
+        <div class="row cols-3" id="blk-main">
+          <div class="field" id="fld-cat">
+            <label for="f_cat" id="lbl-cat">نوع العطل *</label>
+            <select id="f_cat">
+              <option value="" selected disabled>اختر نوع العطل</option>
+              <option value="PC"  data-label="نسخة الويب نظام مساجد">نسخة الويب نظام مساجد</option>
+              <option value="APP" data-label="تطبيق الجوال">تطبيق الجوال</option>
+            </select>
+          </div>
+
+          <!-- الوحدة (تصبح إلزامية في INC + Q) -->
+          <div class="field" id="fld-unit">
+            <label for="f_unit" id="lbl-unit">الوحدة</label>
+            <select id="f_unit">
+              <option value="" selected disabled>اختر الوحدة</option>
+              <option value="MSJ">وحدة المساجد</option>
+              <option value="ASSETS">وحدة أصول المساجد</option>
+              <option value="VIS">وحدة الزيارات</option>
+              <option value="EMP">وحدة إدارة المنسوبين</option>
+              <option value="MTN">وحدة صيانة المساجد</option>
+              <option value="DON">وحدة التبرعات</option>
+              <option value="DASH">وحدة لوحة المؤشرات</option>
+              <option value="FRI">وحدة تعاميم يوم الجمعة</option>
+              <option value="BILLS">وحدة فواتير خدمات المساجد</option>
+              <option value="REPTS">وحدة التقارير</option>
+            </select>
+          </div>
+
+          <div class="field" id="fld-pri">
+            <label for="f_pri">الأولوية</label>
+            <select id="f_pri">
+              <option value="" selected disabled>اختر الأولوية (اختياري)</option>
+              <option value="H" data-label="عاجل">عاجل</option>
+              <option value="M" data-label="متوسط">متوسط</option>
+              <option value="L" data-label="منخفض">منخفض</option>
+            </select>
+            <small id="pri-hint">“عاجل” عند التعطّل الكلي أو عدد كبير متأثر.</small>
+          </div>
+
+          <div class="field" id="fld-impact">
+            <label for="f_impact">التأثير</label>
+            <select id="f_impact">
+              <option value="" selected disabled>اختر التأثير (اختياري)</option>
+              <option value="ALL_SERVICE">عطل كامل في الخدمة</option>
+              <option value="PART_SERVICE">عطل في إحدى الخدمات</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- الوصف / وقت المشكلة / الأرقام التسلسلية -->
+        <div class="field" id="fld-problem">
+          <label for="f_problem">وصف المشكلة *</label>
+          <textarea id="f_problem" placeholder="اشرح بإيجاز: ماذا حاولت؟ ماذا ظهَر لك؟ اذكر الشاشة/الصفحة إن وُجد."></textarea>
+        </div>
+
+        <div class="row cols-2" id="blk-time-branch">
+          <div class="field" id="fld-time">
+            <label for="f_time">وقت المشكلة *</label>
+            <select id="f_time">
+              <option value="" selected disabled>اختر وقت المشكلة</option>
+              <option value="PRAYER">أثناء وقت الصلاة</option>
+              <option value="OTHER">وقت آخر</option>
+            </select>
+          </div>
+
+          <!-- الأرقام (VIS/MSJ) -->
+          <div class="field" id="fld-branch" style="display:none">
+            <label id="branch-label">الرقم التسلسلي للزيارة *</label>
+
+            <div id="branches">
+              <div class="branch-item">
+                <input class="branch-input" type="text" inputmode="latin"
+                       placeholder="مثال: RUH0109906838-V10">
+                <span class="status-badge"></span>
+              </div>
+            </div>
+
+            <button type="button" id="btn-branch-add" class="btn link" style="align-self:flex-start;margin-top:6px">+ إضافة رقم</button>
+            <small id="branch-hint" class="hint">حقل إلزامي — يمكنك إضافة أكثر من رقم عند الحاجة.</small>
+          </div>
+        </div>
+
+        <!-- الجهاز / رسالة الخطأ -->
+        <div class="row cols-3" id="blk-device">
+          <div class="field">
+            <label for="f_device">نوع الجهاز *</label>
+            <select id="f_device">
+              <option value="" selected disabled>اختر نوع الجهاز</option>
+              <option value="IPHONE">آيفون (iOS)</option>
+              <option value="SAMSUNG">سامسونج (أندرويد)</option>
+              <option value="HUAWEI">هواوي (أندرويد)</option>
+              <option value="HONOR">هونر (أندرويد)</option>
+              <option value="XIAOMI">شاومي (أندرويد)</option>
+              <option value="PC">جهاز كمبيوتر</option>
+              <option value="OTHER">جهاز آخر</option>
+            </select>
+          </div>
+          <div class="field" id="fld-error">
+            <label for="f_error">رسالة الخطأ *</label>
+            <input id="f_error" type="text" placeholder='انقل نص الرسالة أو الكود (مثال: "ERR-408")'>
+          </div>
+          <!-- خانة ثالثة فارغة بتخطيط الشبكة -->
+        </div>
+
+        <!-- إدارة المنسوبين (تخصيص EMP) -->
+        <div class="row cols-2" id="blk-emp" style="display:none">
+          <div class="field" style="grid-column:1 / -1">
+            <label>منسوب محدد (اختياري)</label>
+            <div id="emp-members">
+              <div class="emp-item">
+                <input class="emp-name" type="text" placeholder="اسم المنسوب (اختياري)">
+                <select class="emp-role">
+                  <option value="" selected>تصنيف المنسوب (اختياري)</option>
+                  <option value="IMAM">إمام</option>
+                  <option value="MUATHIN">مؤذن</option>
+                  <option value="KHATEEB">خطيب</option>
+                  <option value="KHATEEB_EXT">خطيب متعاون</option>
+                  <option value="SERVANT">خادم</option>
+                </select>
+
+                <div class="emp-birth-single">
+                  <input class="emp-birth-display" type="text"
+                    placeholder="اختر من التقويم (ميلادي) أو اكتب هجريًا بصيغة 08/11/1379"
+                    readonly>
+                  <input class="emp-birth-picker" type="date">
+                </div>
+
+                <input class="emp-nid" type="tel" inputmode="numeric" maxlength="10" placeholder="رقم هوية المنسوب (اختياري)">
+                <span class="status-badge"></span>
+              </div>
+            </div>
+            <button type="button" id="btn-emp-add" class="btn link" style="align-self:flex-start;margin-top:6px">+ إضافة حقل آخر إذا كان يوجد منسوب آخر</button>
+            <small>اختياري: إذا كانت الحالة تخص منسوبًا معينًا، أضف بياناته (الاسم، التصنيف، تاريخ الميلاد، رقم الهوية).</small>
+          </div>
+        </div>
+
+        <!-- استعادة كلمة المرور (PWD) — يظهر فقط عند اختيار النوع -->
+        <div class="row cols-2" id="blk-pwd" style="display:none">
+          <div class="field" style="grid-column:1 / -1">
+            <small>سيتم تعيين كلمة مؤقتة بواسطة فريق الدعم التقني. بعد تسجيل الدخول فعِّل المصادقة بالسمات الحيوية من القائمة ☰ ← الإعدادات.</small>
+          </div>
+        </div>
+
+        <!-- توثيق جهاز جوال جديد (DEV) — يظهر فقط عند اختيار النوع -->
+        <div class="row cols-2" id="blk-devreg" style="display:none">
+          <div class="field">
+            <label for="f_devcode">كود التفعيل (٦ أرقام) *</label>
+            <input id="f_devcode" type="tel" inputmode="numeric" pattern="\d{6}" maxlength="6" placeholder="مثال: 123456">
+            <small>أدخل الكود كما هو (٦ أرقام فقط).</small>
+          </div>
+          <div class="field">
+            <label for="f_deviceid">معرّف الجهاز *</label>
+            <input id="f_deviceid" type="text" placeholder="مثال: 71D7E2E2-5EAC-47F5-86CF-FFCA408F5A3A">
+            <small>انسخه من التطبيق — يقبل الشرطات. يجب أن يحتوي على <strong>32</strong> محرفًا ست عشريًا (A–F, 0–9) بعد الاستبعاد.</small>
+          </div>
+        </div>
+
+        <!-- الأزرار -->
+        <div class="actions">
+          <button type="button" id="btn-wa" class="btn primary">
+            إنشاء تذكرة
+          </button>
+        </div>
+
+        <div class="preview">
+          <details open>
+            <summary>معاينة الرسالة</summary>
+          <pre id="msg-preview" dir="rtl"></pre>
+          </details>
+          <small id="help-hint">في الأعطال التقنية: الرجاء ارفاق الصورة او فيديو داخل واتساب قبل انشاء التذكرة.</small>
+        </div>
+      </form>
+
+      <!-- نافذة التأكيد (Modal) -->
+      <div id="send-confirm" class="modal-overlay" role="dialog" aria-modal="true">
+        <div class="modal">
+          <h3>تأكيد الإرسال</h3>
+          <div class="modal-body" id="send-confirm-body"></div>
+          <div class="modal-actions">
+            <button type="button" class="btn primary" id="send-confirm-ok">إرسال عبر واتساب</button>
+            <button type="button" class="btn link" id="send-confirm-cancel">إغلاق</button>
+          </div>
+        </div>
+      </div>
+      <!-- ***** نهاية: HTML ***** -->
+
+    </div>
+
+    <!-- زر إغلاق النموذج -->
+    <button id="close-form" class="btn-primary edge-close" type="button" hidden>
+      إغلاق النموذج
+    </button>
+
+  </section>
+</section>
+
+<style>
+/* (نفس الستايلات كما أرسلتها تمامًا — لم أغيّر أي شيء) */
+:root{
+  --support-gray:#e5e5e5;
+  --brand-green:#1d6d5a;
+  --ring-green:#1d6d5a;
+  --ring-red:#dc2626;
+  --card-white:#ffffff;
+  --ink:#0f172a;
+  --muted:#6b7280;
+  --shadow:0 10px 24px rgba(0,0,0,.10);
+  --radius:16px;
+
+  --support-top:0px;
+  --support-bot:0px;
+}
+
+.support-bleed-bg{
+  position:fixed; inset: var(--support-top) 0 var(--support-bot) 0;
+  background:var(--support-gray);
+  z-index:0; pointer-events:none;
+}
+
+.support-bleed{
+  position:relative; z-index:1;
+  left:50%; right:50%; margin-left:-50vw; margin-right:-50vw;
+  width:100vw; padding:16px 0 24px;
+}
+.support-bleed > *{ max-width:980px; margin-inline:auto; }
+
+.card{
+  background:var(--card-white);
+  color:var(--ink);
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:20px 20px;
+  margin-block:10px 18px;
+  position:relative;
+}
+
+#ticket-box .box-head{ margin-bottom:12px; text-align:center; }
+#ticket-box .title{
+  margin:0 0 8px;
+  font-size:clamp(24px,4.2vw,36px);
+  line-height:1.2;
+  color:var(--ink);
+  font-weight:800;
+}
+#ticket-box .welcome{ margin:0 0 10px; font-size:clamp(14px,2.2vw,17px); color:#111827; opacity:.95; }
+
+.support-clock{
+  display:grid;
+  grid-auto-flow: row;
+  place-items: center;
+  row-gap: 10px;
+  text-align:center;
+  margin:8px 0 12px;
+}
+.support-clock .clock{ margin-inline:auto; }
+.clock-info{
+  display:flex; flex-direction:column; gap:6px;
+  align-items:center; text-align:center;
+}
+
+.clock{ position:relative; width:190px; aspect-ratio:1; --num-r:72px; }
+.clock .ring{
+  position:absolute; inset:0; border-radius:50%;
+  transform: rotate(-90deg);
+}
+.clock .dial{
+  position:absolute; inset:8px; border-radius:50%;
+  background: radial-gradient(circle at 50% 50%, #fff 60%, #f6f6f6 60%);
+  border:1px solid rgba(0,0,0,.08);
+  box-shadow: inset 0 2px 6px rgba(0,0,0,.06);
+}
+
+/* الأرقام */
+.nums{ position:absolute; inset:0; }
+.num{
+  position:absolute; left:50%; top:50%;
+  transform:
+    translate(-50%,-50%)
+    rotate(calc(var(--i)*30deg - 90deg))
+    translateX(var(--num-r))
+    rotate(calc(90deg - var(--i)*30deg));
+  font-size:14px; font-weight:700; color:#111827; user-select:none;
+  text-rendering: optimizeLegibility;
+}
+
+/* العقارب */
+.hand{ position:absolute; left:50%; top:50%; transform-origin: 0% 50%; }
+.hand.hour{   width:28%; height:3px; background:#111827; border-radius:2px; transform:rotate(-90deg); }
+.hand.minute{ width:38%; height:2px; background:#111827; opacity:.95; border-radius:2px; transform:rotate(-90deg); }
+.hand.second{ width:42%; height:1.6px; background:#ef4444; opacity:.9; transform:rotate(-90deg); }
+.center-cap{
+  position:absolute; width:10px; height:10px; border-radius:50%; background:#111827;
+  left:50%; top:50%; transform:translate(-50%,-50%);
+  box-shadow:0 0 0 2px #fff, 0 0 0 3px rgba(0,0,0,.08);
+}
+
+/* النص المخصص تحت الساعة */
+.helper-notes{
+  max-width:720px; margin:8px auto 12px; padding:10px 12px;
+  background:#f9fafb; border:1px solid rgba(0,0,0,.06); border-radius:12px;
+  color:#334155; font-size:14px; line-height:1.8; text-align:center;
+}
+
+/* زر فتح النموذج */
+.preform{ display:flex; justify-content:center; margin:10px 0 6px; }
+
+.form-panel[hidden]{ display:none !important; }
+
+.edge-close{
+  position:absolute; left:50%; transform:translateX(-50%);
+  bottom:-16px;
+  z-index:2;
+  box-shadow:0 8px 18px rgba(0,0,0,.12);
+  padding-inline:16px;
+}
+
+/* شارات */
+.now{ font-size:14px; color:#334155; }
+.status-line .badge{ margin-top:2px; }
+.badge{
+  display:inline-flex; align-items:center; gap:8px; background:#f6f8f7; color:#0f172a;
+  border:1px solid rgba(29,109,90,.20); padding:6px 10px; border-radius:999px; font-size:13px; white-space:nowrap;
+}
+.badge.status{ position:relative; padding-inline-start:26px; }
+.badge.status::before{
+  content:""; position:absolute; inset-inline-start:8px; top:50%; transform:translateY(-50%);
+  width:8px; height:8px; border-radius:50%; background:#22c55e;
+}
+.badge.offline{ border-color: rgba(220,38,38,.25); color:#7f1d1d; background:#fef2f2; }
+.badge.offline::before{ background:#dc2626; }
+
+/* هدر/فوتر */
+html:has(.support-page) .md-header{ border-bottom: 3px solid var(--brand-green) !important; }
+html:has(.support-page) .md-footer{ border-top: 3px solid var(--brand-green) !important; }
+
+/* نموذج */
+#ticket-box .row{ display:grid; gap:12px; }
+#ticket-box .row.cols-2{ grid-template-columns:1fr 1fr; }
+#ticket-box .row.cols-3{ grid-template-columns:1fr 1fr 1fr; }
+@media (max-width: 860px){
+  #ticket-box .row.cols-2,
+  #ticket-box .row.cols-3{ grid-template-columns:1fr; }
+}
+
+#ticket-box .field{ display:flex; flex-direction:column; gap:6px; position:relative; }
+#ticket-box label{ font-size:14px; color:#334155; }
+#ticket-box input, #ticket-box select, #ticket-box textarea{
+  background:#fff; border:1px solid rgba(0,0,0,.12); border-radius:10px;
+  padding:10px 12px; font:inherit; color:#0f172a; width:100%;
+}
+#ticket-box textarea{ min-height:96px; resize:vertical; }
+
+#ticket-box .ok{ border-color:#2e7d32 !important; box-shadow:0 0 0 3px rgba(46,125,50,.15) inset; }
+#ticket-box .err{ border-color:#e53935 !important; box-shadow:0 0 0 3px rgba(229,57,53,.12) inset; }
+
+/* فروع */
+#ticket-box #branches .branch-item{ position:relative; }
+#ticket-box #branches .branch-item + .branch-item{ margin-top:8px; }
+#ticket-box .status-badge{ position:absolute; inset-inline-end:12px; top:50%; transform:translateY(-50%); font-weight:700; }
+#ticket-box .status-badge.ok{ color:#2e7d32; }
+#ticket-box .status-badge.err{ color:#e53935; }
+
+/* EMP */
+#ticket-box .emp-item{
+  position:relative; display:grid; grid-template-columns:1fr; gap:12px; padding:6px 0;
+}
+#ticket-box .emp-item + .emp-item{ margin-top:12px; padding-top:12px; border-top:1px dashed rgba(0,0,0,.12); }
+@media (min-width:860px){
+  #ticket-box .emp-item{ grid-template-columns:1.2fr 1fr 1.6fr 1fr; }
+}
+#ticket-box .emp-birth-single{ position:relative; }
+#ticket-box .emp-birth-display{ width:100%; cursor:pointer; }
+#ticket-box .emp-birth-picker{ position:absolute; inset:0; width:100%; height:100%; opacity:0; cursor:pointer; }
+
+/* أزرار */
+#ticket-box .actions{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+#ticket-box .btn{
+  display:inline-flex; align-items:center; gap:8px; justify-content:center;
+  text-decoration:none; cursor:pointer; user-select:none;
+  background:#ffffff; border:1px solid rgba(0,0,0,.16);
+  padding:.65rem 1rem; border-radius:12px; color:#0f172a;
+}
+#ticket-box .btn:hover{ background:#f4f4f4; }
+#ticket-box .btn[disabled]{ opacity:.55; cursor:not-allowed; }
+#ticket-box .btn.primary{
+  background:#1d6d5a; border-color:#1d6d5a; color:#fff;
+}
+#ticket-box .btn.link{
+  background:transparent; border-style:dashed; padding:.45rem .8rem; color:#0f172a;
+}
+
+/* المعاينة */
+#ticket-box .preview details{ margin-top:6px; }
+#ticket-box .preview pre{
+  white-space:pre-wrap; overflow:auto; border-radius:10px; padding:10px 12px;
+  background:#ffffff; border:1px solid rgba(0,0,0,.12); color:#111 !important;
+}
+
+/* المودال */
+#ticket-box .modal-overlay{
+  position:fixed; inset:0; background:rgba(0,0,0,.45); display:none;
+  align-items:center; justify-content:center; z-index:9999;
+}
+#ticket-box .modal{
+  background:#ffffff; border:1px solid rgba(0,0,0,.14);
+  border-radius:14px; padding:16px; width:min(560px,92%);
+}
+#ticket-box .modal h3{ margin:0 0 10px; color:#111 !important; }
+#ticket-box .modal .modal-body{ white-space:pre-wrap; color:#111 !important; }
+#ticket-box .modal .modal-actions{ display:flex; gap:8px; margin-top:14px; flex-wrap:wrap; }
+
+@media (max-width: 720px){
+  .clock{ width:160px; --num-r:60px; }
+}
+
+/* أنيميشن */
+:root{ --ease-out-3: cubic-bezier(.2,.7,0,1); }
+html:has(.support-page) .card{ animation: elevateIn .6s var(--ease-out-3) .05s both; }
+html:has(.support-page) .helper-notes{ animation: fadeUp .5s var(--ease-out-3) .2s both; }
+@keyframes elevateIn{ from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:none} }
+@keyframes fadeUp{ from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
+html:has(.support-page) .form-panel:not([hidden]){ animation: panelIn .35s var(--ease-out-3) both; }
+@keyframes panelIn{ from{opacity:0;transform:translateY(8px) scale(.985)} to{opacity:1;transform:none} }
+html:has(.support-page) #close-form:not([hidden]){ animation: edgePop .35s var(--ease-out-3) both; }
+@keyframes edgePop{ from{transform:translate(-50%,6px);opacity:0} to{transform:translate(-50%,0);opacity:1} }
+html:has(.support-page) .clock .ring::after{
+  content:"";position:absolute;inset:0;border-radius:50%;pointer-events:none;mix-blend-mode:multiply;opacity:.55;
+  background:conic-gradient(from 0deg at 50% 50%,rgba(29,109,90,0) 0 78%,rgba(29,109,90,.12) 88%,rgba(29,109,90,0) 100%);
+  animation:sweep 24s linear infinite;
+}
+@keyframes sweep{ from{transform:rotate(0)} to{transform:rotate(360deg)} }
+html:has(.support-page) .hand.second{ transition: transform .08s linear; }
+html:has(.support-page) .hand.minute{ transition: transform .25s var(--ease-out-3); }
+html:has(.support-page) .hand.hour{   transition: transform .30s var(--ease-out-3); }
+html:has(.support-page) .badge.status.online{ animation: onlineGlow 4s ease-in-out infinite; }
+@keyframes onlineGlow{ 0%,100%{box-shadow:0 0 0 0 rgba(34,197,94,.0)} 50%{box-shadow:0 0 0 6px rgba(34,197,94,.10)} }
+@media (prefers-reduced-motion: reduce){
+  html:has(.support-page) .card,
+  html:has(.support-page) .helper-notes,
+  html:has(.support-page) .form-panel:not([hidden]),
+  html:has(.support-page) #close-form:not([hidden]),
+  html:has(.support-page) .badge.status.online{ animation:none!important; }
+  html:has(.support-page) .hand.second,
+  html:has(.support-page) .hand.minute,
+  html:has(.support-page) .hand.hour{ transition:none!important; }
+  html:has(.support-page) .clock .ring::after{ display:none; }
+}
+
+/* FallBack لون الزرين */
+#open-form.btn-primary,
+#close-form.btn-primary{
+  background-color: var(--brand-green) !important;
+  background-image: none !important;
+  color:#fff !important;
+  border:1px solid var(--brand-green) !important;
+  border-radius:10px;
+  padding:10px 14px;
+}
+.preform{
+  width:max-content;
+  margin:10px auto 6px;
+  background: rgba(29,109,90,.08);
+  border:1px solid rgba(29,109,90,.25);
+  border-radius:14px;
+  padding:8px;
+  box-shadow:0 6px 14px rgba(29,109,90,.12);
+}
+#close-form{
+  outline: 8px solid rgba(29,109,90,.08);
+  outline-offset: 6px;
+  border-radius:16px;
+}
+#open-form:hover, #close-form:hover{ box-shadow:0 10px 22px rgba(0,0,0,.16); }
+#open-form:focus, #close-form:focus{ outline:2px solid rgba(29,109,90,.35); outline-offset:2px; }
+</style>
+
+<script>
+/* ===== ضبط بداية الرمادي من أسفل الهيدر ونهايته عند أعلى الفوتر ===== */
+(function(){
+  function updateBounds(){
+    var header=document.querySelector('.md-header');
+    var footer=document.querySelector('.md-footer');
+    var topPx=0, botPx=0;
+
+    if(header){
+      var hb=header.getBoundingClientRect().bottom;
+      topPx=Math.max(hb, header.offsetHeight||0);
+    }
+    if(footer){
+      var fh=footer.offsetHeight||footer.getBoundingClientRect().height||0;
+      botPx=Math.max(0, fh);
+    }
+
+    document.documentElement.style.setProperty('--support-top', topPx+'px');
+    document.documentElement.style.setProperty('--support-bot', botPx+'px');
+  }
+
+  if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', updateBounds); }
+  else{ updateBounds(); }
+  window.addEventListener('resize', updateBounds);
+  document.addEventListener('md-color-scheme', updateBounds);
+
+  if('ResizeObserver' in window){
+    var h=document.querySelector('.md-header');
+    var f=document.querySelector('.md-footer');
+    h && new ResizeObserver(updateBounds).observe(h);
+    f && new ResizeObserver(updateBounds).observe(f);
+  }
+})();
+
+/* ===== ساعة دائرية + حلقة أوقات الدوام ===== */
+(function(){
+  const box = document.getElementById('ticket-box');
+  if(!box) return;
+
+  const hoursAttr = (box.getAttribute('data-hours') || '10:00-18:00').trim();
+  const prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const clock   = box.querySelector('.clock');
+  const ringEl  = clock?.querySelector('.ring');
+  const hHand   = clock?.querySelector('.hand.hour');
+  const mHand   = clock?.querySelector('.hand.minute');
+  const sHand   = clock?.querySelector('.hand.second');
+  const nowTxt  = box.querySelector('.now-time');
+  const statusB = box.querySelector('.badge.status');
+
+  const weekendDays = [5,6]; // الجمعة=5، السبت=6
+  const [startStr, endStr] = hoursAttr.split('-');
+  const startHM = parseHM(startStr);
+  const endHM   = parseHM(endStr);
+
+  function parseHM(s){
+    const [hh,mm] = s.split(':').map(n=>parseInt(n,10)||0);
+    return {h:((hh%24)+24)%24, m:((mm%60)+60)%60};
+  }
+
+  function localParts(date=new Date()){
+    const h = date.getHours(), m = date.getMinutes(), s = date.getSeconds();
+    const d = date.getDay();
+    return {h,m,s,d};
+  }
+
+  function two(n){ return n<10 ? '0'+n : ''+n; }
+  function timeToDeg(h,m,s=0){ return ((h%12) + m/60 + s/3600) * 30; }
+  function hmToDeg(hm){ return timeToDeg(hm.h, hm.m, 0); }
+
+  function isWeekend(d){ return weekendDays.includes(d); }
+  function insideHours(h,m,d){
+    if(isWeekend(d)) return false;
+    const nowMin   = h*60 + m;
+    const startMin = startHM.h*60 + startHM.m;
+    const endMin   = endHM.h*60 + endHM.m;
+    if(startMin<=endMin) return nowMin>=startMin && nowMin<endMin;
+    return (nowMin>=startMin) || (nowMin<endMin);
+  }
+
+  function drawRing(){
+    if(!ringEl) return;
+    const baseRed = `conic-gradient(var(--ring-red) 0deg 360deg)`;
+
+    const {d} = localParts();
+    if(isWeekend(d)){ ringEl.style.background = baseRed; return; }
+
+    const startDeg = hmToDeg(startHM);
+    const endDeg   = hmToDeg(endHM);
+    let layers = [baseRed];
+
+    if(startHM.h===endHM.h && startHM.m===endHM.m){
+      ringEl.style.background = baseRed; return;
+    }
+    if(startDeg <= endDeg){
+      const one = `conic-gradient(transparent 0deg ${startDeg}deg, var(--ring-green) ${startDeg}deg ${endDeg}deg, transparent ${endDeg}deg 360deg)`;
+      layers = [one, baseRed];
+    }else{
+      const arc1 = `conic-gradient(transparent 0deg ${startDeg}deg, var(--ring-green) ${startDeg}deg 360deg, transparent 360deg 360deg)`;
+      const arc2 = `conic-gradient(var(--ring-green) 0deg ${endDeg}deg, transparent ${endDeg}deg 360deg)`;
+      layers = [arc1, arc2, baseRed];
+    }
+    ringEl.style.background = layers.join(',');
+  }
+
+  function tick(){
+    const {h,m,s,d} = localParts();
+    if(nowTxt) nowTxt.textContent = `${two(h)}:${two(m)}${prefersReduced?'':':'+two(s)}`;
+
+    const open = insideHours(h,m,d);
+    if(statusB){
+      statusB.textContent = open
+        ? 'الخدمة متاحة الآن'
+        : (isWeekend(d) ? 'خارج أوقات العمل — الجمعة والسبت' : 'خارج أوقات العمل');
+      statusB.classList.toggle('offline', !open);
+      statusB.classList.toggle('online', open);
+    }
+
+    if(hHand) hHand.style.transform = `rotate(${timeToDeg(h,m,s)-90}deg)`;
+    if(mHand) mHand.style.transform = `rotate(${(m + s/60) * 6 - 90}deg)`;
+    if(sHand && !prefersReduced) sHand.style.transform = `rotate(${s*6 - 90}deg)`;
+  }
+
+  drawRing();
+  tick();
+
+  let interval = prefersReduced ? 60000 : 1000;
+  setInterval(tick, interval);
+  setInterval(drawRing, 3600000);
+})();
+
+/* ===== فتح/إغلاق النموذج ===== */
+(function(){
+  const openBtn  = document.getElementById('open-form');
+  const panel    = document.getElementById('ticket-form');
+  const closeBtn = document.getElementById('close-form');
+  if(!openBtn || !panel || !closeBtn) return;
+
+  const prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function openPanel(){
+    const reminder =
+`تذكير مهم:
+- رجاءً عبِّئ الحقول وفق النموذج الموحّد.
+- كلما كانت المعلومات أدق، كان ردّنا أسرع وأدق.
+هل ترغب بفتح النموذج الآن؟`;
+
+    // على iOS (خصوصًا داخل WebView) قد يتم حظر confirm، لذا نتجاوز التأكيد هناك
+    let skipConfirm = false;
+    try {
+      const UA = navigator.userAgent || '';
+      const isiOS = /iP(hone|od|ad)/i.test(UA);
+      const isSafari = /Safari/i.test(UA) && !/CriOS|FxiOS/i.test(UA);
+      const isIOSWebView = isiOS && !isSafari;
+      skipConfirm = isiOS || isIOSWebView;
+    } catch(_) {}
+
+    if(!skipConfirm){
+      try { if(!window.confirm(reminder)) return; } catch(_) { /* في حال الفشل، نُكمل الفتح بدون تأكيد */ }
+    }
+
+    panel.hidden = false;
+    closeBtn.hidden = true;
+    requestAnimationFrame(()=>{ closeBtn.hidden = false; });
+
+    openBtn.setAttribute('aria-expanded','true');
+    openBtn.style.display = 'inline-flex';
+    openBtn.disabled = true;
+
+    try{
+      panel.scrollIntoView({behavior: prefersReduced ? 'auto' : 'smooth', block:'start'});
+      const first = panel.querySelector('input,select,textarea,button');
+      first && first.focus({preventScroll:true});
+    }catch(e){}
+    setTimeout(()=>{ openBtn.disabled = false; }, 300);
+  }
+
+  function closePanel(){
+    panel.hidden = true;
+    closeBtn.hidden = true;
+
+    openBtn.setAttribute('aria-expanded','false');
+    openBtn.style.display = 'inline-flex';
+
+    try{
+      document.querySelector('.preform')?.scrollIntoView({behavior: prefersReduced ? 'auto' : 'smooth', block:'center'});
+      openBtn.focus({preventScroll:true});
+    }catch(e){}
+  }
+
+  openBtn.addEventListener('click', openPanel);
+  closeBtn.addEventListener('click', closePanel);
+})();
+</script>
+
+<!-- ===== منطق القالب (JS) ===== -->
+<script>
+(()=> {
+  const WHATSAPP_PHONE = '966507160086';
+  const HOURS_MSG = 'فريق الدعم سعيد بتواصلكم وخدمتكم. ساعات العمل: الأحد إلى الخميس، من 10 صباحًا إلى 6 مساءً.';
+
+  // أمثلة/قواعد
+  const EX_VIS  = 'RUH0100003956-V24';
+  const EX_MSJ  = 'RUH0178584663';
+  const RX_VIS  = /^[A-Z]{3}[0-9]{10}-V[0-9]{2}$/;
+  const RX_MSJ  = /^[A-Z]{3}[0-9]{10}$/;
+  const RX_DEV  = /^[0-9]{6}$/;
+  const RX_NID  = /^[0-9]{10}$/;
+
+  const MAX_BRANCHES = 30;
+  const MAX_MEMBERS  = 10;
+
+  const $  = (s,r=document)=> r.querySelector(s);
+
+  const els = {
+    form:   $('#frm'),
+    type:   $('#f_type'),
+    cat:    $('#f_cat'),       // نوع العطل
+    unit:   $('#f_unit'),      // الوحدة
+    pri:    $('#f_pri'),
+    impact: $('#f_impact'),
+    problem:$('#f_problem'),
+    time:   $('#f_time'),
+
+    fldUnit:   $('#fld-unit'),
+    fldBranch:   $('#fld-branch'),
+    branchLabel: $('#branch-label'),
+    branchesBox: $('#branches'),
+    btnAddBr:    $('#btn-branch-add'),
+    branchHint:  $('#branch-hint'),
+
+    device: $('#f_device'),
+    fldError: $('#fld-error'),
+    error:  $('#f_error'),
+
+    // الهوية العامة
+    fullname: $('#f_fullname'),
+    nid: $('#f_nid'),
+    staffclass: $('#f_staffclass'),
+    birthDisp: $('#f_birth_display'),
+    birthPick: $('#f_birth_picker'),
+
+    // EMP
+    blkEmp: $('#blk-emp'),
+    empMembersBox: $('#emp-members'),
+    btnEmpAdd: $('#btn-emp-add'),
+
+    // حقول تخطيط/نصوص
+    fldCat:    $('#fld-cat'),
+    lblCat:    $('#lbl-cat'),
+    lblUnit:   $('#lbl-unit'),
+    fldPri:    $('#fld-pri'),
+    fldImpact: $('#fld-impact'),
+    fldProblem:$('#fld-problem'),
+    fldTime:   $('#fld-time'),
+    blkDevice: $('#blk-device'),
+    blkPwd:    $('#blk-pwd'),
+    blkDevReg: $('#blk-devreg'),
+    priHint:   $('#pri-hint'),
+    hint:      $('#help-hint'),
+
+    devcode:  $('#f_devcode'),
+    deviceid:  $('#f_deviceid'),
+
+    btnWA:   $('#btn-wa'),
+    msgPrev: $('#msg-preview'),
+
+    modal: $('#send-confirm'),
+    modalBody: $('#send-confirm-body'),
+    modalOK: $('#send-confirm-ok'),
+    modalCancel: $('#send-confirm-cancel'),
+  };
+
+  // حاوية حقل نوع الجهاز (لإخفائه وحده في الأعطال)
+  const fldDeviceType = els.device ? els.device.closest('.field') : null;
+
+  /* أدوات */
+  function normalizeAscii(str){
+    if(!str) return '';
+    const arabMap = {'٠':'0','١':'1','٢':'2','٣':'3','٤':'4','٥':'5','٦':'6','٧':'7','٨':'8','٩':'9',
+                     '۰':'0','۱':'1','۲':'2','۳':'3','۴':'4','۵':'5','۶':'6','۷':'7','۸':'8','۹':'9'};
+    let s = String(str)
+      .replace(/[\u200E\u200F\u061C\u200B]/g,'')
+      .replace(/[\u2010-\u2015\u2212]/g,'-')
+      .trim();
+    s = s.replace(/[\u0660-\u0669\u06F0-\u06F9]/g, d=> arabMap[d] || d);
+    return s.toUpperCase();
+  }
+  const LRI = '\u2066', PDI = '\u2069';
+  const ltr = s => LRI + s + PDI;
+
+  function devCode(){
+    let code = localStorage.getItem('msj.devCode');
+    if(!code){
+      code = Math.random().toString(36).slice(2,4).toUpperCase();
+      localStorage.setItem('msj.devCode', code);
+    }
+    return code;
+  }
+  function nextSeq(){
+    const k = 'msj.seq';
+    let v = Number(sessionStorage.getItem(k) || 0);
+    v = (v+1) % 1296;
+    sessionStorage.setItem(k, String(v));
+    return v.toString(36).padStart(2,'0').toUpperCase();
+  }
+
+  /* ===== WhatsApp Deep Link مع fallback (تعديل iOS WebView فقط) ===== */
+  function openWhatsAppDeep(phone, text){
+    const encText = encodeURIComponent(text);
+    const deep = `whatsapp://send?phone=${phone}&text=${encText}`;
+    const web  = `https://api.whatsapp.com/send?phone=${phone}&text=${encText}`;
+
+    const UA = navigator.userAgent || '';
+    const isAndroidWV = /Android/i.test(UA) && /\bwv\b/i.test(UA);
+    const isiOS = /iP(hone|od|ad)/i.test(UA);
+    const isSafari = /Safari/i.test(UA) && !/CriOS|FxiOS/i.test(UA);
+    const isIOSWebView = isiOS && !isSafari; // WKWebView داخل التطبيق
+
+    // داخل WebView على iOS: استخدم رابط ويب داخل <a target="_blank"> بنقرة برمجية (User Gesture)
+    if (isIOSWebView) {
+      const a = document.createElement('a');
+      a.href = web;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      document.body.appendChild(a);
+      a.click();
+      // تنظيف سريع
+      setTimeout(()=>{ try{ document.body.removeChild(a); }catch(_){ } }, 0);
+      return;
+    }
+
+    // داخل WebView أندرويد: اذهب مباشرةً لرابط الويب (يُفتح في المتصفح الخارجي عادةً)
+    if (isAndroidWV) {
+      window.location.href = web;
+      return;
+    }
+
+    // المتصفحات العادية: جرّب deep ثم ارجع للويب كـ fallback
+    let fired = false;
+    const timer = setTimeout(()=>{
+      if (fired) return;
+      fired = true;
+      window.location.href = web;
+    }, 1200);
+
+    // استخدم رابط غير مرئي لنقرة deep
+    const aDeep = document.createElement('a');
+    aDeep.href = deep;
+    aDeep.style.display = 'none';
+    document.body.appendChild(aDeep);
+    try { aDeep.click(); } catch(_) {}
+    setTimeout(()=>{
+      clearTimeout(timer);
+      try{ document.body.removeChild(aDeep); }catch(_){}
+    }, 1800);
+  }
+
+  const selText = (el)=> el?.selectedOptions?.[0]?.textContent || el?.value || '';
+  const clearErr = el => { if(!el) return; el.classList.remove('err'); el.setCustomValidity(''); };
+  const markErr  = (el,msg) => { if(!el) return; el.classList.add('err'); el.setCustomValidity(msg||'مطلوب'); el.reportValidity(); };
+
+  function getTypeLabel(){ return selText(els.type); }
+  function getUnitLabel(){ return selText(els.unit); }
+  function getCatLabel(){ return selText(els.cat); }
+  function getPriLabel(){ return selText(els.pri); }
+
+  function isArabicFullName(s){
+    const v=(s||'').replace(/\s+/g,' ').trim();
+    if(!v) return false;
+    const words=v.split(' ').filter(Boolean);
+    const arabOnly=/^[\u0600-\u06FF ]{6,80}$/.test(v);
+    return arabOnly && words.length>=4;
+  }
+
+  function markOKIfFilled(el){
+    if(!el) return;
+    const isReq = !!el.required;
+    const tag = el.tagName;
+    const raw = (tag==='SELECT' || tag==='TEXTAREA') ? (el.value||'') : (el.value||'').trim();
+
+    if(el===els.nid){ el.value = normalizeAscii(el.value).replace(/[^0-9]/g,'').slice(0,10); }
+    if(el===els.devcode){ el.value = normalizeAscii(el.value).replace(/[^0-9]/g,'').slice(0,6); }
+    if(el===els.deviceid){ el.value = normalizeAscii(el.value); }
+    if(el===els.fullname){ el.value = (el.value||'').replace(/\s+/g,' ').trimStart(); }
+
+    let valid = false, partialInvalid = false;
+
+    if(isReq){
+      if(el===els.nid){ valid = /^[0-9]{10}$/.test(raw); partialInvalid = !!raw && !valid; }
+      else if(el===els.devcode){ valid = /^[0-9]{6}$/.test(raw); partialInvalid = !!raw && !valid; }
+      else if(el===els.deviceid){
+        const cleaned = raw.replace(/[^A-F0-9]/g,'');
+        valid = cleaned.length===32; partialInvalid = !!raw && !valid;
+      }
+      else if(el===els.fullname){
+        valid = isArabicFullName(raw); partialInvalid = !!raw && !valid;
+      }
+      else if(tag==='SELECT'){ valid = !!raw; partialInvalid = false; }
+      else { valid = !!raw; partialInvalid = false; }
+
+      el.classList.toggle('err', partialInvalid);
+      el.classList.toggle('ok', valid);
+      if(!partialInvalid && !valid){ el.classList.remove('ok','err'); }
+    } else {
+      const filled = !!raw;
+      el.classList.toggle('ok', filled);
+      if(!filled){ el.classList.remove('ok'); }
+      el.classList.remove('err');
+    }
+  }
+
+  function refreshOkAll(){
+    ['type','cat','unit','pri','impact','problem','time','device','error','devcode','deviceid','fullname','nid','staffclass']
+      .forEach(k=> markOKIfFilled(els[k]));
+    document.querySelectorAll('.emp-birth-display').forEach(d=> markOKIfFilled(d));
+    if(els.birthDisp) markOKIfFilled(els.birthDisp);
+  }
+  function clearOkErr(){ els.form.querySelectorAll('.ok,.err').forEach(x=> x.classList.remove('ok','err')); }
+
+  /* فروع تعتمد على الوحدة */
+  function branchItems(){ return Array.from(els.branchesBox.querySelectorAll('.branch-item')); }
+  function branchInputs(){ return Array.from(els.branchesBox.querySelectorAll('.branch-input')); }
+  function currentBranchConfig(){
+    const u = els.unit.value;
+    const isVIS = (u==='VIS');
+    return isVIS
+      ? { label:'الرقم التسلسلي للزيارة', example:EX_VIS, regex:RX_VIS, min:17, max:17,
+          hint:'حقل إلزامي — يمكنك إضافة أكثر من رقم عند الحاجة.' }
+      : { label:'الرقم التسلسلي للمسجد', example:EX_MSJ, regex:RX_MSJ, min:13, max:13,
+          hint:'حقل إلزامي — يمكنك إضافة أكثر من رقم عند الحاجة.' };
+  }
+  function currentBranchRequired(){
+    const t = els.type.value;
+    const u = els.unit.value;
+    return (t==='INC') && (u==='VIS' || u==='MSJ');
+  }
+  function setBranchUI(){
+    const cfg = currentBranchConfig();
+    const required = currentBranchRequired();
+    els.branchLabel.textContent = cfg.label + (required ? ' *' : '');
+    els.branchHint.textContent  = required ? 'حقل إلزامي — يمكنك إضافة أكثر من رقم عند الحاجة.' : 'اختياري — يمكنك إضافة رقم عند الحاجة.';
+    branchInputs().forEach(inp=>{
+      inp.placeholder = `مثال: ${cfg.example}`;
+      inp.setAttribute('minlength', String(cfg.min));
+      inp.setAttribute('maxlength', String(cfg.max));
+      validateBranchInput(inp);
+    });
+  }
+  function makeBranchRow(val=''){
+    const cfg = currentBranchConfig();
+    const row = document.createElement('div');
+    row.className = 'branch-item';
+    row.innerHTML = `
+      <input class="branch-input" type="text" inputmode="latin"
+             placeholder="مثال: ${cfg.example}" minlength="${cfg.min}" maxlength="${cfg.max}">
+      <span class="status-badge"></span>
+    `;
+    els.branchesBox.appendChild(row);
+    const inp = row.querySelector('.branch-input');
+    inp.value = val;
+    validateBranchInput(inp);
+  }
+  function setBranchesFromArray(arr){
+    els.branchesBox.innerHTML = '';
+    if(arr && arr.length){ arr.forEach(v=> makeBranchRow(v)); }
+    else{ makeBranchRow(''); }
+  }
+  function validateBranchInput(inp){
+    const cfg = currentBranchConfig();
+    const required = currentBranchRequired();
+    const v = normalizeAscii(inp.value);
+    inp.value = v;
+    const badge = inp.parentElement.querySelector('.status-badge');
+    const ok = v ? cfg.regex.test(v) : !required;
+    inp.classList.toggle('ok', v && ok);
+    inp.classList.toggle('err', (v && !ok) || (required && !v));
+    if(badge){
+      let s = '';
+      if(v){ s = ok ? '✓' : '✗'; }
+      else if(required){ s = '✗'; }
+      badge.textContent = s;
+      badge.className = 'status-badge ' + (s==='✓' ? 'ok' : s==='✗' ? 'err' : '');
+    }
+    if(required && !v){ inp.setCustomValidity('هذا الحقل إلزامي'); }
+    else if(v && !ok){ inp.setCustomValidity(`اكتب الرقم بالشكل نفسه: ${cfg.example}`); }
+    else { inp.setCustomValidity(''); }
+    return ok;
+  }
+  function validateAllBranches(){
+    const inputs = branchInputs();
+    if(inputs.length===0) return !currentBranchRequired();
+    let okAll = true;
+    for(const inp of inputs){ if(!validateBranchInput(inp)) okAll = false; }
+    return okAll;
+  }
+  function branchValues(){ return branchInputs().map(i=>i.value.trim()).filter(Boolean); }
+
+  /* EMP */
+  function empItems(){ return Array.from(els.empMembersBox.querySelectorAll('.emp-item')); }
+  function empInputs(){ return Array.from(els.empMembersBox.querySelectorAll('input,select')); }
+
+  function formatHijri(date){
+    try{
+      const fmt = new Intl.DateTimeFormat('ar-SA-u-ca-islamic-umalqura',{day:'2-digit',month:'2-digit',year:'numeric'});
+      return fmt.format(date).replace(/\s/g,'');
+    }catch(e){ return ''; }
+  }
+  function hijriToGregorian(hY,hM,hD){
+    try{
+      const target = `${String(hD).padStart(2,'0')}/${String(hM).padStart(2,'0')}/${hY}`;
+      let lo = new Date(1937,0,1).getTime();
+      let hi = new Date(2077,11,31).getTime();
+      let res = null;
+      for(let i=0;i<40;i++){
+        const mid = new Date((lo+hi)/2);
+        const midStr = formatHijri(mid);
+        if(!midStr) break;
+        const toNum = s => s ? Number(s.split('/').reverse().join('')) : 0;
+        if(midStr === target){ res = mid; break; }
+        if(toNum(midStr) < toNum(target)) lo = mid.getTime()+86400000;
+        else hi = mid.getTime()-86400000;
+      }
+      return res ? new Date(res) : null;
+    }catch(e){ return null; }
+  }
+
+  function makeEmpRow(){
+    const row = document.createElement('div');
+    row.className = 'emp-item';
+    row.innerHTML = `
+      <input class="emp-name" type="text" placeholder="اسم المنسوب (اختياري)">
+      <select class="emp-role">
+        <option value="" selected>تصنيف المنسوب (اختياري)</option>
+        <option value="IMAM">إمام</option>
+        <option value="MUATHIN">مؤذن</option>
+        <option value="KHATEEB">خطيب</option>
+        <option value="KHATEEB_EXT">خطيب متعاون</option>
+        <option value="SERVANT">خادم</option>
+      </select>
+      <div class="emp-birth-single">
+        <input class="emp-birth-display" type="text"
+          placeholder="اختر من التقويم (ميلادي) أو اكتب هجريًا بصيغة 08/11/1379"
+          readonly>
+        <input class="emp-birth-picker" type="date">
+      </div>
+      <input class="emp-nid" type="tel" inputmode="numeric" maxlength="10" placeholder="رقم هوية المنسوب (اختياري)">
+      <span class="status-badge"></span>
+    `;
+    els.empMembersBox.appendChild(row);
+
+    const picker = row.querySelector('.emp-birth-picker');
+    const disp   = row.querySelector('.emp-birth-display');
+    const empNid = row.querySelector('.emp-nid');
+    picker.min = '1900-01-01'; picker.max = '2077-12-31';
+
+    function openBirthPicker(){
+      try{
+        if (typeof picker.showPicker === 'function') { picker.showPicker(); }
+        else { picker.focus(); picker.click(); }
+      }catch(e){ picker.focus(); picker.click(); }
+    }
+    disp.addEventListener('click', openBirthPicker);
+    disp.addEventListener('keydown', (e)=>{
+      if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openBirthPicker(); }
+    });
+    disp.addEventListener('dblclick', ()=>{ disp.readOnly = false; disp.focus(); });
+    disp.addEventListener('blur', ()=>{ disp.readOnly = true; });
+
+    picker.addEventListener('change', ()=>{
+      if(picker.value){
+        const d = new Date(picker.value+'T00:00:00');
+        const hStr = formatHijri(d);
+        disp.value = `ميلادي: ${picker.value} — هجري: ${hStr}`;
+        disp.dataset.g = picker.value; disp.dataset.h = hStr || '';
+        disp.classList.add('ok');
+      }else{
+        disp.value = ''; delete disp.dataset.g; delete disp.dataset.h;
+        disp.classList.remove('ok','err');
+      }
+      validateEmpRow(row); refreshPreview(); refreshOkAll();
+    });
+
+    disp.addEventListener('input', ()=>{
+      const v = disp.value.replace(/\s/g,'');
+      const mG = /^(\d{4})-(\d{2})-(\d{2})$/.exec(v);
+      const mH = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(v);
+      if(mG){
+        const gStr = `${mG[1]}-${mG[2]}-${mG[3]}`;
+        const d = new Date(gStr+'T00:00:00');
+        const hStr = formatHijri(d);
+        disp.value = `ميلادي: ${gStr} — هجري: ${hStr}`;
+        disp.dataset.g = gStr; disp.dataset.h = hStr || '';
+        picker.value = gStr;
+        disp.classList.add('ok');
+      }else if(mH){
+        const d = hijriToGregorian(+mH[3], +mH[2], +mH[1]);
+        if(d){
+          const gStr = d.toISOString().slice(0,10);
+          const hStr = `${mH[1].padStart(2,'0')}/${mH[2].padStart(2,'0')}/${mH[3]}`;
+          disp.value = `ميلادي: ${gStr} — هجري: ${hStr}`;
+          disp.dataset.g = gStr; disp.dataset.h = hStr || '';
+          picker.value = gStr;
+          disp.classList.add('ok');
+        }
+      }
+      validateEmpRow(row); refreshPreview(); refreshOkAll();
+    });
+
+    empNid.addEventListener('input', ()=>{
+      empNid.value = normalizeAscii(empNid.value).replace(/[^0-9]/g,'').slice(0,10);
+      validateEmpRow(row); refreshPreview(); refreshOkAll();
+    });
+
+    validateEmpRow(row);
+  }
+
+  function validateEmpRow(row){
+    const nameEl = row.querySelector('.emp-name');
+    const roleEl = row.querySelector('.emp-role');
+    const disp   = row.querySelector('.emp-birth-display');
+    const empNid = row.querySelector('.emp-nid');
+    const badge  = row.querySelector('.status-badge');
+
+    const hasAny = (nameEl.value||roleEl.value||disp.value||empNid.value);
+    const okDate = !disp.value || (disp.dataset.g && disp.dataset.h);
+
+    [nameEl, roleEl, empNid].forEach(el=>{
+      const filled = (el.tagName==='SELECT') ? !!el.value : !!(el.value||'').trim();
+      el.classList.toggle('ok', filled);
+      if(!filled) el.classList.remove('ok');
+      el.classList.remove('err');
+    });
+
+    disp.classList.toggle('err', disp.value && !okDate);
+    if(disp.value && okDate) disp.classList.add('ok'); else if(!disp.value) disp.classList.remove('ok');
+
+    if(badge){
+      let s = '';
+      if(disp.value && !okDate) s = '✗';
+      else if(hasAny) s = '✓';
+      badge.textContent = s;
+      badge.className = 'status-badge ' + (s==='✓' ? 'ok' : s==='✗' ? 'err' : '');
+    }
+    if(disp.value && !okDate) disp.setCustomValidity('اختر من التقويم أو اكتب هجريًا بصيغة DD/MM/YYYY.');
+    else disp.setCustomValidity('');
+    return okDate;
+  }
+
+  /* تاريخ الميلاد (العام) — نفس منطق EMP */
+  function initBirthGlobal(){
+    if(!els.birthDisp || !els.birthPick) return;
+    els.birthPick.min = '1900-01-01';
+    els.birthPick.max = '2077-12-31';
+
+    function openPicker(){
+      try{
+        if (typeof els.birthPick.showPicker === 'function') { els.birthPick.showPicker(); }
+        else { els.birthPick.focus(); els.birthPick.click(); }
+      }catch(e){ els.birthPick.focus(); els.birthPick.click(); }
+    }
+    els.birthDisp.addEventListener('click', openPicker);
+    els.birthDisp.addEventListener('keydown', (e)=>{
+      if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openPicker(); }
+    });
+    els.birthDisp.addEventListener('dblclick', ()=>{ els.birthDisp.readOnly=false; els.birthDisp.focus(); });
+    els.birthDisp.addEventListener('blur', ()=>{ els.birthDisp.readOnly=true; });
+
+    els.birthPick.addEventListener('change', ()=>{
+      if(els.birthPick.value){
+        const d = new Date(els.birthPick.value+'T00:00:00');
+        const hStr = formatHijri(d);
+        els.birthDisp.value = `ميلادي: ${els.birthPick.value} — هجري: ${hStr}`;
+        els.birthDisp.dataset.g = els.birthPick.value;
+        els.birthDisp.dataset.h = hStr || '';
+        els.birthDisp.classList.add('ok');
+      }else{
+        els.birthDisp.value = ''; delete els.birthDisp.dataset.g; delete els.birthDisp.dataset.h;
+        els.birthDisp.classList.remove('ok','err');
+      }
+      refreshPreview(); refreshOkAll();
+    });
+
+    els.birthDisp.addEventListener('input', ()=>{
+      const v = els.birthDisp.value.replace(/\s/g,'');
+      const mG = /^(\d{4})-(\d{2})-(\d{2})$/.exec(v);
+      const mH = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(v);
+      if(mG){
+        const gStr = `${mG[1]}-${mG[2]}-${mG[3]}`;
+        const d = new Date(gStr+'T00:00:00');
+        const hStr = formatHijri(d);
+        els.birthDisp.value = `ميلادي: ${gStr} — هجري: ${hStr}`;
+        els.birthDisp.dataset.g = gStr; els.birthDisp.dataset.h = hStr || '';
+        els.birthPick.value = gStr;
+        els.birthDisp.classList.add('ok');
+      }else if(mH){
+        const d = hijriToGregorian(+mH[3], +mH[2], +mH[1]);
+        if(d){
+          const gStr = d.toISOString().slice(0,10);
+          const hStr = `${mH[1].padStart(2,'0')}/${mH[2].padStart(2,'0')}/${mH[3]}`;
+          els.birthDisp.value = `ميلادي: ${gStr} — هجري: ${hStr}`;
+          els.birthDisp.dataset.g = gStr; els.birthDisp.dataset.h = hStr || '';
+          els.birthPick.value = gStr;
+          els.birthDisp.classList.add('ok');
+        }
+      }
+      refreshPreview(); refreshOkAll();
+    });
+  }
+  function validateBirthGlobal(){
+    if(!els.birthDisp) return false;
+    const ok = !!(els.birthDisp.dataset?.g) && !!(els.birthDisp.dataset?.h);
+    els.birthDisp.classList.toggle('ok', ok);
+    els.birthDisp.classList.toggle('err', !ok);
+    if(!ok) els.birthDisp.setCustomValidity('اختر من التقويم أو اكتب هجريًا بصيغة DD/MM/YYYY.');
+    else els.birthDisp.setCustomValidity('');
+    return ok;
+  }
+
+  /* تصفير */
+  function resetAllInputsKeepTypeCat({full=false}={}){
+    const keys = ['pri','impact','problem','time','device','error','devcode','deviceid'];
+    if(full){ keys.push('nid','staffclass','unit','fullname'); }
+    keys.forEach(k=> { if(els[k]) els[k].value=''; });
+    els.branchesBox.innerHTML=''; makeBranchRow('');
+    clearOkErr();
+    els.empMembersBox.innerHTML = ''; makeEmpRow();
+
+    if(els.birthDisp){
+      els.birthDisp.value = ''; els.birthDisp.classList.remove('ok','err');
+      delete els.birthDisp.dataset?.g; delete els.birthDisp.dataset?.h;
+      if(els.birthPick) els.birthPick.value='';
+    }
+  }
+  function setCatLabelByType(){
+    const t = els.type.value;
+    els.lblCat.textContent = (t==='Q') ? 'نوع العطل' : 'نوع العطل *';
+  }
+
+  /* تبديل Placeholder للوصف حسب الوحدة */
+  function updateProblemPlaceholder(){
+    const unit = els.unit.value;
+    const generic = 'اشرح بإيجاز: ماذا حاولت؟ ماذا ظهَر لك؟ اذكر الشاشة/الصفحة إن وُجد.';
+    const map = {
+      VIS: 'عند تنفيذ زيارة على مسجد عمر بن الخطاب الرقم التسلسلي RUH1111000012 تظهر رسالة خطـأ خارج نطاق المسجد',
+      EMP: 'عند اضافة منسوب تظهر رسالة خطأ لا تستطيع تحديث الكوادر البشرية واذ كان تواجهك مشكلة او استفسار املئ الحقول الخاصة بمعلومات المنسوب',
+      MSJ: 'عند تعديل مسجد تظهر رسالة خطأ ليس لديك الصلاحية للتعديل على المسجد يرجى التواصل مع الدعم التقني'
+    };
+    els.problem?.setAttribute('placeholder', map[unit] || generic);
+  }
+
+  /* قواعد الظهور/الإلزامية حسب نوع الطلب */
+  function applyTypeRules(){
+    const t = els.type.value;
+
+    // إعادة ضبط Required
+    [els.cat, els.unit, els.pri, els.problem, els.time, els.error, els.device]
+      .forEach(el=> el && (el.required=false));
+    [els.cat, els.unit, els.pri, els.problem, els.time, els.error, els.device]
+      .forEach(clearErr);
+    // NEW: تأكد من إلغاء إلزامية حقول DEV وإخفائها دائمًا كبداية
+    [els.devcode, els.deviceid].forEach(el=> { if(el){ el.required=false; clearErr(el); }});
+
+    // إظهار/إخفاء البلوكات الافتراضية
+    els.fldCat.style.display='';
+    els.fldUnit.style.display='';
+    els.fldPri.style.display='';
+    els.fldImpact.style.display='';
+    els.fldProblem.style.display='';
+    els.fldTime.style.display='';
+    els.fldBranch.style.display='none';
+    els.blkDevice.style.display='none';
+    els.blkPwd.style.display='none';           // NEW: إخفاء بلوك كلمة المرور افتراضيًا
+    els.blkDevReg.style.display='none';        // NEW: إخفاء بلوك توثيق الجهاز افتراضيًا
+    if(els.fldError) els.fldError.style.display='';
+    if(fldDeviceType) fldDeviceType.style.display='';
+
+    // تسمية الوصف
+    $('label[for="f_problem"]').textContent = 'وصف المشكلة *';
+    setCatLabelByType();
+
+    if(t==='INC'){
+      els.cat.required = true;
+      els.unit.required = true; // الوحدة إلزامية
+      els.problem.required = true;
+      els.time.required = true;
+      els.error.required = true;
+
+      els.blkDevice.style.display='';
+      if(fldDeviceType) fldDeviceType.style.display='none';
+      if(els.fldError) els.fldError.style.display='';
+
+      if(els.unit.value==='VIS' || els.unit.value==='MSJ'){ els.fldBranch.style.display=''; setBranchUI(); }
+
+      els.hint.textContent='في الأعطال التقنية: الرجاء ارفاق الصورة او فيديو داخل واتساب قبل انشاء التذكرة.';
+      els.priHint.textContent='“عاجل” عند التعطّل الكلي أو عدد كبير متأثر.';
+      els.lblUnit.textContent='الوحدة *';
+    }
+    else if(t==='Q'){
+      els.fldPri.style.display='none';
+      els.fldImpact.style.display='none';
+      els.fldTime.style.display='none';
+      els.problem.required=true;
+      els.unit.required=true; // الوحدة إلزامية في الاستفسار
+      els.lblCat.textContent='نوع العطل'; // اختيارية
+
+      els.blkDevice.style.display='none';
+
+      if(els.unit.value==='VIS' || els.unit.value==='MSJ'){ els.fldBranch.style.display=''; setBranchUI(); }
+
+      els.hint.textContent='الاستفسارات لا تتطلب مرفقات. سنرد خلال ساعات العمل.';
+      els.priHint.textContent='الأولوية ثابتة: منخفض.';
+      els.lblUnit.textContent='الوحدة *';
+    }
+    else if(t==='PWD'){
+      // إخفاء كل شيء إلا بلوك PWD + الهوية العامة
+      els.fldCat.style.display='none';
+      els.fldUnit.style.display='none';
+      els.fldPri.style.display='none';
+      els.fldImpact.style.display='none';
+      els.fldProblem.style.display='none';
+      els.fldTime.style.display='none';
+      els.fldBranch.style.display='none';
+      els.blkDevice.style.display='none';
+      els.blkDevReg.style.display='none';
+      els.blkPwd.style.display='';
+
+      els.pri.value='L'; els.pri.disabled=true;
+      els.hint.textContent='سيتم تعيين كلمة مؤقتة بواسطة فريق الدعم التقني...';
+      els.priHint.textContent='الأولوية ثابتة: منخفض.';
+    }
+    else if(t==='DEV'){
+      // DEV: نُظهر نوع الجهاز + حقول التوثيق فقط (مع بقاء الهوية العامة)
+      els.fldCat.style.display='none';
+      els.fldUnit.style.display='none';
+      els.fldPri.style.display='none';
+      els.fldImpact.style.display='none';
+      els.fldProblem.style.display='none';
+      els.fldTime.style.display='none';
+      els.fldBranch.style.display='none';
+
+      els.blkDevice.style.display='';
+      if(fldDeviceType) fldDeviceType.style.display='';
+      if(els.fldError) els.fldError.style.display='none'; // إخفاء رسالة الخطأ في DEV
+
+      els.device.required=true;
+
+      els.blkDevReg.style.display='';
+      els.devcode.required=true;
+      els.deviceid.required=true;
+
+      els.hint.textContent='خاص بتوثيق جهاز جوال جديد بكود تفعيل.';
+      els.priHint.textContent='لا توجد أولوية لهذا النوع.';
+    }
+
+    // EMP يظهر فقط عندما الوحدة EMP وفي (INC/Q)
+    const isEMP = (els.unit.value==='EMP') && (t!=='DEV' && t!=='PWD');
+    els.blkEmp.style.display = isEMP ? '' : 'none';
+
+    updateProblemPlaceholder();
+    refreshOkAll();
+  }
+
+  function validateDeviceId(){
+    els.deviceid.value = normalizeAscii(els.deviceid.value);
+    const raw = (els.deviceid.value || '').trim();
+    const cleaned = raw.replace(/[^A-F0-9]/g,'');
+    const ok = cleaned.length === 32;
+    if(!raw){ els.deviceid.setCustomValidity('هذا الحقل إلزامي'); }
+    else if(!ok){ els.deviceid.setCustomValidity('تأكد أن المعرّف يحتوي على 32 محرفًا ست عشريًا (A–F, 0–9). يُسمح بالشرطات.'); }
+    else { els.deviceid.setCustomValidity(''); }
+    return ok;
+  }
+
+  function ticketId(type, cat, pri){
+    const d = new Date(); const pad2 = n => String(n).padStart(2,'0');
+    const ts = [String(d.getFullYear()).slice(-2), pad2(d.getMonth()+1), pad2(d.getDate()), pad2(d.getHours()), pad2(d.getMinutes())].join('');
+    const pref = (type==='INC' ? 'INC' : type==='PWD' ? 'PWD' : type==='DEV' ? 'DEV' : 'Q');
+    const catCode = (type==='DEV' && !cat) ? 'DEV' : (cat || 'NA');
+    const priCode = (type==='INC' ? (pri || 'N') : 'N');
+    const nonce = devCode() + nextSeq();
+    return `${pref}-${ts}-${catCode}${priCode}-${nonce}`;
+  }
+  function trackId(){
+    const d = new Date(); const pad2 = n => String(n).padStart(2,'0');
+    const ts = [String(d.getFullYear()).slice(-2), pad2(d.getMonth()+1), pad2(d.getDate()), pad2(d.getHours()), pad2(d.getMinutes())].join('');
+    return `TRK-${ts}-${devCode()}${nextSeq()}`;
+  }
+  function nowString(){
+    const fmt = new Intl.DateTimeFormat('ar-SA-u-ca-gregory',{year:'numeric',month:'2-digit',day:'2-digit',hour:'numeric',minute:'2-digit',hour12:true});
+    return fmt.format(new Date());
+  }
+
+  function baseMessage(id){
+    const t=els.type.value, now=nowString(), typeLb=getTypeLabel(), catLb=getCatLabel(), priLb=getPriLabel();
+    const catVal=els.cat.value, priVal=els.pri.value;
+    const unitVal=els.unit.value, unitLb=getUnitLabel();
+    const timeVal=els.time.value;
+
+    const branches = branchValues();
+    const hasBranches = branches.length>0 && (unitVal==='VIS'||unitVal==='MSJ');
+    const brLabel = (unitVal==='MSJ') ? 'الأرقام التسلسلية للمساجد' : 'الأرقام التسلسلية للزيارات';
+
+    const nidVal = (els.nid?.value || '').trim();
+    const staffClassLb = selText(els.staffclass);
+    const fullName = (els.fullname?.value || '').trim();
+    const gDOB = els.birthDisp?.dataset?.g || '';
+    const hDOB = els.birthDisp?.dataset?.h || '';
+
+    const lines = [
+      (t==='DEV') ? `رقم التتبّع: ${ltr(id)}` : `رقم التذكرة: ${ltr(id)}`,
+      `نوع الطلب: ${typeLb}`,
+      `التاريخ/الوقت: ${now}`,
+      `الاسم الرباعي: ${fullName}`,
+      `رقم الهوية: ${normalizeAscii(nidVal)}`,
+      (gDOB||hDOB) ? `تاريخ الميلاد: ميلادي ${gDOB}${hDOB ? ` — هجري ${hDOB}` : ''}` : '',
+      `تصنيف المستخدم: ${staffClassLb}`,
+      (catVal) ? `${els.lblCat.textContent.replace(' *','')}: ${catLb}` : '',
+      (unitVal) ? `الوحدة: ${unitLb}` : '',
+      (t==='INC' && priVal) ? `الأولوية: ${priLb}` : '',
+      (t==='INC' && els.impact.value) ? `التأثير: ${selText(els.impact)}` : '',
+      (t==='INC' && els.problem.value.trim()) ? `وصف المشكلة: ${els.problem.value.trim()}` : '',
+      (t==='Q'   && els.problem.value.trim()) ? `الاستفسار: ${els.problem.value.trim()}` : '',
+      ((t==='INC' || t==='Q') && hasBranches) ? `${brLabel}: ${branches.map(v=>ltr(v)).join('، ')}` : '',
+      (t==='DEV') ? `نوع الجهاز: ${selText(els.device)}` : '',
+      (t==='DEV') ? `كود التفعيل: ${normalizeAscii(els.devcode.value).trim()}` : '',
+      (t==='DEV') ? `معرّف الجهاز: ${ltr(normalizeAscii(els.deviceid.value).trim())}` : '',
+    ];
+    return lines.filter(Boolean).join('\n').replace(/\n{3,}/g,'\n\n');
+  }
+
+  function refreshPreview(){
+    const id = (els.type.value==='DEV') ? trackId() : ticketId(els.type.value, els.cat.value, els.pri.value);
+    els.msgPrev.textContent = baseMessage(id);
+  }
+
+  function openConfirmModal(html, onSend){
+    els.modalBody.innerHTML = html;
+    els.modal.style.display='flex';
+    els.modal.setAttribute('aria-hidden','false');
+
+    const okHandler = ()=>{ closeModal(); onSend && onSend(); };
+    const cancelHandler = ()=> closeModal();
+
+    function closeModal(){
+      els.modal.style.display='none';
+      els.modal.setAttribute('aria-hidden','true');
+      els.modalOK.removeEventListener('click', okHandler);
+      els.modalCancel.removeEventListener('click', cancelHandler);
+    }
+    els.modalOK.addEventListener('click', okHandler);
+    els.modalCancel.addEventListener('click', cancelHandler);
+  }
+
+  function validateBeforeSend(){
+    const t = els.type.value;
+
+    // كشف سوء التصنيف بين INC/Q
+    if (t === 'Q') {
+      const txt = (els.problem.value || '').toLowerCase();
+      const signals = /(err|error|خط[اأ]ء|تعطل|يتعطل|عطل|ما ?ي(?:فتح|شتغل)|لا ?يعمل|crash|hang|failed|timeout|ما ?تشتغل|توقفت|كود|رمز|لا ?يدخل|لا ?يرسل|403|404|500|502)/i;
+      if (signals.test(txt)) {
+        const ok = confirm('يبدو أن وصفك فيه عبارات لعطل تقني.\nهل تود تحويل النوع إلى "عطل تقني"؟');
+        if (ok) { els.type.value='INC'; els.type.dispatchEvent(new Event('change',{bubbles:true})); return false; }
+      }
+    }
+    if (t === 'INC') {
+      const txt = (els.problem.value || '').toLowerCase();
+      const qSignals = /(كيف|طريقة|وين|أين|أبغى ?أعرف|ابي ?اعرف|هل (?:اقدر|يمكن)|متى|ليش|لماذا|ما ?الفرق|كيفية|دليل|تعليمات|policy|guideline|how\b|where\b|why\b|can i\b|steps?\b|manual\b)/i;
+      if (qSignals.test(txt)) {
+        const ok = confirm('وصفك يبدو استفسارًا عامًّا.\nهل تود تحويل النوع إلى "استفسار"؟');
+        if (ok) { els.type.value='Q'; els.type.dispatchEvent(new Event('change',{bubbles:true})); return false; }
+      }
+    }
+
+    // === الهوية العامة الإلزامية
+    if(!isArabicFullName((els.fullname.value||'').trim())){
+      markErr(els.fullname,'أدخل الاسم الرباعي بالعربية (4 كلمات على الأقل) — مثال: محمد أحمد علي القحطاني'); return false;
+    }
+    els.nid.value = normalizeAscii(els.nid.value).replace(/[^0-9]/g,'').slice(0,10);
+    if(!RX_NID.test((els.nid.value||'').trim())){ markErr(els.nid,'أدخل رقم هوية مكوّن من 10 أرقام'); return false; }
+    if(!validateBirthGlobal()){
+      els.birthDisp?.focus({preventScroll:false});
+      els.birthDisp?.scrollIntoView({block:'center',behavior:'smooth'});
+      return false;
+    }
+
+    if(!t){ markErr(els.type,'اختر نوع الطلب'); return false; }
+    const reqList = [];
+
+    reqList.push([els.staffclass,'اختر تصنيف المستخدم']);
+
+    if(t==='INC'){
+      reqList.push([els.cat,'اختر نوع العطل']);
+      reqList.push([els.unit,'اختر الوحدة']);
+      reqList.push([els.problem,'أدخل وصف المشكلة']);
+      reqList.push([els.time,'اختر وقت المشكلة']);
+      reqList.push([els.error,'أدخل رسالة الخطأ أو رمزها']);
+      if(els.fldBranch.style.display!=='none'){
+        if(!validateAllBranches()){
+          const first=els.branchesBox.querySelector('.branch-input');
+          if(first){ first.classList.add('err'); first.focus({preventScroll:false}); first.scrollIntoView({block:'center',behavior:'smooth'}); }
+          return false;
+        }
+      }
+    } else if(t==='Q'){
+      reqList.push([els.unit,'اختر الوحدة']);
+      reqList.push([els.problem,'أدخل الاستفسار']);
+      if(els.fldBranch.style.display!=='none'){ if(!validateAllBranches()) return false; }
+    } else if(t==='PWD'){
+      // لا حقول إضافية إلزامية داخل بلوك PWD — نعتمد على الهوية العامة فقط
+    } else if(t==='DEV'){
+      reqList.push([els.device,'اختر نوع الجهاز']);
+      els.devcode.value = normalizeAscii(els.devcode.value);
+      const vcode=(els.devcode.value||'').trim();
+      if(!RX_DEV.test(vcode)){ markErr(els.devcode,'أدخل كود تفعيل من ٦ أرقام (0-9)'); return false; }
+      if(!validateDeviceId()){
+        els.deviceid.focus({preventScroll:false});
+        els.deviceid.scrollIntoView({block:'center',behavior:'smooth'});
+        return false;
+      }
+    }
+
+    for(const [el,msg] of reqList){
+      clearErr(el);
+      const v = (el.tagName==='SELECT') ? el.value : (el.value||'').trim();
+      if(!v){ markErr(el,msg); el.focus({preventScroll:false}); el.scrollIntoView({block:'center',behavior:'smooth'}); return false; }
+    }
+    return true;
+  }
+
+  // Listeners
+  ['input','change'].forEach(ev=>{
+    ['pri','impact','problem','time','device','error','devcode','deviceid','fullname','nid','staffclass','cat','unit']
+      .forEach(k=> els[k]?.addEventListener(ev,()=>{
+        markOKIfFilled(els[k]);
+        if(k==='deviceid'){ validateDeviceId(); }
+        if(k==='unit'){ updateProblemPlaceholder(); }
+        refreshPreview();
+      }));
+  });
+
+  els.branchesBox.addEventListener('input', e=>{
+    const inp = e.target.closest('.branch-input'); if(!inp) return;
+    validateBranchInput(inp); refreshPreview();
+  });
+  els.btnAddBr.addEventListener('click', ()=> { if(els.branchesBox.querySelectorAll('.branch-item').length<MAX_BRANCHES) makeBranchRow(''); });
+
+  els.empMembersBox.addEventListener('input', e=>{
+    const row = e.target.closest('.emp-item'); if(!row) return;
+    validateEmpRow(row); refreshPreview(); refreshOkAll();
+  });
+  els.btnEmpAdd?.addEventListener('click', ()=> makeEmpRow());
+
+  els.type.addEventListener('change', ()=>{ els.cat.value=''; resetAllInputsKeepTypeCat({full:true}); applyTypeRules(); refreshPreview(); });
+  els.cat.addEventListener('change',  ()=>{ resetAllInputsKeepTypeCat({full:false}); applyTypeRules(); refreshPreview(); });
+  els.unit.addEventListener('change', ()=>{ setBranchUI(); applyTypeRules(); refreshPreview(); });
+
+  // تهيئة
+  els.empMembersBox && (els.empMembersBox.innerHTML='', makeEmpRow());
+  initBirthGlobal();
+  applyTypeRules(); updateProblemPlaceholder(); refreshPreview();
+
+  function setLoading(btn,on,label){
+    if(!btn) return; btn.disabled=!!on;
+    if(on){ btn.dataset._t=btn.textContent; btn.textContent=label||'جارٍ الإنشاء...'; }
+    else{ if(btn.dataset._t){ btn.textContent=btn.dataset._t; delete btn.dataset._t; } }
+  }
+
+  els.btnWA?.addEventListener('click', ()=>{
+    if(!validateBeforeSend()) return;
+
+    const isDEV = (els.type.value==='DEV');
+    const isINC = (els.type.value==='INC');
+    const id   = isDEV ? trackId() : ticketId(els.type.value, els.cat.value, els.pri.value);
+    const text = baseMessage(id);
+
+    if(isDEV){
+      const html = [
+        `${HOURS_MSG}`,
+        '',
+        `تم إنشاء رقم تتبّعك:\n${id}`,
+        '',
+        'عند الضغط على "إرسال عبر واتساب" سيتم فتح التطبيق مع الرسالة جاهزة.'
+      ].join('\n');
+
+      openConfirmModal(html, ()=>{
+        setLoading(els.btnWA, true, 'جارٍ الإرسال...');
+        openWhatsAppDeep(WHATSAPP_PHONE, text);
+        setLoading(els.btnWA, false);
+      });
+      return;
+    }
+
+    const incNote = isINC
+      ? '<div style="margin-top:8px"><strong>⚠️ قبل انشاء التذكرة: أرفق صورة أو فيديو يوضح المشكلة.</strong></div>'
+      : '';
+
+    const html = [
+      `${HOURS_MSG}`,
+      '',
+      `✅ تم إنشاء رقم لتذكرتك: ${id}`,
+      incNote,
+      '',
+      'عند الضغط على "إرسال عبر واتساب" سيتم فتح التطبيق مع الرسالة جاهزة.'
+    ].join('\n');
+
+    openConfirmModal(html, ()=>{
+      setLoading(els.btnWA, true, 'جارٍ الإرسال...');
+      openWhatsAppDeep(WHATSAPP_PHONE, text);
+      setLoading(els.btnWA, false);
+    });
+  });
+
+})();
+</script>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      حقوق النشر محفوظه © 2025
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.indexes"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u062a\u0645 \u0627\u0644\u0646\u0633\u062e \u0627\u0644\u0649 \u0627\u0644\u062d\u0627\u0641\u0638\u0629", "clipboard.copy": "\u0646\u0633\u062e \u0625\u0644\u0649 \u0627\u0644\u062d\u0627\u0641\u0638\u0629", "search.result.more.one": "\u0623\u0643\u062b\u0631 \u0645\u0646 1 \u0641\u064a \u0647\u0630\u0647 \u0627\u0644\u0635\u0641\u062d\u0629", "search.result.more.other": "\u0623\u0643\u062b\u0631 \u0645\u0646 # \u0641\u064a \u0647\u0630\u0647 \u0627\u0644\u0635\u0641\u062d\u0629", "search.result.none": "\u0644\u0627 \u062a\u0648\u062c\u062f \u0646\u062a\u0627\u0626\u062c", "search.result.one": "\u0646\u062a\u0627\u0626\u062c \u0627\u0644\u0628\u062d\u062b \u0645\u0633\u062a\u0646\u062f \u0648\u0627\u062d\u062f", "search.result.other": "\u0646\u062a\u0627\u0626\u062c \u0627\u0644\u0628\u062d\u062b # \u0645\u0633\u062a\u0646\u062f\u0627\u062a", "search.result.placeholder": "\u0627\u0643\u062a\u0628 \u0644\u0628\u062f\u0621 \u0627\u0644\u0628\u062d\u062b", "search.result.term.missing": "\u0645\u0641\u0642\u0648\u062f", "select.version": "\u0625\u062e\u062a\u0631 \u0627\u0644\u0625\u0635\u062f\u0627\u0631"}, "version": "1.0.0"}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../js/anti_screenshot.js"></script>
+      
+        <script src="../js/nav-guard.js"></script>
+      
+        <script src="../js/chatbot-shim.js"></script>
+      
+        <script src="../chatbot/bundle.js"></script>
+      
+        <script src="../js/chatbot.js"></script>
+      
+        <script src="../js/chatbot-fab.js"></script>
+      
+        <script src="../js/bootstrap-chatbot.js"></script>
+      
+        <script src="../js/hero-glue.js"></script>
+      
+        <script src="../js/footer-legal.js"></script>
+      
+        <script src="../js/last-updated-fab.js"></script>
+      
+        <script src="../js/section-pager.js"></script>
+      
+        <script src="../js/header-datetime.js"></script>
+      
+        <script src="../js/video-fixes.js"></script>
+      
+    
+  </body>
+</html>

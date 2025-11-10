@@ -1,0 +1,77 @@
+/* ليلي أسود + نص أبيض + إزالة خلفيات البوكسات في المحتوى */
+
+/* الحالة: ليلي */
+html[data-night="1"] body{
+  background:#000;
+  color:#fff;
+}
+
+html[data-night="1"] .md-content,
+html[data-night="1"] .md-typeset{ color:#fff; }
+
+/* روابط واضحة داخل المحتوى */
+html[data-night="1"] .md-typeset a{
+  color:#8FD3C6;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+
+/* ——— إزالة خلفيات البوكسات الرمادية في الصفحات الفرعية ———
+   نستهدف جميع الحاويات الشائعة داخل منطقة المحتوى فقط  */
+html[data-night="1"] .md-content :is(.section-box,[class*="box"],.card,[class*="card"],.panel,[class*="panel"]){
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: 0 !important;
+  color: #fff !important;
+}
+/* إن كانت الخلفية على عناصر قبل/بعد */
+html[data-night="1"] .md-content :is(.section-box,[class*="box"],[class*="card"])::before,
+html[data-night="1"] .md-content :is(.section-box,[class*="box"],[class*="card"])::after{
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+/* نضمن أن نصوص العناصر الداخلية في البوكسات تكون بيضاء */
+html[data-night="1"] .md-content :is(.section-box,[class*="box"],[class*="card"]) :is(p,li,ol,ul,blockquote,small,em,strong,span,div){
+  color:#fff !important;
+}
+
+/* هيدر/فوتر مقروءين */
+html[data-night="1"] .mh-header,
+html[data-night="1"] .md-footer{
+  background:#1B4037;
+  color:#fff;
+}
+
+/* تعتيم الهيرو عند الليلي */
+html[data-night="1"] :is(.hero,.hero-full,#home-hero,.home-hero){ position:relative; }
+html[data-night="1"] :is(.hero,.hero-full,#home-hero,.home-hero)::after{
+  content:""; position:absolute; inset:0; background:rgba(0,0,0,.6); pointer-events:none;
+}
+
+/* وصولية */
+html[data-night="1"] :focus-visible{ outline:2px solid rgba(143,211,198,0.6); outline-offset:2px; }
+
+/* أزرار عائمة سوداء تبقى واضحة */
+html[data-night="1"] .fab,
+html[data-night="1"] .floating-btn,
+html[data-night="1"] [data-fab]{
+  box-shadow:0 0 0 1px rgba(255,255,255,0.08), 0 4px 14px rgba(0,0,0,0.35);
+}
+
+/* زر الهلال داخل الهيدر */
+.mh-header .mh-inner{ display:flex; align-items:center; }
+.mh-action.mh-night{ margin-inline-start:auto; display:flex; align-items:center; }
+
+#night-toggle-btn{
+  display:flex; align-items:center; justify-content:center;
+  inline-size:44px; block-size:44px;
+  border:0; border-radius:50%;
+  background:transparent; color:#fff; cursor:pointer;
+}
+#night-toggle-btn:hover{ opacity:.9; }
+#night-toggle-btn:focus-visible{ outline:2px solid rgba(143,211,198,0.6); outline-offset:2px; }
+
+/* حجم الأيقونة */
+#night-toggle-btn svg{ width:24px; height:24px; display:block; }

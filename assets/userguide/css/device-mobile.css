@@ -1,0 +1,471 @@
+/* === Final no-gap + full-green bar (mobile & mid widths) === */
+@media (max-width:1200px){
+  :root{
+    --mh-h: var(--md-header-height, 84px); /* ارتفاع الهيدر */
+    --drawer-h: min(72vh, 680px);          /* ارتفاع الدروار */
+    --hero-fudge: 1;                        /* 0 أو 1 أو 2 حسب الحاجة */
+  }
+
+  /* الهيدر */
+  .md-header.mh-header{
+    height:var(--mh-h) !important; min-height:var(--mh-h) !important;
+    border:0 !important; box-shadow:none !important; overflow:hidden !important;
+    background: var(--md-primary-fg-color) !important;
+  }
+  .md-header::before, .md-header::after{ display:none !important; }
+
+  /* الدروار ملاصق للهيدر */
+  .md-sidebar--primary{
+    position:fixed !important; left:0 !important; right:0 !important;
+    width:100vw !important; max-width:100vw !important;
+    height:var(--drawer-h) !important;
+    top: var(--mh-h) !important;
+    margin-top:-1px !important;
+    background:#fff !important;
+    transform:none !important; z-index:1099 !important;
+    box-shadow:0 10px 30px rgba(0,0,0,.18) !important;
+    transition: top .28s ease !important;
+  }
+  [data-md-toggle="drawer"]:not(:checked) ~ .md-container .md-sidebar--primary{
+    top: calc(var(--mh-h) - var(--drawer-h) - 120vh) !important;
+    margin-top:0 !important; box-shadow:none !important;
+  }
+
+  /* عنوان داخل الدروار */
+  .md-sidebar--primary .md-nav__title{
+    position:sticky !important; top:0 !important; z-index:2 !important;
+    inline-size:100vw !important; max-inline-size:100vw !important;
+    height:var(--mh-h) !important; min-height:var(--mh-h) !important;
+    background:var(--md-primary-fg-color) !important; color:#fff !important;
+    margin:0 !important; border:0 !important; padding-inline:12px !important;
+    display:flex !important; align-items:center !important;
+  }
+
+  /* scrollwrap */
+  .md-sidebar__scrollwrap{
+    height:100% !important; overflow:auto !important; -webkit-overflow-scrolling:touch;
+    padding-top:0 !important; margin-top:0 !important; border:0 !important; background:#fff !important;
+  }
+
+  /* عرض كامل لقوائم الدروار */
+  .md-sidebar--primary .md-sidebar__inner,
+  .md-sidebar--primary nav.md-nav,
+  .md-sidebar--primary .md-nav__container,
+  .md-sidebar--primary .md-nav__list{
+    inline-size:100vw !important;
+    max-inline-size:100vw !important;
+    margin:0 !important; box-sizing:border-box !important; transform:none !Important;
+  }
+
+  /* دفع المحتوى لتحت (الوضع الافتراضي للصفحات العادية) */
+  .md-main{ transition: margin-top .28s ease !important; }
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-main{
+    margin-block-start: calc(var(--mh-h) + var(--drawer-h)) !important;
+  }
+  [data-md-toggle="drawer"]:not(:checked) ~ .md-container .md-main{
+    margin-block-start: var(--mh-h) !important;
+  }
+
+  /* overlay تحت الهيدر */
+  .md-overlay{
+    top:var(--mh-h) !important; height:calc(100vh - var(--mh-h)) !important;
+    background:rgba(0,0,0,0) !important; z-index:1098 !important;
+  }
+  [data-md-toggle="drawer"]:not(:checked) ~ .md-overlay{ display:none !important; }
+}
+
+/* === لون الدروار (موبايل) === */
+@media (max-width:960px){
+  .md-sidebar--primary,
+  .md-sidebar--primary .md-sidebar__inner,
+  .md-sidebar--primary nav.md-nav,
+  .md-sidebar--primary .md-nav__container,
+  .md-sidebar--primary .md-nav__list,
+  .md-sidebar__scrollwrap{
+    background: var(--md-primary-fg-color) !important;
+  }
+  .md-sidebar--primary .md-nav__title{
+    background: var(--md-primary-fg-color) !important;
+    color:#fff !important; border:0 !important; box-shadow:none !important; margin:0 !important;
+  }
+  .md-sidebar--primary .md-nav__link,
+  .md-sidebar--primary .md-nav__item > label.md-nav__link,
+  .md-sidebar--primary .md-nav__link .md-ellipsis,
+  .md-sidebar--primary .md-nav__item > label.md-nav__link .md-ellipsis{
+    color:#fff !important; -webkit-text-fill-color:#fff !important;
+  }
+  .md-sidebar--primary .md-icon, .md-sidebar--primary svg{
+    color:#fff !important; fill:#fff !important; opacity:.95 !important;
+  }
+  .md-sidebar--primary .md-nav__link:hover,
+  .md-sidebar--primary .md-nav__item > label.md-nav__link:hover{
+    background: rgba(255,255,255,.12) !important;
+  }
+}
+
+/* === v1.1 Seam killer (تنظيف حدود) === */
+@media (max-width:1200px){
+  .md-sidebar--primary{ top: calc(var(--mh-h) - 1px) !important; margin-top:0 !important; }
+  .md-overlay{
+    top: calc(var(--mh-h) - 1px) !important;
+    height: calc(100vh - (var(--mh-h) - 1px)) !important;
+  }
+  [data-md-toggle="drawer"]:checked ~ .md-container{
+    background: var(--md-primary-fg-color) !important;
+  }
+  .md-header, .md-header::before, .md-header::after,
+  .md-sidebar--primary, .md-sidebar--primary::before,
+  .md-sidebar__scrollwrap, .md-sidebar__scrollwrap::before,
+  .md-nav__container, .md-nav__container::before,
+  .md-nav__list, .md-nav__list::before, .md-nav, .md-nav::before{
+    border:0 !important; box-shadow:none !important;
+  }
+  [data-md-toggle="drawer"]:not(:checked) ~ .md-container .md-main{
+    margin-block-start: calc(var(--mh-h) - 1px) !important;
+  }
+}
+@supports (-webkit-touch-callout: none){ .md-header{ transform: translateZ(0); } }
+
+/* === v1.1.2 Keep page colors === */
+@media (max-width:1200px){
+  [data-md-toggle="drawer"]:checked ~ .md-container{
+    background: var(--md-default-bg-color, transparent) !important;
+  }
+  .md-sidebar--primary{ top: calc(var(--mh-h) - 1px) !important; }
+  .md-sidebar--primary::before{
+    content:""; position:absolute; left:0; right:0; top:-1px; height:1px;
+    background: var(--md-primary-fg-color); pointer-events:none; z-index:3;
+  }
+  .md-overlay{
+    top: calc(var(--mh-h) - 1px) !important;
+    height: calc(100vh - (var(--mh-h) - 1px)) !important;
+    background: rgba(0,0,0,0) !important;
+  }
+}
+
+/* ===== v1.6 PATCH (routing & clicks) ===== */
+@media (max-width:1200px){
+  [data-md-toggle="drawer"]:not(:checked) ~ .md-container .md-sidebar--primary{ pointer-events:none !important; }
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary{ pointer-events:auto !important; }
+
+  .md-sidebar__scrollwrap{ padding-top: var(--mh-h) !important; }
+
+  .md-sidebar--primary .md-sidebar__inner,
+  .md-sidebar--primary nav.md-nav,
+  .md-sidebar--primary .md-nav__container,
+  .md-sidebar--primary .md-nav__list{
+    inline-size:100% !important; max-inline-size:100% !important;
+    transform:unset !important;
+  }
+  .md-sidebar--primary .md-nav__list,
+  .md-sidebar--primary .md-nav__item > .md-nav__link{
+    position:relative !important; z-index:2 !important;
+  }
+  .md-sidebar--primary .md-nav__title{ z-index:3 !important; }
+
+  .md-overlay{ z-index:1098 !important; }
+  .md-sidebar--primary{ z-index:1099 !important; }
+}
+
+/* (اختياري) أسهم القوائم الفرعية */
+@media (max-width:960px){
+  .md-sidebar--primary .md-nav__item--nested > label.md-nav__link,
+  .md-sidebar--primary .md-nav__item--nested > .md-nav__link{
+    display:flex !important; align-items:center !important; justify-content:space-between !important; gap:8px !important;
+  }
+  .md-sidebar--primary .md-nav__item--nested > label.md-nav__link .md-nav__icon,
+  .md-sidebar--primary .md-nav__item--nested > .md-nav__link .md-nav__icon{
+    color:#fff !important; opacity:.95 !important; transform: rotate(0deg); transition: transform .18s ease;
+  }
+  .md-sidebar--primary .md-nav__item--nested > input.md-toggle:checked + label .md-nav__icon,
+  .md-sidebar--primary .md-nav__item--nested > input.md-nav__toggle:checked + label .md-nav__icon{
+    transform: rotate(90deg);
+  }
+}
+
+/* ===== v1.7 NESTED PUSH-DOWN FIX ===== */
+@media (max-width:1200px){
+  [data-md-toggle="drawer"]:not(:checked) ~ .md-container .md-sidebar--primary{ pointer-events:none !important; }
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary{ pointer-events:auto !important; }
+
+  .md-sidebar__scrollwrap{ padding-top: var(--mh-h) !important; overflow-y:auto !important; }
+
+  .md-sidebar--primary .md-nav__item--nested > input.md-toggle ~ .md-nav,
+  .md-sidebar--primary .md-nav__item--nested > input.md-nav__toggle ~ .md-nav{
+    display:none !important; position:static !important; height:auto !important; max-height:none !important;
+    overflow:visible !important; margin:0 !important; padding:0 !important; transform:none !important;
+  }
+  .md-sidebar--primary .md-nav__item--nested > input.md-toggle:checked ~ .md-nav,
+  .md-sidebar--primary .md-nav__item--nested > input.md-nav__toggle:checked ~ .md-nav{
+    display:block !important;
+  }
+  .md-sidebar--primary .md-nav__list, .md-sidebar--primary .md-nav__item{ position:static !important; }
+  .md-sidebar--primary .md-nav__item > .md-nav__link{ position:relative !important; z-index:1 !important; display:block !important; }
+
+  .md-sidebar--primary .md-nav__item--nested > label.md-nav__link,
+  .md-sidebar--primary .md-nav__item--nested > .md-nav__link{
+    display:flex !important; align-items:center !important; justify-content:space-between !important; gap:8px !important;
+  }
+  .md-sidebar--primary .md-nav__item--nested > input.md-toggle:checked + label .md-nav__icon{
+    transform: rotate(90deg);
+  }
+
+  .md-overlay{ z-index:1098 !important; }
+  .md-sidebar--primary{ z-index:1099 !important; }
+}
+
+/* ===== v1.8 إزالة صف الرجوع المكرر ===== */
+@media (max-width:1200px){
+  .md-sidebar--primary nav.md-nav nav.md-nav > .md-nav__title,
+  .md-sidebar--primary nav.md-nav nav.md-nav > .md-nav__list > .md-nav__item--section{
+    display:none !important;
+  }
+  .md-sidebar--primary nav.md-nav nav.md-nav > .md-nav__title .md-nav__icon{ display:none !important; }
+  .md-sidebar--primary .md-nav__item--nested > input.md-toggle:checked ~ nav.md-nav{
+    margin-top:.15rem !important;
+  }
+}
+
+/* ===== v1.9 اخفاء عنوان الدروار (نبقي الهيدر) ===== */
+@media (max-width:1200px){
+  .md-sidebar--primary .md-nav__title{
+    display:none !important; height:0 !important; min-height:0 !important;
+    margin:0 !important; padding:0 !important; border:0 !important; box-shadow:none !important;
+  }
+  .md-sidebar__scrollwrap{ padding-top:10px !important; }
+  .md-container .md-sidebar--primary::before{
+    content:""; position:absolute; left:0; right:0; top:-1px; height:1px;
+    background:var(--md-primary-fg-color); pointer-events:none; z-index:3;
+  }
+  .md-sidebar--primary nav.md-nav nav.md-nav > .md-nav__title,
+  .md-sidebar--primary nav.md-nav nav.md-nav > .md-nav__list > .md-nav__item--section{
+    display:none !important;
+  }
+}
+
+/* ===== v2.0 Header polish ===== */
+@media (max-width:1200px){
+  .md-header.mh-header .md-header__inner{
+    display:flex; align-items:center; gap:8px; padding-inline:10px !important;
+  }
+  .md-header .md-icon, .md-header svg, .md-header .md-header__button{ color:#fff !important; fill:#fff !important; }
+  .md-header .md-header__button:hover{ background: rgba(255,255,255,.12) !important; border-radius:10px; }
+  .md-header :is(label[for="__drawer"], .md-header__button[for="__drawer"], [data-md-toggle="drawer"] + label){
+    margin-inline-end:12px !important;
+  }
+  .md-header :is(label[for="__search"], .md-header__button[for="__search"], [data-md-toggle="search"] + label){
+    margin-inline-start:auto !important; order:99;
+  }
+  .md-header.mh-header{ padding-inline:6px !important; }
+}
+
+/* ===== v2.2 Smooth drawer ===== */
+@media (max-width:1200px){
+  .md-container .md-sidebar--primary, .md-sidebar--primary{
+    will-change: transform !important;
+    transition: transform .34s cubic-bezier(.22,.61,.36,1) !important;
+    backface-visibility:hidden !important;
+  }
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary{ transform: translateY(0) !important; pointer-events:auto !important; }
+  [data-md-toggle="drawer"]:not(:checked) ~ .md-container .md-sidebar--primary{
+    transform: translateY(calc(-1 * (var(--drawer-h) + 120vh))) !important; pointer-events:none !important; box-shadow:none !important;
+  }
+  .md-header :is(label[for="__search"], [data-md-toggle="search"] + label){ display:none !important; }
+  :root[dir="rtl"] .md-header :is(label[for="__drawer"], .md-header__button[for="__drawer"], [data-md-toggle="drawer"] + label){
+    margin-inline-end:12px !important; color:#fff !important; fill:#fff !important;
+  }
+  .md-header .md-header__button, .md-header .md-icon, .md-header svg{ color:#fff !important; fill:#fff !important; }
+}
+
+/* ===== ADD-ONS ===== */
+@media (max-width:1200px){
+  @supports (height: 100dvh){
+    :root{ --drawer-h: min(72dvh, 680px); }
+    .md-overlay{ height: calc(100dvh - (var(--mh-h) - 1px)) !important; }
+  }
+  .md-sidebar--primary, .md-overlay, .md-sidebar__scrollwrap{
+    padding-left: env(safe-area-inset-left, 0) !important;
+    padding-right: env(safe-area-inset-right, 0) !important;
+  }
+  .md-sidebar__scrollwrap{ scrollbar-gutter: stable both-edges; touch-action: pan-y; }
+  @supports selector(html:has(#__drawer:checked)){
+    html:has(#__drawer:checked), body:has(#__drawer:checked){ overscroll-behavior: none !important; }
+  }
+  @media (prefers-reduced-motion: reduce){
+    .md-sidebar--primary, .md-main, .md-overlay{ transition:none !important; }
+  }
+  .md-sidebar--primary .md-nav__link:focus-visible{
+    outline:2px solid rgba(255,255,255,.65) !important; outline-offset:2px !important; text-decoration:underline !important;
+  }
+  .md-sidebar--primary{ transform: translateZ(0); backface-visibility:hidden; contain:paint; -webkit-font-smoothing: antialiased; }
+  @supports (-webkit-touch-callout: none){
+    .md-sidebar--primary{ width:100% !important; max-width:100% !important; }
+  }
+  .md-container{ overflow-x: clip; }
+  .md-header svg [stroke]:not([stroke="none"]), .md-sidebar--primary svg [stroke]:not([stroke="none"]){ stroke:#fff !important; }
+  .md-header svg [fill]:not([fill="none"]), .md-sidebar--primary svg [fill]:not([fill="none"]){ fill:#fff !important; }
+  [data-md-toggle="drawer"]:checked ~ .md-container :is(.hero, .hero-overlay, .cb-panel, .cb-fab){ pointer-events:none !important; }
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary,
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-overlay{ pointer-events:auto !important; }
+}
+
+/* ============================================================= */
+/* === HERO + HEADER SEAM (النسخة المبسطة النهائية)            === */
+/* ============================================================= */
+@media (max-width:1200px){
+  .md-content::before,
+  .md-content__inner::before{
+    content: none !important;
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width:1200px){
+  :root{ --hero-bottom-pad: 16px; }
+  html.has-hero .md-content__inner > :is(.hero,#hero,.home-hero,.swiper,.swiper-container,.hero-full),
+  html.has-hero .md-content__inner > .md-typeset > :is(.hero,#hero,.home-hero,.swiper,.swiper-container,.hero-full){
+    padding-bottom: var(--hero-bottom-pad) !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    border-top: 0 !important;
+    position: relative !important;
+    z-index: 1;
+  }
+}
+@media (max-width:1200px){
+  html.has-hero .md-main{ margin-block-start: var(--mh-h) !important; }
+  html.has-hero .md-sidebar--primary{ top: var(--mh-h) !important; margin-top:0 !important; }
+  html.has-hero .md-overlay{
+    top: var(--mh-h) !important;
+    height: calc(100vh - var(--mh-h)) !important;
+  }
+}
+@media (max-width:1200px){
+  html.has-hero .md-content__inner > p:first-child{
+    display:none !important; margin:0 !important; padding:0 !important;
+  }
+}
+@media (max-width:1200px){
+  html.has-hero :is(.hero,#hero,.home-hero,.swiper,.swiper-container,.hero-full){
+    position:relative; will-change:transform; backface-visibility:hidden; transform:translateZ(0);
+  }
+}
+
+/* ============================================================= */
+/* === v2.3 Center page titles (mobile) — RESET أي خطوط سابقة  === */
+/* ============================================================= */
+@media (max-width:1200px){
+  .md-typeset > h1:first-of-type::before,
+  .md-typeset > h1:first-of-type::after,
+  .md-typeset h1.page-title::before,
+  .md-typeset h1.page-title::after,
+  .section-header-title::before,
+  .section-header-title::after{
+    content: none !important;
+  }
+}
+
+/* ============================================================= */
+/* === v2.4 Subpage boxes = Homepage cards (mobile)             === */
+/* ============================================================= */
+@media (max-width:1200px){
+  .section-box,
+  .transparent-box,
+  .ticket-box,
+  .filters-box,
+  .video-box,
+  .content-box,
+  .box,
+  .panel{
+    background: var(--theme-grey, #969696) !important;
+    color: #fff !important;
+    border-radius: 16px !important;
+    border: 2px solid #000 !important;      /* ← تعديل: حواف سوداء حسب طلب المدير */
+    box-shadow: 0 6px 16px rgba(0,0,0,.18) !important;
+    overflow: hidden;
+    margin-block: 16px !important;
+    padding: 20px 20px !important;
+  }
+
+  /* تحسين قراءة الفقرات */
+  .section-box :is(p,li),
+  .transparent-box :is(p,li),
+  .ticket-box :is(p,li),
+  .filters-box :is(p,li),
+  .video-box :is(p,li),
+  .content-box :is(p,li),
+  .box :is(p,li),
+  .panel :is(p,li){
+    line-height: 1.9 !important;
+    text-align: start !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  /* تأكيد لون النص داخل البوكس */
+  .section-box :is(h1,h2,h3,h4,h5,h6,p,li,small,strong,em,span),
+  .transparent-box :is(h1,h2,h3,h4,h5,h6,p,li,small,strong,em,span),
+  .ticket-box :is(h1,h2,h3,h4,h5,h6,p,li,small,strong,em,span),
+  .filters-box :is(h1,h2,h3,h4,h5,h6,p,li,small,strong,em,span),
+  .video-box :is(h1,h2,h3,h4,h5,h6,p,li,small,strong,em,span),
+  .content-box :is(h1,h2,h3,h4,h5,h6,p,li,small,strong,em,span),
+  .box :is(h1,h2,h3,h4,h5,h6,p,li,small,strong,em,span),
+  .panel :is(h1,h2,h3,h4,h5,h6,p,li,small,strong,em,span){
+    color:#fff !important;
+  }
+
+  /* ===== صلاحيات/أكواد داخل البوكس (مطابقة ستايل "الصيانة") =====
+     تغطي الحالات الشائعة: Markdown code، badge، label، chip، kbd */
+  .section-box :is(code,kbd,.badge,.label,.chip,.tag),
+  .transparent-box :is(code,kbd,.badge,.label,.chip,.tag),
+  .ticket-box :is(code,kbd,.badge,.label,.chip,.tag),
+  .filters-box :is(code,kbd,.badge,.label,.chip,.tag),
+  .video-box :is(code,kbd,.badge,.label,.chip,.tag),
+  .content-box :is(code,kbd,.badge,.label,.chip,.tag),
+  .box :is(code,kbd,.badge,.label,.chip,.tag),
+  .panel :is(code,kbd,.badge,.label,.chip,.tag){
+    background:#fff !important;
+    color:#000 !important;
+    border:1px solid rgba(0,0,0,.12) !important;
+    border-radius:9999px !important;            /* حبة/شيب ناعمة */
+    padding:.2em .6em !important;
+    margin-inline:.25em !important;
+    font-weight:600 !important;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.7),
+      0 1px 2px rgba(0,0,0,.15) !important;
+    display:inline-block !important;
+    vertical-align:baseline;
+  }
+  /* لو الأكواد تُعرض داخل <code> بالثيم */
+  .md-typeset code{
+    border-radius: 6px;
+  }
+}
+
+/* ============================================================= */
+/* === v2.6 Page Title 3D (mobile) — نفس لون البوكس            === */
+/* ============================================================= */
+@media (max-width:1200px){
+  .md-typeset > h1:first-of-type,
+  .md-typeset h1.page-title,
+  .section-header-title{
+    text-align: center !important;
+    color: #fff !important;
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.18), rgba(0,0,0,.10)),
+      var(--theme-grey, #969696) !important;
+    border-radius: 16px !important;
+    padding: 12px 16px !important;
+    display: block !important;
+    margin: 18px auto 14px !important;
+    box-shadow:
+      0 10px 24px rgba(0,0,0,.20),
+      inset 0 1px 0 rgba(255,255,255,.30),
+      inset 0 -1px 0 rgba(0,0,0,.15) !important;
+    border: 1px solid rgba(0,0,0,.10) !important;
+  }
+}

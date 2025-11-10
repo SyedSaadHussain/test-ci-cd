@@ -1,0 +1,300 @@
+:root{
+  --cb-brand:var(--theme-green);
+  --cb-gold:#ffd700;
+  --chat-bot-bg:#f9fbfa;
+  --chat-user-bg:#ffffff;
+  --chat-bot-color:#0b3d33;
+  --chat-user-color:#1f2937;
+  --chat-radius:16px;
+  --cb-panel-width:320px;
+  --cb-panel-minH:336px;
+  --cb-panel-maxH:500px;
+  --cb-radius:26px;
+  --cb-shadow:0 16px 36px rgba(0,0,0,.16);
+  --cb-dock-left:20px;
+  --cb-dock-bottom:20px;
+  --cb-gap:12px;
+  --cb-dur:280ms;
+  --cb-ease:cubic-bezier(.2,.8,.2,1);
+  --cb-brand-logo:url('../img/masajid_logo.svg');
+  --cb-typing-bg:#fff;
+  --cb-typing-border:#e6e9e8;
+  --cb-typing-color:var(--cb-brand);
+  --cb-typing-logo-bg:#eaf3f0;
+  --cb-typing-logo-size:22px;
+  --cb-typing-dot-size:7px;
+  --cb-typing-gap:6px;
+  --cb-typing-dur:3.2s;
+  --gadd-bot:var(--cb-brand);
+  --gadd-bot-dark:#355c34;
+  --gadd-face:#ffffff;
+  --gadd-mouth-w:16px;
+  --gadd-mouth-h:6px;
+  --gadd-mouth-bottom:23px;
+  --gadd-mouth-border:2px;
+  --idle-dur:4.4s;
+  --idle-delay:.8s;
+}
+
+.cb-fab{
+  position:fixed; left:var(--cb-dock-left);
+  bottom:calc(var(--cb-dock-bottom) + env(safe-area-inset-bottom));
+  width:72px; height:72px; display:grid; place-items:center;
+  background:transparent; border:0; color:var(--cb-brand);
+  filter:drop-shadow(0 6px 14px rgba(0,0,0,.25));
+  cursor:pointer; z-index:10010; transition:transform 140ms ease; border-radius:50%;
+}
+.cb-fab:active{ transform:scale(.96); }
+.cb-fab[aria-expanded="true"]{ transform:translateY(-2px); }
+
+.cb-fab .mujib_chat_icon{ position:relative; width:72px; height:72px; border-radius:50%; }
+.cb-fab .mujib_chat_icon .icon_inner-cont{ position:absolute; inset:0; transform-origin:36px 36px; animation:gadd-bob 3.6s var(--cb-ease) infinite; }
+.cb-fab .mujib_chat_icon .head{ position:absolute; left:8px; bottom:8px; width:56px; height:48px; background:var(--gadd-bot); border-radius:28px; box-shadow:inset 0 2px 0 rgba(0,0,0,.06); z-index:1; }
+.cb-fab .mujib_chat_icon .left_ear,.cb-fab .mujib_chat_icon .right_ear{ position:absolute; bottom:22px; width:16px; height:16px; background:var(--gadd-bot); border-radius:50%; z-index:2; }
+.cb-fab .mujib_chat_icon .left_ear{ left:3px; }
+.cb-fab .mujib_chat_icon .right_ear{ right:3px; }
+.cb-fab .mujib_chat_icon .eyes_background{ position:absolute; left:14px; bottom:22px; width:44px; height:20px; background:var(--gadd-face); border-radius:12px; z-index:2; }
+.cb-fab .mujib_chat_icon .eyes_cont{ position:absolute; left:14px; bottom:22px; width:44px; height:20px; display:flex; align-items:center; justify-content:center; gap:14px; z-index:2; }
+.cb-fab .mujib_chat_icon .eye{ position:relative; width:7px; height:7px; border-radius:50%; background:var(--gadd-bot-dark); transform-origin:50% 50%; animation:eye-happy var(--idle-dur) ease-in-out var(--idle-delay) infinite; }
+.cb-fab .mujib_chat_icon .eye::after{ content:""; position:absolute; inset:0; border-top:2px solid var(--gadd-bot-dark); border-radius:0 0 50% 50%; opacity:0; transform:translateY(1px); animation:eye-arc-onoff var(--idle-dur) ease-in-out var(--idle-delay) infinite; }
+.cb-fab .mujib_chat_icon .smile{ position:absolute; left:calc(14px + (44px - var(--gadd-mouth-w))/2); bottom:var(--gadd-mouth-bottom); width:var(--gadd-mouth-w); height:var(--gadd-mouth-h); border-bottom:var(--gadd-mouth-border) solid var(--gadd-bot-dark); border-radius:0 0 12px 12%; z-index:2; animation:mouth-idle var(--idle-dur) ease-in-out var(--idle-delay) infinite; }
+.cb-fab .mujib_chat_icon .chatbot_corner{ position:absolute; left:16px; bottom:10px; width:0; height:0; border-right:10px solid transparent; border-top:10px solid var(--gadd-bot); z-index:2; }
+.cb-fab .mujib_chat_icon .antenna{ position:absolute; left:34px; bottom:58px; width:4px; height:10px; background:var(--gadd-bot); border-radius:2px; z-index:2; animation:antenna-bop var(--idle-dur) ease-in-out var(--idle-delay) infinite; }
+.cb-fab .mujib_chat_icon .antenna::after{ content:""; position:absolute; left:-3px; top:-6px; width:10px; height:10px; border-radius:50%; background:var(--gadd-bot); box-shadow:0 0 0 2px rgba(14,122,108,.25); animation:antenna-dot-breathe var(--idle-dur) ease-in-out var(--idle-delay) infinite; }
+
+.cb-overlay{
+  position:fixed; inset:0; background:rgba(0,0,0,.42);
+  z-index:10009; opacity:0; visibility:hidden;
+  transition:opacity var(--cb-dur) var(--cb-ease), visibility 0s linear var(--cb-dur);
+}
+.cb-overlay[data-open="1"]{ opacity:1; visibility:visible; transition:opacity var(--cb-dur) var(--cb-ease), visibility 0s; }
+
+.cb-panel{
+  position:fixed; z-index:10010;
+  left:calc(var(--cb-dock-left) - 4px);
+  bottom:calc(var(--cb-dock-bottom) + env(safe-area-inset-bottom));
+  width:clamp(240px,72vw,var(--cb-panel-width));
+  height:clamp(var(--cb-panel-minH),72dvh,var(--cb-panel-maxH));
+  background:#fff; color:#000; border:1px solid rgba(0,0,0,.06);
+  border-radius:var(--cb-radius); box-shadow:var(--cb-shadow);
+  display:flex; flex-direction:column; overflow:hidden;
+  transform:translateY(14px) scale(.985);
+  opacity:0; visibility:hidden; pointer-events:none;
+  transition:transform var(--cb-dur) var(--cb-ease),
+             opacity var(--cb-dur) var(--cb-ease),
+             visibility 0s linear var(--cb-dur);
+}
+.cb-panel[data-open="1"]{
+  transform:translateY(0) scale(1);
+  opacity:1; visibility:visible; pointer-events:auto;
+  transition:transform var(--cb-dur) var(--cb-ease),
+             opacity var(--cb-dur) var(--cb-ease),
+             visibility 0s;
+}
+
+.cb-header{
+  display:flex; align-items:center; justify-content:space-between;
+  padding:12px 14px; background:var(--cb-brand); color:#fff;
+  border-bottom:2px solid rgba(255,215,0,.6);
+}
+.cb-title{ font-weight:800; font-size:16px; }
+.cb-close{ background:transparent; border:0; font-size:22px; color:#fff; cursor:pointer; }
+.cb-body{ flex:1 1 auto; overflow:hidden; background:#f1f5f4; padding:10px; }
+
+/* شعار داخل عنوان الهيدر بدون تعديل HTML */
+.cb-header .cb-title{ display:flex; align-items:center; gap:8px; }
+.cb-header .cb-title::before{
+  content:""; inline-size:22px; block-size:22px; border-radius:6px;
+  background:#eaf3f0 center/80% no-repeat; background-image:var(--cb-brand-logo);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.35);
+}
+
+/* رسائل */
+.cb-panel #chat-messages{
+  height:100% !important; overflow:auto !important; -webkit-overflow-scrolling:touch !important;
+  background:#fff !important; border:1px solid #e6e9e8 !important; border-radius:16px !important; padding:12px !important;
+  display:flex !important; flex-direction:column !important; row-gap:12px !important; isolation:isolate !important; direction:rtl !important;
+  font:15px/1.7 inherit !important; color:#1f2937 !important; box-sizing:border-box !important; overflow-x:hidden !important;
+}
+
+@keyframes cb-msg-enter{
+  0%{opacity:0;transform:translateY(6px) scale(.985);}
+  100%{opacity:1;transform:translateY(0) scale(1);}
+}
+
+.cb-panel #chat-messages .chatbot-message{
+  display:block !important; max-width:92% !important;
+  border-radius:16px !important; padding:12px 14px !important;
+  background:#fff !important; color:#1f2937 !important; border:1px solid #e6e9e8 !important;
+  box-shadow:0 4px 12px rgba(0,0,0,.05) !important; animation:cb-msg-enter 220ms var(--cb-ease) both;
+}
+.cb-panel #chat-messages .chatbot-message.user-message{
+  align-self:flex-end !important; background:#ffffff !important; color:#1f2937 !important; border-color:#e6e9e8 !important;
+}
+.cb-panel #chat-messages .chatbot-message.bot-message{
+  align-self:flex-start !important; background:#f9fbfa !important; color:#0b3d33 !important; border-color:#e6e9e8 !important;
+}
+.cb-panel #chat-messages .chatbot-message p{ margin:0 0 8px !important; }
+
+/* خيارات */
+.cb-panel #chat-messages .chatbot-message.bot-message ul{
+  list-style:none !important; margin:10px 0 0 !important; padding:0 !important;
+  display:grid !important; grid-template-columns:repeat(auto-fit, minmax(170px,1fr)) !important; gap:10px !important; text-align:right !important;
+}
+.cb-panel #chat-messages .chatbot-message.bot-message a{
+  display:block !important; text-decoration:none !important; background:#fff !important; color:#1f2937 !important;
+  border:1px solid #e3e8e6 !important; border-radius:12px !important; padding:10px 12px !important; font-weight:700 !important;
+  white-space:nowrap !important; overflow:hidden !important; text-overflow:ellipsis !important;
+  box-shadow:0 2px 8px rgba(0,0,0,.05) !important; cursor:pointer !important;
+  transition:transform .12s ease, box-shadow .12s ease !important;
+}
+.cb-panel #chat-messages .chatbot-message.bot-message a:hover{
+  transform:translateY(-1px) !important; box-shadow:0 8px 16px rgba(0,0,0,.08) !important;
+}
+
+/* مؤشر الكتابة */
+.cb-panel #chat-messages .cb-typing{
+  /* بقية التنسيق يبقى كما هو، سنتحكم بالظهور أدناه */
+  align-items:center !important; gap:6px !important; padding:8px 12px !important;
+  max-width:max-content !important; border-radius:12px !important; background:#fff !important; color:#111 !important;
+  border:1px solid #e6e9e8 !important; box-shadow:0 1px 0 rgba(0,0,0,.04) !important; align-self:flex-start !important;
+}
+
+/* منع التكرار — إظهار نسخة واحدة فقط (الأخيرة في القائمة) */
+.cb-panel #chat-messages .chatbot-message .cb-typing{ display:none !important; }     /* لا نعرض المؤشر داخل الفقاعات */
+.cb-panel #chat-messages .cb-typing{ display:none !important; }                       /* أخفِ الكل افتراضياً */
+.cb-panel #chat-messages > .cb-typing:last-child{ display:inline-flex !important; }   /* اعرض الأخير فقط */
+.cb-panel #chat-messages .cb-typing + .cb-typing{ display:none !important; }          /* احتياط لإخفاء المتجاور */
+
+/* منع التكرار داخل نفس المؤشر */
+.cb-typing .cb-typing-dots ~ .cb-typing-dots{ display:none !important; }
+.cb-typing .cb-typing-logo ~ .cb-typing-logo{ display:none !important; }
+
+.cb-typing .cb-typing-logo{
+  display:inline-block !important; width:var(--cb-typing-logo-size); height:var(--cb-typing-logo-size);
+  border-radius:7px; background:var(--cb-typing-logo-bg) center/80% no-repeat; background-image:var(--cb-brand-logo);
+  box-shadow:inset 0 0 0 1px rgba(14,122,108,.15);
+}
+.cb-typing .cb-typing-dots{ display:inline-flex; align-items:center; gap:var(--cb-typing-gap); line-height:0; }
+.cb-typing .cb-typing-dots span{
+  display:inline-block !important; width:var(--cb-typing-dot-size); height:var(--cb-typing-dot-size); border-radius:50%;
+  background:var(--cb-typing-color); opacity:.35; animation:cb-typing-bounce var(--cb-typing-dur) infinite ease-in-out;
+}
+.cb-typing .cb-typing-dots span:nth-child(2){ animation-delay:.384s; }
+.cb-typing .cb-typing-dots span:nth-child(3){ animation-delay:.768s; }
+
+@keyframes cb-typing-bounce{
+  0%,80%,100%{transform:translateY(0);opacity:.35;}
+  40%{transform:translateY(-4px);opacity:1;}
+}
+
+.cb-input{
+  display:grid; grid-template-columns:1fr auto; gap:8px; align-items:center;
+  padding:10px 12px; border-top:1px solid #eef1f0; background:#fff;
+  padding-bottom:calc(10px + env(safe-area-inset-bottom));
+}
+.cb-input input{
+  height:42px; border:1px solid #e5e7eb; border-radius:999px; padding:0 14px;
+  font-family:inherit; font-size:16px; color:#111; background:#fafafa;
+}
+.cb-input .chatbot-send-button{
+  height:42px; padding:0 14px; border-radius:999px; border:0; background:var(--cb-brand); color:#fff; font-weight:800; cursor:pointer;
+}
+.cb-input .chatbot-send-button:active{ transform:translateY(1px); }
+
+.cb-panel #chat-messages .jump-to-latest{
+  position:sticky; bottom:8px; margin-inline-start:auto; display:inline-flex; align-items:center; gap:.4rem;
+  padding:.45rem .75rem; border-radius:999px; border:1px solid rgba(29,109,90,.35); background:rgba(255,255,255,.9);
+  font-weight:600; font-size:.9rem; cursor:pointer; box-shadow:0 6px 14px rgba(0,0,0,.08);
+}
+.cb-panel #chat-messages .jump-to-latest[hidden]{ display:none; }
+
+@media (prefers-reduced-motion:reduce){
+  .cb-panel{ transition:none !important; transform:none !important; }
+  .cb-panel #chat-messages .chatbot-message{ animation:none !important; }
+  .cb-fab .mujib_chat_icon .icon_inner-cont,
+  .cb-fab .mujib_chat_icon .eye,
+  .cb-fab .mujib_chat_icon .eye::after,
+  .cb-fab .mujib_chat_icon .smile,
+  .cb-fab .mujib_chat_icon .antenna,
+  .cb-fab .mujib_chat_icon .antenna::after{ animation:none !important; }
+}
+
+.cb-panel.cb--jad{ background:#eef1f0; border:0; border-radius:26px; box-shadow:0 16px 36px rgba(0,0,0,.16); overflow:hidden; }
+.cb-panel.cb--jad .cb-header{ background:var(--cb-brand); color:#fff; display:flex; align-items:center; justify-content:space-between; padding:12px 14px; border-bottom:0; border-radius:26px; position:relative; z-index:2; }
+.cb-jad-brand{ display:flex; align-items:center; gap:10px; min-width:0; }
+.cb-jad-logo{ width:36px; height:36px; border-radius:10px; background:#eaf3f0 center/66% no-repeat; background-image:var(--cb-brand-logo); box-shadow:inset 0 0 0 1px rgba(255,255,255,.35); }
+.cb-jad-title{ font-weight:800; font-size:18px; letter-spacing:.2px; }
+.cb-jad-controls{ display:flex; align-items:center; gap:6px; }
+.cb-jad-icon{ width:32px; height:32px; display:grid; place-items:center; border:1px solid rgba(255,255,255,.4); background:rgba(255,255,255,.10); color:#fff; border-radius:10px; cursor:pointer; font-size:16px; line-height:1; }
+.cb-jad-icon:hover{ background:rgba(255,255,255,.16); }
+
+@keyframes gadd-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+@keyframes eye-happy{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-0.5px) scale(1.03)}}
+@keyframes eye-arc-onoff{0%,45%,100%{opacity:0}50%{opacity:1}}
+@keyframes mouth-idle{0%,100%{transform:translateY(0)}50%{transform:translateY(-0.6px)}}
+@keyframes antenna-bop{0%,100%{transform:rotate(0deg)}50%{transform:rotate(-4deg)}}
+@keyframes antenna-dot-breathe{0%,100%{transform:scale(1); box-shadow:0 0 0 2px rgba(14,122,108,.25)}50%{transform:scale(1.05); box-shadow:0 0 0 3px rgba(14,122,108,.30)}}
+/* === FIX: رجوع مؤشر الكتابة (المسجد + الثلاث نقاط) وإلغاء الإخفاء الشامل === */
+/* كان عندنا قاعدة تكتب: .cb-panel #chat-messages .cb-typing{ display:none !important; }
+   هذا عطّل الانميشن كله. هنا نكسرها بإعادة الإظهار لاحقًا في ترتيب الملف. */
+.cb-panel #chat-messages .cb-typing{ 
+  display:inline-flex !important;           /* أظهر المؤشر بشكل افتراضي */
+  align-items:center !important;
+}
+
+/* لا نعرض المؤشر إذا كان داخل فقاعة رسالة (يبقى واحد عام خارج الفقاعات) */
+.cb-panel #chat-messages .chatbot-message .cb-typing{ 
+  display:none !important; 
+}
+
+/* دعم إخفاء/إظهار برمجياً */
+.cb-panel #chat-messages .cb-typing[hidden],
+.cb-panel #chat-messages .cb-typing[aria-hidden="true"]{
+  display:none !important;
+}
+
+/* لو موجود “زر الرجوع لآخر رسالة” بعد المؤشر، لا تعتمد على :last-child أصلاً — نعرضه دائماً عبر القاعدة فوق */
+
+/* === FIX: عنوان واحد فقط في الهيدر === */
+/* لو وُجد .cb-jad-title داخل الهيدر، أخفِ .cb-title */
+.cb-header:has(.cb-jad-title) .cb-title{ 
+  display:none !important; 
+}
+
+/* منع تكرار نفس الكلاس: أعرض الأول فقط */
+.cb-header .cb-title ~ .cb-title,
+.cb-header .cb-jad-title ~ .cb-jad-title{
+  display:none !important;
+}
+/* ===== BOT BRAND COLOR: Ministry Green ===== */
+/* يفرض لون البوت على الأخضر الوزاري في كل عناصره */
+:root{
+  --cb-brand: #1d6d5a;        /* الأخضر الوزاري الثابت */
+  --gadd-bot: var(--cb-brand); /* جسم الأيقونة */
+  --cb-typing-color: var(--cb-brand); /* نقاط الكتابة */
+  --gadd-bot-dark: #144a3f;   /* درجة داكنة متناسقة للعين/الفم */
+}
+
+/* هيدر البوت + زر الإرسال يأخذان اللون تلقائيًا من --cb-brand (موجودة لديك) */
+/* فقط نضبط الهالة/الحلقة لتتناسق مع الأخضر الوزاري */
+.cb-fab .mujib_chat_icon .antenna::after{
+  background: var(--gadd-bot) !important;
+  box-shadow: 0 0 0 2px rgba(29,109,90,.30) !important; /* حلقة خضراء شفافة */
+}
+
+/* لمسات متناسقة اختيارية */
+.cb-panel #chat-messages .jump-to-latest{
+  border-color: rgba(29,109,90,.35) !important;
+}
+/* === FIX: إظهار الفم كامل بدون قصّ (آمن) === */
+:root{
+  --gadd-mouth-w:18px;       /* كان 16px — نوسعها قليلاً ليبان الطرفين */
+  --gadd-mouth-bottom:24px;  /* كان 23px — نرفعه 1px داخل الوجه الأبيض */
+}
+
+/* خلّي الفم فوق كل العناصر القريبة + زوايا متساوية تمنع الإحساس بالقصّ */
+.cb-fab .mujib_chat_icon .smile{
+  z-index: 3 !important;           /* كان 2 مثل بقية العناصر */
+  border-radius: 0 0 12px 12px !important; /* بدل 12px 12% لتماثل أنعم */
+}

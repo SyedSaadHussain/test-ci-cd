@@ -1,0 +1,757 @@
+[
+  {
+    "city_id": 2663,
+    "city_name": "محافظة أحد المسارحة",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2677,
+    "city_name": "مدينة الباحة",
+    "region_id": 1431
+  },
+  {
+    "city_id": 2655,
+    "city_name": "محافظة أبو عريش",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2623,
+    "city_name": "محافظة أحد رفيدة",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2626,
+    "city_name": "محافظة المجاردة",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2625,
+    "city_name": "محافظة بلقرن",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2627,
+    "city_name": "محافظة تنومة",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2622,
+    "city_name": "محافظة رجال ألمع",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2624,
+    "city_name": "محافظة ظهران الجنوب",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2552,
+    "city_name": "محافظة البيضاء",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2543,
+    "city_name": "محافظة الجبيل",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2545,
+    "city_name": "محافظة الخبر",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2555,
+    "city_name": "محافظة الخرج",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2546,
+    "city_name": "محافظة الخفجي",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2556,
+    "city_name": "محافظة الدوادمي",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2551,
+    "city_name": "محافظة العديد",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2544,
+    "city_name": "محافظة القطيف",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2549,
+    "city_name": "محافظة النعيرية",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2548,
+    "city_name": "محافظة بقيق",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2542,
+    "city_name": "محافظة حفر الباطن",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2547,
+    "city_name": "محافظة راس تنورة",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2550,
+    "city_name": "محافظة قرية العليا",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2540,
+    "city_name": "مدينة الدمام",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2561,
+    "city_name": "محافظة الزلفي",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2565,
+    "city_name": "محافظة السليل",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2558,
+    "city_name": "محافظة القويعية",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2557,
+    "city_name": "محافظة المجمعة",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2567,
+    "city_name": "محافظة المزاحمية",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2563,
+    "city_name": "محافظة حوطة بني تميم",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2562,
+    "city_name": "محافظة شقراء",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2566,
+    "city_name": "محافظة ضرماء",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2564,
+    "city_name": "محافظة عفيف",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2559,
+    "city_name": "محافظة وادي الدواسر",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2582,
+    "city_name": "محافظة الجموم",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2571,
+    "city_name": "محافظة الحريق",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2585,
+    "city_name": "محافظة الخرمه",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2574,
+    "city_name": "محافظة الدلم",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2575,
+    "city_name": "محافظة الرين",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2578,
+    "city_name": "محافظة الطائف",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2591,
+    "city_name": "محافظة العرضيات",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2595,
+    "city_name": "محافظة العلا",
+    "region_id": 1478
+  },
+  {
+    "city_id": 2600,
+    "city_name": "محافظة العيص",
+    "region_id": 1478
+  },
+  {
+    "city_id": 2572,
+    "city_name": "محافظة الغاط",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2579,
+    "city_name": "محافظة القنفذه",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2584,
+    "city_name": "محافظة الكامل",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2580,
+    "city_name": "محافظة الليث",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2596,
+    "city_name": "محافظة المهد",
+    "region_id": 1478
+  },
+  {
+    "city_id": 2589,
+    "city_name": "محافظة المويه",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2592,
+    "city_name": "محافظة بحره",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2597,
+    "city_name": "محافظة بدر",
+    "region_id": 1478
+  },
+  {
+    "city_id": 2587,
+    "city_name": "محافظة تربة",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2569,
+    "city_name": "محافظة ثادق",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2577,
+    "city_name": "محافظة جده",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2570,
+    "city_name": "محافظة حريملاء",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2583,
+    "city_name": "محافظة خليص",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2598,
+    "city_name": "محافظة خيبر",
+    "region_id": 1478
+  },
+  {
+    "city_id": 2581,
+    "city_name": "محافظة رابغ",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2568,
+    "city_name": "محافظة رماح",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2586,
+    "city_name": "محافظة رنية",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2573,
+    "city_name": "محافظة مرات",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2588,
+    "city_name": "محافظة ميسان",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2601,
+    "city_name": "محافظة وادي الفرع",
+    "region_id": 1478
+  },
+  {
+    "city_id": 2594,
+    "city_name": "محافظة ينبع",
+    "region_id": 1478
+  },
+  {
+    "city_id": 2602,
+    "city_name": "مدينة بريدة",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2576,
+    "city_name": "مدينة مكة المكرمة",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2637,
+    "city_name": "محافظة أملج",
+    "region_id": 1506
+  },
+  {
+    "city_id": 2608,
+    "city_name": "محافظة الأسياح",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2632,
+    "city_name": "محافظة الأمواه",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2607,
+    "city_name": "محافظة البدائع",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2639,
+    "city_name": "محافظة البدع",
+    "region_id": 1506
+  },
+  {
+    "city_id": 2630,
+    "city_name": "محافظة البرك",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2606,
+    "city_name": "محافظة البكيرية",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2645,
+    "city_name": "محافظة الحائط",
+    "region_id": 1461
+  },
+  {
+    "city_id": 2657,
+    "city_name": "محافظة الحرث",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2631,
+    "city_name": "محافظة الحرجة",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2662,
+    "city_name": "محافظة الدائر",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2666,
+    "city_name": "محافظة الدرب",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2604,
+    "city_name": "محافظة الرس",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2659,
+    "city_name": "محافظة الريث",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2644,
+    "city_name": "محافظة السليمي",
+    "region_id": 1461
+  },
+  {
+    "city_id": 2612,
+    "city_name": "محافظة الشماسية",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2647,
+    "city_name": "محافظة الشملي",
+    "region_id": 1461
+  },
+  {
+    "city_id": 2643,
+    "city_name": "محافظة الشنان",
+    "region_id": 1461
+  },
+  {
+    "city_id": 2669,
+    "city_name": "محافظة الطوال",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2665,
+    "city_name": "محافظة العارضة",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2664,
+    "city_name": "محافظة العيدابي",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2642,
+    "city_name": "محافظة الغزالة",
+    "region_id": 1461
+  },
+  {
+    "city_id": 2605,
+    "city_name": "محافظة المذنب",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2609,
+    "city_name": "محافظة النبهانية",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2634,
+    "city_name": "محافظة الوجه",
+    "region_id": 1506
+  },
+  {
+    "city_id": 2629,
+    "city_name": "محافظة بارق",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2641,
+    "city_name": "محافظة بقعاء",
+    "region_id": 1461
+  },
+  {
+    "city_id": 2660,
+    "city_name": "محافظة بيش",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2617,
+    "city_name": "محافظة بيشة",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2621,
+    "city_name": "محافظة تثليث",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2636,
+    "city_name": "محافظة تيماء",
+    "region_id": 1506
+  },
+  {
+    "city_id": 2638,
+    "city_name": "محافظة حقل",
+    "region_id": 1506
+  },
+  {
+    "city_id": 2616,
+    "city_name": "محافظة خميس مشيط",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2650,
+    "city_name": "محافظة رفحاء",
+    "region_id": 1524
+  },
+  {
+    "city_id": 2620,
+    "city_name": "محافظة سراة عبيدة",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2646,
+    "city_name": "محافظة سميرا",
+    "region_id": 1461
+  },
+  {
+    "city_id": 2656,
+    "city_name": "محافظة صامطة",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2654,
+    "city_name": "محافظة صبياء",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2635,
+    "city_name": "محافظة ضباء",
+    "region_id": 1506
+  },
+  {
+    "city_id": 2658,
+    "city_name": "محافظة ضمد",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2628,
+    "city_name": "محافظة طريب",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2651,
+    "city_name": "محافظة طريف",
+    "region_id": 1524
+  },
+  {
+    "city_id": 2613,
+    "city_name": "محافظة عقلة الصقور",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2603,
+    "city_name": "محافظة عنيزة",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2610,
+    "city_name": "محافظة عيون الجواء",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2661,
+    "city_name": "محافظة فرسان",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2668,
+    "city_name": "محافظة فيفا",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2619,
+    "city_name": "محافظة محايل",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2648,
+    "city_name": "محافظة موقق",
+    "region_id": 1461
+  },
+  {
+    "city_id": 2667,
+    "city_name": "محافظة هروب",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2615,
+    "city_name": "مدينة أبها",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2633,
+    "city_name": "مدينة تبوك",
+    "region_id": 1506
+  },
+  {
+    "city_id": 2653,
+    "city_name": "مدينة جازان",
+    "region_id": 1469
+  },
+  {
+    "city_id": 2640,
+    "city_name": "مدينة حائل",
+    "region_id": 1461
+  },
+  {
+    "city_id": 2649,
+    "city_name": "مدينة عرعر",
+    "region_id": 1524
+  },
+  {
+    "city_id": 2590,
+    "city_name": "محافظة أضم",
+    "region_id": 1480
+  },
+  {
+    "city_id": 2560,
+    "city_name": "محافظة الأفلاج",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2541,
+    "city_name": "محافظة الإحساء",
+    "region_id": 1523
+  },
+  {
+    "city_id": 2686,
+    "city_name": "محافظة الحجرة",
+    "region_id": 1431
+  },
+  {
+    "city_id": 2599,
+    "city_name": "محافظة الحناكية",
+    "region_id": 1478
+  },
+  {
+    "city_id": 2554,
+    "city_name": "محافظة الدرعية",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2681,
+    "city_name": "محافظة العقيق",
+    "region_id": 1431
+  },
+  {
+    "city_id": 2683,
+    "city_name": "محافظة القرى",
+    "region_id": 1431
+  },
+  {
+    "city_id": 2688,
+    "city_name": "محافظة القريات",
+    "region_id": 1470
+  },
+  {
+    "city_id": 2680,
+    "city_name": "محافظة المخواه",
+    "region_id": 1431
+  },
+  {
+    "city_id": 2679,
+    "city_name": "محافظة المندق",
+    "region_id": 1431
+  },
+  {
+    "city_id": 2678,
+    "city_name": "محافظة بالجرشي",
+    "region_id": 1431
+  },
+  {
+    "city_id": 2673,
+    "city_name": "محافظة بدر الجنوب",
+    "region_id": 1485
+  },
+  {
+    "city_id": 2684,
+    "city_name": "محافظة بني حسن",
+    "region_id": 1431
+  },
+  {
+    "city_id": 2675,
+    "city_name": "محافظة ثار",
+    "region_id": 1485
+  },
+  {
+    "city_id": 2672,
+    "city_name": "محافظة حبونا",
+    "region_id": 1485
+  },
+  {
+    "city_id": 2676,
+    "city_name": "محافظة خباش",
+    "region_id": 1485
+  },
+  {
+    "city_id": 2689,
+    "city_name": "محافظة دومة الجندل",
+    "region_id": 1470
+  },
+  {
+    "city_id": 2611,
+    "city_name": "محافظة رياض الخبراء",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2671,
+    "city_name": "محافظة شرورة",
+    "region_id": 1485
+  },
+  {
+    "city_id": 2614,
+    "city_name": "محافظة ضرية",
+    "region_id": 1525
+  },
+  {
+    "city_id": 2690,
+    "city_name": "محافظة طبرجل",
+    "region_id": 1470
+  },
+  {
+    "city_id": 2685,
+    "city_name": "محافظة غامد الزناد",
+    "region_id": 1431
+  },
+  {
+    "city_id": 2682,
+    "city_name": "محافظة قلوه",
+    "region_id": 1431
+  },
+  {
+    "city_id": 2674,
+    "city_name": "محافظة يدمة",
+    "region_id": 1485
+  },
+  {
+    "city_id": 2553,
+    "city_name": "مدينة الرياض",
+    "region_id": 1496
+  },
+  {
+    "city_id": 2593,
+    "city_name": "مدينة المدينة المنورة",
+    "region_id": 1478
+  },
+  {
+    "city_id": 2687,
+    "city_name": "مدينة سكاكا",
+    "region_id": 1470
+  },
+  {
+    "city_id": 2670,
+    "city_name": "مدينة نجران",
+    "region_id": 1485
+  },
+  {
+    "city_id": 2618,
+    "city_name": "محافظة النماص",
+    "region_id": 1522
+  },
+  {
+    "city_id": 2652,
+    "city_name": "محافظة العويقيلة",
+    "region_id": 1524
+  }
+]

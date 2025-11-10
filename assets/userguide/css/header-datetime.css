@@ -1,0 +1,49 @@
+/* شريحة التاريخ + حركة الانزلاق */
+/* لا نغيّر ترتيب عناصر الهيدر الأساسي */
+
+/* كتلة يسار الهيدر: داخلها ترتيب مستقل LTR لضمان الهلال أقصى اليسار ثم التاريخ */
+.mh-left{
+  display: flex;
+  align-items: center;
+  gap: 8px;          /* المسافة بين الهلال والتاريخ */
+  direction: ltr;    /* مهم: يجعل أول ابن (الهلال) هو الطرف الأيسر داخل الكتلة */
+}
+
+/* مظهر الشريحة */
+.md-header .date-pill{
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
+  opacity: .95;
+  position: relative;
+  overflow: hidden;  /* لإخفاء الانزلاق العمودي */
+  /* لا نستخدم margin هنا لأن لدينا gap داخل .mh-left */
+}
+
+/* النص المتحرّك */
+.md-header .date-pill .date-label{
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+/* حركات الانزلاق */
+@keyframes pillOut {
+  0%   { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(12px); }
+}
+@keyframes pillIn {
+  0%   { opacity: 0; transform: translateY(-12px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.md-header .date-pill .date-label.slide-out { animation: pillOut 200ms ease forwards; }
+.md-header .date-pill .date-label.slide-in  { animation: pillIn 220ms ease forwards; }
+
+/* تكبير بسيط */
+@media (min-width: 768px){
+  .md-header .date-pill{ font-size: 13px; padding: 7px 12px; }
+}

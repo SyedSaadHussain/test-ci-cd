@@ -1,0 +1,48 @@
+/* زر عائم جانبي "آخر تحديث" — طولي بلا ارتداد */
+.lu-fab{
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1200;
+
+  box-sizing: border-box;
+  width: 28px;                     /* نحيف */
+  /* الارتفاع يتكيّف تلقائيًا مع النص */
+  padding: 8px 6px;
+  background: #2f2f2f;             /* 🔸 أغمق لتمييز واضح */
+  color: #fff;
+  border: 0;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 6px 16px rgba(0,0,0,.28);
+  opacity: .98;
+
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  user-select: none;
+
+  overflow: hidden;                 /* القص النهائي */
+}
+
+/* النص: كتابة طولية بالاتجاه المعاكس */
+.lu-rotor{
+  display: block;
+  writing-mode: vertical-lr;       /* ← عكس السابق */
+  text-orientation: mixed;
+
+  white-space: normal;
+  direction: rtl;
+  text-align: center;
+
+  font-size: 11.5px;               /* تعدّلها لو تبغى نقص بسيط بالطول */
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: .2px;
+  color: #fff;
+}
+
+/* احترام المساحات الآمنة */
+@supports(padding:max(0px)){ .lu-fab{ left: env(safe-area-inset-left) } }
+
+/* إخفاء مؤقت عند فتح الدروار */
+.lu-fab--hidden{ opacity:0; pointer-events:none; transition: opacity .2s ease }
