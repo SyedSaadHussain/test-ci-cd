@@ -36,16 +36,19 @@ jobs:
 
       - name: 🔐 Setup signing files
         env:
-          STORE_PASSWORD: ${{ secrets.ANDROID_STORE_PASSWORD }}
-          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}       # base64 of your .jks
+          STORE_PASSWORD:    ${{ secrets.ANDROID_STORE_PASSWORD }}
+          KEY_PASSWORD:      ${{ secrets.ANDROID_KEY_PASSWORD }}
+          KEY_ALIAS:         ${{ secrets.ANDROID_KEY_ALIAS }}
         run: |
-          # Create key.properties file
+          # decode the .jks
+          echo "$KEYSTORE_BASE64" | base64 --decode > android/app/my-release-key.jks
+          # create key.properties
           cat > android/key.properties <<EOF
-          storePassword=$STORE_PASSWORD
-          keyPassword=$KEY_PASSWORD
-          keyAlias=$KEY_ALIAS
           storeFile=android/app/my-release-key.jks
+          storePassword=$STORE_PASSWORD
+          keyAlias=$KEY_ALIAS
+          keyPassword=$KEY_PASSWORD
           EOF
 
       - name: 🏗️ Build release APK
@@ -65,10 +68,10 @@ jobs:
           name: app-release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
 
-      - name: 🔧 Setup Firebase CLI
+      - name: 🔧 Setup Firebase CLI (optional)
         run: curl -sL https://firebase.tools | bash
 
-      - name: 🚀 Distribute to Firebase App Distribution
+      - name: 🚀 Distribute to Firebase App Distribution (optional)
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           FIREBASE_APP_ID: 1:50315071096:android:74ad8c587ca08dd986278d
