@@ -1,16 +1,15 @@
-name: Firebase App Distribution (Manual Trigger)
+name: Firebase App Distribution (Triggered by Build)
 
 on:
-  workflow_dispatch:
-    inputs:
-      release_notes:
-        description: "Enter release notes for this build"
-        required: true
-        default: "New debug build uploaded"
+  workflow_run:
+    workflows: ["Flutter Build (Manual Trigger)"]
+    types:
+      - completed
 
 jobs:
   distribute:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: 🛎️ Checkout repository
         uses: actions/checkout@v4
@@ -32,4 +31,4 @@ jobs:
           firebase appdistribution:distribute build/app/outputs/flutter-apk/app-debug.apk \
             --app $FIREBASE_APP_ID \
             --groups "DeveloperGroup" \
-            --release-notes "${{ github.event.inputs.release_notes }}"
+            --release-notes "Automated upload from GitHub Actions"
