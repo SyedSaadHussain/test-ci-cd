@@ -37,7 +37,13 @@ jobs:
           echo "Current branch: $BRANCH_NAME"
           echo "Building for environment: $ENVIRONMENT"
 
-          flutter build apk --release \
+          flutter build apk --debug \
             --obfuscate \
             --split-debug-info=debug/$ENVIRONMENT \
             --dart-define=ENV=$ENVIRONMENT
+
+      - name: 📤 Upload APK artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
