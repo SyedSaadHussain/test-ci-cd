@@ -13,6 +13,21 @@ on:
           - uat
           - preprod
           - prod
+
+      firebase_group:
+        description: "Select Firebase tester group"
+        required: true
+        default: "DeveloperGroup"
+        type: choice
+        options:
+          - DeveloperGroup
+          - QA
+
+      build_number:
+        description: "Next build number (leave blank to auto-increment)"
+        required: false
+        default: ""  # 👈 Leave blank; user can type a value manually if desired
+
       release_notes:
         description: "Release notes for this build"
         required: true
@@ -47,6 +62,7 @@ jobs:
           KEY_ALIAS:       ${{ secrets.ANDROID_KEY_ALIAS }}
         run: |
           echo "Decoding keystore and writing key.properties..."
+          mkdir -p android/app
           echo "$KEYSTORE_BASE64" | base64 --decode > android/app/my-release-key.jks
           cat > android/key.properties <<EOF
           storeFile=my-release-key.jks
@@ -55,13 +71,22 @@ jobs:
           keyPassword=$KEY_PASSWORD
           EOF
 
-      - name: 🔢 Increment build number in pubspec.yaml
+      - name: 🔢 Set or increment build number in pubspec.yaml
         run: |
-          echo "Incrementing build number in pubspec.yaml..."
+          echo "Updating build number in pubspec.yaml..."
           current_version=$(grep '^version:' pubspec.yaml | awk '{print $2}')
           version_name=$(echo "$current_version" | cut -d'+' -f1)
-          build_number=$(echo "$current_version" | cut -d'+' -f2)
-          new_build_number=$((build_number + 1))
+          current_build_number=$(echo "$current_version" | cut -d'+' -f2)
+          input_build_number="${{ github.event.inputs.build_number }}"
+
+          if [ -z "$input_build_number" ]; then
+            new_build_number=$((current_build_number + 1))
+            echo "🪄 Auto-incremented build number: $new_build_number"
+          else
+            new_build_number=$input_build_number
+            echo "✏️ Using manually entered build number: $new_build_number"
+          fi
+
           new_version="$version_name+$new_build_number"
           sed -i "s/^version:.*/version: $new_version/" pubspec.yaml
           echo "✅ Version updated: $current_version → $new_version"
@@ -83,17 +108,19 @@ jobs:
           name: app-release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
 
-      - name: 🔧 Setup Firebase CLI (optional)
+      - name: 🔧 Setup Firebase CLI
         run: curl -sL https://firebase.tools | bash
 
-      - name: 🚀 Distribute to Firebase App Distribution (optional)
+      - name: 🚀 Distribute to Firebase App Distribution
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           FIREBASE_APP_ID: 1:50315071096:android:74ad8c587ca08dd986278d
         run: |
+          GROUP="${{ github.event.inputs.firebase_group }}"
+          echo "Distributing to Firebase group: $GROUP"
           firebase appdistribution:distribute build/app/outputs/flutter-apk/app-release.apk \
             --app $FIREBASE_APP_ID \
-            --groups "DeveloperGroup" \
+            --groups "$GROUP" \
             --release-notes "${{ github.event.inputs.release_notes }}"
 
       - name: 💾 Commit and push updated version
