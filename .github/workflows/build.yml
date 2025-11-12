@@ -71,6 +71,16 @@ jobs:
           keyPassword=$KEY_PASSWORD
           EOF
 
+      - name: 👀 Preview next build number
+        run: |
+          current_version=$(grep '^version:' pubspec.yaml | awk '{print $2}')
+          build_number=$(echo "$current_version" | cut -d'+' -f2)
+          next_build=$((build_number + 1))
+          echo "--------------------------------------"
+          echo "📱 Current version: $current_version"
+          echo "🔢 Next build number will be: $next_build"
+          echo "--------------------------------------"
+
       - name: 🔢 Determine and update build number in pubspec.yaml
         id: versioning
         run: |
@@ -92,7 +102,7 @@ jobs:
           sed -i "s/^version:.*/version: $new_version/" pubspec.yaml
           echo "✅ Version updated: $current_version → $new_version"
 
-          # Export build number for next steps
+          # Export for later steps
           echo "build_number=$new_build_number" >> $GITHUB_ENV
           echo "version_name=$version_name" >> $GITHUB_ENV
 
